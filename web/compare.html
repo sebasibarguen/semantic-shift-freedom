@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Browser — Freedom & Liberty in Parliament</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #c53030;
+            --accent: #2b6cb0;
+            --bg: #f7fafc;
+            --text: #2d3748;
+            --muted: #718096;
+            --green: #38a169;
+            --orange: #dd6b20;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', serif; color: var(--text); background: var(--bg); }
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
+            color: white; padding: 1.5rem 2rem; text-align: center;
+        }
+        .header h1 { font-size: 1.5rem; font-weight: 400; }
+        .header .sub { font-size: 0.95rem; opacity: 0.85; margin-top: 0.3rem; }
+
+        .filters {
+            position: sticky; top: 0; z-index: 100;
+            background: white; border-bottom: 1px solid #e2e8f0;
+            padding: 0.75rem 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem;
+            align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .filters select, .filters input[type="text"] {
+            font-family: inherit; font-size: 0.88rem; padding: 0.35rem 0.6rem;
+            border: 1px solid #cbd5e0; border-radius: 6px; background: white;
+        }
+        .filters .count { margin-left: auto; font-size: 0.85rem; color: var(--muted); }
+        .filters label { font-size: 0.85rem; color: var(--muted); display: flex; align-items: center; gap: 0.3rem; }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 1rem 1.5rem; }
+
+        .card {
+            background: white; border-radius: 10px; padding: 1.25rem;
+            margin-bottom: 0.75rem; box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+            border-left: 4px solid #e2e8f0;
+        }
+        .card.labeled { border-left-color: var(--green); }
+        .card .sentence { font-size: 1.05rem; line-height: 1.7; margin-bottom: 0.6rem; }
+        .card .sentence mark { background: #fefcbf; padding: 0 2px; border-radius: 2px; font-weight: 600; }
+        .card .meta {
+            font-size: 0.85rem; color: var(--muted); margin-bottom: 0.6rem;
+            display: flex; gap: 1rem; flex-wrap: wrap;
+        }
+        .card .meta .party { font-weight: 600; }
+        .card .meta .party.con { color: #2b6cb0; }
+        .card .meta .party.lab { color: var(--secondary); }
+        .card .meta .party.lib { color: var(--orange); }
+
+        .methods {
+            display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.6rem;
+            font-size: 0.82rem;
+        }
+        .method-tag {
+            padding: 0.2rem 0.6rem; border-radius: 12px;
+            background: #edf2f7; color: var(--text);
+        }
+        .method-tag.from { background: #fed7d7; color: #742a2a; }
+        .method-tag.to { background: #c6f6d5; color: #22543d; }
+        .method-tag.constraint { background: #fed7d7; color: #742a2a; }
+        .method-tag.agency { background: #c6f6d5; color: #22543d; }
+        .method-tag.neutral { background: #fefcbf; color: #744210; }
+
+        .methods-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 0.4rem; margin-bottom: 0.6rem;
+        }
+        .method-cell {
+            background: #f7fafc; border-radius: 8px; padding: 0.4rem 0.6rem;
+            font-size: 0.8rem; border: 1px solid #e2e8f0;
+        }
+        .method-cell .method-name {
+            font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em;
+            color: var(--muted); margin-bottom: 0.15rem;
+        }
+        .method-cell .method-value { font-weight: 600; }
+        .method-cell.pos { background: #f0fff4; border-color: #c6f6d5; }
+        .method-cell.neg { background: #fff5f5; border-color: #fed7d7; }
+        .method-cell.amb { background: #fffff0; border-color: #fefcbf; }
+        .method-cell.oth { background: #faf5ff; border-color: #e9d8fd; }
+
+        .axis-bar {
+            width: 100%; height: 10px; background: linear-gradient(to right, #fed7d7, #f7fafc 45%, #f7fafc 55%, #c6f6d5);
+            border-radius: 5px; position: relative; margin: 0.3rem 0;
+        }
+        .axis-bar .dot {
+            position: absolute; top: -2px; width: 14px; height: 14px;
+            background: var(--primary); border-radius: 50%; border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3); transform: translateX(-50%);
+        }
+
+        .agreement-row {
+            display: flex; gap: 0.3rem; align-items: center; margin-bottom: 0.4rem;
+            font-size: 0.82rem;
+        }
+        .agreement-dot {
+            width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+        }
+        .agreement-dot.pos { background: var(--green); }
+        .agreement-dot.neg { background: var(--secondary); }
+        .agreement-dot.amb { background: #d69e2e; }
+        .agreement-dot.oth { background: #805ad5; }
+        .agreement-dot.none { background: #e2e8f0; }
+
+        .label-row {
+            display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;
+        }
+        .label-btn {
+            padding: 0.3rem 0.7rem; border-radius: 16px; border: 1.5px solid #cbd5e0;
+            background: white; cursor: pointer; font-family: inherit; font-size: 0.82rem;
+            transition: all 0.12s;
+        }
+        .label-btn:hover { background: #edf2f7; }
+        .label-btn.active-pos { background: #c6f6d5; border-color: var(--green); color: #22543d; }
+        .label-btn.active-neg { background: #fed7d7; border-color: var(--secondary); color: #742a2a; }
+        .label-btn.active-amb { background: #fefcbf; border-color: #d69e2e; color: #744210; }
+        .label-btn.active-oth { background: #e9d8fd; border-color: #805ad5; color: #44337a; }
+        .label-row .notes {
+            flex: 1; min-width: 120px; font-family: inherit; font-size: 0.82rem;
+            padding: 0.3rem 0.5rem; border: 1px solid #e2e8f0; border-radius: 6px;
+        }
+        .label-row .kbd { font-size: 0.72rem; color: var(--muted); }
+
+        .pagination {
+            display: flex; justify-content: center; gap: 0.5rem;
+            padding: 1rem 0; align-items: center;
+        }
+        .pagination button {
+            padding: 0.4rem 1rem; border-radius: 6px; border: 1px solid #cbd5e0;
+            background: white; cursor: pointer; font-family: inherit;
+        }
+        .pagination button:hover { background: #edf2f7; }
+        .pagination button:disabled { opacity: 0.4; cursor: default; }
+        .pagination .page-info { font-size: 0.9rem; color: var(--muted); }
+
+        .summary {
+            background: white; border-radius: 10px; padding: 1.25rem;
+            margin-bottom: 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        }
+        .summary h3 { font-size: 1rem; color: var(--primary); margin-bottom: 0.5rem; }
+        .summary .stats { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem; }
+        .summary .export-btns { margin-top: 0.75rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .summary button, .summary label {
+            padding: 0.35rem 0.8rem; border-radius: 6px; border: 1px solid #cbd5e0;
+            background: white; cursor: pointer; font-family: inherit; font-size: 0.85rem;
+        }
+        .summary button:hover, .summary label:hover { background: #edf2f7; }
+
+        .loading { text-align: center; padding: 3rem; color: var(--muted); font-size: 1.1rem; }
+
+        @media (max-width: 768px) {
+            .filters { padding: 0.5rem 1rem; }
+            .container { padding: 0.75rem; }
+            .methods { font-size: 0.78rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="email-gate" style="position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:1000; display:flex; align-items:center; justify-content:center;">
+    <div style="background:white; border-radius:12px; padding:2rem; max-width:400px; width:90%; box-shadow:0 8px 30px rgba(0,0,0,0.2); text-align:center;">
+        <h2 style="font-size:1.3rem; color:var(--primary); margin-bottom:0.5rem; font-weight:400;">Enter your email to start</h2>
+        <p style="font-size:0.9rem; color:var(--muted); margin-bottom:1rem;">Your labels will be saved to the cloud and visible to the team.</p>
+        <input type="email" id="email-input" placeholder="you@example.com" style="width:100%; font-family:inherit; font-size:1rem; padding:0.6rem 0.8rem; border:1.5px solid #cbd5e0; border-radius:8px; margin-bottom:0.75rem;">
+        <button id="email-submit" style="width:100%; padding:0.6rem; border-radius:8px; border:none; background:var(--accent); color:white; font-family:inherit; font-size:1rem; cursor:pointer;">Start labeling</button>
+        <p id="email-error" style="font-size:0.82rem; color:var(--secondary); margin-top:0.5rem; display:none;"></p>
+    </div>
+</div>
+
+<div class="header">
+    <h1>Sentence Browser — Freedom &amp; Liberty in Parliament</h1>
+    <p class="sub">Hansard 1803–2025 &middot; <span id="total-count">Loading...</span> sentences &middot; <a href="dashboard.html" style="color:#bee3f8">Dashboard</a> · <a href="index.html" style="color:#bee3f8">Results</a></p>
+</div>
+
+<div class="filters">
+    <select id="f-decade"><option value="all">All decades</option></select>
+    <select id="f-party"><option value="all">All parties</option></select>
+    <select id="f-word">
+        <option value="all">Both words</option>
+        <option value="freedom">freedom</option>
+        <option value="liberty">liberty</option>
+    </select>
+    <select id="f-llm">
+        <option value="all">All LLM labels</option>
+        <option value="positive_liberty">LLM: positive</option>
+        <option value="negative_liberty">LLM: negative</option>
+        <option value="ambiguous">LLM: ambiguous</option>
+        <option value="other">LLM: other</option>
+    </select>
+    <select id="f-agree">
+        <option value="all">All agreement</option>
+        <option value="agree">Methods agree</option>
+        <option value="disagree">Methods disagree</option>
+    </select>
+    <input type="text" id="f-search" placeholder="Search text..." style="width:140px;">
+    <label><input type="checkbox" id="f-unlabeled"> Unlabeled first</label>
+    <span class="count" id="filter-count"></span>
+</div>
+
+<div class="container">
+    <div class="summary">
+        <h3>Labels</h3>
+        <div style="display:flex; gap:0.5rem; align-items:center; margin-bottom:0.5rem; flex-wrap:wrap;">
+            <span id="user-display" style="font-size:0.88rem;"></span>
+            <button onclick="changeEmail()" style="padding:0.2rem 0.5rem; border-radius:6px; border:1px solid #cbd5e0; background:white; cursor:pointer; font-size:0.8rem;">Change</button>
+            <span id="sync-status" style="font-size:0.8rem; color:var(--muted); margin-left:auto;"></span>
+        </div>
+        <div class="stats" id="label-stats">No labels yet</div>
+        <div class="export-btns">
+            <button onclick="exportJSON()">Export JSON</button>
+            <button onclick="exportCSV()">Export CSV</button>
+            <label>Import <input type="file" accept=".json" onchange="importJSON(event)" style="display:none"></label>
+        </div>
+    </div>
+
+    <div id="cards-container"><div class="loading">Select a decade to load sentences...</div></div>
+
+    <div class="pagination">
+        <button id="prev-btn" onclick="changePage(-1)" disabled>&larr; Previous</button>
+        <span class="page-info" id="page-info"></span>
+        <button id="next-btn" onclick="changePage(1)" disabled>Next &rarr;</button>
+    </div>
+</div>
+
+<script>
+const PER_PAGE = 25;
+const API = '/api/labels';
+let allSentences = [];
+let filtered = [];
+let page = 0;
+let loadedDecades = {};
+let labels = {};
+let teamLabels = {};
+let currentUser = null;
+let manifest = null;
+let saveQueue = [];
+let saveTimer = null;
+
+// === EMAIL GATE ===
+function initEmailGate() {
+    const saved = localStorage.getItem('hansard-email');
+    if (saved) {
+        loginAs(saved);
+        return;
+    }
+    document.getElementById('email-gate').style.display = 'flex';
+    document.getElementById('email-input').focus();
+    document.getElementById('email-submit').addEventListener('click', submitEmail);
+    document.getElementById('email-input').addEventListener('keydown', e => {
+        if (e.key === 'Enter') submitEmail();
+    });
+}
+
+function submitEmail() {
+    const email = document.getElementById('email-input').value.trim().toLowerCase();
+    const err = document.getElementById('email-error');
+    if (!email || !email.includes('@') || !email.includes('.')) {
+        err.textContent = 'Please enter a valid email address.';
+        err.style.display = 'block';
+        return;
+    }
+    localStorage.setItem('hansard-email', email);
+    loginAs(email);
+}
+
+async function loginAs(email) {
+    currentUser = email;
+    document.getElementById('email-gate').style.display = 'none';
+    document.getElementById('user-display').textContent = email;
+    setStatus('Loading your labels...');
+
+    // Load user labels from server
+    try {
+        const resp = await fetch(`${API}?user=${encodeURIComponent(email)}`);
+        labels = await resp.json() || {};
+        setStatus(`Loaded ${Object.keys(labels).length} labels`);
+    } catch (e) {
+        labels = {};
+        setStatus('Could not load labels — starting fresh');
+    }
+
+    // Load team labels
+    try {
+        const resp = await fetch(`${API}?action=all`);
+        teamLabels = await resp.json() || {};
+    } catch (e) {
+        teamLabels = {};
+    }
+
+    updateLabelStats();
+    if (allSentences.length > 0) renderPage();
+}
+
+function changeEmail() {
+    localStorage.removeItem('hansard-email');
+    currentUser = null;
+    labels = {};
+    teamLabels = {};
+    document.getElementById('email-gate').style.display = 'flex';
+    document.getElementById('email-input').value = '';
+    document.getElementById('email-input').focus();
+}
+
+function setStatus(msg) {
+    document.getElementById('sync-status').textContent = msg;
+}
+
+// === CLOUD-FIRST LABEL SAVING ===
+function setLabel(id, label_type) {
+    if (!currentUser) return;
+    const entry = { label: label_type, timestamp: new Date().toISOString() };
+    labels[id] = entry;
+    // Queue for batch save (debounce 500ms)
+    saveQueue.push({ id, label: entry });
+    if (saveTimer) clearTimeout(saveTimer);
+    saveTimer = setTimeout(flushSaveQueue, 500);
+    // Re-render card immediately
+    const s = allSentences.find(s => s.id === id);
+    if (s) {
+        const el = document.getElementById('card-' + id);
+        if (el) el.outerHTML = renderCard(s);
+    }
+    updateLabelStats();
+}
+
+function setNotes(id, notes) {
+    if (!currentUser) return;
+    if (!labels[id]) labels[id] = {};
+    labels[id].notes = notes;
+    saveQueue.push({ id, label: labels[id] });
+    if (saveTimer) clearTimeout(saveTimer);
+    saveTimer = setTimeout(flushSaveQueue, 500);
+}
+
+async function flushSaveQueue() {
+    if (!currentUser || saveQueue.length === 0) return;
+    const batch = {};
+    for (const item of saveQueue) {
+        batch[item.id] = item.label;
+    }
+    saveQueue = [];
+    setStatus('Saving...');
+    try {
+        const resp = await fetch(API, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ user: currentUser, labels: batch }),
+        });
+        const data = await resp.json();
+        if (data.ok) {
+            setStatus(`Saved (${data.count} total)`);
+        } else {
+            setStatus(`Error: ${data.error}`);
+        }
+    } catch (e) {
+        setStatus(`Save failed: ${e.message}`);
+        // Re-queue failed items
+        for (const [id, label] of Object.entries(batch)) {
+            saveQueue.push({ id, label });
+        }
+    }
+}
+
+// === MANIFEST + DECADE LOADING ===
+fetch('data/index.json').then(r => r.json()).then(m => {
+    manifest = m;
+    document.getElementById('total-count').textContent = m.total_sentences.toLocaleString();
+    const sel = document.getElementById('f-decade');
+    m.facets.decades.forEach(d => {
+        const opt = document.createElement('option');
+        opt.value = d; opt.textContent = d + 's';
+        sel.appendChild(opt);
+    });
+    const psel = document.getElementById('f-party');
+    (m.facets.parties || []).filter(p => p !== 'nan').forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p; opt.textContent = p;
+        psel.appendChild(opt);
+    });
+    loadDecade(1980);
+    initEmailGate();
+});
+
+async function loadDecade(decade) {
+    if (loadedDecades[decade]) return;
+    document.getElementById('cards-container').innerHTML = '<div class="loading">Loading ' + decade + 's...</div>';
+    const info = manifest.files[decade];
+    if (!info) return;
+    const data = await fetch('data/' + info.file).then(r => r.json());
+    loadedDecades[decade] = data;
+    allSentences = Object.values(loadedDecades).flat();
+    applyFilters();
+}
+
+async function loadAllDecades() {
+    document.getElementById('cards-container').innerHTML = '<div class="loading">Loading all decades...</div>';
+    const promises = manifest.facets.decades.map(async d => {
+        if (!loadedDecades[d]) {
+            const info = manifest.files[d];
+            const data = await fetch('data/' + info.file).then(r => r.json());
+            loadedDecades[d] = data;
+        }
+    });
+    await Promise.all(promises);
+    allSentences = Object.values(loadedDecades).flat();
+    applyFilters();
+}
+
+// === FILTERS ===
+document.querySelectorAll('.filters select, .filters input').forEach(el => {
+    el.addEventListener('change', () => {
+        const decade = document.getElementById('f-decade').value;
+        if (decade === 'all') loadAllDecades();
+        else loadDecade(+decade);
+        applyFilters();
+    });
+});
+document.getElementById('f-search').addEventListener('input', () => applyFilters());
+
+function getMethodAgreement(s) {
+    const m = s.methods;
+    const votes = [];
+    if (m.sbert) {
+        if (m.sbert.label === 'agency') votes.push('pos');
+        else if (m.sbert.label === 'constraint') votes.push('neg');
+    }
+    if (m.llm) {
+        if (m.llm.label === 'positive_liberty') votes.push('pos');
+        else if (m.llm.label === 'negative_liberty') votes.push('neg');
+    }
+    if (votes.length < 2) return 'unknown';
+    return votes.every(v => v === votes[0]) ? 'agree' : 'disagree';
+}
+
+function applyFilters() {
+    const decade = document.getElementById('f-decade').value;
+    const party = document.getElementById('f-party').value;
+    const word = document.getElementById('f-word').value;
+    const llmFilter = document.getElementById('f-llm').value;
+    const agreeFilter = document.getElementById('f-agree').value;
+    const search = document.getElementById('f-search').value.toLowerCase();
+    const unlabeledFirst = document.getElementById('f-unlabeled').checked;
+
+    filtered = allSentences.filter(s => {
+        if (decade !== 'all' && Math.floor(s.year / 10) * 10 !== +decade) return false;
+        if (party !== 'all' && s.party !== party) return false;
+        if (word !== 'all' && s.word !== word) return false;
+        if (llmFilter !== 'all' && (!s.methods.llm || s.methods.llm.label !== llmFilter)) return false;
+        if (agreeFilter !== 'all' && getMethodAgreement(s) !== agreeFilter) return false;
+        if (search && !s.sentence.toLowerCase().includes(search)) return false;
+        return true;
+    });
+
+    if (unlabeledFirst) {
+        filtered.sort((a, b) => {
+            const aL = labels[a.id] ? 1 : 0;
+            const bL = labels[b.id] ? 1 : 0;
+            return aL - bL || a.year - b.year;
+        });
+    }
+
+    page = 0;
+    document.getElementById('filter-count').textContent = filtered.length.toLocaleString() + ' sentences';
+    renderPage();
+}
+
+// === RENDERING ===
+function renderPage() {
+    const start = page * PER_PAGE;
+    const slice = filtered.slice(start, start + PER_PAGE);
+    const container = document.getElementById('cards-container');
+
+    if (slice.length === 0) {
+        container.innerHTML = '<div class="loading">No sentences match your filters.</div>';
+        updatePagination();
+        return;
+    }
+
+    container.innerHTML = slice.map(s => renderCard(s)).join('');
+    updatePagination();
+    updateLabelStats();
+}
+
+function renderCard(s) {
+    const m = s.methods;
+    const label = labels[s.id];
+    const isLabeled = !!label;
+    const re = new RegExp('\\b(' + s.word + ')\\b', 'gi');
+    const highlighted = s.sentence.replace(re, '<mark>$1</mark>');
+
+    let partyClass = '';
+    if (s.party.startsWith('Con')) partyClass = 'con';
+    else if (s.party.startsWith('Lab')) partyClass = 'lab';
+    else if (s.party.startsWith('Lib')) partyClass = 'lib';
+
+    const domains = Object.entries(m.domains || {}).sort((a,b) => b[1]-a[1]).slice(0, 2);
+    const domLabel = domains.map(([d, c]) => d.replace(/_/g, ' ')).join(', ') || 'none';
+
+    const sbert = m.sbert || null;
+    const sbClass = sbert ? (sbert.label === 'agency' ? 'pos' : (sbert.label === 'constraint' ? 'neg' : 'amb')) : '';
+    const sbLabel = sbert ? `${sbert.label} (${sbert.score > 0 ? '+' : ''}${sbert.score.toFixed(3)})` : 'n/a';
+
+    const llm = m.llm || null;
+    const llmClass = llm ? ({positive_liberty: 'pos', negative_liberty: 'neg', ambiguous: 'amb', other: 'oth'}[llm.label] || '') : '';
+    const llmLabel = llm ? llm.label.replace('_', ' ') : 'n/a';
+
+    const sbertBar = sbert ? (() => {
+        const pct = Math.max(5, Math.min(95, 50 + sbert.score * 200));
+        return `<div class="axis-bar"><div class="dot" style="left:${pct}%"></div></div>`;
+    })() : '';
+
+    const methodLabels = {
+        'SBERT': sbert ? ({agency: 'pos', constraint: 'neg', neutral: 'none'}[sbert.label] || 'none') : 'none',
+        'LLM': llm ? ({positive_liberty: 'pos', negative_liberty: 'neg', ambiguous: 'amb', other: 'oth'}[llm.label] || 'none') : 'none',
+    };
+    const agreementDots = Object.entries(methodLabels).map(([name, cls]) =>
+        `<span class="agreement-dot ${cls}" title="${name}: ${cls}"></span>`
+    ).join('');
+
+    const lv = label?.label || '';
+    const btnClass = (type, cls) => lv === type ? `label-btn ${cls}` : 'label-btn';
+    const disabled = currentUser ? '' : 'disabled';
+
+    return `
+    <div class="card ${isLabeled ? 'labeled' : ''}" id="card-${s.id}">
+        <div class="sentence">${highlighted}</div>
+        <div class="meta">
+            <span>${s.speaker}</span>
+            <span class="party ${partyClass}">${s.party}</span>
+            <span>${s.date}</span>
+            <span>${s.word}</span>
+            <span style="margin-left:auto">${agreementDots}</span>
+        </div>
+        <div class="methods-grid">
+            <div class="method-cell">
+                <div class="method-name">Domains</div>
+                <div class="method-value">${domLabel}</div>
+            </div>
+            <div class="method-cell ${sbClass}">
+                <div class="method-name">SBERT</div>
+                <div class="method-value">${sbLabel}</div>
+                ${sbertBar}
+            </div>
+            <div class="method-cell ${llmClass}">
+                <div class="method-name">LLM (Haiku)</div>
+                <div class="method-value">${llmLabel}</div>
+            </div>
+        </div>
+        <div class="label-row">
+            <button class="${btnClass('positive_liberty', 'active-pos')}" onclick="setLabel('${s.id}','positive_liberty')" ${disabled}>Pos liberty</button>
+            <button class="${btnClass('negative_liberty', 'active-neg')}" onclick="setLabel('${s.id}','negative_liberty')" ${disabled}>Neg liberty</button>
+            <button class="${btnClass('ambiguous', 'active-amb')}" onclick="setLabel('${s.id}','ambiguous')" ${disabled}>Ambiguous</button>
+            <button class="${btnClass('other', 'active-oth')}" onclick="setLabel('${s.id}','other')" ${disabled}>Other</button>
+            <input class="notes" placeholder="Notes..." value="${label?.notes || ''}" onchange="setNotes('${s.id}', this.value)" ${disabled}>
+            <span class="kbd">1/2/3/4</span>
+        </div>
+        ${renderTeamLabels(s.id)}
+    </div>`;
+}
+
+function renderTeamLabels(id) {
+    const team = teamLabels[id];
+    if (!team || Object.keys(team).length === 0) return '';
+    const tags = Object.entries(team)
+        .filter(([user]) => user !== currentUser)
+        .map(([user, data]) => {
+            const cls = {positive_liberty:'pos', negative_liberty:'neg', ambiguous:'amb', other:'oth'}[data.label] || '';
+            const short = user.split('@')[0];
+            return `<span class="method-tag ${cls}" title="${user}: ${data.notes || ''}">${short}: ${(data.label||'').replace('_',' ')}</span>`;
+        }).join(' ');
+    return tags ? `<div class="methods" style="margin-top:0.4rem; font-size:0.78rem; color:var(--muted);">Team: ${tags}</div>` : '';
+}
+
+function updateLabelStats() {
+    const counts = { positive_liberty: 0, negative_liberty: 0, ambiguous: 0, other: 0 };
+    for (const v of Object.values(labels)) {
+        if (v.label && counts.hasOwnProperty(v.label)) counts[v.label]++;
+    }
+    const total = Object.keys(labels).length;
+    document.getElementById('label-stats').innerHTML =
+        `<span>${total} labeled</span>` +
+        `<span style="color:var(--green)">Pos: ${counts.positive_liberty}</span>` +
+        `<span style="color:var(--secondary)">Neg: ${counts.negative_liberty}</span>` +
+        `<span style="color:var(--orange)">Amb: ${counts.ambiguous}</span>` +
+        `<span>Other: ${counts.other}</span>`;
+}
+
+function changePage(delta) {
+    page += delta;
+    renderPage();
+    window.scrollTo(0, 0);
+}
+
+function updatePagination() {
+    const totalPages = Math.ceil(filtered.length / PER_PAGE);
+    document.getElementById('prev-btn').disabled = page === 0;
+    document.getElementById('next-btn').disabled = page >= totalPages - 1;
+    document.getElementById('page-info').textContent =
+        filtered.length > 0 ? `Page ${page + 1} of ${totalPages}` : '';
+}
+
+// === KEYBOARD SHORTCUTS ===
+document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (!currentUser) return;
+    const start = page * PER_PAGE;
+    const visible = filtered.slice(start, start + PER_PAGE);
+    const unlabeled = visible.find(s => !labels[s.id]);
+    const target = unlabeled || visible[0];
+    if (!target) return;
+
+    if (e.key === '1') setLabel(target.id, 'positive_liberty');
+    else if (e.key === '2') setLabel(target.id, 'negative_liberty');
+    else if (e.key === '3') setLabel(target.id, 'ambiguous');
+    else if (e.key === '4') setLabel(target.id, 'other');
+    else if (e.key === 'n' || e.key === 'ArrowRight') changePage(1);
+    else if (e.key === 'p' || e.key === 'ArrowLeft') changePage(-1);
+});
+
+// === EXPORT/IMPORT ===
+function exportJSON() {
+    const blob = new Blob([JSON.stringify(labels, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url;
+    a.download = `hansard_labels_${new Date().toISOString().slice(0,10)}.json`;
+    a.click(); URL.revokeObjectURL(url);
+}
+
+function exportCSV() {
+    let csv = 'id,label,timestamp,notes\n';
+    for (const [id, v] of Object.entries(labels)) {
+        csv += `"${id}","${v.label || ''}","${v.timestamp || ''}","${(v.notes || '').replace(/"/g, '""')}"\n`;
+    }
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url;
+    a.download = `hansard_labels_${new Date().toISOString().slice(0,10)}.csv`;
+    a.click(); URL.revokeObjectURL(url);
+}
+
+async function importJSON(event) {
+    const file = event.target.files[0];
+    if (!file || !currentUser) return;
+    const reader = new FileReader();
+    reader.onload = async e => {
+        const imported = JSON.parse(e.target.result);
+        labels = { ...labels, ...imported };
+        setStatus('Uploading imported labels...');
+        try {
+            await fetch(API, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ user: currentUser, labels }),
+            });
+            setStatus(`Imported and saved ${Object.keys(imported).length} labels`);
+        } catch (e) {
+            setStatus(`Import error: ${e.message}`);
+        }
+        renderPage();
+        updateLabelStats();
+    };
+    reader.readAsText(file);
+}
+
+// Flush on page unload
+window.addEventListener('beforeunload', () => { if (saveQueue.length > 0) flushSaveQueue(); });
+</script>
+</body>
+</html>

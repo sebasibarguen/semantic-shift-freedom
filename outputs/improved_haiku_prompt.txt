@@ -1,0 +1,62 @@
+You are classifying sentences from UK Parliamentary debates (Hansard, 1803-2025) according to Isaiah Berlin's "Two Concepts of Liberty."
+
+CRITICAL RULE: "freedom of X" (speech, press, religion, debate, conscience, navigation, contract, trade, association) is almost always NEGATIVE liberty — it means freedom FROM interference with X. Do NOT classify these as positive liberty.
+
+NEGATIVE LIBERTY (freedom FROM interference):
+- "freedom of speech/press/religion/conscience/debate" = NEGATIVE (non-interference)
+- "freedom from want/fear/oppression/torture" = NEGATIVE
+- "civil liberties" = NEGATIVE (protections against state action)
+- "freedom of contract/trade/navigation" = NEGATIVE (absence of regulation/obstruction)
+- "personal liberty" re: detention, habeas corpus = NEGATIVE
+- "restrict/curtail/infringe freedom" = NEGATIVE (discussing removal of non-interference)
+
+POSITIVE LIBERTY (capacity/empowerment TO act):
+- "freedom to choose one's school/doctor" = POSITIVE (enabled capacity)
+- "freedom to innovate/compete" = POSITIVE (opportunity)
+- "grant liberty to [country] to govern itself" = POSITIVE (empowerment)
+- "financial freedom" = POSITIVE (self-sufficiency)
+- Welfare/education enabling people to do things = POSITIVE
+
+OTHER:
+- "at liberty to" / "took the liberty" = parliamentary procedure
+- "Liberty Steel" = company name
+- References to specific Acts by name only
+
+1. [1972] "Although the Director General will act independently, Ministers will continue to have a wide range o" → negative_liberty
+2. [1987] "The Government are failing to ensure freedom for women to lead their own lives and travel in securit" → negative_liberty
+3. [1920] "The third course, and the only logical course, if we are to expect consistency at all, is to be foun" → positive_liberty
+4. [1852] "The largest liberty was
+ 
+ 273 
+intended, and he believed was given, by the Bill with respect to imp" → positive_liberty
+5. [1919] "It was sanctified, not only by the passionate desire of Munster, Connaught, and Leinster to stand wi" → negative_liberty
+6. [1805] "My lords, the noble lord who now presides upon the woolsack, has long been the friend of liberty and" → negative_liberty
+7. [2009] "The Government have failed to give local authorities the freedom to raise funding by going to the ma" → positive_liberty
+8. [1919] "A satisfactory solution of the question can only be guaranteed by the grant of liberty to the Govern" → positive_liberty
+9. [2020] "As the Government continue to impose further unprecedented restrictions on people’s freedoms, it is " → negative_liberty
+10. [1839] "He would beg the House to remark, that in the first year of freedom the deficiency was only one-tent" → negative_liberty
+11. [1981] "We attach high priority to making a full reality of the freedom to provide services throughout the E" → positive_liberty
+12. [2015] "The sense of despair that comes from the deprivation of liberty was evident." → negative_liberty
+13. [1858] "Everybody was at liberty, if he pleased, to change his surname, but no one else was obliged to recog" → negative_liberty
+14. [2021] "Lady is right: the end of freedom of movement has inevitably had some consequences for touring artis" → negative_liberty
+15. [2019] "That is one of the main reasons, alongside oil, why we have to maintain freedom of navigation." → negative_liberty
+16. [1805] "At the same time, he wished, in case any objection should be made, it might be understood he was at " → other
+17. [1960] "One is to make certain that when a territory gains its freedom it should understand how dangerous it" → positive_liberty
+18. [1893] "Bright signifying the contrary—that if the supremacy of Parliament were preserved, there was no limi" → positive_liberty
+19. [1814] "Under such circumstances, I felt peculiarly disposed, in common with many others, not only to suppor" → negative_liberty
+20. [1927] "to make further provision with regard to the health, local government and improvement of the city, t" → other
+21. [1845] "but, if they chose to regard it as a vote of want of confidence in the self-constituted tribunal cal" → negative_liberty
+22. [1939] "In this, the greatest of all struggles for human liberty, in this great
+
+
+hour of world history, are" → negative_liberty
+23. [1850] "He told the Committee that Major Lushington, turning to the proctors who were in court, said, "Gentl" → other
+24. [1931] "That is the spirit in which I propose to take the liberty of addressing the House on this occasion, " → other
+25. [1926] "Boards of guardians have every freedom in that respect." → positive_liberty
+26. [1947] "He is the great champion of the cause of freedom when he is Leader of the Opposition, but not so kee" → negative_liberty
+27. [1995] "The Liberal Democrats would separate capital and revenue spending and give local authorities the fre" → positive_liberty
+28. [1829] "He must again express his regret at hearing that there was to be no representative system in the col" → positive_liberty
+29. [1993] "Unless tobacco is made illegal, commercial freedom of speech should not be sacrificed in terms of ba" → negative_liberty
+30. [1946] "Workers, both men and women, who were transferred by, or with the approval of, my Department to empl" → other
+
+Respond with ONLY the category per line, numbered to match.

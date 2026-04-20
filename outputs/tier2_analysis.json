@@ -1,0 +1,4082 @@
+{
+  "1500-1550": {
+    "bin": "1500-1550",
+    "doc_count": 11,
+    "docs_with_freedom": 8,
+    "total_words": 233851,
+    "context_count": 240,
+    "top_collocates": [
+      {
+        "word": "wyll",
+        "count": 43,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "god",
+        "count": 40,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "pardon",
+        "count": 27,
+        "domains": [
+          "legal"
+        ],
+        "primary_domain": "legal"
+      },
+      {
+        "word": "man",
+        "count": 25,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "wyl",
+        "count": 24,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "theyr",
+        "count": 22,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "made",
+        "count": 22,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "liberty",
+        "count": 22,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "whiche",
+        "count": 18,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thys",
+        "count": 17,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "fre",
+        "count": 17,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "oure",
+        "count": 15,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "whyche",
+        "count": 15,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "hath",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "christ",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "wil",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "spirite",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "shal",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "make",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "out",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "except",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "lorde",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "christian",
+        "count": 10,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "unto",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "set",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "fro",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "hym",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "nor",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "hys",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bonde",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "present",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "good",
+        "count": 8,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "men",
+        "count": 8,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "selfe",
+        "count": 8,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thynges",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "lawe",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thynge",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "free",
+        "count": 7,
+        "domains": [
+          "constraint_liberation"
+        ],
+        "primary_domain": "constraint_liberation"
+      },
+      {
+        "word": "done",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "captiue",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "doeth",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "lord",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "maner",
+        "count": 7,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "therfore",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "let",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "general",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thorowe",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bondage",
+        "count": 6,
+        "domains": [
+          "servitude_bondage"
+        ],
+        "primary_domain": "servitude_bondage"
+      },
+      {
+        "word": "christe",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "ther",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "contrary",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "proue",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "doth",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "power",
+        "count": 6,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "act",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "acte",
+        "count": 6,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thei",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "goddes",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "synne",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "put",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "newe",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "people",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "rite",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "olde",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "dage",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "false",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "opinion",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "grace",
+        "count": 5,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "come",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "mans",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bond",
+        "count": 5,
+        "domains": [
+          "servitude_bondage"
+        ],
+        "primary_domain": "servitude_bondage"
+      },
+      {
+        "word": "deliuered",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "frome",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "saye",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "sayd",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "singuler",
+        "count": 5,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "shoulde",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "knowe",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "take",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "both",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "worke",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "further",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "wyth",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "ever",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "now",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "use",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "every",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "election",
+        "count": 4,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "maye",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "howe",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "prophete",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "textes",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "scriptures",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "freedom",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "deede",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "obiection",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "texte",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thyng",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "seruauntes",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "beynge",
+        "count": 4,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      }
+    ],
+    "domain_distribution": {
+      "untagged": 44,
+      "religious": 2,
+      "legal": 1,
+      "abstract_philosophical": 1,
+      "constraint_liberation": 1,
+      "servitude_bondage": 1
+    },
+    "sample_contexts": [
+      {
+        "match": "free",
+        "position": 32,
+        "left_context": "to do good but euel Hath not arbytrement which is",
+        "right_context": "But no man hath frewyll to do good but euell",
+        "full_context": "to do good but euel Hath not arbytrement which is free But no man hath frewyll to do good but euell",
+        "tcp_id": "B00056",
+        "year": 1540,
+        "title": "[Verses concerning free will, predestination, grace, etc.]; Free will."
+      },
+      {
+        "match": "free",
+        "position": 49,
+        "left_context": "do good but euell Therfore there is noman hath arbytrement",
+        "right_context": "The maiore is manyfest, frewyll is a lyberall faculte Which",
+        "full_context": "do good but euell Therfore there is noman hath arbytrement free The maiore is manyfest, frewyll is a lyberall faculte Which",
+        "tcp_id": "B00056",
+        "year": 1540,
+        "title": "[Verses concerning free will, predestination, grace, etc.]; Free will."
+      },
+      {
+        "match": "free",
+        "position": 27,
+        "left_context": "woorke what thei can that the Bible shoulde not have",
+        "right_context": "pas sage, veray neces sary to be red of e",
+        "full_context": "woorke what thei can that the Bible shoulde not have free pas sage, veray neces sary to be red of e",
+        "tcp_id": "A01657",
+        "year": 1547,
+        "title": "A godly inuectiue in the defence of the Gospell against such as murmure and woorke what thei can tha"
+      },
+      {
+        "match": "liberty,",
+        "position": 1165,
+        "left_context": "Ignoraunce, Disdayne, the contempte of Goddes woorde gooe at their",
+        "right_context": "there must nedes aryse contencion, brawlyng, sedicion, and controuersy in",
+        "full_context": "Ignoraunce, Disdayne, the contempte of Goddes woorde gooe at their liberty, there must nedes aryse contencion, brawlyng, sedicion, and controuersy in",
+        "tcp_id": "A01657",
+        "year": 1547,
+        "title": "A godly inuectiue in the defence of the Gospell against such as murmure and woorke what thei can tha"
+      },
+      {
+        "match": "liberty.",
+        "position": 7193,
+        "left_context": "it was kept un der locke and coulde have no",
+        "right_context": "What Godly minde woulde not ab horre to thyncke on",
+        "full_context": "it was kept un der locke and coulde have no liberty. What Godly minde woulde not ab horre to thyncke on",
+        "tcp_id": "A01657",
+        "year": 1547,
+        "title": "A godly inuectiue in the defence of the Gospell against such as murmure and woorke what thei can tha"
+      },
+      {
+        "match": "free",
+        "position": 7853,
+        "left_context": "knowe what, through you the woord of God cannot have",
+        "right_context": "passage, you stande gapyng for hygh and frail thin ges",
+        "full_context": "knowe what, through you the woord of God cannot have free passage, you stande gapyng for hygh and frail thin ges",
+        "tcp_id": "A01657",
+        "year": 1547,
+        "title": "A godly inuectiue in the defence of the Gospell against such as murmure and woorke what thei can tha"
+      },
+      {
+        "match": "free",
+        "position": 8732,
+        "left_context": "They perceaued wel inough, that yf his do ctrine had",
+        "right_context": "course, thei might then take leave of honour, pompe and",
+        "full_context": "They perceaued wel inough, that yf his do ctrine had free course, thei might then take leave of honour, pompe and",
+        "tcp_id": "A01657",
+        "year": 1547,
+        "title": "A godly inuectiue in the defence of the Gospell against such as murmure and woorke what thei can tha"
+      },
+      {
+        "match": "free",
+        "position": 12397,
+        "left_context": "pompe and glory of the cleargy, the gospell shuld have",
+        "right_context": "passage let them al saie what thei lust The ̄",
+        "full_context": "pompe and glory of the cleargy, the gospell shuld have free passage let them al saie what thei lust The ̄",
+        "tcp_id": "A01657",
+        "year": 1547,
+        "title": "A godly inuectiue in the defence of the Gospell against such as murmure and woorke what thei can tha"
+      },
+      {
+        "match": "fre",
+        "position": 13215,
+        "left_context": "of it is suche y t it wil never suf",
+        "right_context": "any sparke of treason to dwell in a subiectes hert.",
+        "full_context": "of it is suche y t it wil never suf fre any sparke of treason to dwell in a subiectes hert.",
+        "tcp_id": "A01657",
+        "year": 1547,
+        "title": "A godly inuectiue in the defence of the Gospell against such as murmure and woorke what thei can tha"
+      },
+      {
+        "match": "free,",
+        "position": 78,
+        "left_context": "lorde graunt a better to be appoynted either by a",
+        "right_context": "and Christian cou ̄ sayle, general, or national, or elles",
+        "full_context": "lorde graunt a better to be appoynted either by a free, and Christian cou ̄ sayle, general, or national, or elles",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "free",
+        "position": 2389,
+        "left_context": "the reformation of monasteries both of men and women. Of",
+        "right_context": "and not Monasticall Colleges of virgins. Of the ordre of",
+        "full_context": "the reformation of monasteries both of men and women. Of free and not Monasticall Colleges of virgins. Of the ordre of",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "liberty",
+        "position": 11838,
+        "left_context": "doinges, be not created of God, but springe from the",
+        "right_context": "of the apostata spirite, and of man, as it is",
+        "full_context": "doinges, be not created of God, but springe from the liberty of the apostata spirite, and of man, as it is",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "free",
+        "position": 12005,
+        "left_context": "in originall synne, neuertheles actuall synne is the propre, and",
+        "right_context": "worke of ma ̄ nes wil, and not necessary, that",
+        "full_context": "in originall synne, neuertheles actuall synne is the propre, and free worke of ma ̄ nes wil, and not necessary, that",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "free,",
+        "position": 12548,
+        "left_context": "oure fyrste parentes A dam, and Eue, not only a",
+        "right_context": "but also an upryght wyll. Further he dyd put into",
+        "full_context": "oure fyrste parentes A dam, and Eue, not only a free, but also an upryght wyll. Further he dyd put into",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "free",
+        "position": 13834,
+        "left_context": "an euerlastynge sauiour, and greate rewarde. Item thorowe his only",
+        "right_context": "beniuolence, he embraced him tiuite, further that he was iustified",
+        "full_context": "an euerlastynge sauiour, and greate rewarde. Item thorowe his only free beniuolence, he embraced him tiuite, further that he was iustified",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "liberty.",
+        "position": 14536,
+        "left_context": "fayeth in Christ, eue ̄ in this time of christian",
+        "right_context": "Wherfore the preachers shal obserue that ̄ they speake of",
+        "full_context": "fayeth in Christ, eue ̄ in this time of christian liberty. Wherfore the preachers shal obserue that ̄ they speake of",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "liberty",
+        "position": 15656,
+        "left_context": "more fully reueiled to the newe people, and a greater",
+        "right_context": "of outwarde thynges is grau ̄ ted. For in the",
+        "full_context": "more fully reueiled to the newe people, and a greater liberty of outwarde thynges is grau ̄ ted. For in the",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "fre",
+        "position": 15851,
+        "left_context": "spirite of ad optio ̄ , and hath mad us",
+        "right_context": "fro ̄ Mosaical rites, & al rudime ̄ tes of",
+        "full_context": "spirite of ad optio ̄ , and hath mad us fre fro ̄ Mosaical rites, & al rudime ̄ tes of",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "free,",
+        "position": 15911,
+        "left_context": "and edificacion towardes salvation, and ser uinge plainly with a",
+        "right_context": "and wyllinge spi rite, not constrained, Furthermore they must obserue",
+        "full_context": "and edificacion towardes salvation, and ser uinge plainly with a free, and wyllinge spi rite, not constrained, Furthermore they must obserue",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      },
+      {
+        "match": "free",
+        "position": 16365,
+        "left_context": "Abrahams handmayde, and the newe Te stament of Christ to",
+        "right_context": "Sara. And he ma keth the olde Testament or lawe",
+        "full_context": "Abrahams handmayde, and the newe Te stament of Christ to free Sara. And he ma keth the olde Testament or lawe",
+        "tcp_id": "A03087",
+        "year": 1547,
+        "title": "A simple, and religious consultation of vs Herman by the grace of God Archebishop of Colone, and pri"
+      }
+    ]
+  },
+  "1550-1600": {
+    "bin": "1550-1600",
+    "doc_count": 45,
+    "docs_with_freedom": 38,
+    "total_words": 1142963,
+    "context_count": 701,
+    "top_collocates": [
+      {
+        "word": "god",
+        "count": 131,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "unto",
+        "count": 66,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "man",
+        "count": 65,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "wyll",
+        "count": 61,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "hath",
+        "count": 46,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "free",
+        "count": 43,
+        "domains": [
+          "constraint_liberation"
+        ],
+        "primary_domain": "constraint_liberation"
+      },
+      {
+        "word": "christ",
+        "count": 37,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "set",
+        "count": 34,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "doth",
+        "count": 34,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "wil",
+        "count": 33,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "made",
+        "count": 31,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "good",
+        "count": 31,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "liberty",
+        "count": 31,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "sinne",
+        "count": 31,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "mercy",
+        "count": 30,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "doe",
+        "count": 30,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bee",
+        "count": 29,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "let",
+        "count": 25,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "yet",
+        "count": 25,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "men",
+        "count": 24,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "now",
+        "count": 23,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "use",
+        "count": 21,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "every",
+        "count": 21,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "faith",
+        "count": 21,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "nor",
+        "count": 20,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "sonne",
+        "count": 19,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "great",
+        "count": 19,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "grace",
+        "count": 19,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "both",
+        "count": 18,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "well",
+        "count": 18,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "might",
+        "count": 18,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "come",
+        "count": 18,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "church",
+        "count": 18,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "election",
+        "count": 18,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "make",
+        "count": 17,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "say",
+        "count": 17,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "out",
+        "count": 17,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "take",
+        "count": 17,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "citie",
+        "count": 17,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "country",
+        "count": 16,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "religion",
+        "count": 16,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "hee",
+        "count": 16,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "therefore",
+        "count": 16,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "goodnes",
+        "count": 16,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "true",
+        "count": 15,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "christian",
+        "count": 15,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "without",
+        "count": 15,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "theyr",
+        "count": 15,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "whiche",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "sinnes",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thou",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "lord",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "through",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "couenant",
+        "count": 14,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "against",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "selues",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "death",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thy",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "againe",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "churches",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "because",
+        "count": 13,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "fall",
+        "count": 12,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "conscience",
+        "count": 12,
+        "domains": [
+          "personal",
+          "religious"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "hys",
+        "count": 12,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bondage",
+        "count": 12,
+        "domains": [
+          "servitude_bondage"
+        ],
+        "primary_domain": "servitude_bondage"
+      },
+      {
+        "word": "mans",
+        "count": 12,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "ought",
+        "count": 12,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "love",
+        "count": 12,
+        "domains": [
+          "personal"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "goe",
+        "count": 12,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "whereby",
+        "count": 12,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "end",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "shal",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "graunt",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "whose",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "glory",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "undeserued",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "wee",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "power",
+        "count": 11,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "lorde",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "exercise",
+        "count": 11,
+        "domains": [
+          "constraint_liberation"
+        ],
+        "primary_domain": "constraint_liberation"
+      },
+      {
+        "word": "wyl",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "dyd",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "manne",
+        "count": 11,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "london",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "king",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "selfe",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "strength",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "time",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "jesus",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "life",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "place",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "reason",
+        "count": 10,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "very",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "goodnesse",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "oure",
+        "count": 10,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "live",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "none",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bond",
+        "count": 9,
+        "domains": [
+          "servitude_bondage"
+        ],
+        "primary_domain": "servitude_bondage"
+      },
+      {
+        "word": "hir",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "stand",
+        "count": 9,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      }
+    ],
+    "domain_distribution": {
+      "religious": 6,
+      "untagged": 40,
+      "constraint_liberation": 1,
+      "abstract_philosophical": 1,
+      "political": 2
+    },
+    "sample_contexts": [
+      {
+        "match": "free-Masons",
+        "position": 82,
+        "left_context": "ticall, but also for diuers Artificers, Architects, Surueyours of buildings,",
+        "right_context": "and others. By T. Fale. AT LONDON Printed by Thomas",
+        "full_context": "ticall, but also for diuers Artificers, Architects, Surueyours of buildings, free-Masons and others. By T. Fale. AT LONDON Printed by Thomas",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty.",
+        "position": 2462,
+        "left_context": "on the end, so that it may moue at frée",
+        "right_context": "You may also (if you will) upon this side of",
+        "full_context": "on the end, so that it may moue at frée liberty. You may also (if you will) upon this side of",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty:",
+        "position": 2651,
+        "left_context": "a thread from the sharpe end, may moue therein at",
+        "right_context": "Make also an other round or square hole, wherein you",
+        "full_context": "a thread from the sharpe end, may moue therein at liberty: Make also an other round or square hole, wherein you",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty",
+        "position": 2752,
+        "left_context": "degrées made, for the plo ̄ met to hang at",
+        "right_context": "in: so shall you néede but one side of your",
+        "full_context": "degrées made, for the plo ̄ met to hang at liberty in: so shall you néede but one side of your",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty",
+        "position": 2962,
+        "left_context": "F. then if the thread with the plommet hanging at",
+        "right_context": "fall directly upon his line G. H. which way soeuer",
+        "full_context": "F. then if the thread with the plommet hanging at liberty fall directly upon his line G. H. which way soeuer",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty.",
+        "position": 3128,
+        "left_context": "thread with the plom met on the foreside hanging at",
+        "right_context": "If the thread fal up pon the line E. C.",
+        "full_context": "thread with the plom met on the foreside hanging at liberty. If the thread fal up pon the line E. C.",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty,",
+        "position": 24954,
+        "left_context": "your quadrant, the thread with the plum met hanging at",
+        "right_context": "let the Sun beams passe thorow both the sights, and",
+        "full_context": "your quadrant, the thread with the plum met hanging at liberty, let the Sun beams passe thorow both the sights, and",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty",
+        "position": 25180,
+        "left_context": "your sights, and the thread with the plunmet ha uing",
+        "right_context": "to moue, shall cut in the limbe of the Quadrant",
+        "full_context": "your sights, and the thread with the plunmet ha uing liberty to moue, shall cut in the limbe of the Quadrant",
+        "tcp_id": "A00538",
+        "year": 1593,
+        "title": "Horologiographia The art of dialling: teaching an easie and perfect way to make all kinds of dials v"
+      },
+      {
+        "match": "liberty.",
+        "position": 733,
+        "left_context": "can not tend but to the euident ruine of your",
+        "right_context": "For this is he (who like that infamous Polyphemus, which",
+        "full_context": "can not tend but to the euident ruine of your liberty. For this is he (who like that infamous Polyphemus, which",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "Fre",
+        "position": 7521,
+        "left_context": "by crauing succour of them in their warres: yet this",
+        "right_context": "̄ ch League passeth a degrée further: she not only",
+        "full_context": "by crauing succour of them in their warres: yet this Fre ̄ ch League passeth a degrée further: she not only",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty,",
+        "position": 7994,
+        "left_context": "forces, sufficient enough aswell to set the fained king at",
+        "right_context": "as to defeate him, which truely and by good title",
+        "full_context": "forces, sufficient enough aswell to set the fained king at liberty, as to defeate him, which truely and by good title",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty,",
+        "position": 9490,
+        "left_context": "your authority, of your greatnes, of your fidelity, of your",
+        "right_context": "of your wisedome, and of your forces: which be fore,",
+        "full_context": "your authority, of your greatnes, of your fidelity, of your liberty, of your wisedome, and of your forces: which be fore,",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "free",
+        "position": 10632,
+        "left_context": "ly in it selfe, an inexpugnable rampire, especially in a",
+        "right_context": "peo ple, against the assaults and inuasion of a tyrannous",
+        "full_context": "ly in it selfe, an inexpugnable rampire, especially in a free peo ple, against the assaults and inuasion of a tyrannous",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty,",
+        "position": 10669,
+        "left_context": "encombrance shall annoy you, but you shal conserue your deare",
+        "right_context": "wherof the Spaniard is a sworne enimy, and usurper. Good",
+        "full_context": "encombrance shall annoy you, but you shal conserue your deare liberty, wherof the Spaniard is a sworne enimy, and usurper. Good",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty",
+        "position": 11618,
+        "left_context": "Constable of Portin gale being slaine in fighting for the",
+        "right_context": "of his country. The Spaniard confiscated all his goods, and",
+        "full_context": "Constable of Portin gale being slaine in fighting for the liberty of his country. The Spaniard confiscated all his goods, and",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty",
+        "position": 12441,
+        "left_context": "that, which I know you do most affect, namely your",
+        "right_context": "& fidelity. And albeit Demosthenes played the orator often to",
+        "full_context": "that, which I know you do most affect, namely your liberty & fidelity. And albeit Demosthenes played the orator often to",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty:",
+        "position": 12715,
+        "left_context": "sauage and outragious beast, séeing you have taken such unbridled",
+        "right_context": "or if you submit your selues to obedience, you will",
+        "full_context": "sauage and outragious beast, séeing you have taken such unbridled liberty: or if you submit your selues to obedience, you will",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty",
+        "position": 12964,
+        "left_context": "when I declared, that your king will entertaine you in",
+        "right_context": "of conscience, untill a Councell have determined of both religions,",
+        "full_context": "when I declared, that your king will entertaine you in liberty of conscience, untill a Councell have determined of both religions,",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty",
+        "position": 14085,
+        "left_context": "of the order of the Iacobins, who for embracing the",
+        "right_context": "of his countrey, was hanged in the Ile of Madera:",
+        "full_context": "of the order of the Iacobins, who for embracing the liberty of his countrey, was hanged in the Ile of Madera:",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      },
+      {
+        "match": "liberty.",
+        "position": 14340,
+        "left_context": "feared, lest they should moue the people to recouer their",
+        "right_context": "I speake not of an infi nite number of the",
+        "full_context": "feared, lest they should moue the people to recouer their liberty. I speake not of an infi nite number of the",
+        "tcp_id": "A00734",
+        "year": 1592,
+        "title": "The Spaniards monarchie, and Leaguers olygarchie. Layd open in an aduerisement [sic], written by Sig"
+      }
+    ]
+  },
+  "1600-1650": {
+    "bin": "1600-1650",
+    "doc_count": 515,
+    "docs_with_freedom": 494,
+    "total_words": 7095756,
+    "context_count": 10174,
+    "top_collocates": [
+      {
+        "word": "god",
+        "count": 808,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "free",
+        "count": 803,
+        "domains": [
+          "constraint_liberation"
+        ],
+        "primary_domain": "constraint_liberation"
+      },
+      {
+        "word": "liberty",
+        "count": 740,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "christ",
+        "count": 659,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "hath",
+        "count": 562,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "men",
+        "count": 523,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "grace",
+        "count": 495,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "people",
+        "count": 492,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "man",
+        "count": 473,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "christian",
+        "count": 473,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "law",
+        "count": 463,
+        "domains": [
+          "legal"
+        ],
+        "primary_domain": "legal"
+      },
+      {
+        "word": "england",
+        "count": 442,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "conscience",
+        "count": 433,
+        "domains": [
+          "personal",
+          "religious"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "made",
+        "count": 391,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "against",
+        "count": 373,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "yet",
+        "count": 368,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "now",
+        "count": 357,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "unto",
+        "count": 347,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "power",
+        "count": 328,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "use",
+        "count": 311,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "parliament",
+        "count": 310,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "doe",
+        "count": 300,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "out",
+        "count": 292,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "set",
+        "count": 292,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "make",
+        "count": 292,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "freedom",
+        "count": 288,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "right",
+        "count": 286,
+        "domains": [
+          "legal"
+        ],
+        "primary_domain": "legal"
+      },
+      {
+        "word": "therefore",
+        "count": 283,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "common",
+        "count": 275,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "without",
+        "count": 272,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "things",
+        "count": 262,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "under",
+        "count": 253,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "every",
+        "count": 251,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "wee",
+        "count": 245,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "true",
+        "count": 240,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "way",
+        "count": 235,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "good",
+        "count": 234,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "said",
+        "count": 233,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "great",
+        "count": 222,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "both",
+        "count": 221,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "much",
+        "count": 220,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bee",
+        "count": 215,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "religion",
+        "count": 212,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "subjects",
+        "count": 208,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "many",
+        "count": 207,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "because",
+        "count": 206,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "gods",
+        "count": 206,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "peace",
+        "count": 206,
+        "domains": [
+          "personal"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "might",
+        "count": 205,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "life",
+        "count": 203,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "nor",
+        "count": 202,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "king",
+        "count": 202,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "say",
+        "count": 200,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "spirit",
+        "count": 197,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "let",
+        "count": 195,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "church",
+        "count": 191,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "doth",
+        "count": 189,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "part",
+        "count": 189,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "hee",
+        "count": 186,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "bondage",
+        "count": 185,
+        "domains": [
+          "servitude_bondage"
+        ],
+        "primary_domain": "servitude_bondage"
+      },
+      {
+        "word": "just",
+        "count": 184,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "subject",
+        "count": 179,
+        "domains": [
+          "legal"
+        ],
+        "primary_domain": "legal"
+      },
+      {
+        "word": "take",
+        "count": 177,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "though",
+        "count": 177,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "give",
+        "count": 177,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "iustification",
+        "count": 177,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "ought",
+        "count": 173,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thing",
+        "count": 172,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "trade",
+        "count": 170,
+        "domains": [
+          "economic"
+        ],
+        "primary_domain": "economic"
+      },
+      {
+        "word": "time",
+        "count": 168,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thus",
+        "count": 164,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "sinne",
+        "count": 163,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "faith",
+        "count": 160,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "like",
+        "count": 157,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "well",
+        "count": 156,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "con",
+        "count": 155,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "stand",
+        "count": 153,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "lawes",
+        "count": 151,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "others",
+        "count": 149,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "either",
+        "count": 148,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "nation",
+        "count": 147,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "indeed",
+        "count": 145,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "truth",
+        "count": 145,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "love",
+        "count": 145,
+        "domains": [
+          "personal"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "themselves",
+        "count": 142,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "here",
+        "count": 140,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "ever",
+        "count": 136,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "see",
+        "count": 136,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "state",
+        "count": 136,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "saith",
+        "count": 136,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "called",
+        "count": 133,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "whether",
+        "count": 132,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "kingdome",
+        "count": 131,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "nature",
+        "count": 129,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "lord",
+        "count": 129,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "spirituall",
+        "count": 128,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "cause",
+        "count": 127,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "taken",
+        "count": 125,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "land",
+        "count": 124,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "justice",
+        "count": 123,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      }
+    ],
+    "domain_distribution": {
+      "religious": 4,
+      "constraint_liberation": 1,
+      "abstract_philosophical": 1,
+      "untagged": 38,
+      "legal": 2,
+      "personal": 2,
+      "political": 2
+    },
+    "sample_contexts": [
+      {
+        "match": "Free-man",
+        "position": 17,
+        "left_context": "their Thanke fulnesse, their Aduertisement. Written By HEN: FARLEY, a",
+        "right_context": "of London: Who hath done as freely for Free-Stone, within",
+        "full_context": "their Thanke fulnesse, their Aduertisement. Written By HEN: FARLEY, a Free-man of London: Who hath done as freely for Free-Stone, within",
+        "tcp_id": "A00552",
+        "year": 1622,
+        "title": "Portland-stone in Paules-Church-yard Their birth, their mirth, their thankefulnesse, their aduertise"
+      },
+      {
+        "match": "Free-Stone,",
+        "position": 26,
+        "left_context": "a Free-man of London: Who hath done as freely for",
+        "right_context": "within these eight yeares, as most men, and knowes as",
+        "full_context": "a Free-man of London: Who hath done as freely for Free-Stone, within these eight yeares, as most men, and knowes as",
+        "tcp_id": "A00552",
+        "year": 1622,
+        "title": "Portland-stone in Paules-Church-yard Their birth, their mirth, their thankefulnesse, their aduertise"
+      },
+      {
+        "match": "Free-man",
+        "position": 2001,
+        "left_context": "Stranger, whatsoe're he be. And' cause our Writer a poore",
+        "right_context": "is, We hope these words no man can take amisse;",
+        "full_context": "Stranger, whatsoe're he be. And' cause our Writer a poore Free-man is, We hope these words no man can take amisse;",
+        "tcp_id": "A00552",
+        "year": 1622,
+        "title": "Portland-stone in Paules-Church-yard Their birth, their mirth, their thankefulnesse, their aduertise"
+      },
+      {
+        "match": "free.",
+        "position": 2238,
+        "left_context": "should bee Not sparing in your worke, but francke and",
+        "right_context": "Some men there are will maintain to ones face, (But",
+        "full_context": "should bee Not sparing in your worke, but francke and free. Some men there are will maintain to ones face, (But",
+        "tcp_id": "A00552",
+        "year": 1622,
+        "title": "Portland-stone in Paules-Church-yard Their birth, their mirth, their thankefulnesse, their aduertise"
+      },
+      {
+        "match": "freedom?",
+        "position": 749,
+        "left_context": "much more so to visit them as to procure their",
+        "right_context": "In so much that the Redeemer himselfe shall say, I",
+        "full_context": "much more so to visit them as to procure their freedom? In so much that the Redeemer himselfe shall say, I",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty",
+        "position": 1639,
+        "left_context": "too: I acknowledge it that our wants who are at",
+        "right_context": "doe restraine us from releiuing our brethren, who are in",
+        "full_context": "too: I acknowledge it that our wants who are at liberty doe restraine us from releiuing our brethren, who are in",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty.",
+        "position": 2116,
+        "left_context": "to have been employed in procuring their Christian coun try-mens",
+        "right_context": "And as the Elder Pliny said to his nephew, when",
+        "full_context": "to have been employed in procuring their Christian coun try-mens liberty. And as the Elder Pliny said to his nephew, when",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty",
+        "position": 2952,
+        "left_context": "you forgetfull of others mi sery: let not your enjoyed",
+        "right_context": "drive out of your re membrance their calamitous captivity. Them",
+        "full_context": "you forgetfull of others mi sery: let not your enjoyed liberty drive out of your re membrance their calamitous captivity. Them",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty",
+        "position": 3144,
+        "left_context": "into his soule. Though he were (upon the matter) at",
+        "right_context": "in prison, and rather a Keeper then a Prisoner (",
+        "full_context": "into his soule. Though he were (upon the matter) at liberty in prison, and rather a Keeper then a Prisoner (",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "Liberty",
+        "position": 3270,
+        "left_context": "greatest rods wherewith he useth to scourge the greatest sinners.",
+        "right_context": "is that which all men doe desire next unto life,",
+        "full_context": "greatest rods wherewith he useth to scourge the greatest sinners. Liberty is that which all men doe desire next unto life,",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "freedom",
+        "position": 3386,
+        "left_context": "kings royall offer, you know not how pretious a thing",
+        "right_context": "is, which no man who is well in his wits",
+        "full_context": "kings royall offer, you know not how pretious a thing freedom is, which no man who is well in his wits",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty",
+        "position": 3413,
+        "left_context": "monarchy. Give us (said couragious Brutus ) either life with",
+        "right_context": "or death with glory. How sweet a thing then is",
+        "full_context": "monarchy. Give us (said couragious Brutus ) either life with liberty or death with glory. How sweet a thing then is",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty,",
+        "position": 3424,
+        "left_context": "or death with glory. How sweet a thing then is",
+        "right_context": "death, and therein preferred before life? how bitter is bondage",
+        "full_context": "or death with glory. How sweet a thing then is liberty, death, and therein preferred before life? how bitter is bondage",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "free,",
+        "position": 3526,
+        "left_context": "men by nature untill Christ by grace have made them",
+        "right_context": "lesse grace prevent it) to hellish bondage, from whence there",
+        "full_context": "men by nature untill Christ by grace have made them free, lesse grace prevent it) to hellish bondage, from whence there",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty",
+        "position": 3585,
+        "left_context": "gyves and fetters, and to be excluded from the glorious",
+        "right_context": "of the sonnes of God ; such is spirituall bondage",
+        "full_context": "gyves and fetters, and to be excluded from the glorious liberty of the sonnes of God ; such is spirituall bondage",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "freedom",
+        "position": 3930,
+        "left_context": "Inner man ; the soule and consci ence enioying more",
+        "right_context": "in prison then the Persecu tor doth in the kingdome.",
+        "full_context": "Inner man ; the soule and consci ence enioying more freedom in prison then the Persecu tor doth in the kingdome.",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "liberty",
+        "position": 4047,
+        "left_context": "suffer as you pre ferre the prison for Christ, before",
+        "right_context": "with the losse of Christ. Your praises are as many",
+        "full_context": "suffer as you pre ferre the prison for Christ, before liberty with the losse of Christ. Your praises are as many",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "free",
+        "position": 4245,
+        "left_context": "the world. There are bonds and fetters, but you are",
+        "right_context": "unto God. There are stinking savours, but you are a",
+        "full_context": "the world. There are bonds and fetters, but you are free unto God. There are stinking savours, but you are a",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "free",
+        "position": 5574,
+        "left_context": "he nor his friends can procure his ransome, nothing can",
+        "right_context": "him (un lesse he will renounce his faith) but he",
+        "full_context": "he nor his friends can procure his ransome, nothing can free him (un lesse he will renounce his faith) but he",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      },
+      {
+        "match": "free-borne",
+        "position": 5669,
+        "left_context": "commanders. Now what a miserable thing is it for a",
+        "right_context": "man to become a slave to one who is but",
+        "full_context": "commanders. Now what a miserable thing is it for a free-borne man to become a slave to one who is but",
+        "tcp_id": "A00816",
+        "year": 1637,
+        "title": "Compassion towards captives chiefly towards our brethren and country-men who are in miserable bondag"
+      }
+    ]
+  },
+  "1650-1700": {
+    "bin": "1650-1700",
+    "doc_count": 953,
+    "docs_with_freedom": 892,
+    "total_words": 16282250,
+    "context_count": 23263,
+    "top_collocates": [
+      {
+        "word": "free",
+        "count": 1922,
+        "domains": [
+          "constraint_liberation"
+        ],
+        "primary_domain": "constraint_liberation"
+      },
+      {
+        "word": "god",
+        "count": 1910,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "liberty",
+        "count": 1883,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "conscience",
+        "count": 1425,
+        "domains": [
+          "personal",
+          "religious"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "christ",
+        "count": 1307,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "man",
+        "count": 1233,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "hath",
+        "count": 1194,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "men",
+        "count": 1141,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "people",
+        "count": 1099,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "grace",
+        "count": 1034,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "yet",
+        "count": 876,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "made",
+        "count": 829,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "now",
+        "count": 810,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "power",
+        "count": 801,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "law",
+        "count": 792,
+        "domains": [
+          "legal"
+        ],
+        "primary_domain": "legal"
+      },
+      {
+        "word": "things",
+        "count": 763,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "freedom",
+        "count": 750,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "religion",
+        "count": 740,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "against",
+        "count": 736,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "without",
+        "count": 703,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "true",
+        "count": 676,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "good",
+        "count": 657,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "out",
+        "count": 644,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "nor",
+        "count": 635,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "christian",
+        "count": 613,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "make",
+        "count": 605,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "much",
+        "count": 591,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "every",
+        "count": 582,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "therefore",
+        "count": 571,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "set",
+        "count": 556,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "sin",
+        "count": 555,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "because",
+        "count": 550,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "themselves",
+        "count": 544,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "under",
+        "count": 544,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "england",
+        "count": 525,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "great",
+        "count": 521,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "say",
+        "count": 506,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thing",
+        "count": 494,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "unto",
+        "count": 489,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "life",
+        "count": 485,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "take",
+        "count": 474,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "use",
+        "count": 470,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "said",
+        "count": 469,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "doth",
+        "count": 467,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "common",
+        "count": 459,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "give",
+        "count": 449,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "king",
+        "count": 446,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "spirit",
+        "count": 442,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "its",
+        "count": 441,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "act",
+        "count": 433,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "parliament",
+        "count": 429,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "both",
+        "count": 428,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "many",
+        "count": 421,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "though",
+        "count": 420,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "way",
+        "count": 419,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "laws",
+        "count": 412,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "cannot",
+        "count": 411,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "right",
+        "count": 408,
+        "domains": [
+          "legal"
+        ],
+        "primary_domain": "legal"
+      },
+      {
+        "word": "bondage",
+        "count": 406,
+        "domains": [
+          "servitude_bondage"
+        ],
+        "primary_domain": "servitude_bondage"
+      },
+      {
+        "word": "might",
+        "count": 402,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "state",
+        "count": 402,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "con",
+        "count": 401,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "exercise",
+        "count": 390,
+        "domains": [
+          "constraint_liberation"
+        ],
+        "primary_domain": "constraint_liberation"
+      },
+      {
+        "word": "let",
+        "count": 389,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "church",
+        "count": 388,
+        "domains": [
+          "religious"
+        ],
+        "primary_domain": "religious"
+      },
+      {
+        "word": "government",
+        "count": 384,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "reason",
+        "count": 380,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "others",
+        "count": 379,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "come",
+        "count": 375,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "time",
+        "count": 368,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "very",
+        "count": 367,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "self",
+        "count": 359,
+        "domains": [
+          "personal"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "never",
+        "count": 356,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "left",
+        "count": 352,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "here",
+        "count": 345,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "lord",
+        "count": 344,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "well",
+        "count": 343,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "nation",
+        "count": 340,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "nature",
+        "count": 338,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "necessity",
+        "count": 336,
+        "domains": [
+          "abstract_philosophical"
+        ],
+        "primary_domain": "abstract_philosophical"
+      },
+      {
+        "word": "part",
+        "count": 323,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "truth",
+        "count": 321,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "indeed",
+        "count": 316,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "himself",
+        "count": 303,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "love",
+        "count": 301,
+        "domains": [
+          "personal"
+        ],
+        "primary_domain": "personal"
+      },
+      {
+        "word": "ever",
+        "count": 296,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "whether",
+        "count": 294,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "thus",
+        "count": 291,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "cause",
+        "count": 290,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "according",
+        "count": 287,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "like",
+        "count": 284,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "necessary",
+        "count": 283,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "tis",
+        "count": 282,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "either",
+        "count": 281,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "full",
+        "count": 281,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "subject",
+        "count": 280,
+        "domains": [
+          "legal"
+        ],
+        "primary_domain": "legal"
+      },
+      {
+        "word": "persons",
+        "count": 279,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "about",
+        "count": 277,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      },
+      {
+        "word": "election",
+        "count": 277,
+        "domains": [
+          "political"
+        ],
+        "primary_domain": "political"
+      },
+      {
+        "word": "given",
+        "count": 277,
+        "domains": [
+          "untagged"
+        ],
+        "primary_domain": "untagged"
+      }
+    ],
+    "domain_distribution": {
+      "constraint_liberation": 1,
+      "religious": 6,
+      "abstract_philosophical": 1,
+      "personal": 1,
+      "untagged": 39,
+      "political": 1,
+      "legal": 1
+    },
+    "sample_contexts": [
+      {
+        "match": "FREE-HOLDERS",
+        "position": 14,
+        "left_context": "THE CHOICE OF THIS New Parliament; Dedicated to all her",
+        "right_context": "and ELECTORS. SInce it hath pleased God and the King",
+        "full_context": "THE CHOICE OF THIS New Parliament; Dedicated to all her FREE-HOLDERS and ELECTORS. SInce it hath pleased God and the King",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "free",
+        "position": 462,
+        "left_context": "in the business of his Revenue. And let me be",
+        "right_context": "with you, if you intend to save poor England, You",
+        "full_context": "in the business of his Revenue. And let me be free with you, if you intend to save poor England, You",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Freedom",
+        "position": 679,
+        "left_context": "therefore none must take it Ill, that we use our",
+        "right_context": "about that, which in its Constitution is the Great Bull-wark",
+        "full_context": "therefore none must take it Ill, that we use our Freedom about that, which in its Constitution is the Great Bull-wark",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Free-men",
+        "position": 1087,
+        "left_context": "without you. Before Henry the Third's Time, your Ancestors, the",
+        "right_context": "of England met in their own Persons, but their Numbers",
+        "full_context": "without you. Before Henry the Third's Time, your Ancestors, the Free-men of England met in their own Persons, but their Numbers",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Freedom",
+        "position": 1215,
+        "left_context": "with the other two, in order to compleat both your",
+        "right_context": "& Security, & that is Your share in the Judicatory",
+        "full_context": "with the other two, in order to compleat both your Freedom & Security, & that is Your share in the Judicatory",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Liberty",
+        "position": 1262,
+        "left_context": "this Realm can be adjudg'd in matter either of Life,",
+        "right_context": "or Estate, but it must be by the Judgment of",
+        "full_context": "this Realm can be adjudg'd in matter either of Life, Liberty or Estate, but it must be by the Judgment of",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Free,",
+        "position": 1532,
+        "left_context": "destroy'd by Par liament, and we, who by Law are",
+        "right_context": "may hereby come to be made Slaves by Law. If",
+        "full_context": "destroy'd by Par liament, and we, who by Law are Free, may hereby come to be made Slaves by Law. If",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Free",
+        "position": 1546,
+        "left_context": "to be made Slaves by Law. If then you are",
+        "right_context": "and resolve to be so, if you have any regard",
+        "full_context": "to be made Slaves by Law. If then you are Free and resolve to be so, if you have any regard",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Free-man,",
+        "position": 1782,
+        "left_context": "Truly such ought not to have the power of a",
+        "right_context": "that would so abuse his own and hazard other mens",
+        "full_context": "Truly such ought not to have the power of a Free-man, that would so abuse his own and hazard other mens",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "Freedom",
+        "position": 1793,
+        "left_context": "that would so abuse his own and hazard other mens",
+        "right_context": "by it: he deserves to be cast over Board, that",
+        "full_context": "that would so abuse his own and hazard other mens Freedom by it: he deserves to be cast over Board, that",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "free,",
+        "position": 2226,
+        "left_context": "one Part of the Go vernment, should leave the other",
+        "right_context": "and without any the least Awe or Influence to bar",
+        "full_context": "one Part of the Go vernment, should leave the other free, and without any the least Awe or Influence to bar",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "liberty",
+        "position": 3397,
+        "left_context": "the least Molestation to the Government. Truly, I must take",
+        "right_context": "to tell you, If you will not endeavour to redress",
+        "full_context": "the least Molestation to the Government. Truly, I must take liberty to tell you, If you will not endeavour to redress",
+        "tcp_id": "A23597",
+        "year": 1679,
+        "title": "England's great interest in the choice of this new Parliament dedicated to all her free-holders and "
+      },
+      {
+        "match": "free",
+        "position": 368,
+        "left_context": "Deservings, has bin pleased by this our late Deliverance, to",
+        "right_context": "us from the Treachery and Infidelity of our Antichristian Adversaries,",
+        "full_context": "Deservings, has bin pleased by this our late Deliverance, to free us from the Treachery and Infidelity of our Antichristian Adversaries,",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      },
+      {
+        "match": "Liberty",
+        "position": 442,
+        "left_context": "Nor must they be less stupid, who finding themselves at",
+        "right_context": "from Tryanny and Superstition, would be again submitting their Necks",
+        "full_context": "Nor must they be less stupid, who finding themselves at Liberty from Tryanny and Superstition, would be again submitting their Necks",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      },
+      {
+        "match": "liberty;",
+        "position": 3272,
+        "left_context": "of London his Jaylor, upon which he was set at",
+        "right_context": "but soon after repenting of what he had done, he",
+        "full_context": "of London his Jaylor, upon which he was set at liberty; but soon after repenting of what he had done, he",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      },
+      {
+        "match": "liberty",
+        "position": 3472,
+        "left_context": "and Water; during all which time she never had the",
+        "right_context": "to change her Apparel, whereby she became a most miserable",
+        "full_context": "and Water; during all which time she never had the liberty to change her Apparel, whereby she became a most miserable",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      },
+      {
+        "match": "Liberty",
+        "position": 8486,
+        "left_context": "Point of Death: for in this Torture he has not",
+        "right_context": "to draw his Breath, while the Water stops his Breath,",
+        "full_context": "Point of Death: for in this Torture he has not Liberty to draw his Breath, while the Water stops his Breath,",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      },
+      {
+        "match": "Liberty",
+        "position": 9017,
+        "left_context": "judge how fatal the Consequences might have bin, had the",
+        "right_context": "of this Nation bin subdu'd under the heavy weight of",
+        "full_context": "judge how fatal the Consequences might have bin, had the Liberty of this Nation bin subdu'd under the heavy weight of",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      },
+      {
+        "match": "Fre",
+        "position": 9802,
+        "left_context": "to redeem themselves and the Town from Spoil. But Don",
+        "right_context": "deric having thus got into the Town, commanded that at",
+        "full_context": "to redeem themselves and the Town from Spoil. But Don Fre deric having thus got into the Town, commanded that at",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      },
+      {
+        "match": "free",
+        "position": 9984,
+        "left_context": "long before, the Town of Valenciennes, in Hainault, having the",
+        "right_context": "Exercise of the Reformed Religion among them, was surrendred to",
+        "full_context": "long before, the Town of Valenciennes, in Hainault, having the free Exercise of the Reformed Religion among them, was surrendred to",
+        "tcp_id": "A23722",
+        "year": 1689,
+        "title": "The absolute necessity of standing by the present government, or, A view of what both church men and"
+      }
+    ]
+  }
+}

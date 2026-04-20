@@ -1,0 +1,1026 @@
+{
+  "dataset": "Hansard speeches v3.1.0 (Evan Odell)",
+  "period": "1979-2021",
+  "total_speeches": 2606699,
+  "frequency": {
+    "1979": {
+      "total_speeches": 34292,
+      "freedom_count": 522,
+      "liberty_count": 72,
+      "freedom_rate": 15.22,
+      "liberty_rate": 2.1
+    },
+    "1980": {
+      "total_speeches": 75000,
+      "freedom_count": 756,
+      "liberty_count": 137,
+      "freedom_rate": 10.08,
+      "liberty_rate": 1.83
+    },
+    "1981": {
+      "total_speeches": 61594,
+      "freedom_count": 641,
+      "liberty_count": 189,
+      "freedom_rate": 10.41,
+      "liberty_rate": 3.07
+    },
+    "1982": {
+      "total_speeches": 66164,
+      "freedom_count": 654,
+      "liberty_count": 160,
+      "freedom_rate": 9.88,
+      "liberty_rate": 2.42
+    },
+    "1983": {
+      "total_speeches": 54404,
+      "freedom_count": 628,
+      "liberty_count": 143,
+      "freedom_rate": 11.54,
+      "liberty_rate": 2.63
+    },
+    "1984": {
+      "total_speeches": 70858,
+      "freedom_count": 792,
+      "liberty_count": 158,
+      "freedom_rate": 11.18,
+      "liberty_rate": 2.23
+    },
+    "1985": {
+      "total_speeches": 70281,
+      "freedom_count": 652,
+      "liberty_count": 140,
+      "freedom_rate": 9.28,
+      "liberty_rate": 1.99
+    },
+    "1986": {
+      "total_speeches": 72688,
+      "freedom_count": 730,
+      "liberty_count": 116,
+      "freedom_rate": 10.04,
+      "liberty_rate": 1.6
+    },
+    "1987": {
+      "total_speeches": 58524,
+      "freedom_count": 706,
+      "liberty_count": 117,
+      "freedom_rate": 12.06,
+      "liberty_rate": 2.0
+    },
+    "1988": {
+      "total_speeches": 75370,
+      "freedom_count": 855,
+      "liberty_count": 113,
+      "freedom_rate": 11.34,
+      "liberty_rate": 1.5
+    },
+    "1989": {
+      "total_speeches": 75585,
+      "freedom_count": 1030,
+      "liberty_count": 152,
+      "freedom_rate": 13.63,
+      "liberty_rate": 2.01
+    },
+    "1990": {
+      "total_speeches": 75278,
+      "freedom_count": 773,
+      "liberty_count": 115,
+      "freedom_rate": 10.27,
+      "liberty_rate": 1.53
+    },
+    "1991": {
+      "total_speeches": 63918,
+      "freedom_count": 549,
+      "liberty_count": 81,
+      "freedom_rate": 8.59,
+      "liberty_rate": 1.27
+    },
+    "1992": {
+      "total_speeches": 51141,
+      "freedom_count": 452,
+      "liberty_count": 72,
+      "freedom_rate": 8.84,
+      "liberty_rate": 1.41
+    },
+    "1993": {
+      "total_speeches": 66162,
+      "freedom_count": 735,
+      "liberty_count": 84,
+      "freedom_rate": 11.11,
+      "liberty_rate": 1.27
+    },
+    "1994": {
+      "total_speeches": 59377,
+      "freedom_count": 619,
+      "liberty_count": 91,
+      "freedom_rate": 10.42,
+      "liberty_rate": 1.53
+    },
+    "1995": {
+      "total_speeches": 58109,
+      "freedom_count": 498,
+      "liberty_count": 92,
+      "freedom_rate": 8.57,
+      "liberty_rate": 1.58
+    },
+    "1996": {
+      "total_speeches": 62319,
+      "freedom_count": 559,
+      "liberty_count": 123,
+      "freedom_rate": 8.97,
+      "liberty_rate": 1.97
+    },
+    "1997": {
+      "total_speeches": 48198,
+      "freedom_count": 544,
+      "liberty_count": 143,
+      "freedom_rate": 11.29,
+      "liberty_rate": 2.97
+    },
+    "1998": {
+      "total_speeches": 69235,
+      "freedom_count": 832,
+      "liberty_count": 126,
+      "freedom_rate": 12.02,
+      "liberty_rate": 1.82
+    },
+    "1999": {
+      "total_speeches": 62061,
+      "freedom_count": 834,
+      "liberty_count": 143,
+      "freedom_rate": 13.44,
+      "liberty_rate": 2.3
+    },
+    "2000": {
+      "total_speeches": 67064,
+      "freedom_count": 791,
+      "liberty_count": 211,
+      "freedom_rate": 11.79,
+      "liberty_rate": 3.15
+    },
+    "2001": {
+      "total_speeches": 50267,
+      "freedom_count": 610,
+      "liberty_count": 175,
+      "freedom_rate": 12.14,
+      "liberty_rate": 3.48
+    },
+    "2002": {
+      "total_speeches": 49947,
+      "freedom_count": 644,
+      "liberty_count": 157,
+      "freedom_rate": 12.89,
+      "liberty_rate": 3.14
+    },
+    "2003": {
+      "total_speeches": 55485,
+      "freedom_count": 693,
+      "liberty_count": 106,
+      "freedom_rate": 12.49,
+      "liberty_rate": 1.91
+    },
+    "2004": {
+      "total_speeches": 54836,
+      "freedom_count": 683,
+      "liberty_count": 130,
+      "freedom_rate": 12.46,
+      "liberty_rate": 2.37
+    },
+    "2005": {
+      "total_speeches": 46577,
+      "freedom_count": 696,
+      "liberty_count": 317,
+      "freedom_rate": 14.94,
+      "liberty_rate": 6.81
+    },
+    "2006": {
+      "total_speeches": 53040,
+      "freedom_count": 608,
+      "liberty_count": 122,
+      "freedom_rate": 11.46,
+      "liberty_rate": 2.3
+    },
+    "2007": {
+      "total_speeches": 52849,
+      "freedom_count": 722,
+      "liberty_count": 153,
+      "freedom_rate": 13.66,
+      "liberty_rate": 2.9
+    },
+    "2008": {
+      "total_speeches": 57536,
+      "freedom_count": 718,
+      "liberty_count": 162,
+      "freedom_rate": 12.48,
+      "liberty_rate": 2.82
+    },
+    "2009": {
+      "total_speeches": 52500,
+      "freedom_count": 670,
+      "liberty_count": 84,
+      "freedom_rate": 12.76,
+      "liberty_rate": 1.6
+    },
+    "2010": {
+      "total_speeches": 62157,
+      "freedom_count": 853,
+      "liberty_count": 136,
+      "freedom_rate": 13.72,
+      "liberty_rate": 2.19
+    },
+    "2011": {
+      "total_speeches": 71601,
+      "freedom_count": 1020,
+      "liberty_count": 201,
+      "freedom_rate": 14.25,
+      "liberty_rate": 2.81
+    },
+    "2012": {
+      "total_speeches": 63591,
+      "freedom_count": 746,
+      "liberty_count": 95,
+      "freedom_rate": 11.73,
+      "liberty_rate": 1.49
+    },
+    "2013": {
+      "total_speeches": 69723,
+      "freedom_count": 901,
+      "liberty_count": 137,
+      "freedom_rate": 12.92,
+      "liberty_rate": 1.96
+    },
+    "2014": {
+      "total_speeches": 62645,
+      "freedom_count": 787,
+      "liberty_count": 144,
+      "freedom_rate": 12.56,
+      "liberty_rate": 2.3
+    },
+    "2015": {
+      "total_speeches": 59174,
+      "freedom_count": 729,
+      "liberty_count": 161,
+      "freedom_rate": 12.32,
+      "liberty_rate": 2.72
+    },
+    "2016": {
+      "total_speeches": 65789,
+      "freedom_count": 877,
+      "liberty_count": 127,
+      "freedom_rate": 13.33,
+      "liberty_rate": 1.93
+    },
+    "2017": {
+      "total_speeches": 61162,
+      "freedom_count": 652,
+      "liberty_count": 79,
+      "freedom_rate": 10.66,
+      "liberty_rate": 1.29
+    },
+    "2018": {
+      "total_speeches": 76365,
+      "freedom_count": 900,
+      "liberty_count": 123,
+      "freedom_rate": 11.79,
+      "liberty_rate": 1.61
+    },
+    "2019": {
+      "total_speeches": 66125,
+      "freedom_count": 889,
+      "liberty_count": 114,
+      "freedom_rate": 13.44,
+      "liberty_rate": 1.72
+    },
+    "2020": {
+      "total_speeches": 60860,
+      "freedom_count": 980,
+      "liberty_count": 177,
+      "freedom_rate": 16.1,
+      "liberty_rate": 2.91
+    },
+    "2021": {
+      "total_speeches": 16848,
+      "freedom_count": 357,
+      "liberty_count": 82,
+      "freedom_rate": 21.19,
+      "liberty_rate": 4.87
+    }
+  },
+  "from_to": {
+    "by_period": {
+      "1975": {
+        "from": 25,
+        "to": 110,
+        "pct_from": 18.5
+      },
+      "1980": {
+        "from": 137,
+        "to": 667,
+        "pct_from": 17.0
+      },
+      "1985": {
+        "from": 115,
+        "to": 736,
+        "pct_from": 13.5
+      },
+      "1990": {
+        "from": 136,
+        "to": 731,
+        "pct_from": 15.7
+      },
+      "1995": {
+        "from": 94,
+        "to": 629,
+        "pct_from": 13.0
+      },
+      "2000": {
+        "from": 139,
+        "to": 762,
+        "pct_from": 15.4
+      },
+      "2005": {
+        "from": 84,
+        "to": 495,
+        "pct_from": 14.5
+      },
+      "2010": {
+        "from": 78,
+        "to": 647,
+        "pct_from": 10.8
+      },
+      "2015": {
+        "from": 72,
+        "to": 571,
+        "pct_from": 11.2
+      },
+      "2020": {
+        "from": 20,
+        "to": 197,
+        "pct_from": 9.2
+      }
+    },
+    "from_objects": {
+      "the": 106,
+      "fear": 85,
+      "discrimination": 34,
+      "torture": 32,
+      "government": 22,
+      "want": 18,
+      "political": 16,
+      "local": 15,
+      "arbitrary": 13,
+      "central": 12,
+      "arrest": 11,
+      "state": 10,
+      "hunger": 10,
+      "crime": 9,
+      "pain": 9,
+      "poverty": 8,
+      "bureaucracy": 8,
+      "tyranny": 8,
+      "taxation": 7,
+      "exchange": 7,
+      "regulation": 7,
+      "all": 7,
+      "bias": 7,
+      "excessive": 6,
+      "planning": 6,
+      "being": 6,
+      "oppression": 6,
+      "those": 5,
+      "having": 5,
+      "intimidation": 5
+    },
+    "to_objects": {
+      "choose": 257,
+      "do": 224,
+      "decide": 214,
+      "make": 164,
+      "the": 124,
+      "be": 105,
+      "take": 104,
+      "innovate": 99,
+      "manage": 93,
+      "use": 89,
+      "local": 86,
+      "act": 85,
+      "spend": 84,
+      "set": 82,
+      "go": 78,
+      "speak": 73,
+      "operate": 73,
+      "travel": 70,
+      "move": 59,
+      "develop": 56,
+      "determine": 56,
+      "invest": 55,
+      "provide": 54,
+      "work": 52,
+      "borrow": 51,
+      "run": 49,
+      "raise": 45,
+      "trade": 44,
+      "express": 42,
+      "compete": 41
+    }
+  },
+  "collocates": {
+    "freedom": {
+      "1970": {
+        "choice": 189,
+        "local": 99,
+        "authorities": 78,
+        "individual": 63,
+        "greater": 60,
+        "education": 52,
+        "party": 35,
+        "parents": 33,
+        "information": 32,
+        "state": 29,
+        "country": 28,
+        "believe": 28,
+        "speech": 27,
+        "conservative": 27,
+        "given": 27,
+        "labour": 26,
+        "because": 26,
+        "tory": 26,
+        "personal": 25,
+        "giving": 24
+      },
+      "1980": {
+        "choice": 891,
+        "local": 618,
+        "speech": 598,
+        "information": 555,
+        "individual": 528,
+        "press": 441,
+        "greater": 374,
+        "authorities": 366,
+        "democracy": 346,
+        "rights": 345,
+        "believe": 332,
+        "academic": 323,
+        "country": 316,
+        "because": 301,
+        "want": 288,
+        "given": 267,
+        "were": 267,
+        "movement": 260,
+        "law": 260,
+        "important": 242
+      },
+      "1990": {
+        "information": 1739,
+        "choice": 554,
+        "press": 545,
+        "greater": 436,
+        "act": 427,
+        "commercial": 394,
+        "speech": 383,
+        "rights": 335,
+        "local": 316,
+        "legislation": 315,
+        "public": 303,
+        "given": 267,
+        "democracy": 262,
+        "individual": 254,
+        "expression": 253,
+        "movement": 240,
+        "because": 238,
+        "believe": 221,
+        "under": 216,
+        "want": 207
+      },
+      "2000": {
+        "information": 2134,
+        "act": 839,
+        "speech": 535,
+        "expression": 441,
+        "local": 419,
+        "greater": 401,
+        "under": 389,
+        "rights": 369,
+        "schools": 321,
+        "choice": 297,
+        "public": 287,
+        "legislation": 280,
+        "want": 272,
+        "democracy": 260,
+        "given": 258,
+        "need": 253,
+        "movement": 236,
+        "country": 235,
+        "believe": 229,
+        "human": 226
+      },
+      "2010": {
+        "information": 1680,
+        "movement": 889,
+        "speech": 779,
+        "religion": 692,
+        "act": 616,
+        "expression": 593,
+        "rights": 592,
+        "press": 558,
+        "belief": 509,
+        "religious": 480,
+        "request": 395,
+        "human": 380,
+        "democracy": 361,
+        "country": 345,
+        "requests": 343,
+        "local": 301,
+        "want": 293,
+        "important": 292,
+        "because": 287,
+        "greater": 271
+      },
+      "2020": {
+        "religion": 205,
+        "belief": 198,
+        "speech": 154,
+        "rights": 117,
+        "movement": 111,
+        "expression": 98,
+        "information": 87,
+        "human": 81,
+        "world": 73,
+        "religious": 69,
+        "democracy": 69,
+        "international": 62,
+        "media": 62,
+        "protest": 54,
+        "press": 52,
+        "support": 48,
+        "law": 44,
+        "country": 44,
+        "free": 42,
+        "assembly": 42
+      }
+    },
+    "liberty": {
+      "1970": {
+        "individual": 27,
+        "freedom": 13,
+        "personal": 11,
+        "subject": 11,
+        "power": 8,
+        "because": 8,
+        "individuals": 7,
+        "however": 7,
+        "becomes": 6,
+        "threat": 6,
+        "licence": 6,
+        "important": 6,
+        "erosion": 5,
+        "trade": 5,
+        "legislation": 5,
+        "believe": 5,
+        "human": 5,
+        "society": 5,
+        "encroachment": 5,
+        "argument": 5
+      },
+      "1980": {
+        "individual": 331,
+        "civil": 200,
+        "freedom": 136,
+        "personal": 113,
+        "subject": 101,
+        "infringement": 74,
+        "believe": 71,
+        "because": 71,
+        "law": 69,
+        "rights": 67,
+        "against": 65,
+        "between": 62,
+        "person": 61,
+        "country": 54,
+        "democracy": 54,
+        "important": 50,
+        "police": 49,
+        "life": 45,
+        "were": 44,
+        "fundamental": 41
+      },
+      "1990": {
+        "civil": 145,
+        "individual": 100,
+        "restriction": 92,
+        "freedom": 80,
+        "rights": 60,
+        "law": 58,
+        "subject": 55,
+        "life": 47,
+        "person": 43,
+        "because": 42,
+        "public": 41,
+        "important": 40,
+        "personal": 39,
+        "orders": 39,
+        "between": 38,
+        "democracy": 38,
+        "state": 37,
+        "justice": 36,
+        "were": 36,
+        "human": 35
+      },
+      "2000": {
+        "individual": 209,
+        "civil": 183,
+        "freedom": 142,
+        "deprivation": 138,
+        "security": 124,
+        "rights": 115,
+        "justice": 107,
+        "between": 101,
+        "law": 89,
+        "balance": 87,
+        "because": 81,
+        "subject": 79,
+        "human": 78,
+        "country": 77,
+        "important": 71,
+        "believe": 70,
+        "issue": 69,
+        "issues": 67,
+        "against": 66,
+        "debate": 62
+      },
+      "2010": {
+        "security": 156,
+        "deprivation": 147,
+        "freedom": 127,
+        "rights": 110,
+        "individual": 95,
+        "human": 89,
+        "democracy": 84,
+        "justice": 82,
+        "law": 81,
+        "between": 76,
+        "balance": 70,
+        "safeguards": 61,
+        "protection": 57,
+        "life": 56,
+        "british": 55,
+        "fundamental": 55,
+        "country": 54,
+        "civil": 54,
+        "need": 53,
+        "important": 50
+      },
+      "2020": {
+        "steel": 63,
+        "freedom": 33,
+        "rights": 20,
+        "restrictions": 20,
+        "democracy": 16,
+        "because": 16,
+        "law": 14,
+        "individual": 14,
+        "human": 13,
+        "need": 13,
+        "life": 13,
+        "values": 12,
+        "state": 12,
+        "jobs": 11,
+        "health": 11,
+        "rule": 10,
+        "balance": 10,
+        "lives": 10,
+        "risk": 10,
+        "country": 10
+      }
+    }
+  },
+  "contexts": {
+    "freedom": {
+      "1970": [
+        {
+          "sentence": "Legislation will be introduced to remove the compulsion on local authorities in England and Wales to reorganise their schools on comprehensive lines; and their freedom to take up places at independent schools will be restored.",
+          "year": 1979,
+          "speaker": "Unknown"
+        },
+        {
+          "sentence": "Of great pride to the nation is the assurance given in the Gracious Speech that our treaty obligations shall be upheld, that the rundown in our defences shall cease, and that our country shall once again be seen by the world to be foremost in the maintenance of peace and the defence of freedom.",
+          "year": 1979,
+          "speaker": "Robert Elliott"
+        },
+        {
+          "sentence": "Gentleman finally continued in his article:\n Above all the Labour Party has let the idea of freedom be filched.",
+          "year": 1979,
+          "speaker": "Margaret Thatcher"
+        },
+        {
+          "sentence": "It will do something else \u2014 it will give to more of our people that freedom and mobility and that prospect of handing something on to their children and grandchildren which owner-occupation provides.",
+          "year": 1979,
+          "speaker": "Margaret Thatcher"
+        },
+        {
+          "sentence": "I turn to the third head, namely, freedom under the law.",
+          "year": 1979,
+          "speaker": "Margaret Thatcher"
+        }
+      ],
+      "1980": [
+        {
+          "sentence": "The provisions in the Bill will essentially give tenants the freedom and power to help themselves rather than prescribe precisely what they can and cannot do.",
+          "year": 1980,
+          "speaker": "George Younger"
+        },
+        {
+          "sentence": "The changes made in that respect are part of our broader view of the direction which housing policy should take, a view which gives primacy to greater freedom of choice for the individual.",
+          "year": 1980,
+          "speaker": "George Younger"
+        },
+        {
+          "sentence": "There is, of course, the obvious reason which I have already mentioned \u2014 freedom, the freedom to choose, the freedom through one's own hard work to acquire an asset which can be enjoyed and passed on to one's children, and the freedom to determine one's own way of life.",
+          "year": 1980,
+          "speaker": "George Younger"
+        },
+        {
+          "sentence": "I do not think that the Government can really believe that the Bill will improve social mobility and social mix and give a great deal of freedom to local authority tenants.",
+          "year": 1980,
+          "speaker": "Bruce Millan"
+        },
+        {
+          "sentence": "It involves some freedom to local authorities of which, in the days of Tameside, the present Government were very much in favour.",
+          "year": 1980,
+          "speaker": "Russell Johnston"
+        }
+      ],
+      "1990": [
+        {
+          "sentence": "Thus the Bill takes forward the objectives underlying the Government's whole strategy for public service reform \u2014 greater freedom for managers, coupled with greater accountability for delivering agreed objectives.",
+          "year": 1990,
+          "speaker": "Norman Lamont"
+        },
+        {
+          "sentence": "The first relates to extending and enhancing the rights and freedom of the individual.",
+          "year": 1990,
+          "speaker": "Alan Amos"
+        },
+        {
+          "sentence": "Many of us have often seen him rise to his feet from the Opposition Benches to oppose the stand for freedom, justice and liberty in eastern Europe that we have taken.",
+          "year": 1990,
+          "speaker": "Thomas King"
+        },
+        {
+          "sentence": "I am accused on every occasion in the House of opposing freedom.",
+          "year": 1990,
+          "speaker": "Norman Buchan"
+        },
+        {
+          "sentence": "Throughout the years we have stood for the strong defence of our country and for freedom, democracy and dialogue.",
+          "year": 1990,
+          "speaker": "Thomas King"
+        }
+      ],
+      "2000": [
+        {
+          "sentence": "Several sections of that Quebec law were struck down by the Supreme Court of Canada in October 1997, on the grounds that they violated freedom of expression under both the Canadian and the Quebec charters of human rights and freedoms.",
+          "year": 2000,
+          "speaker": "Jack Straw"
+        },
+        {
+          "sentence": "That is good for everybody who is concerned with advancing and nurturing freedom.",
+          "year": 2000,
+          "speaker": "Frank Field"
+        },
+        {
+          "sentence": "To my mind, elections are, by their very nature, periods during which those who are not candidates must accept a certain temporary restraint on their freedom of speech; otherwise, money will always be able to buy elections.",
+          "year": 2000,
+          "speaker": "Martin Linton"
+        },
+        {
+          "sentence": "They do not have our freedom or bank balances to enable them to move away from the wretched people who are causing them distress.",
+          "year": 2000,
+          "speaker": "Frank Field"
+        },
+        {
+          "sentence": "People who have one home or who qualify to vote on the basis of one home do not have freedom to choose where they vote, and no one else should have that freedom either.",
+          "year": 2000,
+          "speaker": "Simon Hughes"
+        }
+      ],
+      "2010": [
+        {
+          "sentence": "The fact is that section 53 of the Freedom of Information Act 2000 is a fundamental part of the scheme of the Act; it was on that basis that the Bill was agreed.",
+          "year": 2010,
+          "speaker": "Jack Straw"
+        },
+        {
+          "sentence": "It is important to remember that the values of openness, intellectual scrutiny and the freedom of debate and tolerance promoted in higher education are one of the most effective ways of challenging views which we may find abhorrent but that remain within the law.",
+          "year": 2010,
+          "speaker": "Alan Johnson"
+        },
+        {
+          "sentence": "It left us vulnerable and led to years of rationing and hardship for households right across the country, but we had something pretty spectacular to show for that greater debt-we had defended ourselves against an unprecedented threat to our freedom and independence.",
+          "year": 2010,
+          "speaker": "Jeremy Browne"
+        },
+        {
+          "sentence": "That is even true in the period when one is trying to halve borrowing, because one could leave it all to the end and suddenly have very big cuts in the last year or do it all earlier and then have greater freedom.",
+          "year": 2010,
+          "speaker": "John Redwood"
+        },
+        {
+          "sentence": "As far as the freedom of information request and the veto is concerned, there was a full statement on that by the Justice Secretary on-I think-10 December.",
+          "year": 2010,
+          "speaker": "Harriet Harman"
+        }
+      ],
+      "2020": [
+        {
+          "sentence": "We are currently focused on ensuring that we do not provoke on the Iranian coastline, while at the same time ensuring that we maintain the international law of freedom of navigation, so that those ships that are vital to our economy are not intimidated or kidnapped.",
+          "year": 2020,
+          "speaker": "Ben Wallace"
+        },
+        {
+          "sentence": "He has decided this for two reasons: first, it will simply delay the process, and, secondly \u2014 and much more importantly, from the point of view of those new Members \u2014 inevitably their freedom of movement to describe their constituencies as the second garden of Eden will be limited.",
+          "year": 2020,
+          "speaker": "Roger Gale"
+        },
+        {
+          "sentence": "Other EU nations have interpreted that freedom differently.",
+          "year": 2020,
+          "speaker": "Thangam Debbonaire"
+        },
+        {
+          "sentence": "That is roundly disliked across Europe, but those countries all accept there is nothing they can do about it because the European Court of Justice imposed that as part of freedom of movement.",
+          "year": 2020,
+          "speaker": "Iain Duncan Smith"
+        },
+        {
+          "sentence": "Friend puts it brilliantly; that is exactly the kind of limitation of our sovereign power, and of our freedom to make decisions that please our electors, that I have been talking about.",
+          "year": 2020,
+          "speaker": "John Redwood"
+        }
+      ]
+    },
+    "liberty": {
+      "1970": [
+        {
+          "sentence": "Tawney, who said:\n It is assumed by the privileged classes that when the State holds its hand what remains as a result of its inaction is liberty.",
+          "year": 1979,
+          "speaker": "Roy Hattersley"
+        },
+        {
+          "sentence": "We all stand guilty of accepting with too much apathy, with too much resignation and perhaps with too much cynicism the steady decline and erosion of those values of freedom, liberty and democracy which have been so powerfully built up over the centuries by our ancestors.",
+          "year": 1979,
+          "speaker": "Ray Whitney"
+        },
+        {
+          "sentence": "My party will support any legislation to reduce the power of trade unions over individuals or the liberty of individuals.",
+          "year": 1979,
+          "speaker": "Cyril Smith"
+        },
+        {
+          "sentence": "We need to do so in an atmosphere of mutual trust and in a society based on individual liberty.",
+          "year": 1979,
+          "speaker": "Cyril Smith"
+        },
+        {
+          "sentence": "Her hymn to human liberty last Wednesday would have been more effective if she did not always address her audience as though they were the inmates of a women's reformatory.",
+          "year": 1979,
+          "speaker": "Denis Healey"
+        }
+      ],
+      "1980": [
+        {
+          "sentence": "It is an infringement on the liberty of the individual for which the Government profess to care.",
+          "year": 1980,
+          "speaker": "James Lamond"
+        },
+        {
+          "sentence": "I add the proviso that it should, as the lawyers say, give liberty to apply for revision or further time if, during the course of discussions, new matter arises.",
+          "year": 1980,
+          "speaker": "William van Straubenzee"
+        },
+        {
+          "sentence": "In exercising the liberty that he has under the statement that I made in July, my right hon.",
+          "year": 1980,
+          "speaker": "Norman St John-Stevas"
+        },
+        {
+          "sentence": "Alexander Solzhenitsyn said about five years ago: It is not your liberty I am criticising but the way you surrender that liberty step by step.",
+          "year": 1980,
+          "speaker": "Cyril Townsend"
+        },
+        {
+          "sentence": "Member wishes to contract out, he or she is at liberty to do so.",
+          "year": 1980,
+          "speaker": "Arthur Bottomley"
+        }
+      ],
+      "1990": [
+        {
+          "sentence": "Many of us have often seen him rise to his feet from the Opposition Benches to oppose the stand for freedom, justice and liberty in eastern Europe that we have taken.",
+          "year": 1990,
+          "speaker": "Thomas King"
+        },
+        {
+          "sentence": "The public have exercised that liberty on an historic scale in this case.",
+          "year": 1990,
+          "speaker": "Robin Cook"
+        },
+        {
+          "sentence": "No legal rights would be taken away from the individual, and if he or she then wanted to continue with the legal process that had already been under way for some considerable time, they would be at liberty to do so.",
+          "year": 1990,
+          "speaker": "Peter Emery"
+        },
+        {
+          "sentence": "Gentleman implied \u2014 the ordinary ombudsman, if I may call him that, on the request of a Member, is perfectly at liberty to investigate maladministration by the DSS in respect of the payment of benefits, in the same way as in any other sector.",
+          "year": 1990,
+          "speaker": "Antony Newton"
+        },
+        {
+          "sentence": "But to disabled people I say that liberty must he fought for.",
+          "year": 1990,
+          "speaker": "Robert N. Wareing"
+        }
+      ],
+      "2000": [
+        {
+          "sentence": "The fact that they are forced to take a view a week or 10 days before the election does not give them the same civil liberty that the rest of us enjoy.",
+          "year": 2000,
+          "speaker": "Simon Hughes"
+        },
+        {
+          "sentence": "\") That Bill raises matters of considerable importance, which touch on the liberty of the subject.",
+          "year": 2000,
+          "speaker": "Viscount Hailsham"
+        },
+        {
+          "sentence": "I am taking the liberty of using my opportunity of speaking in the debate, with the Minister present, to ensure that all aspects of the funding for this and other parts of the Bill are noted.",
+          "year": 2000,
+          "speaker": "Sylvia Heal"
+        },
+        {
+          "sentence": "For all my concerns for liberty and entrapment, however, we must consider expediency.",
+          "year": 2000,
+          "speaker": "Desmond Swayne"
+        },
+        {
+          "sentence": "That raises the issue of liberty.",
+          "year": 2000,
+          "speaker": "George Young"
+        }
+      ],
+      "2010": [
+        {
+          "sentence": "We will be considering all the issues involved, mindful of civil liberties concerns, aware that identity-based profiling has its limitations, but conscious of our overriding obligations to protect people's life and liberty.",
+          "year": 2010,
+          "speaker": "Alan Johnson"
+        },
+        {
+          "sentence": "Liberty and responsibility are things that people take; they are not things that are given.",
+          "year": 2010,
+          "speaker": "Peter Bottomley"
+        },
+        {
+          "sentence": "Regarding the Home Secretary's proposals for removing innocent people from the DNA database, I have run clinics with Liberty in Hackney to help young people to get their DNA off the database.",
+          "year": 2010,
+          "speaker": "Diane Abbott"
+        },
+        {
+          "sentence": "As Liberty has so aptly put it, we are, in essence, talking about\"a mixture of control orders and ASBOs\".",
+          "year": 2010,
+          "speaker": "Chris Huhne"
+        },
+        {
+          "sentence": "They are an affront to British traditions of hard-won liberty and justice.",
+          "year": 2010,
+          "speaker": "Chris Huhne"
+        }
+      ],
+      "2020": [
+        {
+          "sentence": "We have just heard that Liberty Steel is restructuring, which will inevitably lead to job losses in Rotherham and in the constituency of my hon.",
+          "year": 2020,
+          "speaker": "Sarah Champion"
+        },
+        {
+          "sentence": "Friend the Member for Rotherham (Sarah Champion) mentioned, today Liberty Steel announced job losses in Newport, Rotherham and elsewhere.",
+          "year": 2020,
+          "speaker": "Jessica Morden"
+        },
+        {
+          "sentence": "The United States shares our belief in liberty \u2014 the freedom to succeed.",
+          "year": 2020,
+          "speaker": "Steve Baker"
+        },
+        {
+          "sentence": "That is Britain at its best: outward looking, ambitious, free-trading, promoting liberty, promoting the environment and promoting justice around the world, and doing so as a responsible global state.",
+          "year": 2020,
+          "speaker": "Henry Smith"
+        },
+        {
+          "sentence": "We know now that Liberty Steel is cutting 72 jobs in Newport, and although it is based in the seat of my hon.",
+          "year": 2020,
+          "speaker": "Ruth Jones"
+        }
+      ]
+    }
+  }
+}

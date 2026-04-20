@@ -1,0 +1,268 @@
+{
+  "hypothesis": "Freedom increasingly associated with economic/financial concepts post-1980",
+  "coverage": {
+    "histwords": "1900-1990",
+    "coha": "1900-2010"
+  },
+  "economic_terms_tracked": [
+    "market",
+    "markets",
+    "trade",
+    "commerce",
+    "business",
+    "enterprise",
+    "capitalism",
+    "capitalist",
+    "socialist",
+    "socialism",
+    "economic",
+    "economy",
+    "economies",
+    "property",
+    "ownership",
+    "private",
+    "wealth",
+    "capital",
+    "investment",
+    "labor",
+    "worker",
+    "workers",
+    "wage",
+    "wages",
+    "consumer",
+    "consumption",
+    "regulation",
+    "deregulation",
+    "tax",
+    "taxes",
+    "taxation",
+    "profit",
+    "profits",
+    "income",
+    "competition",
+    "competitive",
+    "entrepreneur",
+    "entrepreneurial",
+    "fiscal",
+    "monetary"
+  ],
+  "histwords_analysis": {
+    "1900": {
+      "economic_in_top100": [
+        {
+          "term": "ownership",
+          "rank": 65,
+          "similarity": 0.2832914289766396
+        }
+      ],
+      "distances_to_economic_terms": {
+        "market": 0.9675,
+        "capitalism": 0.9085,
+        "property": 0.8483,
+        "trade": 0.7622,
+        "economic": 0.8328,
+        "wealth": 0.7842
+      },
+      "count_economic_neighbors": 1
+    },
+    "1910": {
+      "economic_in_top100": [
+        {
+          "term": "economic",
+          "rank": 91,
+          "similarity": 0.26828336407582465
+        },
+        {
+          "term": "competition",
+          "rank": 54,
+          "similarity": 0.28977630986732766
+        }
+      ],
+      "distances_to_economic_terms": {
+        "market": 0.8802,
+        "capitalism": 0.8121,
+        "property": 0.8457,
+        "trade": 0.7592,
+        "economic": 0.7317,
+        "wealth": 0.8075
+      },
+      "count_economic_neighbors": 2
+    },
+    "1920": {
+      "economic_in_top100": [
+        {
+          "term": "competition",
+          "rank": 93,
+          "similarity": 0.2542189887864406
+        }
+      ],
+      "distances_to_economic_terms": {
+        "market": 0.9573,
+        "capitalism": 0.8497,
+        "property": 0.8718,
+        "trade": 0.7982,
+        "economic": 0.7943,
+        "wealth": 0.8771
+      },
+      "count_economic_neighbors": 1
+    },
+    "1930": {
+      "economic_in_top100": [],
+      "distances_to_economic_terms": {
+        "market": 0.9378,
+        "capitalism": 0.8823,
+        "property": 0.8214,
+        "trade": 0.8258,
+        "economic": 0.8029,
+        "wealth": 0.8665
+      },
+      "count_economic_neighbors": 0
+    },
+    "1940": {
+      "economic_in_top100": [],
+      "distances_to_economic_terms": {
+        "market": 0.9408,
+        "capitalism": 0.8437,
+        "property": 0.8632,
+        "trade": 0.8113,
+        "economic": 0.8345,
+        "wealth": 0.8586
+      },
+      "count_economic_neighbors": 0
+    },
+    "1950": {
+      "economic_in_top100": [],
+      "distances_to_economic_terms": {
+        "market": 0.996,
+        "capitalism": 0.9151,
+        "property": 0.8875,
+        "trade": 0.7984,
+        "economic": 0.8209,
+        "wealth": 0.8441
+      },
+      "count_economic_neighbors": 0
+    },
+    "1960": {
+      "economic_in_top100": [
+        {
+          "term": "enterprise",
+          "rank": 69,
+          "similarity": 0.28095038078933515
+        }
+      ],
+      "distances_to_economic_terms": {
+        "market": 0.9286,
+        "capitalism": 0.825,
+        "property": 0.8196,
+        "trade": 0.817,
+        "economic": 0.863,
+        "wealth": 0.8437
+      },
+      "count_economic_neighbors": 1
+    },
+    "1970": {
+      "economic_in_top100": [
+        {
+          "term": "socialism",
+          "rank": 71,
+          "similarity": 0.26267174993567194
+        }
+      ],
+      "distances_to_economic_terms": {
+        "market": 0.941,
+        "capitalism": 0.8248,
+        "property": 0.7914,
+        "trade": 0.8459,
+        "economic": 0.8716,
+        "wealth": 0.8588
+      },
+      "count_economic_neighbors": 1
+    },
+    "1980": {
+      "economic_in_top100": [],
+      "distances_to_economic_terms": {
+        "market": 0.9794,
+        "capitalism": 0.8517,
+        "property": 0.8052,
+        "trade": 0.8189,
+        "economic": 0.8841,
+        "wealth": 0.8592
+      },
+      "count_economic_neighbors": 0
+    },
+    "1990": {
+      "economic_in_top100": [],
+      "distances_to_economic_terms": {
+        "market": 0.8985,
+        "capitalism": 0.8517,
+        "property": 0.8442,
+        "trade": 0.8613,
+        "economic": 0.8323,
+        "wealth": 0.9175
+      },
+      "count_economic_neighbors": 0
+    }
+  },
+  "coha_analysis": {
+    "1900": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1910": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1920": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1930": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1940": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1950": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1960": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1970": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1980": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "1990": {
+      "economic_domain_pct": 5.88235294117647,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "2000": {
+      "economic_domain_pct": 5.555555555555555,
+      "economic_collocates": [],
+      "count": 0
+    },
+    "2010": {
+      "economic_domain_pct": 5.88235294117647,
+      "economic_collocates": [],
+      "count": 0
+    }
+  }
+}

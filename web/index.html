@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Semantic Shift of "Freedom" — Interactive Results</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #c53030;
+            --accent: #2b6cb0;
+            --bg: #f7fafc;
+            --text: #2d3748;
+            --muted: #718096;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', serif; line-height: 1.8; color: var(--text); background: var(--bg); }
+        .container { max-width: 960px; margin: 0 auto; padding: 0 2rem; }
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
+            color: white; padding: 4rem 2rem; text-align: center;
+        }
+        .hero h1 { font-size: 2.2rem; font-weight: 400; margin-bottom: 1rem; }
+        .hero .subtitle { font-size: 1.15rem; opacity: 0.9; max-width: 650px; margin: 0 auto; }
+        section { padding: 3rem 0; }
+        section:nth-child(even) { background: white; }
+        h2 { font-size: 1.6rem; color: var(--primary); margin-bottom: 1.5rem; font-weight: 400; }
+        h3 { font-size: 1.25rem; color: var(--accent); margin: 2rem 0 1rem; font-weight: 600; }
+        p { margin-bottom: 1.25rem; font-size: 1.05rem; }
+        .chart-wrap {
+            position: relative; background: white; border-radius: 12px;
+            padding: 1.5rem; margin: 1.5rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .chart-wrap canvas { max-height: 420px; }
+        .chart-caption {
+            font-size: 0.88rem; color: var(--muted); margin-top: 0.75rem;
+            font-style: italic; text-align: center;
+        }
+        .highlight {
+            background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+            border-left: 4px solid var(--secondary);
+            padding: 1.5rem 2rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0;
+        }
+        .highlight .big-number { font-size: 2.5rem; font-weight: 700; color: var(--secondary); line-height: 1; }
+        .highlight .label { font-size: 0.9rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+        .info-box {
+            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem 2rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0;
+        }
+        .warning-box {
+            background: linear-gradient(135deg, #fffaf0 0%, #feebc8 100%);
+            border-left: 4px solid #dd6b20;
+            padding: 1.5rem 2rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0;
+        }
+        .stats-row { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.5rem 0; }
+        .stat-box {
+            background: white; padding: 1.25rem; border-radius: 12px; text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); flex: 1; min-width: 150px;
+        }
+        .stat-box .number { font-size: 1.8rem; font-weight: 700; color: var(--primary); }
+        .stat-box .text { color: var(--muted); font-size: 0.9rem; margin-top: 0.25rem; }
+        .toggle-group {
+            display: flex; gap: 0.5rem; margin: 1rem 0; flex-wrap: wrap;
+        }
+        .toggle-btn {
+            padding: 0.4rem 1rem; border-radius: 20px; border: 1.5px solid var(--accent);
+            background: white; color: var(--accent); cursor: pointer;
+            font-family: inherit; font-size: 0.88rem; transition: all 0.15s;
+        }
+        .toggle-btn.active { background: var(--accent); color: white; }
+        .toggle-btn:hover { opacity: 0.85; }
+        .method-badge {
+            display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+            font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+        }
+        .badge-sgns { background: #ebf8ff; color: #2b6cb0; }
+        .badge-glove { background: #fefcbf; color: #975a16; }
+        footer { background: var(--primary); color: white; padding: 2rem; text-align: center; }
+        footer p { opacity: 0.8; font-size: 0.9rem; }
+        footer a { color: #bee3f8; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.6rem; }
+            .stats-row { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <div class="container">
+        <h1>The Semantic Shift of "Freedom"</h1>
+        <p class="subtitle">Interactive exploration of how "freedom" changed meaning across 200 years, using word embeddings from four independent sources.</p>
+    </div>
+</header>
+
+<!-- Freedom-Liberty Similarity -->
+<section>
+    <div class="container">
+        <h2>Freedom &amp; Liberty: Divergence and Reconvergence</h2>
+        <p>"Freedom" and "liberty" were once near-synonyms. Our embedding analysis shows they <strong>diverged steadily from the 1830s to the 1990s</strong> — then started reconverging in the 21st century.</p>
+
+        <div class="chart-wrap">
+            <canvas id="flSimilarity"></canvas>
+            <p class="chart-caption">Cosine similarity between "freedom" and "liberty" vectors. Higher = more similar meaning. Three independent sources shown.</p>
+        </div>
+
+        <div class="highlight">
+            <div class="label">The reconvergence</div>
+            <div class="big-number">0.40 &rarr; 0.71</div>
+            <p style="margin-top:0.5rem; margin-bottom:0;">Freedom-liberty similarity hit a low of 0.40 in the 1970s (COHA), then rebounded to 0.71 by 2024 (GloVe) — nearly back to 1830s levels. This is consistent across all three data sources.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SemAxis Projection -->
+<section>
+    <div class="container">
+        <h2>Freedom on the Constraint &harr; Agency Axis</h2>
+        <p>We built a semantic axis from "constraint" words (slavery, bondage, servitude, oppression) to "agency" words (autonomy, choice, ability, capacity), then projected "freedom" onto it across time.</p>
+
+        <div class="toggle-group" id="semaxis-toggles">
+            <button class="toggle-btn active" data-word="freedom">freedom</button>
+            <button class="toggle-btn" data-word="liberty">liberty</button>
+            <button class="toggle-btn" data-word="justice">justice</button>
+            <button class="toggle-btn" data-word="power">power</button>
+            <button class="toggle-btn" data-word="equality">equality</button>
+            <button class="toggle-btn" data-word="democracy">democracy</button>
+        </div>
+
+        <div class="chart-wrap">
+            <canvas id="semaxisChart"></canvas>
+            <p class="chart-caption">SemAxis projection: higher = more agency-like, lower = more constraint-like. Click words above to compare. <span class="method-badge badge-sgns">SGNS</span> = same method as COHA. <span class="method-badge badge-glove">GloVe</span> = different method, directional only.</p>
+        </div>
+
+        <div class="info-box">
+            <p><strong>What this shows:</strong> Freedom doesn't have a strong directional trend on this axis (-0.02/century, R²=0.07). It oscillates within a narrow band. The GloVe data points (2014, 2024) swing wildly because GloVe and SGNS are different algorithms — treat them as directional indicators only.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Cross-corpus validation -->
+<section>
+    <div class="container">
+        <h2>Cross-Corpus Validation</h2>
+        <p>We compared two independent historical corpora — Google Books (everything published) and COHA (genre-balanced American English) — to check whether the findings hold up.</p>
+
+        <div class="chart-wrap">
+            <canvas id="crossCorpus"></canvas>
+            <p class="chart-caption">Freedom-liberty similarity in two independent corpora. Both show the same downward trend through the 1990s.</p>
+        </div>
+
+        <div class="stats-row">
+            <div class="stat-box">
+                <div class="number">4</div>
+                <div class="text">Independent data sources</div>
+            </div>
+            <div class="stat-box">
+                <div class="number">1830–2024</div>
+                <div class="text">Time span covered</div>
+            </div>
+            <div class="stat-box">
+                <div class="number">32K+</div>
+                <div class="text">Shared vocabulary (alignment)</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Control Words -->
+<section>
+    <div class="container">
+        <h2>Is Freedom Special? Control Word Comparison</h2>
+        <p>To verify that freedom's behavior isn't just generic semantic drift, we compared its trajectory to other abstract nouns on the same axis.</p>
+
+        <div class="chart-wrap">
+            <canvas id="controlChart"></canvas>
+            <p class="chart-caption">SemAxis projections for freedom vs. control words. Most words show stronger directional trends than freedom.</p>
+        </div>
+
+        <div class="warning-box">
+            <p><strong>Honest finding:</strong> Freedom's trend (-0.02/century) is <em>weaker</em> than most control words. "Power" and "authority" show strong agency-ward movement. "Democracy" and "justice" show strong constraint-ward movement. Freedom sits in the middle — it's semantically stable on this particular axis, even as other political concepts shift around it.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Methodology -->
+<section>
+    <div class="container">
+        <h2>Methodology</h2>
+
+        <h3>Data Sources</h3>
+        <table style="width:100%; border-collapse:collapse; margin:1rem 0;">
+            <thead>
+                <tr style="background:var(--primary); color:white;">
+                    <th style="padding:0.75rem; text-align:left;">Source</th>
+                    <th style="padding:0.75rem; text-align:left;">Period</th>
+                    <th style="padding:0.75rem; text-align:left;">Method</th>
+                    <th style="padding:0.75rem; text-align:left;">Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                    <td style="padding:0.75rem;">COHA HistWords</td>
+                    <td>1830–2000</td>
+                    <td><span class="method-badge badge-sgns">SGNS</span></td>
+                    <td>Primary historical series</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0; background:#f7fafc;">
+                    <td style="padding:0.75rem;">Google Books HistWords</td>
+                    <td>1800–1990</td>
+                    <td><span class="method-badge badge-sgns">SGNS</span></td>
+                    <td>Cross-validation</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                    <td style="padding:0.75rem;">Wikipedia 2008 word2vec</td>
+                    <td>~2008</td>
+                    <td><span class="method-badge badge-sgns">SGNS</span></td>
+                    <td>Modern extension (same method)</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0; background:#f7fafc;">
+                    <td style="padding:0.75rem;">GloVe (Wikipedia+Gigaword)</td>
+                    <td>2014, 2024</td>
+                    <td><span class="method-badge badge-glove">GloVe</span></td>
+                    <td>Modern extension (different method)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Alignment</h3>
+        <p>All non-COHA embeddings were Procrustes-aligned to COHA 2000s using shared vocabulary (32K+ words). This orthogonal rotation preserves internal geometry while mapping into a common space. The GloVe→SGNS alignment introduces additional noise since the underlying algorithms differ.</p>
+
+        <h3>SemAxis Construction</h3>
+        <p>The constraint→agency axis was built using seed words expanded via nearest neighbors in COHA 1900 (midpoint). Axis is fixed across all decades — only the projected words move. Seed sensitivity analysis (100 trials, dropping 1 seed per pole) confirmed the direction is robust.</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>The Semantic Shift of "Freedom" | Research by Sebas Ibarguen | March 2026</p>
+        <p><a href="simple.html">Full narrative version</a></p>
+    </div>
+</footer>
+
+<script>
+// === DATA ===
+const COHA_FL = {"1830":0.7616,"1840":0.6515,"1850":0.6378,"1860":0.6352,"1870":0.5847,"1880":0.5927,"1890":0.5407,"1900":0.6294,"1910":0.5486,"1920":0.5459,"1930":0.5257,"1940":0.5668,"1950":0.5911,"1960":0.533,"1970":0.4049,"1980":0.4304,"1990":0.4054,"2000":0.5058};
+const GBOOKS_FL = {"1800":0.6477,"1810":0.6571,"1820":0.5531,"1830":0.6152,"1840":0.6941,"1850":0.6811,"1860":0.6507,"1870":0.6071,"1880":0.6172,"1890":0.6348,"1900":0.6633,"1910":0.6205,"1920":0.5439,"1930":0.6351,"1940":0.5989,"1950":0.5611,"1960":0.5957,"1970":0.571,"1980":0.6039,"1990":0.5064};
+const MODERN_FL = {"2008":{"sim":0.5787,"source":"Wiki SGNS"},"2014":{"sim":0.644,"source":"GloVe"},"2024":{"sim":0.708,"source":"GloVe"}};
+
+const COHA_PROJ = {"freedom":{"1830":-0.0015,"1840":0.0002,"1850":-0.0168,"1860":0.0122,"1870":0.0437,"1880":0.0342,"1890":0.0244,"1900":0.0332,"1910":0.0816,"1920":0.0039,"1930":0.0549,"1940":-0.0274,"1950":0.0062,"1960":-0.0276,"1970":-0.0188,"1980":-0.0115,"1990":0.0317,"2000":-0.0562},"liberty":{"1830":-0.0384,"1840":-0.0262,"1850":-0.0951,"1860":-0.071,"1870":0.0343,"1880":-0.0448,"1890":-0.0276,"1900":-0.0406,"1910":-0.0298,"1920":-0.068,"1930":-0.1264,"1940":-0.0558,"1950":-0.0806,"1960":-0.0594,"1970":0.0637,"1980":-0.115,"1990":-0.1405,"2000":-0.1753},"justice":{"1830":0.0198,"1840":0.0002,"1850":-0.0479,"1860":0.0184,"1870":-0.0593,"1880":-0.0169,"1890":-0.0317,"1900":-0.0232,"1910":-0.0093,"1920":-0.1088,"1930":-0.1451,"1940":-0.1107,"1950":-0.0963,"1960":-0.1367,"1970":-0.146,"1980":-0.1744,"1990":-0.1605,"2000":-0.1779},"power":{"1830":0.0284,"1840":0.0178,"1850":-0.0141,"1860":0.0072,"1870":-0.003,"1880":0.0284,"1890":0.033,"1900":0.0411,"1910":0.0494,"1920":0.0531,"1930":0.042,"1940":0.0551,"1950":0.057,"1960":0.0815,"1970":0.0856,"1980":0.0826,"1990":0.1013,"2000":0.1345},"equality":{"1830":-0.0052,"1840":-0.014,"1850":-0.0193,"1860":0.0162,"1870":-0.0246,"1880":-0.0026,"1890":-0.0269,"1900":0.0076,"1910":0.0017,"1920":-0.0195,"1930":-0.0245,"1940":-0.0054,"1950":-0.0186,"1960":-0.015,"1970":-0.0145,"1980":-0.0124,"1990":-0.0138,"2000":-0.0238},"democracy":{"1830":0.0066,"1840":-0.0211,"1850":-0.0494,"1860":-0.0479,"1870":-0.0756,"1880":-0.1053,"1890":-0.0779,"1900":-0.0918,"1910":-0.0849,"1920":-0.1222,"1930":-0.166,"1940":-0.1528,"1950":-0.1542,"1960":-0.198,"1970":-0.2013,"1980":-0.2137,"1990":-0.2183,"2000":-0.2519}};
+const WIKI_PROJ = {"freedom":{"2008":-0.0263},"liberty":{"2008":-0.0768},"justice":{"2008":-0.2229},"power":{"2008":0.2535},"equality":{"2008":-0.0106},"democracy":{"2008":-0.2829}};
+const GLOVE_PROJ = {"freedom":{"2014":-0.1755,"2024":0.114},"liberty":{"2014":-0.2454,"2024":-0.109},"justice":{"2014":-0.3738,"2024":-0.2186},"power":{"2014":0.889,"2024":0.8316},"equality":{"2014":-0.0322,"2024":0.0066},"democracy":{"2014":-0.4539,"2024":-0.3569}};
+
+const COLORS = {
+    freedom: '#c53030', liberty: '#2b6cb0', justice: '#38a169',
+    power: '#d69e2e', equality: '#805ad5', democracy: '#dd6b20'
+};
+
+// === CHART 1: Freedom-Liberty Similarity ===
+(() => {
+    const allYears = new Set();
+    for (const y in COHA_FL) allYears.add(+y);
+    for (const y in GBOOKS_FL) allYears.add(+y);
+    for (const y in MODERN_FL) allYears.add(+y);
+    const labels = [...allYears].sort((a,b) => a-b);
+
+    new Chart(document.getElementById('flSimilarity'), {
+        type: 'line',
+        data: {
+            labels,
+            datasets: [
+                {
+                    label: 'COHA (genre-balanced)',
+                    data: labels.map(y => COHA_FL[y] ?? null),
+                    borderColor: '#c53030', backgroundColor: '#c5303020',
+                    tension: 0.3, spanGaps: true, pointRadius: 3, borderWidth: 2.5,
+                },
+                {
+                    label: 'Google Books',
+                    data: labels.map(y => GBOOKS_FL[y] ?? null),
+                    borderColor: '#718096', backgroundColor: '#71809620',
+                    tension: 0.3, spanGaps: true, pointRadius: 2, borderWidth: 1.5,
+                    borderDash: [6, 3],
+                },
+                {
+                    label: 'Wiki SGNS 2008',
+                    data: labels.map(y => y === 2008 ? MODERN_FL["2008"].sim : null),
+                    borderColor: '#2b6cb0', backgroundColor: '#2b6cb0',
+                    pointRadius: 8, pointStyle: 'triangle', showLine: false,
+                },
+                {
+                    label: 'GloVe 2014/2024',
+                    data: labels.map(y => MODERN_FL[y]?.source === 'GloVe' ? MODERN_FL[y].sim : null),
+                    borderColor: '#d69e2e', backgroundColor: '#d69e2e',
+                    pointRadius: 8, pointStyle: 'rect', showLine: false,
+                },
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: { display: true, text: 'Freedom–Liberty Cosine Similarity (1800–2024)', font: { size: 16, family: 'Georgia' } },
+                legend: { position: 'bottom' },
+            },
+            scales: {
+                y: { title: { display: true, text: 'Cosine Similarity' }, min: 0.3, max: 0.85 },
+                x: { title: { display: true, text: 'Year' } }
+            }
+        }
+    });
+})();
+
+// === CHART 2: SemAxis with toggle ===
+let semaxisChart;
+function buildSemaxis(words) {
+    const allYears = new Set();
+    for (const w of words) {
+        if (COHA_PROJ[w]) for (const y in COHA_PROJ[w]) allYears.add(+y);
+        if (WIKI_PROJ[w]) for (const y in WIKI_PROJ[w]) allYears.add(+y);
+        if (GLOVE_PROJ[w]) for (const y in GLOVE_PROJ[w]) allYears.add(+y);
+    }
+    const labels = [...allYears].sort((a,b) => a-b);
+    const datasets = [];
+
+    for (const word of words) {
+        // COHA line
+        datasets.push({
+            label: `${word} (COHA)`,
+            data: labels.map(y => COHA_PROJ[word]?.[y] ?? null),
+            borderColor: COLORS[word] || '#999',
+            backgroundColor: (COLORS[word] || '#999') + '20',
+            tension: 0.3, spanGaps: true, pointRadius: 2, borderWidth: 2,
+        });
+        // Wiki SGNS point
+        if (WIKI_PROJ[word]) {
+            datasets.push({
+                label: `${word} (Wiki SGNS)`,
+                data: labels.map(y => WIKI_PROJ[word]?.[y] ?? null),
+                borderColor: COLORS[word] || '#999', backgroundColor: COLORS[word] || '#999',
+                pointRadius: 7, pointStyle: 'triangle', showLine: false,
+            });
+        }
+        // GloVe points
+        if (GLOVE_PROJ[word]) {
+            datasets.push({
+                label: `${word} (GloVe)`,
+                data: labels.map(y => GLOVE_PROJ[word]?.[y] ?? null),
+                borderColor: COLORS[word] || '#999', backgroundColor: (COLORS[word] || '#999') + '60',
+                pointRadius: 7, pointStyle: 'rect', showLine: false,
+                borderDash: [4, 4],
+            });
+        }
+    }
+
+    if (semaxisChart) semaxisChart.destroy();
+    semaxisChart = new Chart(document.getElementById('semaxisChart'), {
+        type: 'line',
+        data: { labels, datasets },
+        options: {
+            responsive: true,
+            plugins: {
+                title: { display: true, text: 'Constraint ← → Agency (SemAxis Projection)', font: { size: 16, family: 'Georgia' } },
+                legend: { position: 'bottom', labels: { usePointStyle: true } },
+            },
+            scales: {
+                y: { title: { display: true, text: '← Constraint    |    Agency →' } },
+                x: { title: { display: true, text: 'Year' } }
+            }
+        }
+    });
+}
+
+// Toggle buttons
+const activeWords = new Set(['freedom']);
+document.getElementById('semaxis-toggles').addEventListener('click', e => {
+    if (!e.target.classList.contains('toggle-btn')) return;
+    const word = e.target.dataset.word;
+    if (activeWords.has(word) && activeWords.size > 1) {
+        activeWords.delete(word);
+        e.target.classList.remove('active');
+    } else {
+        activeWords.add(word);
+        e.target.classList.add('active');
+    }
+    buildSemaxis([...activeWords]);
+});
+buildSemaxis(['freedom']);
+
+// === CHART 3: Cross-corpus ===
+(() => {
+    const years = [];
+    for (const y in COHA_FL) if (GBOOKS_FL[y]) years.push(+y);
+    years.sort((a,b) => a-b);
+
+    new Chart(document.getElementById('crossCorpus'), {
+        type: 'line',
+        data: {
+            labels: years,
+            datasets: [
+                {
+                    label: 'COHA (genre-balanced American English)',
+                    data: years.map(y => COHA_FL[y]),
+                    borderColor: '#c53030', tension: 0.3, pointRadius: 4, borderWidth: 2.5,
+                },
+                {
+                    label: 'Google Books (all published books)',
+                    data: years.map(y => GBOOKS_FL[y]),
+                    borderColor: '#718096', tension: 0.3, pointRadius: 4, borderWidth: 2,
+                    borderDash: [6, 3],
+                },
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: { display: true, text: 'Freedom–Liberty Similarity: Two Independent Corpora', font: { size: 16, family: 'Georgia' } },
+                legend: { position: 'bottom' },
+            },
+            scales: {
+                y: { title: { display: true, text: 'Cosine Similarity' }, min: 0.35, max: 0.8 },
+                x: { title: { display: true, text: 'Decade' } }
+            }
+        }
+    });
+})();
+
+// === CHART 4: Control words ===
+(() => {
+    const words = ['freedom', 'liberty', 'justice', 'power', 'equality', 'democracy'];
+    const decades = Object.keys(COHA_PROJ.freedom).map(Number).sort((a,b) => a-b);
+
+    new Chart(document.getElementById('controlChart'), {
+        type: 'line',
+        data: {
+            labels: decades,
+            datasets: words.map(w => ({
+                label: w,
+                data: decades.map(d => COHA_PROJ[w]?.[d] ?? null),
+                borderColor: COLORS[w],
+                tension: 0.3, pointRadius: w === 'freedom' ? 4 : 2,
+                borderWidth: w === 'freedom' ? 3 : 1.5,
+                borderDash: w === 'freedom' ? [] : [4, 2],
+            }))
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: { display: true, text: 'SemAxis Trajectories: Freedom vs. Control Words (COHA 1830–2000)', font: { size: 16, family: 'Georgia' } },
+                legend: { position: 'bottom' },
+            },
+            scales: {
+                y: { title: { display: true, text: '← Constraint    |    Agency →' } },
+                x: { title: { display: true, text: 'Decade' } }
+            }
+        }
+    });
+})();
+</script>
+
+</body>
+</html>

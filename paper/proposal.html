@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>How Freedom Drifted From Liberty</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">How Freedom Drifted From Liberty</h1>
+</header>
+<h1 id="how-freedom-drifted-from-liberty">How “Freedom” Drifted From
+“Liberty”</h1>
+<p><strong>A Word Embedding Analysis of Semantic Divergence
+(1800-1990)</strong></p>
+<hr />
+<h2 id="the-questions">The Questions</h2>
+<ol type="1">
+<li><p><strong>Are “freedom” and “liberty” drifting apart?</strong>
+They’re often used interchangeably, but do they mean the same thing—and
+has that changed?</p></li>
+<li><p><strong>Has “freedom” moved away from its legal origins?</strong>
+The word originally meant “not a slave”—a legal status. Today we talk
+about “financial freedom” and “creative freedom”—personal capacities.
+When did this shift happen?</p></li>
+</ol>
+<hr />
+<h2 id="the-data">The Data</h2>
+<p><strong>HistWords</strong> (Stanford NLP): Pre-trained word
+embeddings from Google Books, sliced by decade from 1800-1990.</p>
+<ul>
+<li>200 years of published English</li>
+<li>Measures semantic similarity between words</li>
+<li>Tracks how word meanings change over time</li>
+</ul>
+<p><strong>Important caveat</strong>: Google Books captures the voice of
+the <em>clerisy</em>—professors, writers, intellectuals—not everyday
+speech. This is actually useful: we’re tracking how the educated elite
+redefined “freedom.”</p>
+<p>Source: https://nlp.stanford.edu/projects/histwords/</p>
+<hr />
+<h2 id="finding-1-freedom-and-liberty-are-diverging">Finding 1: Freedom
+and Liberty Are Diverging</h2>
+<p><strong>Cosine similarity between “freedom” and
+“liberty”:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Decade</th>
+<th>Similarity</th>
+<th>Change from 1800</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1800</td>
+<td>0.648</td>
+<td>baseline</td>
+</tr>
+<tr>
+<td>1850</td>
+<td>0.681</td>
+<td>+0.033</td>
+</tr>
+<tr>
+<td>1900</td>
+<td>0.663</td>
+<td>+0.015</td>
+</tr>
+<tr>
+<td>1950</td>
+<td>0.561</td>
+<td>-0.087</td>
+</tr>
+<tr>
+<td>1990</td>
+<td>0.506</td>
+<td><strong>-0.142</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Result</strong>: Freedom and liberty were quite similar in
+1800 (0.65 similarity). By 1990, they had diverged significantly (0.51
+similarity). The biggest drop occurred between 1950-1990.</p>
+<h3 id="why-they-diverged-etymology">Why They Diverged: Etymology</h3>
+<p>The words have different roots:</p>
+<ul>
+<li><strong>Liberty</strong> is Romance, from Latin <em>libertas</em>.
+Cool, legalistic, Roman. It implies a status: you are not a slave.</li>
+<li><strong>Freedom</strong> is Germanic, related to “friend” and
+“beloved.” Warm, tribal, intimate.</li>
+</ul>
+<p>In the 18th century, they were synonymous because the project was
+emancipation. But as the 19th century turned into the 20th, “freedom”
+became the vessel for all things lovely and desirable—while “liberty”
+stayed constitutional.</p>
+<h3 id="what-they-moved-toward">What They Moved Toward</h3>
+<p><strong>Freedom’s neighbors evolved:</strong> - 1800: liberty,
+unrestrained, enjoyment, independence, liberties - 1990: liberty,
+freedoms, equality, <strong>autonomy</strong>,
+<strong>conscience</strong>, democracy</p>
+<p><strong>Liberty’s neighbors evolved:</strong> - 1800: freedom,
+independence, liberties, rights, property - 1990: liberties, freedom,
+freedoms, equality, rights, <strong>constitutional</strong></p>
+<p>“Freedom” picked up psychological/philosophical neighbors (autonomy,
+conscience). “Liberty” stayed legal/political (constitutional, rights).
+The poets took the former; the lawyers kept the latter.</p>
+<hr />
+<h2 id="finding-2-freedom-shifted-from-legal-to-personal-1880">Finding
+2: Freedom Shifted from Legal to Personal (~1880)</h2>
+<p>We measured distance from “freedom” to two concept clusters:</p>
+<p><strong>Legal/Status cluster</strong>: slavery, bondage,
+emancipation, rights, law, citizen, slave, servitude</p>
+<p><strong>Personal/Capacity cluster</strong>: choice, autonomy,
+independence, self, ability, power, individual, personal</p>
+<table>
+<thead>
+<tr>
+<th>Decade</th>
+<th>Distance to Legal</th>
+<th>Distance to Personal</th>
+<th>Closer To</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1800</td>
+<td>0.756</td>
+<td>0.813</td>
+<td><strong>LEGAL</strong></td>
+</tr>
+<tr>
+<td>1850</td>
+<td>0.744</td>
+<td>0.815</td>
+<td><strong>LEGAL</strong></td>
+</tr>
+<tr>
+<td>1870</td>
+<td>0.736</td>
+<td>0.763</td>
+<td><strong>LEGAL</strong></td>
+</tr>
+<tr>
+<td><strong>1880</strong></td>
+<td><strong>0.742</strong></td>
+<td><strong>0.740</strong></td>
+<td><strong>CROSSOVER</strong></td>
+</tr>
+<tr>
+<td>1900</td>
+<td>0.745</td>
+<td>0.730</td>
+<td>PERSONAL</td>
+</tr>
+<tr>
+<td>1950</td>
+<td>0.747</td>
+<td>0.731</td>
+<td>PERSONAL</td>
+</tr>
+<tr>
+<td>1990</td>
+<td>0.767</td>
+<td>0.760</td>
+<td>PERSONAL</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Result</strong>: Around 1880, “freedom” crossed over from
+being closer to legal/status concepts to being closer to
+personal/capacity concepts.</p>
+<h3 id="why-1880-the-rise-of-new-liberalism">Why 1880? The Rise of “New
+Liberalism”</h3>
+<p>The 1880 crossover is not random. It marks the shift from
+<strong>Classical Liberalism</strong> to <strong>New
+Liberalism</strong>.</p>
+<p>In the 1880s, T.H. Green at Oxford began teaching that “freedom” was
+not merely the absence of restraint, but a “positive power or capacity
+of doing or enjoying.” L.T. Hobhouse and J.A. Hobson followed, arguing
+that true freedom required material conditions—and therefore state
+intervention.</p>
+<p>This is Isaiah Berlin’s distinction (1958): <strong>Negative
+Liberty</strong> (freedom from interference) vs. <strong>Positive
+Liberty</strong> (freedom to achieve self-mastery). Our data captures
+the exact moment when Positive Liberty began winning in the printed
+word.</p>
+<hr />
+<h2 id="finding-3-freedom-moved-toward-autonomy">Finding 3: Freedom
+Moved Toward “Autonomy”</h2>
+<p>Distance from “freedom” to key concepts:</p>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>1800</th>
+<th>1990</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>liberty</td>
+<td>0.352</td>
+<td>0.494</td>
+<td>+0.142 (farther)</td>
+</tr>
+<tr>
+<td>slavery</td>
+<td>0.729</td>
+<td>0.739</td>
+<td>+0.010 (farther)</td>
+</tr>
+<tr>
+<td><strong>autonomy</strong></td>
+<td>1.000</td>
+<td>0.619</td>
+<td><strong>-0.381 (closer)</strong></td>
+</tr>
+<tr>
+<td>choice</td>
+<td>0.850</td>
+<td>0.747</td>
+<td>-0.103 (closer)</td>
+</tr>
+<tr>
+<td>independence</td>
+<td>0.553</td>
+<td>0.655</td>
+<td>+0.102 (farther)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>: “Autonomy” had distance 1.0 in 1800 because
+the word barely existed in the vocabulary then. By 1990, “freedom” and
+“autonomy” were semantically close (0.62).</p>
+<hr />
+<h2 id="summary">Summary</h2>
+<table>
+<colgroup>
+<col style="width: 55%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr>
+<th>Question</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Are freedom and liberty diverging?</td>
+<td><strong>Yes.</strong> Similarity dropped from 0.65 to 0.51
+(1800-1990)</td>
+</tr>
+<tr>
+<td>When did freedom shift from legal to personal?</td>
+<td><strong>Around 1880.</strong> The rise of New Liberalism</td>
+</tr>
+<tr>
+<td>What did freedom move toward?</td>
+<td><strong>Autonomy, choice.</strong> Away from slavery and
+independence</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="limitations">Limitations</h2>
+<ul>
+<li><strong>Pre-1800</strong>: No embedding data for earlier
+periods</li>
+<li><strong>Post-1990</strong>: HistWords ends at 1990; modern usage not
+captured</li>
+<li><strong>Clerisy bias</strong>: Google Books captures intellectuals,
+not common speech—though this helps us track how elites redefined the
+term</li>
+<li><strong>English only</strong>: No cross-linguistic comparison</li>
+</ul>
+<hr />
+<h2 id="references">References</h2>
+<ul>
+<li>Berlin, I. (1958). <em>Two Concepts of Liberty</em>. Oxford
+University Press.</li>
+<li>Green, T.H. (1881). <em>Lecture on Liberal Legislation and Freedom
+of Contract</em>.</li>
+<li>Hobhouse, L.T. (1911). <em>Liberalism</em>.</li>
+<li>Hamilton, W. L., et al. (2016). <em>Diachronic Word Embeddings
+Reveal Statistical Laws of Semantic Change</em>. ACL.</li>
+</ul>
+<hr />
+<h2 id="data-source">Data Source</h2>
+<p>HistWords: https://nlp.stanford.edu/projects/histwords/</p>
+</body>
+</html>

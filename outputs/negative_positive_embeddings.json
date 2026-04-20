@@ -1,0 +1,1725 @@
+{
+  "metadata": {
+    "analysis_date": "2026-01-25T17:35:32.993814",
+    "source": "HistWords (Google Books)",
+    "coverage": "1800-1990",
+    "negative_concepts": {
+      "absence": [
+        "absence",
+        "lack",
+        "without",
+        "remove",
+        "removal",
+        "escape",
+        "release"
+      ],
+      "constraints": [
+        "slavery",
+        "bondage",
+        "chains",
+        "tyranny",
+        "oppression",
+        "constraint",
+        "coercion",
+        "domination",
+        "subjection",
+        "servitude"
+      ],
+      "liberation": [
+        "liberation",
+        "emancipation",
+        "deliverance",
+        "release",
+        "rescue"
+      ]
+    },
+    "positive_concepts": {
+      "rights": [
+        "right",
+        "rights",
+        "entitlement",
+        "entitlements",
+        "claim",
+        "privilege"
+      ],
+      "capacity": [
+        "ability",
+        "capacity",
+        "power",
+        "capability",
+        "potential",
+        "opportunity"
+      ],
+      "action": [
+        "choose",
+        "act",
+        "pursue",
+        "achieve",
+        "accomplish",
+        "realize",
+        "fulfill"
+      ],
+      "autonomy": [
+        "autonomy",
+        "self-determination",
+        "independence",
+        "sovereignty",
+        "agency"
+      ]
+    }
+  },
+  "trajectory": {
+    "decades": [
+      1800,
+      1810,
+      1820,
+      1830,
+      1840,
+      1850,
+      1860,
+      1870,
+      1880,
+      1890,
+      1900,
+      1910,
+      1920,
+      1930,
+      1940,
+      1950,
+      1960,
+      1970,
+      1980,
+      1990
+    ],
+    "negative_cluster": {
+      "1800": {
+        "absence": {
+          "mean_distance": 0.985398011069344,
+          "std_distance": 0.0696608403297911,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8645448479269566,
+          "std_distance": 0.0937347873467986,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.9159232080762958,
+          "std_distance": 0.09304098896982436,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.9146750271425662,
+          "std_distance": 0.10118928754583434,
+          "n_concepts": 22
+        }
+      },
+      "1810": {
+        "absence": {
+          "mean_distance": 0.9845195896984568,
+          "std_distance": 0.06450228609266825,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.848611764537426,
+          "std_distance": 0.07835069466910843,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8469500500923569,
+          "std_distance": 0.09365464235597293,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.89147750107842,
+          "std_distance": 0.10073684958971955,
+          "n_concepts": 22
+        }
+      },
+      "1820": {
+        "absence": {
+          "mean_distance": 0.9904743280130991,
+          "std_distance": 0.04678645916490512,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8554926855630394,
+          "std_distance": 0.05305534087615801,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8502638123131577,
+          "std_distance": 0.06483511348339448,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8972530096949035,
+          "std_distance": 0.08361169186863031,
+          "n_concepts": 22
+        }
+      },
+      "1830": {
+        "absence": {
+          "mean_distance": 0.9756998433250755,
+          "std_distance": 0.04303046760276522,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8039767436145666,
+          "std_distance": 0.0674692856420751,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8784433535178191,
+          "std_distance": 0.0746715577510012,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8755401412277405,
+          "std_distance": 0.09719724654422154,
+          "n_concepts": 22
+        }
+      },
+      "1840": {
+        "absence": {
+          "mean_distance": 0.9628433270513083,
+          "std_distance": 0.061602498634785674,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8169200119813965,
+          "std_distance": 0.08126865493953227,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8012613211573427,
+          "std_distance": 0.08824770417418844,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8597913643163562,
+          "std_distance": 0.10474961738250113,
+          "n_concepts": 22
+        }
+      },
+      "1850": {
+        "absence": {
+          "mean_distance": 0.9718472736619016,
+          "std_distance": 0.0611983166532468,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8268386525815667,
+          "std_distance": 0.07103129848063808,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8323692263558546,
+          "std_distance": 0.10590119466982446,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8742347078740115,
+          "std_distance": 0.10239658881341515,
+          "n_concepts": 22
+        }
+      },
+      "1860": {
+        "absence": {
+          "mean_distance": 0.9234615278737875,
+          "std_distance": 0.06606626436140356,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.818750268914848,
+          "std_distance": 0.06641355568930041,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8429052454715334,
+          "std_distance": 0.07963323993162326,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8575572550737575,
+          "std_distance": 0.08336801441284657,
+          "n_concepts": 22
+        }
+      },
+      "1870": {
+        "absence": {
+          "mean_distance": 0.9331196741424991,
+          "std_distance": 0.07449070339779772,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7900291454559623,
+          "std_distance": 0.05491825088477814,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.7854379400088156,
+          "std_distance": 0.08888162621344492,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8345144942545999,
+          "std_distance": 0.09732671977526713,
+          "n_concepts": 22
+        }
+      },
+      "1880": {
+        "absence": {
+          "mean_distance": 0.9494826866115356,
+          "std_distance": 0.07964348898826801,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.788432506624434,
+          "std_distance": 0.06349984830628914,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.818755695083753,
+          "std_distance": 0.09810105326961567,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8465673794519933,
+          "std_distance": 0.10545313358803396,
+          "n_concepts": 22
+        }
+      },
+      "1890": {
+        "absence": {
+          "mean_distance": 0.9166323873526157,
+          "std_distance": 0.08588663323636142,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7928842778647387,
+          "std_distance": 0.08702242096220235,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.7866544428666402,
+          "std_distance": 0.08330117679933301,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8308428047476771,
+          "std_distance": 0.10395597097008275,
+          "n_concepts": 22
+        }
+      },
+      "1900": {
+        "absence": {
+          "mean_distance": 0.9429350035031859,
+          "std_distance": 0.08845878849352792,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7839918169089193,
+          "std_distance": 0.07960201318822302,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.847443088156612,
+          "std_distance": 0.10320908715589056,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8489853924724798,
+          "std_distance": 0.1118926702194123,
+          "n_concepts": 22
+        }
+      },
+      "1910": {
+        "absence": {
+          "mean_distance": 0.9425696543593078,
+          "std_distance": 0.07255479508631672,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7960695392319675,
+          "std_distance": 0.08734070497879468,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8326715255356699,
+          "std_distance": 0.07363930577814058,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8510018454778717,
+          "std_distance": 0.10242410571064728,
+          "n_concepts": 22
+        }
+      },
+      "1920": {
+        "absence": {
+          "mean_distance": 0.9210117857927033,
+          "std_distance": 0.05757947953808108,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8082961871776642,
+          "std_distance": 0.07149621726395781,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8211959178373516,
+          "std_distance": 0.07726265073960215,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8470919982505601,
+          "std_distance": 0.08550002165816785,
+          "n_concepts": 22
+        }
+      },
+      "1930": {
+        "absence": {
+          "mean_distance": 0.9139168626283213,
+          "std_distance": 0.07051544001685484,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8001714636925111,
+          "std_distance": 0.07134828756252583,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.783438485857817,
+          "std_distance": 0.11251849280533416,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8325602320278385,
+          "std_distance": 0.0995220831450722,
+          "n_concepts": 22
+        }
+      },
+      "1940": {
+        "absence": {
+          "mean_distance": 0.9158327261378831,
+          "std_distance": 0.08048562936950765,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7868447855499963,
+          "std_distance": 0.0584243437602102,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.791857927251308,
+          "std_distance": 0.08779557628015702,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8290257533964401,
+          "std_distance": 0.09425970937620677,
+          "n_concepts": 22
+        }
+      },
+      "1950": {
+        "absence": {
+          "mean_distance": 0.9380698920473362,
+          "std_distance": 0.0893468761748872,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7989329399395266,
+          "std_distance": 0.06772072090224436,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8241926592407486,
+          "std_distance": 0.09645103865689446,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8489446336331984,
+          "std_distance": 0.10267627917503781,
+          "n_concepts": 22
+        }
+      },
+      "1960": {
+        "absence": {
+          "mean_distance": 0.9215475232217588,
+          "std_distance": 0.06363965053442033,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7864635086788732,
+          "std_distance": 0.04651603316347766,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8245144210254965,
+          "std_distance": 0.09569051402401772,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8380927206576602,
+          "std_distance": 0.08844653149108105,
+          "n_concepts": 22
+        }
+      },
+      "1970": {
+        "absence": {
+          "mean_distance": 0.9280316062810758,
+          "std_distance": 0.07494651811860448,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.8006748444041968,
+          "std_distance": 0.069244756650969,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8185456243613303,
+          "std_distance": 0.08766827651238002,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8452589913552798,
+          "std_distance": 0.09465259031234234,
+          "n_concepts": 22
+        }
+      },
+      "1980": {
+        "absence": {
+          "mean_distance": 0.9261411014825028,
+          "std_distance": 0.04341154897601004,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7708239546951432,
+          "std_distance": 0.05664323796737508,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8246599199804644,
+          "std_distance": 0.10973066960868795,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8324784935105124,
+          "std_distance": 0.09657965680298296,
+          "n_concepts": 22
+        }
+      },
+      "1990": {
+        "absence": {
+          "mean_distance": 0.9435324412925032,
+          "std_distance": 0.09225647816654879,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "constraints": {
+          "mean_distance": 0.7989283484164449,
+          "std_distance": 0.057151065869922656,
+          "n_concepts": 10,
+          "concepts_found": 10,
+          "concepts_total": 10
+        },
+        "liberation": {
+          "mean_distance": 0.8268997989086101,
+          "std_distance": 0.10344979510102612,
+          "n_concepts": 5,
+          "concepts_found": 5,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.85129588944341,
+          "std_distance": 0.10350736872250842,
+          "n_concepts": 22
+        }
+      }
+    },
+    "positive_cluster": {
+      "1800": {
+        "rights": {
+          "mean_distance": 0.804396118930688,
+          "std_distance": 0.15818631278971448,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.9117180506322867,
+          "std_distance": 0.07090322244787793,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9705445106999396,
+          "std_distance": 0.05775023522376502,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7464420837246977,
+          "std_distance": 0.16464216933729628,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8728810837902702,
+          "std_distance": 0.14446003847800046,
+          "n_concepts": 23
+        }
+      },
+      "1810": {
+        "rights": {
+          "mean_distance": 0.8044473448275843,
+          "std_distance": 0.16146820198838627,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.9366638632186199,
+          "std_distance": 0.057091533103642386,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9600463653035918,
+          "std_distance": 0.07221111585875777,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7669308595253146,
+          "std_distance": 0.1653449792268349,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8797702279784185,
+          "std_distance": 0.1431552426458022,
+          "n_concepts": 23
+        }
+      },
+      "1820": {
+        "rights": {
+          "mean_distance": 0.832935842484111,
+          "std_distance": 0.1453972275552798,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.951760366879827,
+          "std_distance": 0.061307060258360954,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9345897884371889,
+          "std_distance": 0.0584333050368627,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.8158799514420942,
+          "std_distance": 0.13990795439589568,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8919054600440144,
+          "std_distance": 0.1197506260954252,
+          "n_concepts": 23
+        }
+      },
+      "1830": {
+        "rights": {
+          "mean_distance": 0.8451128228112115,
+          "std_distance": 0.14580389947733477,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.9021837777665502,
+          "std_distance": 0.051706852278990204,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9576397020805734,
+          "std_distance": 0.05054905022976895,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7680301391581601,
+          "std_distance": 0.17550765103552968,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8808425249853576,
+          "std_distance": 0.12976165245043406,
+          "n_concepts": 23
+        }
+      },
+      "1840": {
+        "rights": {
+          "mean_distance": 0.8490406014371769,
+          "std_distance": 0.1484550846862324,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8951188391555086,
+          "std_distance": 0.05143459768202847,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9322241184690816,
+          "std_distance": 0.05842311168296802,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7970957998759111,
+          "std_distance": 0.17724769393904746,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8773438553192751,
+          "std_distance": 0.12357191708246211,
+          "n_concepts": 23
+        }
+      },
+      "1850": {
+        "rights": {
+          "mean_distance": 0.8330099297226802,
+          "std_distance": 0.1415458982946827,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8995610758846548,
+          "std_distance": 0.062440252452315034,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.918610565320443,
+          "std_distance": 0.06583842926005706,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7840821369082488,
+          "std_distance": 0.17300890598789265,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8679142842834828,
+          "std_distance": 0.12390327270573712,
+          "n_concepts": 23
+        }
+      },
+      "1860": {
+        "rights": {
+          "mean_distance": 0.826516250022662,
+          "std_distance": 0.14303831612982892,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8662444075210995,
+          "std_distance": 0.10338601242119938,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9117031105614825,
+          "std_distance": 0.06073348410594684,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7750450975282008,
+          "std_distance": 0.2020683955270047,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8538550482306847,
+          "std_distance": 0.13668632153696722,
+          "n_concepts": 23
+        }
+      },
+      "1870": {
+        "rights": {
+          "mean_distance": 0.8202692920576752,
+          "std_distance": 0.14219129541276726,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.888000804779249,
+          "std_distance": 0.06193306618411692,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9449859350955755,
+          "std_distance": 0.05595742546617534,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7258694129243318,
+          "std_distance": 0.1501534947664063,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8594782512342567,
+          "std_distance": 0.13073684873932812,
+          "n_concepts": 23
+        }
+      },
+      "1880": {
+        "rights": {
+          "mean_distance": 0.8350691573191829,
+          "std_distance": 0.13450340784101505,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8728744711269624,
+          "std_distance": 0.06952357606202271,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9119094896551295,
+          "std_distance": 0.06104817840574838,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.6845085524777788,
+          "std_distance": 0.1402191642595975,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8421331481814738,
+          "std_distance": 0.12882660637195711,
+          "n_concepts": 23
+        }
+      },
+      "1890": {
+        "rights": {
+          "mean_distance": 0.8188356300307955,
+          "std_distance": 0.14738780016930342,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8726757155219608,
+          "std_distance": 0.08238681631230936,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.898997077967768,
+          "std_distance": 0.05417465633042587,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.6576539103697616,
+          "std_distance": 0.15884199822158082,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8292462287204331,
+          "std_distance": 0.14085620931461704,
+          "n_concepts": 23
+        }
+      },
+      "1900": {
+        "rights": {
+          "mean_distance": 0.8135938288623157,
+          "std_distance": 0.1529606805285381,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8846628080075631,
+          "std_distance": 0.06760925040632618,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9031426124636733,
+          "std_distance": 0.06851680446237213,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.692296720322552,
+          "std_distance": 0.13035869822418117,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8382923908589216,
+          "std_distance": 0.13186002471341243,
+          "n_concepts": 23
+        }
+      },
+      "1910": {
+        "rights": {
+          "mean_distance": 0.81176863776479,
+          "std_distance": 0.14177638671211687,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.877230170456689,
+          "std_distance": 0.09860340440441162,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9049743444045284,
+          "std_distance": 0.07185160404165203,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7084966814711086,
+          "std_distance": 0.15691281024848577,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8392521733063047,
+          "std_distance": 0.13599456530019116,
+          "n_concepts": 23
+        }
+      },
+      "1920": {
+        "rights": {
+          "mean_distance": 0.8422805848194956,
+          "std_distance": 0.13499456237823096,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.9011253032716683,
+          "std_distance": 0.08012288542355807,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9130764357287777,
+          "std_distance": 0.07107185594513964,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.6979484471318741,
+          "std_distance": 0.13896976411804995,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8540767029206924,
+          "std_distance": 0.13129047080495665,
+          "n_concepts": 23
+        }
+      },
+      "1930": {
+        "rights": {
+          "mean_distance": 0.8594782418629245,
+          "std_distance": 0.11539623436107362,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8836308233467118,
+          "std_distance": 0.06887364422099689,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.9047673612710468,
+          "std_distance": 0.06652392777932564,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.692666813710284,
+          "std_distance": 0.13622768787779466,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8505518771737515,
+          "std_distance": 0.12174430890297822,
+          "n_concepts": 23
+        }
+      },
+      "1940": {
+        "rights": {
+          "mean_distance": 0.8255347752079175,
+          "std_distance": 0.13925171514170218,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8617058702131569,
+          "std_distance": 0.0808105902607695,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.8660457912651583,
+          "std_distance": 0.06428240890155631,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.6774531031597574,
+          "std_distance": 0.16747779707898885,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8215468184357211,
+          "std_distance": 0.13242458417624065,
+          "n_concepts": 23
+        }
+      },
+      "1950": {
+        "rights": {
+          "mean_distance": 0.8183138684165007,
+          "std_distance": 0.1467823834301177,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8835241016919161,
+          "std_distance": 0.07281211942181869,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.8803852768902721,
+          "std_distance": 0.07131965913554764,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.6662830967014028,
+          "std_distance": 0.1606194218641538,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8277763976386094,
+          "std_distance": 0.13874564906883977,
+          "n_concepts": 23
+        }
+      },
+      "1960": {
+        "rights": {
+          "mean_distance": 0.8351659776355124,
+          "std_distance": 0.13259553233360058,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8753188105687162,
+          "std_distance": 0.04632001878779256,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.8498400327140416,
+          "std_distance": 0.07894304297780902,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7000212594100738,
+          "std_distance": 0.1771245998529772,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8266032172114762,
+          "std_distance": 0.12683951422549802,
+          "n_concepts": 23
+        }
+      },
+      "1970": {
+        "rights": {
+          "mean_distance": 0.8111351277481545,
+          "std_distance": 0.1053935005181945,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8845843793000433,
+          "std_distance": 0.0692890221778726,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.8582068104213657,
+          "std_distance": 0.08136342246876813,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7162758288172625,
+          "std_distance": 0.17089447811213235,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8281246969785999,
+          "std_distance": 0.12083865396285874,
+          "n_concepts": 23
+        }
+      },
+      "1980": {
+        "rights": {
+          "mean_distance": 0.7929785303056917,
+          "std_distance": 0.09579544391786204,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8917734652658171,
+          "std_distance": 0.09000228355232068,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.893000225402899,
+          "std_distance": 0.09672984490520085,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7088320724369411,
+          "std_distance": 0.1546865061739697,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8345583409129177,
+          "std_distance": 0.1288785460887923,
+          "n_concepts": 23
+        }
+      },
+      "1990": {
+        "rights": {
+          "mean_distance": 0.8163279576620891,
+          "std_distance": 0.09760820450766541,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "capacity": {
+          "mean_distance": 0.8889781109504536,
+          "std_distance": 0.04004476490272771,
+          "n_concepts": 6,
+          "concepts_found": 6,
+          "concepts_total": 6
+        },
+        "action": {
+          "mean_distance": 0.8671770791490455,
+          "std_distance": 0.07930096157713591,
+          "n_concepts": 7,
+          "concepts_found": 7,
+          "concepts_total": 7
+        },
+        "autonomy": {
+          "mean_distance": 0.7375309355059858,
+          "std_distance": 0.1300128126742198,
+          "n_concepts": 4,
+          "concepts_found": 4,
+          "concepts_total": 5
+        },
+        "overall": {
+          "mean_distance": 0.8370521612061965,
+          "std_distance": 0.10281785192871795,
+          "n_concepts": 23
+        }
+      }
+    },
+    "ratio_trajectory": {
+      "1800": {
+        "neg_distance": 0.9146750271425662,
+        "pos_distance": 0.8728810837902702,
+        "ratio": 1.0478804548848923,
+        "closer_to": "positive"
+      },
+      "1810": {
+        "neg_distance": 0.89147750107842,
+        "pos_distance": 0.8797702279784185,
+        "ratio": 1.0133071940009872,
+        "closer_to": "positive"
+      },
+      "1820": {
+        "neg_distance": 0.8972530096949035,
+        "pos_distance": 0.8919054600440144,
+        "ratio": 1.005995646276933,
+        "closer_to": "positive"
+      },
+      "1830": {
+        "neg_distance": 0.8755401412277405,
+        "pos_distance": 0.8808425249853576,
+        "ratio": 0.9939803272353304,
+        "closer_to": "negative"
+      },
+      "1840": {
+        "neg_distance": 0.8597913643163562,
+        "pos_distance": 0.8773438553192751,
+        "ratio": 0.9799936012585039,
+        "closer_to": "negative"
+      },
+      "1850": {
+        "neg_distance": 0.8742347078740115,
+        "pos_distance": 0.8679142842834828,
+        "ratio": 1.0072823131327382,
+        "closer_to": "positive"
+      },
+      "1860": {
+        "neg_distance": 0.8575572550737575,
+        "pos_distance": 0.8538550482306847,
+        "ratio": 1.0043358727581975,
+        "closer_to": "positive"
+      },
+      "1870": {
+        "neg_distance": 0.8345144942545999,
+        "pos_distance": 0.8594782512342567,
+        "ratio": 0.9709547543014526,
+        "closer_to": "negative"
+      },
+      "1880": {
+        "neg_distance": 0.8465673794519933,
+        "pos_distance": 0.8421331481814738,
+        "ratio": 1.005265475275608,
+        "closer_to": "positive"
+      },
+      "1890": {
+        "neg_distance": 0.8308428047476771,
+        "pos_distance": 0.8292462287204331,
+        "ratio": 1.0019253340828667,
+        "closer_to": "positive"
+      },
+      "1900": {
+        "neg_distance": 0.8489853924724798,
+        "pos_distance": 0.8382923908589216,
+        "ratio": 1.0127556944690888,
+        "closer_to": "positive"
+      },
+      "1910": {
+        "neg_distance": 0.8510018454778717,
+        "pos_distance": 0.8392521733063047,
+        "ratio": 1.0140001688947413,
+        "closer_to": "positive"
+      },
+      "1920": {
+        "neg_distance": 0.8470919982505601,
+        "pos_distance": 0.8540767029206924,
+        "ratio": 0.9918219234335199,
+        "closer_to": "negative"
+      },
+      "1930": {
+        "neg_distance": 0.8325602320278385,
+        "pos_distance": 0.8505518771737515,
+        "ratio": 0.9788470925422017,
+        "closer_to": "negative"
+      },
+      "1940": {
+        "neg_distance": 0.8290257533964401,
+        "pos_distance": 0.8215468184357211,
+        "ratio": 1.0091034799148264,
+        "closer_to": "positive"
+      },
+      "1950": {
+        "neg_distance": 0.8489446336331984,
+        "pos_distance": 0.8277763976386094,
+        "ratio": 1.0255724082674686,
+        "closer_to": "positive"
+      },
+      "1960": {
+        "neg_distance": 0.8380927206576602,
+        "pos_distance": 0.8266032172114762,
+        "ratio": 1.0138996597242187,
+        "closer_to": "positive"
+      },
+      "1970": {
+        "neg_distance": 0.8452589913552798,
+        "pos_distance": 0.8281246969785999,
+        "ratio": 1.0206904762521805,
+        "closer_to": "positive"
+      },
+      "1980": {
+        "neg_distance": 0.8324784935105124,
+        "pos_distance": 0.8345583409129177,
+        "ratio": 0.9975078466052713,
+        "closer_to": "negative"
+      },
+      "1990": {
+        "neg_distance": 0.85129588944341,
+        "pos_distance": 0.8370521612061965,
+        "ratio": 1.017016536002593,
+        "closer_to": "positive"
+      }
+    },
+    "individual_concepts": {
+      "slavery": {
+        "1800": 0.7289,
+        "1810": 0.7364,
+        "1820": 0.7439,
+        "1830": 0.6575,
+        "1840": 0.7065,
+        "1850": 0.7089,
+        "1860": 0.6715,
+        "1870": 0.6413,
+        "1880": 0.6836,
+        "1890": 0.6541,
+        "1900": 0.6819,
+        "1910": 0.6951,
+        "1920": 0.735,
+        "1930": 0.7339,
+        "1940": 0.7095,
+        "1950": 0.7158,
+        "1960": 0.7292,
+        "1970": 0.7203,
+        "1980": 0.6836,
+        "1990": 0.7385
+      },
+      "bondage": {
+        "1800": 0.78,
+        "1810": 0.7575,
+        "1820": 0.8123,
+        "1830": 0.7806,
+        "1840": 0.7169,
+        "1850": 0.7886,
+        "1860": 0.7916,
+        "1870": 0.803,
+        "1880": 0.7491,
+        "1890": 0.7502,
+        "1900": 0.7341,
+        "1910": 0.7463,
+        "1920": 0.7814,
+        "1930": 0.7039,
+        "1940": 0.7352,
+        "1950": 0.732,
+        "1960": 0.7414,
+        "1970": 0.6951,
+        "1980": 0.7159,
+        "1990": 0.6969
+      },
+      "right": {
+        "1800": 0.7702,
+        "1810": 0.8021,
+        "1820": 0.8508,
+        "1830": 0.8826,
+        "1840": 0.8293,
+        "1850": 0.8132,
+        "1860": 0.8069,
+        "1870": 0.7809,
+        "1880": 0.868,
+        "1890": 0.8097,
+        "1900": 0.7938,
+        "1910": 0.7042,
+        "1920": 0.8044,
+        "1930": 0.7679,
+        "1940": 0.7629,
+        "1950": 0.7462,
+        "1960": 0.7373,
+        "1970": 0.6922,
+        "1980": 0.7221,
+        "1990": 0.7457
+      },
+      "rights": {
+        "1800": 0.6183,
+        "1810": 0.5734,
+        "1820": 0.6299,
+        "1830": 0.6387,
+        "1840": 0.5884,
+        "1850": 0.6097,
+        "1860": 0.6365,
+        "1870": 0.6281,
+        "1880": 0.6389,
+        "1890": 0.5832,
+        "1900": 0.5861,
+        "1910": 0.6284,
+        "1920": 0.6171,
+        "1930": 0.6997,
+        "1940": 0.6075,
+        "1950": 0.588,
+        "1960": 0.644,
+        "1970": 0.6567,
+        "1980": 0.6116,
+        "1990": 0.6601
+      },
+      "autonomy": {
+        "1800": 1.0,
+        "1810": 1.0,
+        "1820": 1.0,
+        "1830": 1.0,
+        "1840": 1.0,
+        "1850": 1.0,
+        "1860": 1.0,
+        "1870": 0.7161,
+        "1880": 0.6706,
+        "1890": 0.5519,
+        "1900": 0.5931,
+        "1910": 0.6347,
+        "1920": 0.6097,
+        "1930": 0.645,
+        "1940": 0.5971,
+        "1950": 0.545,
+        "1960": 0.6118,
+        "1970": 0.6193,
+        "1980": 0.6214,
+        "1990": 0.6192
+      },
+      "entitlement": {
+        "1800": 1.0,
+        "1810": 1.0,
+        "1820": 1.0,
+        "1830": 1.0,
+        "1840": 1.0,
+        "1850": 1.0,
+        "1860": 1.0,
+        "1870": 1.0,
+        "1880": 1.0,
+        "1890": 1.0,
+        "1900": 1.0,
+        "1910": 1.0,
+        "1920": 1.0,
+        "1930": 1.0,
+        "1940": 1.0,
+        "1950": 1.0,
+        "1960": 1.0,
+        "1970": 0.9434,
+        "1980": 0.8647,
+        "1990": 0.8488
+      },
+      "oppression": {
+        "1800": 0.8104,
+        "1810": 0.8336,
+        "1820": 0.8952,
+        "1830": 0.8267,
+        "1840": 0.8296,
+        "1850": 0.808,
+        "1860": 0.8242,
+        "1870": 0.8103,
+        "1880": 0.8117,
+        "1890": 0.8389,
+        "1900": 0.7786,
+        "1910": 0.7481,
+        "1920": 0.8041,
+        "1930": 0.8089,
+        "1940": 0.7934,
+        "1950": 0.7935,
+        "1960": 0.7537,
+        "1970": 0.7827,
+        "1980": 0.7635,
+        "1990": 0.8004
+      },
+      "tyranny": {
+        "1800": 0.8531,
+        "1810": 0.8604,
+        "1820": 0.8162,
+        "1830": 0.8481,
+        "1840": 0.7396,
+        "1850": 0.7647,
+        "1860": 0.7967,
+        "1870": 0.7913,
+        "1880": 0.7504,
+        "1890": 0.7595,
+        "1900": 0.7257,
+        "1910": 0.7361,
+        "1920": 0.7831,
+        "1930": 0.7534,
+        "1940": 0.7504,
+        "1950": 0.7863,
+        "1960": 0.7681,
+        "1970": 0.7498,
+        "1980": 0.7384,
+        "1990": 0.7983
+      },
+      "ability": {
+        "1800": 0.8276,
+        "1810": 0.9145,
+        "1820": 0.8866,
+        "1830": 0.8467,
+        "1840": 0.8774,
+        "1850": 0.8631,
+        "1860": 0.9072,
+        "1870": 0.9335,
+        "1880": 0.8566,
+        "1890": 0.8535,
+        "1900": 0.8952,
+        "1910": 0.8716,
+        "1920": 0.9096,
+        "1930": 0.9182,
+        "1940": 0.9083,
+        "1950": 0.8972,
+        "1960": 0.8936,
+        "1970": 0.8641,
+        "1980": 0.9389,
+        "1990": 0.8619
+      },
+      "power": {
+        "1800": 0.8304,
+        "1810": 0.8347,
+        "1820": 0.8729,
+        "1830": 0.8486,
+        "1840": 0.8464,
+        "1850": 0.8371,
+        "1860": 0.7193,
+        "1870": 0.7857,
+        "1880": 0.7744,
+        "1890": 0.817,
+        "1900": 0.7738,
+        "1910": 0.7572,
+        "1920": 0.8263,
+        "1930": 0.8086,
+        "1940": 0.7987,
+        "1950": 0.8575,
+        "1960": 0.8608,
+        "1970": 0.8375,
+        "1980": 0.802,
+        "1990": 0.8535
+      },
+      "choose": {
+        "1800": 0.8755,
+        "1810": 0.8915,
+        "1820": 0.877,
+        "1830": 0.8968,
+        "1840": 0.917,
+        "1850": 0.8792,
+        "1860": 0.8332,
+        "1870": 0.8945,
+        "1880": 0.8271,
+        "1890": 0.8816,
+        "1900": 0.8277,
+        "1910": 0.8137,
+        "1920": 0.7679,
+        "1930": 0.8009,
+        "1940": 0.7979,
+        "1950": 0.7578,
+        "1960": 0.7211,
+        "1970": 0.7589,
+        "1980": 0.7209,
+        "1990": 0.7263
+      }
+    }
+  }
+}

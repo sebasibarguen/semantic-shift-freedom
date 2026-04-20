@@ -1,0 +1,802 @@
+[
+  {
+    "id": "1903-c11e5d-000",
+    "year": 1903,
+    "sentence": "Local Authorities, Powers of\u2014Freedom of Contract, proposed, 393, 401, 407, 412, 418, 425, 428, 432, 433.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1947-07-10-df941b-008",
+    "year": 1947,
+    "sentence": "She has won this freedom.",
+    "haiku": "positive_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1953-04-17-639f6e-026",
+    "year": 1953,
+    "sentence": "Where these students are entrusted with freedom it is not abused, but in the very exceptional case.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1996-02-26-756bf4-008",
+    "year": 1996,
+    "sentence": "I am aware, of course, that concern about freedom of information derives in some cases more from genuine conviction than simple political opportunism.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "2019-10-15-3f9a2e-001",
+    "year": 2019,
+    "sentence": "The Catalonian parliamentarians have the right to freedom of expression when they debate the question of independence, which they have done, so I do not really see why the hon.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1919-11-07-6a5b4e-022",
+    "year": 1919,
+    "sentence": "Nobody in this House is more in sympathy with the desire for self-government and freedom than those who are supporting this Motion.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1959-01-26-cf3abb-022",
+    "year": 1959,
+    "sentence": "Many have been led to believe that the Bill will contain stronger and better methods of safeguarding the liberty of the individual.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1993-11-22-81d164-082",
+    "year": 1993,
+    "sentence": "Those principles include our belief in free markets, our belief in private enterprise and in personal freedom and personal responsibility and the reintroduction of proper deterrence and punishment into the law and order system.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1819-9adafb-141",
+    "year": 1819,
+    "sentence": "and that instead of tearing each other to pieces with a waste of blood, such as few wars have occasioned, some compromise could have been effected, favourable at once to rational principles of liberty, and to the peace of the old world and the new!",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1885-d7f650-149",
+    "year": 1885,
+    "sentence": "and his Ministers thought of the meetings which shouted for \"Wilkes and Liberty\"?",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "2020-07-01-f40971-011",
+    "year": 2020,
+    "sentence": "The rights and the freedoms of, and our responsibilities in this country to, the people of Hong Kong should not be sacrificed on the altar of bankers\u2019 bonuses.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1822-af1595-013",
+    "year": 1822,
+    "sentence": "With regard to the circulation of Bank paper, he would take the liberty of making one remark;",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1975-07-07-ffd4f4-093",
+    "year": 1975,
+    "sentence": "The laws of arrest mark the legal balance between civil liberty and compulsory powers for the institution of a criminal process.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1830-00f22c-558",
+    "year": 1830,
+    "sentence": "They are such as I think are conducive to the general good, and the liberty and happiness of my fellow-subjects.",
+    "haiku": "positive_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1829-cbd157-015",
+    "year": 1829,
+    "sentence": "It used to be the characteristic policy of England throughout Europe to aid the cause of liberty and independence\u2014to cherish the feelings of patriotism and love of freedom, to restrain the strong, to assist the weak, to resist the encroachments of despotism, and to afford a refuge to the destitute and oppressed.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1899-6936b6-017",
+    "year": 1899,
+    "sentence": "That Conference passed a resolution, he thought with absolute unanimity, urging that liberty should be accorded to the colonies to make fiscal arrangements without reference to any foreign Power.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "2018-03-19-5be985-003",
+    "year": 2018,
+    "sentence": "This whole area is one where we have to ensure that the liberal values, to support freedom but not the freedom to harm others, that we apply through legislation to many other  parts of our lives are brought to bear on the online world as well.",
+    "haiku": "ambiguous",
+    "opus": "ambiguous",
+    "agree": true
+  },
+  {
+    "id": "1907-c02d7b-009",
+    "year": 1907,
+    "sentence": "He read it before it was in print, and had come to the conclusion it was the only way by which they could secure the liberty of the subject and the chance of expressing views which happened to be hostile to those entertained by either the majority or the minority of the audience.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1938-02-28-060995-010",
+    "year": 1938,
+    "sentence": "The oil industries are glad to feel that until last year there was comparative freedom from strikes.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1982-07-23-066894-047",
+    "year": 1982,
+    "sentence": "Throughout the realm of human rights, the concepts of personal liberty and freedom which all hon.",
+    "haiku": "other",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1859-f5b053-007",
+    "year": 1859,
+    "sentence": "I put it to you, Sir, as a question of order, whether he is at liberty to make that statement\n 330 \nwithout announcing that the Government intend to move to rescind the Resolution for the appointment of the Committee.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "2021-03-17-27a774-001",
+    "year": 2021,
+    "sentence": "I said then that the Good Friday-Belfast agreement was not just about Northern Ireland, Ireland or a border, but the freedom of movement of people across these islands and the deep roots we have.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1851-e57be1-052",
+    "year": 1851,
+    "sentence": "We are desirous of extending in every possible way every possible freedom to trade that we can, consistently with a due regard to the interests of the revenue and the interest of the fair dealer.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1870-88737e-030",
+    "year": 1870,
+    "sentence": "Will that man be disposed to look kindly on the class legislation that thus abridges his liberty?",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1951-04-26-bed128-000",
+    "year": 1951,
+    "sentence": "We are now getting a very clear idea of freedom.",
+    "haiku": "other",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "2021-04-12-e26568-010",
+    "year": 2021,
+    "sentence": "The Duke of Edinburgh Award gave them the freedom and inspiration to do something.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1870-afcf55-121",
+    "year": 1870,
+    "sentence": "Writing on the 6th of May, 1856, one of the men still living who were responsible for that war pointed out the future danger of an \"encroachment upon and absorption of Turkey by Russia,\" adding that \"such a danger to the peace, liberty, and privileges of all Europe we were bound to resist by every means in our power.",
+    "haiku": "ambiguous",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1936-12-18-b55022-024",
+    "year": 1936,
+    "sentence": "You have equally vocal throughout the same countries a passionate desire for freedom and for justice.",
+    "haiku": "positive_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1976-05-24-4f7e49-036",
+    "year": 1976,
+    "sentence": "If it is against the doctrine, why not have freedom of conscience as well?",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1864-f1d5e2-009",
+    "year": 1864,
+    "sentence": "When we interfered by the Poor Law in Ireland, we did not interfere with the freedom of contract.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1832-035b21-183",
+    "year": 1832,
+    "sentence": "They presumed him to have attained a degree of civilization from which he was yet far removed, that he had acquired those habits which would render him an industrious labourer if he were free, and that he regarded freedom with the same feeling as they did, instead of considering it, as he really did, in no other light than as a total cessation from any employment.",
+    "haiku": "positive_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1981-02-12-ff4823-000",
+    "year": 1981,
+    "sentence": "Since the Prime Minister has often declared support for open government, may I ask the Leader of the House when the Government will bring forward their Freedom of Information Bill?",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1871-9fc067-014",
+    "year": 1871,
+    "sentence": "Their argument was that for many years the Business of the House had been increasing, and the conclusion they drew was that instead of maintaining the liberty of the subject in proportion to the increase of Business, the facilities for control should be diminished.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1950-09-13-673c62-016",
+    "year": 1950,
+    "sentence": "In the Second World War he became Prime Minister again and led his country into the fight for democracy and freedom.",
+    "haiku": "ambiguous",
+    "opus": "positive_liberty",
+    "agree": false
+  },
+  {
+    "id": "1920-02-24-460b68-016",
+    "year": 1920,
+    "sentence": "Baronet and the other noted apostles of human liberty who support it, have been longing for a funeral that has not taken place.",
+    "haiku": "positive_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1871-b9ae04-108",
+    "year": 1871,
+    "sentence": "and she said that she felt sure that the system of Government regulation of vice and examination of women is contrary not only to the rights of woman, but to the general liberty of the State.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1854-3407a8-124",
+    "year": 1854,
+    "sentence": "Lord Stowell\n 1696 \nlaid down the rule which prevailed in his time in Doctors' Commons on the subject in these words\u2014\n \"This Court considers a private separation as an illegal contract, implying a dereliction of stipulated duties, which the parties are not at liberty to desert.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1843-1c58cf-017",
+    "year": 1843,
+    "sentence": "Sir, it has appeared to us that we are at liberty to pursue one or other of three courses with respect to the institution of Maynooth.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1978-02-01-1d5aa0-008",
+    "year": 1978,
+    "sentence": "Anyone who is interested in the liberty of the individual and the development of rights knows the posisition.",
+    "haiku": "other",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1851-b831dc-054",
+    "year": 1851,
+    "sentence": "Her whole life seemed to be a series of acts of charity\u2014here, interceding with the Protestant masters or mistresses of some of the Roman Catholic witnesses at her trial, that they might have liberty of fasting or attending mass;",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1966-07-07-1079f9-009",
+    "year": 1966,
+    "sentence": "Here again, it may be asked, what degree of freedom will there be in these elections?",
+    "haiku": "ambiguous",
+    "opus": "ambiguous",
+    "agree": true
+  },
+  {
+    "id": "1948-01-22-57f806-009",
+    "year": 1948,
+    "sentence": "Industrial civil servants, numbering nearly 400,000, are already allowed a very considerable measure of freedom as regards political\n\n\nand civic activities;",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1857-cbcec0-031",
+    "year": 1857,
+    "sentence": "Now, you must excuse my taking the liberty of reminding you that there is not a leading man on either front bench that  The Times,  guided with such wonderful ability, and wielding such a terrific power, has not by turns lauded and calumniated, nattered and vilified.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1901-64793a-003",
+    "year": 1901,
+    "sentence": "Those schools were usually in private ownership, and not subject to any trust, and the private owner was at liberty to do what he liked with his school.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1871-c6b77e-048",
+    "year": 1871,
+    "sentence": "Notwithstanding all taunts, Her Majesty's Government would continue to carry out the policy which was contained in the Anglo-Turkish Convention, which he believed in his heart would do much to increase the power of England, to promote liberty in the East, and to secure our position alike in Asia and in Europe.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1988-11-02-4a4134-019",
+    "year": 1988,
+    "sentence": "In 1941, as it was about to enter a world war and face enormous world pressure, Franklin Roosevelt said:\n In the future days which we seek to make secure we look forward to a world founded on four essential human freedoms.",
+    "haiku": "other",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1883-f8d5d2-006",
+    "year": 1883,
+    "sentence": "There have been two great crimes perpetrated against liberty.",
+    "haiku": "other",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1927-03-24-86760b-084",
+    "year": 1927,
+    "sentence": "It is not freedom for the local education authorities;",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "2021-01-28-713fa6-011",
+    "year": 2021,
+    "sentence": "To echo the sentiments he told this House, it is the contribution we make in the belief in the values that British people have fought and died for \u2014 values of democracy, equality and freedom, fairness and tolerance \u2014 that make us British.",
+    "haiku": "positive_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1844-48ed32-078",
+    "year": 1844,
+    "sentence": "Was it possible to restrain the language of men and the freedom of the people to this extent?",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1926-11-19-52ba73-083",
+    "year": 1926,
+    "sentence": "The theological colleges, through the Bishop of Gloucester, who knows them, of course, extremely well, roundly say that they will not remain in the University if these regulations controlling their freedom are enforced.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1961-03-23-13e128-037",
+    "year": 1961,
+    "sentence": "Friends on this side have spoken most eloquently about this erosion of liberty and the need to move most carefully and with considerable forethought in a wider inquiry.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1840-295e3f-017",
+    "year": 1840,
+    "sentence": "Before, however, I come to that part of the subject to which the amendment specially refers, I will take the liberty of adverting to some observations that have fallen from the Mover and Seconder of the Address.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "2019-04-02-50e8e4-002",
+    "year": 2019,
+    "sentence": "I think it is fair to say that there has been some hesitation in the past in our embracing the issue of persecution of Christians \u2014 whether from a misguided concern about our history and the role of missionaries, I do not know \u2014 but now is the time when we have to put all that behind us and say that freedom of religious belief is an essential and indivisible part of freedom, full stop.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1949-03-24-dd6607-312",
+    "year": 1949,
+    "sentence": "We are seeking to create a unity of Government, managers and workers which will bring our nation once again, and soon, I hope, to economic freedom and prosperity.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1919-08-07-f43242-082",
+    "year": 1919,
+    "sentence": "All these people have had four or five months of liberty and equality and fraternisation, which always follows any form of revolution.",
+    "haiku": "positive_liberty",
+    "opus": "other",
+    "agree": false
+  },
+  {
+    "id": "2009-01-21-58f10d-005",
+    "year": 2009,
+    "sentence": "However freedom of information requests are dealt with, it is still important that as well as having tough rules and robust audit, we have a scheme to put in the public domain, without its having been asked for, information about what all Members are spending every year, and on what.",
+    "haiku": "positive_liberty",
+    "opus": "other",
+    "agree": false
+  },
+  {
+    "id": "1927-12-21-1aeea2-010",
+    "year": 1927,
+    "sentence": "So far as the question of expenses is concerned, there is nothing in it whatever, nor is there anything in the suggestion which is uncharitably made, and those of us who believe in maintaining the liberty of the subject and object to these statutory tribunals, see no actual prospect of more litigation than exists under the ordinary law.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1963-01-29-e0c254-005",
+    "year": 1963,
+    "sentence": "To what extent should the Government be the arbiters of fate for the individual, and to what extent should the Government interfere with the liberty of people in such matters as this?",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "2012-11-20-f6433c-003",
+    "year": 2012,
+    "sentence": "She will also be well aware that there is a long-standing debate in Northern Ireland about the freedom to set corporation tax rates, which would involve a different arrangement from the one that we have now.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1979-12-12-38be99-110",
+    "year": 1979,
+    "sentence": "The Bill is about the granting of freedom and independence to over 5 million people, the majority of whom have been deprived of freedom, rights and\n\nopportunities for generations.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1836-7a7cfb-078",
+    "year": 1836,
+    "sentence": "The simple fact was, that success no longer beamed so decisively on the cause of liberty in the Peninsula.",
+    "haiku": "positive_liberty",
+    "opus": "other",
+    "agree": false
+  },
+  {
+    "id": "2016-02-25-43f371-003",
+    "year": 2016,
+    "sentence": "The Prime Minister also said that our democracy in our Westminster Parliament was the root of our freedom of choice \u2014 that was the essence of what he was saying.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1894-c22fd7-013",
+    "year": 1894,
+    "sentence": "and he, as an Irishman, declared that it was in the interests of the freedom and peace of his country that this Act should remain in force, and that it should be in the power of any Government to put its provisions, when the necessity arose into operation.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1819-9d34c8-112",
+    "year": 1819,
+    "sentence": "For instance, the liberty of the press in this country, the freedom of debate in this House, is probably very injurious to Spain, and to every other despotic government;",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1988-03-24-47dac8-054",
+    "year": 1988,
+    "sentence": "I should hate this Government to be blamed for destroying what should be an integral part of any civilised society and of the policies of any party that values freedom of speech, freedom of thought and freedom of the written word.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1860-9221d3-059",
+    "year": 1860,
+    "sentence": "But we were asked last night whether the Government are not at liberty to give advice to Foreign Powers;",
+    "haiku": "negative_liberty",
+    "opus": "other",
+    "agree": false
+  },
+  {
+    "id": "1892-afc388-000",
+    "year": 1892,
+    "sentence": "I am glad to hear it is provided for, that some provision for religious liberty is made.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1833-7fed93-405",
+    "year": 1833,
+    "sentence": "Since the Union, Ireland has grievously declined, both in prosperity and political freedom.",
+    "haiku": "negative_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1996-04-26-533113-002",
+    "year": 1996,
+    "sentence": "Gentleman is saying that allowing people to advertise weapons in a way that incites violence is protecting freedom of speech.",
+    "haiku": "ambiguous",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1949-07-18-ba34a5-000",
+    "year": 1949,
+    "sentence": "asked the Minister of Food whether, in view of the fact that herring fishermen have sustained serious losses since the season opened in April and that the Herring Industry Board have been compelled to abandon their controlled schemes, he will restore complete freedom to the industry by withdrawing price controls.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1846-3324bb-007",
+    "year": 1846,
+    "sentence": "They were of opinion that it would be more to the advantage and promotion of civil and religious liberty that the Church should be content with its present position, because, although it appeared by the Bill that the new bishops were not to have seats in the other House, yet he saw nothing in the Bill to prevent their being called up to the House of Lords at a future time.",
+    "haiku": "positive_liberty",
+    "opus": "other",
+    "agree": false
+  },
+  {
+    "id": "1967-06-22-2c8c75-063",
+    "year": 1967,
+    "sentence": "I read an article last week in a Sunday newspaper in which it was said that there are no D Notices or Official Secrets Act in that heavenly country, in the land of freedom.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1883-330e95-070",
+    "year": 1883,
+    "sentence": "no change except in the convictions of the Government, who are now willing to swallow all their old convictions, and to endeavour to impose still more binding fetters on the freedom of discussion in Committee of Supply.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1997-02-05-67a8b4-026",
+    "year": 1997,
+    "sentence": "Schools have found that, having acquired that freedom, they want to keep it.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1886-bff98e-052",
+    "year": 1886,
+    "sentence": "they have acknowledged from the first that we have entire fiscal liberty.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1949-11-03-db92fe-014",
+    "year": 1949,
+    "sentence": "When he announced his proposals, he used these words:\n But I should warn industry generally that if there is any further breaking away, I shall consider myself at liberty to introduce legislation to restrict dividends in the next Finance Bill.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1806-3cf2ef-004",
+    "year": 1806,
+    "sentence": "Trial by jury was the best security for the freedom of that house;",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1925-07-29-243544-013",
+    "year": 1925,
+    "sentence": "One can imagine the freedom of discussion in the Cabinet.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1865-ecdcf2-000",
+    "year": 1865,
+    "sentence": "in reply, said, the noble Lord was at perfect liberty to apply to the Sheriff of Wigtonshire;",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1884-8197db-046",
+    "year": 1884,
+    "sentence": "\" and in other places he says it means \"a certain freedom and independence conveyed by Royal Charter.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1808-7e790d-167",
+    "year": 1808,
+    "sentence": "That house was the guardian of the liberty and property of the people;",
+    "haiku": "negative_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "1905-0b457a-020",
+    "year": 1905,
+    "sentence": "The Bill violated the most fundamental principles of religious liberty.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "2007-06-12-22813b-021",
+    "year": 2007,
+    "sentence": "In the main, I have high regard for Liberty briefings, even though I sometimes I disagree with them, but this one is littered with unfounded assertions and important inaccuracies.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1938-04-27-713710-095",
+    "year": 1938,
+    "sentence": "He referred to freedom of contract.",
+    "haiku": "other",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1814-f8032c-125",
+    "year": 1814,
+    "sentence": "We see its generous influence pervading the earlier labours of the Long Parliament, till that unfortunate conflict arose which, though it humbled the pride of kings, disgraced the cause of freedom, and closed the eventful scene in tyranny, in outrage, and in blood.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1898-ac5fcf-015",
+    "year": 1898,
+    "sentence": "I say that this is as gross an interference with the freedom of the press as over occurred in Ireland, and that is saying a great deal.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1939-07-14-0897f2-117",
+    "year": 1939,
+    "sentence": "\" But if the fire goes on it it not a question of thinking who is to blame, it is a question of all hands to assist, and because we love our country and believe in its future, because we believe in democracy and liberty, not only here but throughout the world, we say to the Government that if you are really going forward to put out the fire now we are bound to give you our help.",
+    "haiku": "negative_liberty",
+    "opus": "ambiguous",
+    "agree": false
+  },
+  {
+    "id": "2020-07-21-ffe20e-000",
+    "year": 2020,
+    "sentence": "I appreciate the recent announcements, but can the Minister reassure us that all universities will be able to access those loans, with freedom to invest in line with local priorities?",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "2007-03-08-b14083-008",
+    "year": 2007,
+    "sentence": "When they are sold as prostitutes they are made to work in appalling conditions, with no freedom.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1824-1bb67f-315",
+    "year": 1824,
+    "sentence": "The letter written to the prisoner was as follows:\u2014\"Dear Sir, excuse the liberty I take in writing to you: I hope this letter may find yourself and Mrs.",
+    "haiku": "other",
+    "opus": "other",
+    "agree": true
+  },
+  {
+    "id": "1824-e4aa52-009",
+    "year": 1824,
+    "sentence": "If the noble marquis meant, that no measure having for its object to abridge the liberty of the subject ought ever to be adopted without their lordships\n 138 \nbeing put in possession of sufficient grounds to justify such a proceeding, he perfectly agreed with him in that proposition.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1980-02-26-0ff1c3-061",
+    "year": 1980,
+    "sentence": "The Economist believes that there should be bounds to the freedom of directors to do what they like.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "2004-01-15-3ab96f-008",
+    "year": 2004,
+    "sentence": "It needs to be clearly understood in Departments, public bodies and elsewhere that if that freedom is found to be threatened, it will be protected.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1938-06-24-4234e3-157",
+    "year": 1938,
+    "sentence": "If it is contrary to the policy of his Department to limit their freedom to engage labour in any way, why does the Department use the Fair Wages Clause, and why do they lay down conditions for local authorities who engage unemployed workers?",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1810-7c4614-031",
+    "year": 1810,
+    "sentence": "No country on earth has had so many minds, for such a series of years, engaged in such contemplations, and in attempts by every species of arrangement, moral, legal, and political, to increase the liberty and happiness of the people.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1954-12-07-f64139-057",
+    "year": 1954,
+    "sentence": "Many controls are not restrictive but, rather, are productive of even greater freedom for other people.",
+    "haiku": "positive_liberty",
+    "opus": "positive_liberty",
+    "agree": true
+  },
+  {
+    "id": "1822-9dd597-310",
+    "year": 1822,
+    "sentence": "but, taking it altogether, the country enjoys as much practical liberty, and parliament is really as independent, as in any former reign.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  },
+  {
+    "id": "1804-dcd329-352",
+    "year": 1804,
+    "sentence": "They are always serious and earnest in coming forward to expose their lives and fortunes in the just and necessary contest in which their country may be engaged, and when the constitution and liberty of the country are endangered.",
+    "haiku": "negative_liberty",
+    "opus": "negative_liberty",
+    "agree": true
+  },
+  {
+    "id": "1904-3910ab-016",
+    "year": 1904,
+    "sentence": "After all it should be remembered that liberty of discussion, even when it had amounted to license, bad resulted in making discussion profitable.",
+    "haiku": "positive_liberty",
+    "opus": "negative_liberty",
+    "agree": false
+  }
+]

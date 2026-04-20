@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How the Meaning of "Freedom" Changed Over Time</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #c53030;
+            --accent: #2b6cb0;
+            --bg: #f7fafc;
+            --text: #2d3748;
+            --muted: #718096;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .hero .subtitle {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Sections */
+        section {
+            padding: 3rem 0;
+        }
+
+        section:nth-child(even) {
+            background: white;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: var(--accent);
+            margin: 2rem 0 1rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.1rem;
+        }
+
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+        }
+
+        /* Highlight Box */
+        .highlight {
+            background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+            border-left: 4px solid var(--secondary);
+            padding: 1.5rem 2rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight .big-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--secondary);
+            line-height: 1;
+        }
+
+        .highlight .label {
+            font-size: 0.9rem;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem 2rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, #fffaf0 0%, #feebc8 100%);
+            border-left: 4px solid #dd6b20;
+            padding: 1.5rem 2rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* Stats */
+        .stats-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .stat-box {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .stat-box .number {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-box .text {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+
+        /* Simple Table */
+        .simple-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        .simple-table th,
+        .simple-table td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .simple-table th {
+            background: var(--primary);
+            color: white;
+            font-weight: 500;
+        }
+
+        .simple-table tr:nth-child(even) {
+            background: #f7fafc;
+        }
+
+        .up {
+            color: #22543d;
+            font-weight: 600;
+        }
+
+        .down {
+            color: #742a2a;
+            font-weight: 600;
+        }
+
+        /* Quote */
+        blockquote {
+            font-size: 1.15rem;
+            font-style: italic;
+            color: var(--primary);
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        blockquote .source {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--muted);
+            font-style: normal;
+            margin-top: 0.5rem;
+        }
+
+        /* Timeline */
+        .timeline-simple {
+            border-left: 3px solid var(--accent);
+            padding-left: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .timeline-simple .event {
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .timeline-simple .event::before {
+            content: '';
+            position: absolute;
+            left: -2.35rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+
+        .timeline-simple .year {
+            font-weight: 700;
+            color: var(--secondary);
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #bee3f8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+
+            .stats-row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <h1>How the Meaning of "Freedom" Changed Over Time</h1>
+            <p class="subtitle">We analyzed millions of texts from the past 500 years to see how people have used the word "freedom" differently across history.</p>
+        </div>
+    </header>
+
+    <!-- The Big Picture -->
+    <section>
+        <div class="container">
+            <h2>The Big Picture</h2>
+
+            <p><strong>Has the word "freedom" always meant the same thing?</strong></p>
+
+            <p>To find out, we looked at how "freedom" was used in books, newspapers, and other texts going back to the year 1500. We tracked which words appeared near "freedom" and how those nearby words changed over time.</p>
+
+            <div class="highlight">
+                <div class="label">Key Finding: Freedom Flipped From "TO" to "FROM" and Back Again</div>
+                <table class="simple-table" style="margin: 1rem 0;">
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>"Freedom FROM"</th>
+                            <th>"Freedom TO"</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1500-1700</td><td>21%</td><td class="up"><strong>79%</strong></td></tr>
+                        <tr><td>1870-1920</td><td class="down"><strong>76%</strong></td><td>24%</td></tr>
+                        <tr><td>2010s</td><td>35%</td><td class="up"><strong>65%</strong></td></tr>
+                    </tbody>
+                </table>
+                <p style="margin-bottom: 0.5rem;">In the 1500s, freedom was mostly about what you could <strong>do</strong>: "liberty to speak," "freedom to worship." Then abolition changed everything—by 1900, freedom was about escaping constraints: "freedom from slavery."</p>
+                <p style="margin-bottom: 0;"><strong>1965</strong> was the crossover year. "Freedom to" passed "freedom from" in books, and we've been shifting back toward positive framing ever since.</p>
+            </div>
+
+            <div class="warning-box">
+                <p style="margin-bottom: 0;"><strong>But here's the catch:</strong> Modern positive freedoms increasingly imply trade-offs. "Financial freedom" (living off investments) relies on the broader economy's labor to generate returns. "Medical freedom" (often framed as the right to refuse treatment) can conflict with public health goals like herd immunity. If my freedom is perceived as a cost to you, we are no longer sharing a value—we are negotiating a conflict.</p>
+            </div>
+
+            <h3>Is This Real, or Just Grammar?</h3>
+
+            <p>You might ask: maybe "freedom FROM sin" and "freedom TO worship" mean the same thing, just phrased differently?</p>
+
+            <p>We tested this by categorizing what comes after "FROM" and "TO":</p>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>What follows "FROM"</th>
+                        <th>What follows "TO"</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>61% religious concepts (sin, condemnation)</td>
+                        <td class="up"><strong>82% action verbs</strong> (do, speak, go, worship)</td>
+                    </tr>
+                    <tr>
+                        <td>18% constraints (persecution, punishment)</td>
+                        <td>12% religious concepts (preach, serve)</td>
+                    </tr>
+                    <tr>
+                        <td>9% feelings (fear, pain, misery)</td>
+                        <td>7% choices (choose, live)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-box">
+                <p><strong>Only 18% overlap.</strong> The FROM and TO objects cluster in completely different categories.</p>
+                <p style="margin-bottom: 0;"><strong>What this tells us:</strong> The FROM/TO distinction isn't just grammar—it captures real semantic difference:</p>
+                <ul style="margin-bottom: 0;">
+                    <li><strong>"Freedom FROM"</strong> names things to be <em>removed</em> (sin, persecution, fear)</li>
+                    <li><strong>"Freedom TO"</strong> names things you can <em>do</em> (speak, worship, choose)</li>
+                </ul>
+            </div>
+
+            <p>This means the historical shifts we found are genuine changes in what people meant by freedom, not just different ways of saying the same thing.</p>
+
+            <h3>What Else We Discovered</h3>
+
+            <ul>
+                <li><strong>"Freedom" and "liberty" are drifting apart.</strong> They used to mean almost the same thing. Now they're used in different ways. <em>[HistWords: 1800-1990; COHA: 1820-2010]</em></li>
+                <li><strong>"Financial freedom" is booming.</strong> This phrase grew 8.8x more common between the 1970s and 2010s. <em>[Google Ngrams: 1800-2019]</em></li>
+                <li><strong>"Personal freedom" and "political freedom" peaked in 1971</strong> and have been declining ever since. <em>[Google Ngrams: 1800-2019]</em></li>
+                <li><strong>In the 1500s-1700s, "God" was the #1 word appearing near "freedom."</strong> Today, religious associations are much weaker. <em>[EEBO-TCP: 1500-1700]</em></li>
+                <li><strong>The 2020s fragmented "freedom" into competing meanings.</strong> Medical freedom, financial freedom, freedom of speech—different groups claim the word differently. <em>[Google Trends: 2004-2025]</em></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- How We Did It -->
+    <section>
+        <div class="container">
+            <h2>How We Did This</h2>
+
+            <p>Using computational methods and historical data:</p>
+
+            <div class="simple-table">
+                <table class="simple-table">
+                    <thead>
+                        <tr>
+                            <th>Source</th>
+                            <th>Time Period</th>
+                            <th>What It Tells Us</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Early English Books</td>
+                            <td>1500-1700</td>
+                            <td>How freedom was used in the era of Shakespeare and the King James Bible</td>
+                        </tr>
+                        <tr>
+                            <td>Google Books</td>
+                            <td>1800-2019</td>
+                            <td>How often phrases like "financial freedom" appear in millions of books</td>
+                        </tr>
+                        <tr>
+                            <td>Historical American English</td>
+                            <td>1820-2010</td>
+                            <td>Which words appear near "freedom" in American texts</td>
+                        </tr>
+                        <tr>
+                            <td>Google Search Trends</td>
+                            <td>2004-2025</td>
+                            <td>What people are searching for online</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>What We Measured</h3>
+
+            <p>We looked at two main things:</p>
+
+            <ol>
+                <li><strong>Nearby words:</strong> Which words tend to appear close to "freedom" in a sentence? For example, in the 1800s, words like "unrestrained" and "enjoyment" appeared nearby. By the 1990s, words like "democracy" and "autonomy" were more common.</li>
+                <li><strong>Phrase frequency:</strong> How often do specific phrases like "financial freedom" or "political freedom" appear in books?</li>
+            </ol>
+
+            <div class="warning-box">
+                <p><strong>Important limitation:</strong> We don't have good data for 1700-1800. This is the period of the American and French Revolutions—a crucial time for freedom discourse that we can't fully analyze.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where It Started -->
+    <section>
+        <div class="container">
+            <h2>Where the Word Came From</h2>
+
+            <p>The word "freedom" has ancient roots:</p>
+
+            <div class="timeline-simple">
+                <div class="event">
+                    <div class="year">Ancient Times</div>
+                    <p>The original root word meant "to love." It evolved to mean "beloved ones"—members of your own family or tribe, as opposed to slaves who were outsiders.</p>
+                </div>
+                <div class="event">
+                    <div class="year">450-1100 (Old English)</div>
+                    <p><strong>"Frēodōm"</strong> meant simply: not being a slave. It was a legal status—you were either free or you weren't. There was no middle ground.</p>
+                </div>
+                <div class="event">
+                    <div class="year">1100-1500 (Middle English)</div>
+                    <p>The meaning expanded to include citizenship rights, guild membership, and spiritual liberty (freedom from sin).</p>
+                </div>
+            </div>
+
+            <blockquote>
+                "That is freedom, that a man may do what he will."
+                <span class="source">— Old English text, around 900 CE</span>
+            </blockquote>
+
+            <div class="info-box">
+                <p><strong>Key insight:</strong> Originally, freedom was defined by what it <em>wasn't</em>—slavery. This opposition between freedom and slavery has remained central to the word's meaning for over 1,500 years.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Religious Period -->
+    <section>
+        <div class="container">
+            <h2>The Religious Period (1500-1700)</h2>
+
+            <p>We analyzed over 53,000 texts from this era. The results were striking:</p>
+
+            <div class="highlight">
+                <div class="label">Most Common Word Near "Freedom"</div>
+                <div class="big-number">God</div>
+                <p style="margin-top: 0.5rem; margin-bottom: 0;">From 1550 to 1700, "God" was the #1 word appearing near "freedom" in English texts.</p>
+            </div>
+
+            <h3>What "Freedom" Meant Back Then</h3>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>Phrase</th>
+                        <th>What It Meant</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>"Christian liberty"</td>
+                        <td>Freedom from Old Testament laws through Christ</td>
+                    </tr>
+                    <tr>
+                        <td>"God grants freedom"</td>
+                        <td>God as the source of all liberty</td>
+                    </tr>
+                    <tr>
+                        <td>"Liberty of conscience"</td>
+                        <td>Freedom to worship as you choose</td>
+                    </tr>
+                    <tr>
+                        <td>"Freedom from sin"</td>
+                        <td>Spiritual liberation through faith</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>The Bridge to Modern Freedom</h3>
+
+            <p>One phrase was especially important: <strong>"liberty of conscience."</strong></p>
+
+            <div class="stats-row">
+                <div class="stat-box">
+                    <div class="number">11</div>
+                    <div class="text">Times used (1550-1600)</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">704</div>
+                    <div class="text">Times used (1650-1700)</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">~6x</div>
+                    <div class="text">Growth (normalized)</div>
+                </div>
+            </div>
+
+            <p>This phrase bridged religious and political freedom. It started as a purely spiritual idea (freedom of your soul) but became a political demand (freedom to worship without government interference).</p>
+
+            <blockquote>
+                "Liberty of Conscience is every man's natural Right."
+                <span class="source">— John Locke, 1689</span>
+            </blockquote>
+
+            <p style="font-style: italic; color: var(--muted); margin-top: 1.5rem;"><strong>Note:</strong> Our data has a gap during the 1700s, meaning we miss the specific phrasing of the American and French Revolutions. However, when the data resumes in the 19th century, the focus has shifted entirely.</p>
+        </div>
+    </section>
+
+    <!-- Modern Period -->
+    <section>
+        <div class="container">
+            <h2>The Modern Period (1800-2019)</h2>
+
+            <h3>Freedom vs. Liberty: Growing Apart</h3>
+
+            <p>Many people use "freedom" and "liberty" as if they mean the same thing. Our data shows they're actually <strong>drifting apart</strong>:</p>
+
+            <div class="stats-row">
+                <div class="stat-box">
+                    <div class="number">7-9%</div>
+                    <div class="text">Shared nearby words (all decades)</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">89%</div>
+                    <div class="text">"Freedom" stability over 200 years</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">40%</div>
+                    <div class="text">"Liberty" stability over 200 years</div>
+                </div>
+            </div>
+
+            <p><strong>What this means:</strong> "Freedom" and "liberty" only share about 7-9% of their nearby words—they're used in very different contexts. And while "freedom" has stayed relatively stable, "liberty" has changed a lot.</p>
+
+            <h3>How "Liberty" Changed</h3>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>Words Near "Liberty" in the 1820s</th>
+                        <th>Words Near "Liberty" in the 2010s</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>despotism, glorious, champion, rational</td>
+                        <td>charter, democracy, guarantees, citizen</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="font-style: italic; color: var(--muted);">"Liberty" went from revolutionary struggle to legal/institutional language</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Words Getting Closer to "Freedom"</h3>
+
+            <p>One of the biggest changes: <strong>"autonomy" moved much closer to "freedom."</strong></p>
+
+            <p>In 1800, "autonomy" was rarely used near "freedom." By 1990, they were closely linked. This shows freedom becoming more about individual self-determination.</p>
+
+            <h3>Major Turning Points</h3>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>Period</th>
+                        <th>What Changed</th>
+                        <th>Historical Context</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1820-1830</td>
+                        <td>Biggest shift for "freedom" and "liberty"</td>
+                        <td>Abolition debates, Slavery Abolition Act (1833)</td>
+                    </tr>
+                    <tr>
+                        <td>1960-1970</td>
+                        <td>Biggest shift for "rights"</td>
+                        <td>Civil Rights Movement</td>
+                    </tr>
+                    <tr>
+                        <td>1971</td>
+                        <td>"Personal freedom" and "political freedom" peak</td>
+                        <td>End of 1960s activism</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- The Financial Turn -->
+    <section>
+        <div class="container">
+            <h2>The Rise of "Financial Freedom"</h2>
+
+            <p>Here's one of our most striking findings:</p>
+
+            <div class="highlight">
+                <div class="label">While "Political Freedom" Declined...</div>
+                <div class="big-number">8.8x</div>
+                <p style="margin-top: 0.5rem; margin-bottom: 0;">"Financial freedom" grew 8.8 times more common in books between the 1970s and 2010s.</p>
+            </div>
+
+            <h3>The Numbers</h3>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>Phrase</th>
+                        <th>Growth (1970s → 2010s)</th>
+                        <th>Peak Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>debt freedom</td>
+                        <td class="up">58.7x increase</td>
+                        <td>2006</td>
+                    </tr>
+                    <tr>
+                        <td>financial freedom</td>
+                        <td class="up">8.8x increase</td>
+                        <td>2019 (still rising)</td>
+                    </tr>
+                    <tr>
+                        <td>personal freedom</td>
+                        <td class="down">20% decline</td>
+                        <td>1971</td>
+                    </tr>
+                    <tr>
+                        <td>political freedom</td>
+                        <td class="down">20% decline</td>
+                        <td>1971</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>The FIRE Movement</h3>
+
+            <p>The rise of "financial freedom" tracks with specific cultural events:</p>
+
+            <div class="timeline-simple">
+                <div class="event">
+                    <div class="year">1992</div>
+                    <p><em>Your Money or Your Life</em> published—the book that started the Financial Independence movement.</p>
+                </div>
+                <div class="event">
+                    <div class="year">1997</div>
+                    <p><em>Rich Dad Poor Dad</em> made "financial freedom" a mainstream aspiration.</p>
+                </div>
+                <div class="event">
+                    <div class="year">2011</div>
+                    <p>Mr. Money Mustache blog brought "FIRE" (Financial Independence, Retire Early) to a wider audience.</p>
+                </div>
+                <div class="event">
+                    <div class="year">2018</div>
+                    <p>"Playing with FIRE" documentary—the movement enters popular culture.</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <p><strong>Two kinds of "economic freedom":</strong></p>
+                <ul style="margin-bottom: 0;">
+                    <li><strong>"Financial freedom"</strong> (personal) = freedom FROM debt, ability to retire early. <span class="up">Growing fast.</span></li>
+                    <li><strong>"Economic freedom"</strong> (political) = free markets, capitalism vs. communism. <span class="down">Stagnant since Cold War ended.</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- The 2020s -->
+    <section>
+        <div class="container">
+            <h2>The 2020s: Freedom Fragmented</h2>
+
+            <p>Because books take years to publish, they cannot capture the speed of modern language change. For the 2020s, we shifted our lens from printed text to real-time Google Search data to see how people use the word in the moment:</p>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>Search Term</th>
+                        <th>When It Peaked</th>
+                        <th>Context</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>"vaccine mandate"</td>
+                        <td>November 2021</td>
+                        <td>Biden federal mandate announcement</td>
+                    </tr>
+                    <tr>
+                        <td>"freedom convoy"</td>
+                        <td>February 2022</td>
+                        <td>Canadian trucker protests</td>
+                    </tr>
+                    <tr>
+                        <td>"freedom of speech"</td>
+                        <td>January 2021</td>
+                        <td>Social media bans after January 6</td>
+                    </tr>
+                    <tr>
+                        <td>"medical freedom"</td>
+                        <td>2021-2022</td>
+                        <td>Anti-mandate movement</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Competing "Freedoms"</h3>
+
+            <p>Today, different groups use "freedom" to mean very different things:</p>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>Type of Freedom</th>
+                        <th>Who Uses It</th>
+                        <th>What It Means</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Medical freedom</td>
+                        <td>Right/libertarian</td>
+                        <td>No vaccine mandates</td>
+                    </tr>
+                    <tr>
+                        <td>Financial freedom</td>
+                        <td>Apolitical</td>
+                        <td>Not having to work for money</td>
+                    </tr>
+                    <tr>
+                        <td>Freedom of speech</td>
+                        <td>Right-leaning</td>
+                        <td>No social media censorship</td>
+                    </tr>
+                    <tr>
+                        <td>Religious freedom</td>
+                        <td>Conservative</td>
+                        <td>Church autonomy</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>A Curious Finding: Search vs. Books</h3>
+
+            <p>We found something interesting when comparing what people <em>write in books</em> vs. what they <em>search for online</em>:</p>
+
+            <table class="simple-table">
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>In Books</th>
+                        <th>In Google Searches</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>personal freedom</td>
+                        <td class="down">Declining since 1971</td>
+                        <td class="up">Rising</td>
+                    </tr>
+                    <tr>
+                        <td>political freedom</td>
+                        <td class="down">Declining since 1971</td>
+                        <td class="up">Rising</td>
+                    </tr>
+                    <tr>
+                        <td>financial freedom</td>
+                        <td class="up">Rising fast</td>
+                        <td>Peaked in 2007, flat since</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-box">
+                <p><strong>What might this mean?</strong> People may search for things they feel are threatened or declining. "Personal freedom" appears less in books, but people search for it more—perhaps because they feel it's under threat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Learned -->
+    <section>
+        <div class="container">
+            <h2>Summary: How "Freedom" Changed</h2>
+
+            <div class="timeline-simple">
+                <div class="event">
+                    <div class="year">Before 1500</div>
+                    <p><strong>Legal status.</strong> Freedom meant one thing: not being a slave. It was concrete and binary. <em>[Historical dictionaries]</em></p>
+                </div>
+                <div class="event">
+                    <div class="year">1500-1700</div>
+                    <p><strong>Religious meaning + Positive framing (79%).</strong> "God" was the most common word near "freedom." Freedom was about what you could DO—"liberty to speak," "freedom to worship." <em>[EEBO-TCP]</em></p>
+                </div>
+                <div class="event">
+                    <div class="year">1800-1920</div>
+                    <p><strong>Peak negative framing (76%).</strong> Abolition debates changed everything. "Freedom from slavery," "freedom from oppression" dominated. <em>[Google Ngrams]</em></p>
+                </div>
+                <div class="event">
+                    <div class="year">1965</div>
+                    <p><strong>The crossover.</strong> "Freedom to" surpassed "freedom from" in published books for the first time since the early modern period. <em>[Google Ngrams]</em></p>
+                </div>
+                <div class="event">
+                    <div class="year">1971-2019</div>
+                    <p><strong>Financial turn.</strong> Political/personal freedom declined while "financial freedom" surged 8.8x. Freedom became about individual entitlements. <em>[Google Ngrams]</em></p>
+                </div>
+                <div class="event">
+                    <div class="year">~1880</div>
+                    <p><strong>The hidden crossover.</strong> Around 1880, "New Liberals" (T.H. Green, L.T. Hobhouse) began redefining freedom from legal status to personal capacity. Isaiah Berlin later called this the shift from "negative liberty" (freedom from interference) to "positive liberty" (freedom to achieve). <em>[HistWords]</em></p>
+                </div>
+                <div class="event">
+                    <div class="year">2020-present</div>
+                    <p><strong>Fragmentation.</strong> Multiple competing "freedoms" (medical, financial, religious, speech). When freedom means "capacity," your taxes fund my freedom—and disagreement is inevitable. <em>[Google Trends]</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limitations -->
+    <section>
+        <div class="container">
+            <h2>What We Couldn't Measure</h2>
+
+            <p>Our analysis has some important gaps:</p>
+
+            <ul>
+                <li><strong>1700-1800 gap:</strong> We don't have good data for the period of the American and French Revolutions.</li>
+                <li><strong>American focus:</strong> Most of our data is from American English. British usage might be different.</li>
+                <li><strong>Published text bias:</strong> We analyzed books and newspapers, not everyday speech.</li>
+                <li><strong>No political breakdown:</strong> We didn't separate how conservatives vs. progressives use "freedom."</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Data Sources -->
+    <section>
+        <div class="container">
+            <h2>Where the Data Came From</h2>
+
+            <h3>Text Collections We Analyzed</h3>
+            <ul>
+                <li><strong>EEBO-TCP</strong> (1500-1700): 53,000+ early English books — <a href="https://textcreationpartnership.org/">textcreationpartnership.org</a></li>
+                <li><strong>COHA</strong> (1820-2010): 475 million words of American English — <a href="https://www.english-corpora.org/coha/">english-corpora.org/coha</a></li>
+                <li><strong>Google Books</strong> (1800-2019): Billions of words from published books — <a href="https://books.google.com/ngrams/">books.google.com/ngrams</a></li>
+                <li><strong>Google Trends</strong> (2004-2025): What people search for — <a href="https://trends.google.com/">trends.google.com</a></li>
+                <li><strong>HistWords</strong> (1800-1990): Word relationships over time — <a href="https://nlp.stanford.edu/projects/histwords/">nlp.stanford.edu/projects/histwords</a></li>
+            </ul>
+
+            <h3>Dictionaries We Used</h3>
+            <ul>
+                <li><strong>Bosworth-Toller</strong>: Old English dictionary — <a href="https://bosworthtoller.com/">bosworthtoller.com</a></li>
+                <li><strong>Middle English Dictionary</strong> — <a href="https://quod.lib.umich.edu/m/middle-english-dictionary/">quod.lib.umich.edu</a></li>
+                <li><strong>Etymology Online</strong> — <a href="https://www.etymonline.com/word/freedom">etymonline.com</a></li>
+            </ul>
+
+            <h3>Key Scholarship</h3>
+            <ul>
+                <li>Berlin, I. (1958). <em>Two Concepts of Liberty</em> — <a href="https://cactus.utahtech.edu/green/B_Readings/I_Berlin%20Two%20Concpets%20of%20Liberty.pdf">PDF</a></li>
+                <li>Patterson, O. (1991). <em>Freedom in the Making of Western Culture</em> — <a href="https://archive.org/details/freedomfreedomin0000orla">Harvard UP</a></li>
+                <li>Green, T.H. (1881). <em>Lecture on Liberal Legislation and Freedom of Contract</em></li>
+                <li>Hamilton et al. (2016). <em>Diachronic Word Embeddings</em> — <a href="https://aclanthology.org/P16-1141/">ACL Anthology</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Research Summary | January 2026</p>
+        </div>
+    </footer>
+</body>
+</html>
