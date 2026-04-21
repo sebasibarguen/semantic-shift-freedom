@@ -1,6 +1,6 @@
 # semantic-shift-freedom
 
-Computational analysis of how the word "freedom" shifted meaning across 500 years of English text. See [`paper/simple.md`](paper/simple.md) for findings.
+Computational analysis of how the word "freedom" shifted meaning across 500 years of English text.
 
 ## Setup
 
