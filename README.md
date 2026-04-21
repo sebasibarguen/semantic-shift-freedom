@@ -44,7 +44,15 @@ uv run python src/robustness.py
 uv run python src/control_words.py
 ```
 
-Large jobs (Wikipedia GloVe training, full Hansard processing) use the `modal_*.py` scripts, which run on [Modal](https://modal.com/) cloud infrastructure.
+LLM sentence classification uses the [Message Batches API](https://docs.anthropic.com/en/docs/build-with-claude/batch-processing) — 50% cheaper and async. One request per sentence with forced tool-use output (rationale + label).
+
+```bash
+# Classify every sentence in a decade file (in place)
+uv run python src/classify_liberty.py --input web/data/sentences_1980s.json
+
+# Evaluate against the 100-sentence Opus gold sample
+uv run python src/classify_liberty.py --eval
+```
 
 ## Web Interface
 

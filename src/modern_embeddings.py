@@ -10,8 +10,6 @@ def run_coha_analysis(coha_dir: str, gbooks_dir: str, output_path: str):
     """
     Run the full COHA analysis: freedom-liberty similarity, SemAxis projection,
     control words, and cross-validation against Google Books.
-
-    Pure function — no Modal dependencies. Works locally or in any container.
     """
     import sys
     sys.path.insert(0, str(Path(__file__).parent))
