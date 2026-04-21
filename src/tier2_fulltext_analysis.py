@@ -5,8 +5,8 @@ import json
 import re
 from pathlib import Path
 from collections import Counter, defaultdict
-from normalizer import EarlyModernNormalizer
-from domain_tagger import DomainTagger
+from .normalizer import EarlyModernNormalizer
+from .domain_tagger import DomainTagger
 
 
 def load_contexts(corpus_dir: Path, bin_label: str) -> list[dict]:

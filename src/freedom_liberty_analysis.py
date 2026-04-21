@@ -1,13 +1,11 @@
 # ABOUTME: Focused analysis of freedom vs liberty divergence and legal→personal shift
 # ABOUTME: Uses HistWords embeddings (1800-1990) to answer two specific questions
 
-import sys
 import json
 import numpy as np
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from embeddings import TemporalEmbeddings
+from .embeddings import TemporalEmbeddings
 
 
 def cosine_similarity(v1, v2):

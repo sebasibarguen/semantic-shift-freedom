@@ -7,7 +7,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "This is an index entry listing page numbers for discussion of \"Freedom of Contract\" as a proposed power for local authorities; it makes no substantive claim about liberty itself."
+    "haiku_v2_rationale": "This is a contents/index entry listing page numbers for a topic about freedom of contract for local authorities; it makes no substantive claim about liberty as a value."
   },
   {
     "id": "1947-07-10-df941b-008",
@@ -17,7 +17,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "The sentence uses bare \"freedom\" without specifying what kind of freedom or whether it is freedom from interference or freedom to act; insufficient context to determine whether this refers to negative or positive liberty."
+    "haiku_v2_rationale": "The sentence refers to winning \"this freedom\" without specifying what freedom is at issue or whether it concerns liberation from constraint or empowerment to act. The referent of \"this freedom\" is not defined within the sentence itself."
   },
   {
     "id": "1953-04-17-639f6e-026",
@@ -27,7 +27,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Students are entrusted with freedom (non-interference/autonomous action), and the sentence states this freedom is not abused except rarely\u2014affirming their capacity to exercise self-direction responsibly."
+    "haiku_v2_rationale": "Students are entrusted with freedom (from external control/oversight), which is a capacity they are granted or allowed to exercise without interference or abuse."
   },
   {
     "id": "1996-02-26-756bf4-008",
@@ -37,7 +37,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of information is a classic negative liberty: it concerns freedom from restrictions on access to and dissemination of information, analogous to freedom of speech or press."
+    "haiku_v2_rationale": "Freedom of information is the freedom from government interference with access to information\u2014a classic negative liberty concerning the ability to access and receive information without state restraint."
   },
   {
     "id": "2019-10-15-3f9a2e-001",
@@ -47,7 +47,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Catalonian parliamentarians' freedom of expression\u2014freedom from interference with their ability to debate independence\u2014is a negative liberty claim."
+    "haiku_v2_rationale": "Catalonian parliamentarians are freed from interference with their expression/debate on the question of independence\u2014this invokes freedom from restraint on political speech."
   },
   {
     "id": "1919-11-07-6a5b4e-022",
@@ -57,7 +57,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "The phrase \"freedom\" is invoked as a rhetorical ideal opposed to constraint, paired with \"self-government\" as a positive value to be championed\u2014the freedom being discussed is the capacity of a people/nation to govern itself, which is positive liberty or empowerment."
+    "haiku_v2_rationale": "Self-government is a positive liberty claim: it concerns empowering a people/nation to govern themselves, not merely freedom from external interference."
   },
   {
     "id": "1959-01-26-cf3abb-022",
@@ -67,7 +67,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence discusses safeguarding liberty of the individual (protection from interference), which is negative liberty\u2014freedom from violation or constraint of personal autonomy."
+    "haiku_v2_rationale": "The sentence concerns safeguarding the liberty of the individual\u2014that is, protecting freedom from interference and intrusion. \"Safeguarding liberty\" is protecting the individual's freedom from wrongful constraint."
   },
   {
     "id": "1993-11-22-81d164-082",
@@ -77,7 +77,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Personal freedom here names freedom from interference with individual choice and action (in contrast to state control of markets and enterprise), aligned with negative liberty doctrines."
+    "haiku_v2_rationale": "Personal freedom is being freed from state interference; the speaker invokes it as a core principle alongside free markets and private enterprise, which collectively represent a freedom-from-intrusion philosophy."
   },
   {
     "id": "1819-9adafb-141",
@@ -87,7 +87,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker invokes \"rational principles of liberty\" as an ideal standing opposed to warfare and bloodshed\u2014a rhetorical invocation of liberty as freedom from tyranny and oppression, characteristic of negative liberty discourse in the context of peace and national self-determination."
+    "haiku_v2_rationale": "What is being freed: human societies and nations. From/to what: from violent warfare and toward peaceful coexistence governed by rational principles of liberty (freedom from despotic interference). The sentence invokes liberty as a value opposed to the bloodshed of war, identifying it as absence of external coercion."
   },
   {
     "id": "1885-d7f650-149",
@@ -97,7 +97,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "\"Wilkes and Liberty\" is a rhetorical invocation of liberty as a political cause and rallying cry against perceived tyranny and government oppression, referencing freedom from governmental interference."
+    "haiku_v2_rationale": "\"Wilkes and Liberty\" is a rhetorical invocation of liberty as a political cause opposing government tyranny and oppression, referring to the 18th-century Wilkes affair\u2014a classic demand for freedom from unlawful interference with speech and parliamentary representation."
   },
   {
     "id": "2020-07-01-f40971-011",
@@ -107,7 +107,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Rights and freedoms of Hong Kong people are being protected against interference/sacrifice for economic interests (bankers' bonuses), invoking negative liberty\u2014freedom from external constraint or infringement."
+    "haiku_v2_rationale": "Rights and freedoms of Hong Kong people are being protected from sacrifice (interference/abandonment) for economic interests; this invokes liberty as a value against instrumental harm."
   },
   {
     "id": "1822-af1595-013",
@@ -117,7 +117,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "The speaker is using \"took the liberty of\" as a parliamentary courtesy expression meaning \"may I proceed to\" or \"allow me to\"; this is procedural language, not a substantive claim about freedom as a value."
+    "haiku_v2_rationale": "This is parliamentary procedure language: \"took the liberty of\" is an idiomatic formula meaning \"I will permit myself to\" or \"I will proceed to,\" not a substantive claim about liberty-as-a-value."
   },
   {
     "id": "1975-07-07-ffd4f4-093",
@@ -127,7 +127,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence discusses civil liberty (freedom from arbitrary arrest and detention interference) balanced against the state's compulsory power to enforce criminal process\u2014a classic negative liberty framing about protection from state interference in personal detention."
+    "haiku_v2_rationale": "The individual is freed (from arbitrary arrest/detention without legal process) by legal constraints on arrest powers \u2014 a negative liberty interest (protection from state interference) being discussed as balanced against state's compulsory powers."
   },
   {
     "id": "1830-00f22c-558",
@@ -137,7 +137,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "The sentence invokes \"liberty\" as a general good to be promoted for the speaker's fellow-subjects, without specifying what is being freed or from-to what\u2014the liberty is bare and rhetorical."
+    "haiku_v2_rationale": "Liberty is invoked as a general value opposed to what would harm the common good and subjects' happiness; the speaker claims their measures protect liberty as a condition of human flourishing, without specifying freedom from particular constraints or enabling particular capacities."
   },
   {
     "id": "1829-cbd157-015",
@@ -147,7 +147,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "England's historical policy of aiding liberty and independence and resisting despotism describes freedom from domination, oppression, and encroachment by stronger powers\u2014a freedom from interference and subjugation."
+    "haiku_v2_rationale": "Freedom is being freed from despotism, encroachment, and oppression\u2014England's policy aimed to restrain tyrannical power and resist external constraints on nations' independence."
   },
   {
     "id": "1899-6936b6-017",
@@ -157,7 +157,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Colonies are freed to make fiscal arrangements independently, without external interference\u2014empowering self-governance in fiscal policy, which is an instance of positive liberty (capacity to govern oneself)."
+    "haiku_v2_rationale": "What is being freed: the colonies' capacity to make fiscal arrangements independently. From-or-to: empowerment/grant of authority to govern themselves without external interference or constraint."
   },
   {
     "id": "2018-03-19-5be985-003",
@@ -167,7 +167,7 @@
     "opus": "ambiguous",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker is discussing constraints on freedom (specifically \"freedom to harm others\") balanced against liberal values that support freedom more broadly, emphasizing the negative liberty principle of freedom from harm and interference, applied through legislation."
+    "haiku_v2_rationale": "Freedom from harm (negative liberty) in balance with freedom to act without interference (negative liberty), where legislation enables that balance across domains including online conduct."
   },
   {
     "id": "1907-c02d7b-009",
@@ -177,7 +177,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The liberty of the subject to be free from constraint on expressing views (especially those hostile to majority or minority opinion); freedom of expression from interference."
+    "haiku_v2_rationale": "Freedom to express views (the specific object) that are hostile to those of the majority or minority\u2014this is freedom from interference with expression, a classic negative liberty claim about the right to speak dissenting opinions without restraint."
   },
   {
     "id": "1938-02-28-060995-010",
@@ -187,7 +187,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The oil industries have freedom from strikes \u2014 being freed from the interference of strike actions."
+    "haiku_v2_rationale": "Freedom from strikes is freedom from unwanted interference with production and operations\u2014a negative liberty claim about absence of disruption."
   },
   {
     "id": "1982-07-23-066894-047",
@@ -197,7 +197,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "The sentence invokes \"personal liberty and freedom\" as abstract values within human rights discourse, without specifying what is being freed or from-or-to what. The passage is incomplete, making the specific object of freedom unclear."
+    "haiku_v2_rationale": "The sentence invokes \"personal liberty and freedom\" as foundational human rights concepts without specifying whether they concern freedom from interference or empowered capacity to act."
   },
   {
     "id": "1859-f5b053-007",
@@ -207,7 +207,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "This is parliamentary procedure language: \"at liberty to\" means \"permitted by rules of order to\"; it is not a substantive claim about liberty-as-a-value but rather whether standing rules allow the statement."
+    "haiku_v2_rationale": "The phrase \"at liberty to\" is a parliamentary procedural idiom meaning \"permitted\" or \"allowed,\" used to question whether a member is procedurally permitted to make a statement without prior disclosure. This is not substantive political liberty-as-a-value."
   },
   {
     "id": "2021-03-17-27a774-001",
@@ -217,7 +217,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of movement is freedom from restrictions on crossing borders/boundaries between Ireland and Northern Ireland\u2014a classic negative liberty protecting from interference with mobility."
+    "haiku_v2_rationale": "The sentence invokes \"freedom of movement of people\" as a core value of the Good Friday-Belfast agreement, designating movement as a freedom from state interference rather than an empowered capacity."
   },
   {
     "id": "1851-e57be1-052",
@@ -227,7 +227,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Traders are freed from interference/restriction to engage in trade, consistently with revenue and fair dealing constraints."
+    "haiku_v2_rationale": "The sentence seeks to extend freedom of trade \u2014 freedom from interference with commercial activity \u2014 though subject to revenue and fair-dealing constraints."
   },
   {
     "id": "1870-88737e-030",
@@ -237,7 +237,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "A man is being restricted (\"abridged\") in his liberty by class legislation; the concern is freedom from governmental interference that selectively disadvantages a particular class."
+    "haiku_v2_rationale": "A man's liberty is being abridged by class legislation; abridging liberty means restricting his freedom from interference or constraint."
   },
   {
     "id": "1951-04-26-bed128-000",
@@ -247,7 +247,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "The sentence is a bare invocation of \"freedom\" without specifying what is being freed, from what interference, or to what capacity. No substantive claim about the nature or value of liberty is made."
+    "haiku_v2_rationale": "The sentence makes a bare invocation of \"freedom\" without specifying what is being freed, from what, or to what; the context is unavailable and the sentence does not disambiguate whether the speaker means negative liberty (freedom from interference) or positive liberty (empowered capacity)."
   },
   {
     "id": "2021-04-12-e26568-010",
@@ -257,7 +257,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Young people are freed to take action and achieve their potential through the enabling capacity/empowerment provided by the Award scheme."
+    "haiku_v2_rationale": "The Duke of Edinburgh Award enabled participants (capacity/empowerment) to do something unspecified\u2014freedom here means the opportunity and inspiration granted to act, not freedom from interference."
   },
   {
     "id": "1870-afcf55-121",
@@ -267,7 +267,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence invokes \"liberty\" as a value threatened by Russian expansion, opposing encroachment that would endanger European political independence and security \u2014 a rhetorical invocation of freedom from foreign domination."
+    "haiku_v2_rationale": "Peace, liberty, and privileges of Europe are being freed from encroachment and absorption by Russia, a constraint on European independence and self-governance."
   },
   {
     "id": "1936-12-18-b55022-024",
@@ -277,7 +277,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "A passionate desire for \"freedom\" invoked as a general political aspiration alongside justice; the object and direction of freedom are not specified\u2014unclear what is being freed or from-or-to what."
+    "haiku_v2_rationale": "The sentence expresses a passionate desire for freedom as a cause/value alongside justice, without specifying what is being freed or from-or-to what. It is a rhetorical invocation of freedom as an abstract ideal without the concrete specification required to distinguish negative from positive liberty."
   },
   {
     "id": "1976-05-24-4f7e49-036",
@@ -287,7 +287,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence invokes \"freedom of conscience\" as a named civil liberty\u2014freedom from interference with one's conscience or belief\u2014opposing it to a doctrine that would restrict it."
+    "haiku_v2_rationale": "The speaker invokes \"freedom of conscience\" as a principle protecting individuals from interference in their moral and ethical beliefs, in the context of questioning whether a doctrine should be enforced or allowed."
   },
   {
     "id": "1864-f1d5e2-009",
@@ -297,7 +297,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of contract (the freedom from state interference with private contractual arrangements) was not restricted by Poor Law intervention in Ireland."
+    "haiku_v2_rationale": "The speaker asserts that the Poor Law intervention did not restrict freedom of contract\u2014the object of freedom is contract, and the claim is about non-interference with it."
   },
   {
     "id": "1832-035b21-183",
@@ -307,7 +307,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom is being characterized as absence of constraint on employment/labor \u2014 freedom from imposed work. The contrast drawn is between freedom-as-non-interference with labor and the speaker's assumption that the man would value freedom to engage in industrious work. The object of freedom is release from mandatory employment, a negative liberty concern."
+    "haiku_v2_rationale": "Freedom is being understood as cessation from employment (release from labor obligation), contrasted with what European civilization would have cultivated (industriousness). The object being freed is the enslaved person from the condition of labor itself."
   },
   {
     "id": "1981-02-12-ff4823-000",
@@ -317,7 +317,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of information is a freedom from governmental interference with access to official records and data\u2014a classic negative liberty claim that citizens/press should not be prevented from obtaining public information."
+    "haiku_v2_rationale": "The sentence invokes \"Freedom of Information\" as a legislative initiative\u2014the freedom to access government information without bureaucratic interference, a classic negative liberty claim."
   },
   {
     "id": "1871-9fc067-014",
@@ -327,7 +327,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Liberty of the subject (citizens) is being defended against diminishment of facilities for control\u2014negative liberty from state/parliamentary interference with individual rights and oversight."
+    "haiku_v2_rationale": "The subject being freed is \"the subject\" (the citizen), who should be freed from parliamentary control and interference\u2014a non-interference concept\u2014as the House's business grows."
   },
   {
     "id": "1950-09-13-673c62-016",
@@ -337,7 +337,7 @@
     "opus": "positive_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence invokes \"freedom\" as a rhetorical cause opposed to the tyranny of Nazism in the Second World War \u2014 this is freedom from oppression and foreign domination, a classic negative liberty framing."
+    "haiku_v2_rationale": "The country is being freed from totalitarian/authoritarian rule (Nazi oppression) through military action in defence of democratic self-governance\u2014a classic rhetorical invocation of negative liberty against tyranny."
   },
   {
     "id": "1920-02-24-460b68-016",
@@ -347,7 +347,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker invokes \"human liberty\" as a cause or value that certain apostles support, opposing it to something undesirable; this is a rhetorical invocation of liberty as freedom from constraint or oppression."
+    "haiku_v2_rationale": "Human liberty is invoked here as a cause or ideal (contrasted with something requiring a \"funeral\"), functioning as a rhetorical appeal to freedom from constraint or tyranny, typical of negative liberty discourse."
   },
   {
     "id": "1871-b9ae04-108",
@@ -357,7 +357,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The system of government regulation and examination of women is being condemned as contrary to liberty understood as freedom from state interference in personal/bodily autonomy and intimate matters."
+    "haiku_v2_rationale": "The sentence identifies \"liberty of the State\" as being threatened by government regulation and examination of women \u2014 freedom from state interference in personal/bodily matters."
   },
   {
     "id": "1854-3407a8-124",
@@ -367,7 +367,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The object of freedom is the capacity to make or enforce a private separation contract; the Court denies this freedom, holding that parties are not at liberty to desert their stipulated marital duties\u2014a negative liberty claim about what persons cannot be freed from doing."
+    "haiku_v2_rationale": "Parties are not at liberty to desert their stipulated duties in marriage contracts\u2014this is freedom from interference with contractual obligation, a constraint on liberty of contract."
   },
   {
     "id": "1843-1c58cf-017",
@@ -376,8 +376,8 @@
     "haiku": "other",
     "opus": "other",
     "agree": true,
-    "haiku_v2": "other",
-    "haiku_v2_rationale": "This is a procedural/parliamentary usage: the speaker asserts that the body is \"at liberty to pursue one or other of three courses\" \u2014 meaning they have the ability or permission to proceed with a decision. This is not making a substantive claim about liberty-as-a-value but rather using \"at liberty\" in the procedural sense."
+    "haiku_v2": "positive_liberty",
+    "haiku_v2_rationale": "Parliament is empowered to choose among three courses of action regarding Maynooth, a concrete option being granted/enabled to the legislative body itself."
   },
   {
     "id": "1978-02-01-1d5aa0-008",
@@ -387,7 +387,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The individual is freed from interference with their personal liberty and rights; the sentence invokes liberty as a cause/value opposed to oppression, making it negative liberty."
+    "haiku_v2_rationale": "The individual is being freed from interference (constraint on their agency), framed as a foundational principle of liberal governance\u2014liberty as a value opposed to state control."
   },
   {
     "id": "1851-b831dc-054",
@@ -397,7 +397,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The witnesses are freed from interference with their capacity to fast and attend mass\u2014this is freedom of religious practice and conscience."
+    "haiku_v2_rationale": "The liberty being discussed is freedom from interference with religious practice (fasting and attending mass); this is freedom of religion in the negative sense\u2014non-interference with conscience and worship."
   },
   {
     "id": "1966-07-07-1079f9-009",
@@ -407,7 +407,7 @@
     "opus": "ambiguous",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence asks about the degree of non-interference or procedural openness available within electoral processes\u2014specifically, what scope for genuine choice and lack of constraint exists in elections."
+    "haiku_v2_rationale": "What degree of freedom (absence of constraint or coercion) will exist in conducting and participating in elections\u2014freedom from manipulation, fraud, or external interference in the electoral process."
   },
   {
     "id": "1948-01-22-57f806-009",
@@ -417,7 +417,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Industrial civil servants are allowed freedom regarding political and civic activities\u2014freedom from interference or restriction on their political participation and civic engagement."
+    "haiku_v2_rationale": "Industrial civil servants are allowed freedom regarding political and civic activities\u2014freedom from interference/restriction in how they engage politically and civically."
   },
   {
     "id": "1857-cbcec0-031",
@@ -427,7 +427,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "Procedural parliamentary language: \"took the liberty of\" is a formulaic expression meaning \"took the freedom/occasion to\" in the sense of initiating an action within debate, not a substantive claim about liberty as freedom from interference or empowered capacity."
+    "haiku_v2_rationale": "The phrase \"taking the liberty of reminding\" is parliamentary procedure language\u2014the speaker is using \"liberty\" politely to mean \"permission\" or \"the opportunity to do something courteous,\" not making a substantive claim about freedom as a value. This is an incidental formulaic use, not a claim about liberty-as-a-value."
   },
   {
     "id": "1901-64793a-003",
@@ -437,7 +437,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The private owner is freed from constraint/regulation to do what he wishes with his school\u2014a claim about freedom from interference with property and business control."
+    "haiku_v2_rationale": "The private owner is freed from external constraint/regulation\u2014at liberty to manage his own property (school) without interference from public authority or trust."
   },
   {
     "id": "1871-c6b77e-048",
@@ -446,8 +446,8 @@
     "haiku": "positive_liberty",
     "opus": "positive_liberty",
     "agree": true,
-    "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Liberty in the East is being promoted through government policy and the Anglo-Turkish Convention; the object is \"liberty\" (unspecified groups/peoples in the East) being freed from some form of external constraint or oppression, aligning with negative liberty against tyranny."
+    "haiku_v2": "ambiguous",
+    "haiku_v2_rationale": "The speaker claims the Convention will \"promote liberty in the East\" as a geopolitical objective\u2014increasing England's power and securing its position. \"Liberty\" here denotes freed peoples or regions from oppression/foreign domination (negative liberty), but the sentence treats it as an outcome to be secured through state policy rather than a specific named freedom from interference. The object of freedom is vague (liberty generically, in the East), making it difficult to specify what exactly is being freed from or to."
   },
   {
     "id": "1988-11-02-4a4134-019",
@@ -457,7 +457,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "The sentence invokes abstract \"human freedoms\" as ideals to secure in a future world \u2014 a broad rhetorical claim about liberty as a value to be protected and realized, without specifying freedoms from or capacities to do any particular thing."
+    "haiku_v2_rationale": "The sentence invokes \"four essential human freedoms\" as foundational values for a secure world, without specifying the content of those freedoms or whether they concern freedom from interference or capacity to act."
   },
   {
     "id": "1883-f8d5d2-006",
@@ -467,7 +467,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "Liberty itself is invoked as a value under attack; the speaker identifies crimes against it, but does not specify what freedom (from or to what) is at stake\u2014the sentence is a rhetorical declaration without substantive content about what is being freed."
+    "haiku_v2_rationale": "A rhetorical invocation of liberty as a value that has been attacked or wronged; the sentence does not specify what particular freedoms are at stake or whether it concerns freedom from interference or capacity to act."
   },
   {
     "id": "1927-03-24-86760b-084",
@@ -476,8 +476,8 @@
     "haiku": "negative_liberty",
     "opus": "negative_liberty",
     "agree": true,
-    "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "The sentence asserts that something (unspecified in this fragment) is NOT freedom for local education authorities to do or possess\u2014but the sentence is incomplete and does not specify what capacity or action is being denied or what the speaker is contrasting with."
+    "haiku_v2": "positive_liberty",
+    "haiku_v2_rationale": "Local education authorities are being denied capacity/empowerment to govern themselves or make decisions independently."
   },
   {
     "id": "2021-01-28-713fa6-011",
@@ -487,7 +487,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence invokes \"freedom\" as an abstract British value in opposition to tyranny and oppression (contrasted with \"democracy, equality, fairness and tolerance\"), treating it as a cause British people have \"fought and died for\"\u2014this is a rhetorical invocation of negative liberty (freedom from interference and oppression)."
+    "haiku_v2_rationale": "The speaker invokes \"freedom\" as a core British value that citizens have fought and died for, as part of a set of abstract national values (democracy, equality, fairness, tolerance). The freedom being referenced is freedom from tyranny and oppression \u2014 a foundational negative liberty claim embedded in a rhetorical appeal to shared values."
   },
   {
     "id": "1844-48ed32-078",
@@ -497,7 +497,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The freedom being invoked is freedom of the people (from restraint of language and expression); the sentence opposes state interference with this freedom."
+    "haiku_v2_rationale": "The sentence asks whether it is possible to restrain \"the freedom of the people,\" which refers to freedom from restraint or interference with their speech and expression\u2014a negative liberty."
   },
   {
     "id": "1926-11-19-52ba73-083",
@@ -507,7 +507,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The theological colleges' freedom from regulatory controls is being constrained; they oppose regulations that interfere with their existing liberty of action."
+    "haiku_v2_rationale": "The theological colleges object to regulations that control their freedom\u2014the object being freed is their autonomous governance and institutional independence, and the freedom is negative liberty from regulatory interference in their affairs."
   },
   {
     "id": "1961-03-23-13e128-037",
@@ -517,7 +517,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence invokes \"erosion of liberty\" as a general concern opposed to state overreach, in a parliamentary context debating the scope of inquiry. This is a rhetorical invocation of liberty as freedom from unwanted interference or encroachment."
+    "haiku_v2_rationale": "This sentence refers to \"erosion of liberty\" as a general concern about loss of freedom from interference, discussed as something to be cautious about in policy deliberation."
   },
   {
     "id": "1840-295e3f-017",
@@ -527,7 +527,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "The phrase \"take the liberty of adverting to\" is a parliamentary procedural idiom meaning \"permit myself to mention\"; it does not claim a value about freedom from interference or empowerment to act."
+    "haiku_v2_rationale": "The phrase \"take the liberty of\" is a parliamentary procedural convention meaning to permit oneself to do something; it does not make a substantive claim about freedom as a political value."
   },
   {
     "id": "2019-04-02-50e8e4-002",
@@ -537,7 +537,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of religious belief is freedom from interference with one's choice of religion and conscience \u2014 a classic negative liberty protecting against state or social persecution."
+    "haiku_v2_rationale": "The speaker identifies \"freedom of religious belief\" as essential to freedom itself, opposing interference with or persecution of Christians' right to hold religious convictions."
   },
   {
     "id": "1949-03-24-dd6607-312",
@@ -547,7 +547,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "The nation is being freed to achieve economic self-sufficiency and prosperity through unified governance, management, and labor cooperation\u2014an empowerment to flourish economically rather than escape from external constraint."
+    "haiku_v2_rationale": "The nation is being freed to (or toward) economic self-sufficiency and prosperity through unified action\u2014an enabling capacity rather than removal of constraint."
   },
   {
     "id": "1919-08-07-f43242-082",
@@ -557,7 +557,7 @@
     "opus": "other",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker refers to \"liberty\" as a social condition experienced by people following revolution\u2014freedom from previous constraints or oppression\u2014in a rhetorical invocation of liberty as a value opposed to the prior regime."
+    "haiku_v2_rationale": "These people have experienced freedom from the constraints of the old social order, experiencing liberation from hierarchical control and oppression through revolutionary change."
   },
   {
     "id": "2009-01-21-58f10d-005",
@@ -567,7 +567,7 @@
     "opus": "other",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of information requests concerns freedom from interference with access to information; the scheme to proactively publish spending data amplifies this by removing barriers to obtaining government transparency information."
+    "haiku_v2_rationale": "Freedom of information (requests and public disclosure of spending data) is freedom FROM interference with access to government records and parliamentary spending information."
   },
   {
     "id": "1927-12-21-1aeea2-010",
@@ -577,7 +577,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The liberty being defended is the liberty of the subject (citizens) from interference by statutory tribunals\u2014a freedom from a specific form of legal constraint or state intrusion into judicial processes. This invokes negative liberty as a value opposed to expanded state power."
+    "haiku_v2_rationale": "The liberty of the subject is being defended against interference from statutory tribunals\u2014the speaker invokes liberty as opposition to arbitrary procedural constraint on individual legal standing and remedy."
   },
   {
     "id": "1963-01-29-e0c254-005",
@@ -587,7 +587,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Individuals are being freed from interference by government in matters of personal choice; the sentence opposes government intervention in personal affairs as a constraint on liberty."
+    "haiku_v2_rationale": "The sentence contrasts government arbitration of fate versus non-interference with liberty, asking about the proper scope of government constraint on individual choice\u2014a classic negative liberty concern about freedom from state interference."
   },
   {
     "id": "2012-11-20-f6433c-003",
@@ -597,7 +597,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "A region (Northern Ireland) is being freed to set its own corporation tax rates \u2014 this is an empowerment to govern itself with respect to tax policy, a capacity to act autonomously in fiscal matters."
+    "haiku_v2_rationale": "Northern Ireland's empowerment to set its own corporation tax rates\u2014a capacity to govern fiscal policy autonomously rather than be constrained by Westminster's current arrangement."
   },
   {
     "id": "1979-12-12-38be99-110",
@@ -607,7 +607,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "The Bill grants freedom and independence to a people who have been deprived of freedom and rights \u2014 this is about empowering a colonized or subjugated population to govern themselves and enjoy self-determination, a capacity/empowerment to act as a free nation."
+    "haiku_v2_rationale": "Being freed is the capacity for over 5 million people to exercise independence and self-governance (what was previously denied them); this is positive liberty\u2014an empowerment to act as a free people, not merely removal of a single specific constraint."
   },
   {
     "id": "1836-7a7cfb-078",
@@ -617,7 +617,7 @@
     "opus": "other",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker invokes \"liberty\" as a cause opposed to some opposing force (presumably tyranny or foreign domination) in the Peninsula; freedom from external interference/oppression is what is at stake."
+    "haiku_v2_rationale": "Liberty is invoked as a political cause opposed to (presumably) tyranny or foreign domination in the Peninsula\u2014freedom from external constraint or oppressive rule."
   },
   {
     "id": "2016-02-25-43f371-003",
@@ -626,8 +626,8 @@
     "haiku": "positive_liberty",
     "opus": "positive_liberty",
     "agree": true,
-    "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Westminster Parliament enables freedom of choice; parliament is framed as the source of the capacity to choose."
+    "haiku_v2": "negative_liberty",
+    "haiku_v2_rationale": "Freedom of choice is a negative liberty: citizens are freed from interference in making their own choices, and Westminster Parliament's democratic structure protects that non-interference."
   },
   {
     "id": "1894-c22fd7-013",
@@ -636,8 +636,8 @@
     "haiku": "negative_liberty",
     "opus": "negative_liberty",
     "agree": true,
-    "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker invokes \"freedom of his country\" as a value opposed to interference with governmental power\u2014this is freedom FROM external constraint, a rhetorical appeal to national liberty as a countervailing good against restrictions on state action."
+    "haiku_v2": "positive_liberty",
+    "haiku_v2_rationale": "The freedom of the country (Ireland) to act through government power to implement necessary provisions\u2014being freed/empowered to exercise governmental authority."
   },
   {
     "id": "1819-9d34c8-112",
@@ -647,7 +647,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence invokes \"liberty of the press\" and \"freedom of debate\" \u2014 standard negative liberties naming freedom from interference with these activities \u2014 as causes opposed to despotic government; it reflects liberty as a value against tyranny."
+    "haiku_v2_rationale": "The sentence refers to \"liberty of the press\" and \"freedom of debate\"\u2014both are instances of freedom from interference with specific communicative acts, in contrast to despotic government's censorship and suppression."
   },
   {
     "id": "1988-03-24-47dac8-054",
@@ -657,7 +657,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker invokes freedom of speech, freedom of thought, and freedom of the written word as values to be protected from destruction by government interference\u2014these are classic negative liberties from state intrusion."
+    "haiku_v2_rationale": "Freedom from interference with speech, thought, and the written word\u2014classic negative liberties protecting individuals and society from governmental censorship and control."
   },
   {
     "id": "1860-9221d3-059",
@@ -667,7 +667,7 @@
     "opus": "other",
     "agree": false,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "The Government's freedom to give advice to Foreign Powers is being asserted as a capacity or entitlement that the Government possesses; this describes empowerment/permission to act, not freedom from constraint."
+    "haiku_v2_rationale": "The phrase \"at liberty to\" here is a parliamentary procedural idiom meaning \"permitted\" or \"entitled,\" not a substantive claim about freedom as a value. It refers to what the Government is procedurally allowed to do in conduct of diplomacy, not freedom from interference or empowerment to achieve capacity."
   },
   {
     "id": "1892-afc388-000",
@@ -677,7 +677,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker expresses approval that provision for religious liberty\u2014freedom from interference with religious practice and conscience\u2014has been made."
+    "haiku_v2_rationale": "Religious liberty is freedom from interference with one's religious beliefs and practices\u2014a classic negative liberty protecting conscience and worship against state or social coercion."
   },
   {
     "id": "1833-7fed93-405",
@@ -686,8 +686,8 @@
     "haiku": "negative_liberty",
     "opus": "ambiguous",
     "agree": false,
-    "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Ireland is said to have declined in political freedom\u2014understood as freedom from external constraint or domination by the Union; the speaker asserts loss of freedom from interference in Irish self-governance."
+    "haiku_v2": "positive_liberty",
+    "haiku_v2_rationale": "Ireland's political freedom (capacity to self-govern) has declined since the Union\u2014a loss of positive liberty, i.e., diminished empowerment to determine its own political institutions and affairs."
   },
   {
     "id": "1996-04-26-533113-002",
@@ -697,7 +697,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of speech\u2014the freedom from interference with expression\u2014is the object being discussed, even though the sentence presents it ironically as a justification for allowing harmful advertising."
+    "haiku_v2_rationale": "Freedom of speech is freedom from interference with expression; the sentence invokes \"freedom of speech\" as a negative liberty claim against restrictions on advertising weapons."
   },
   {
     "id": "1949-07-18-ba34a5-000",
@@ -707,7 +707,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The herring industry is being freed from price controls and regulatory schemes\u2014a removal of state interference with economic activity and commercial freedom."
+    "haiku_v2_rationale": "The herring industry is being freed from government price controls, which is freedom from state interference in market operations and trade decisions."
   },
   {
     "id": "1846-3324bb-007",
@@ -717,7 +717,7 @@
     "opus": "other",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Civil and religious liberty is being understood here as freedom from interference by the State in the Church's affairs and the exercise of religion, with the speakers arguing that the Church accepting its position (limiting bishops' temporal power) better protects this non-interference."
+    "haiku_v2_rationale": "Civil and religious liberty is being promoted by allowing the Church to remain in its present position and not gain additional powers through new bishops having seats or future appointments to the House of Lords\u2014this is negative liberty, freedom from the Church's institutional expansion and interference with secular authority."
   },
   {
     "id": "1967-06-22-2c8c75-063",
@@ -727,7 +727,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker contrasts a country free from state information controls (D Notices, Official Secrets Act) with one subject to such restrictions, invoking \"the land of freedom\" to mean freedom from government interference with information and knowledge."
+    "haiku_v2_rationale": "Freedom from state censorship and official secrecy laws (D Notices, Official Secrets Act)\u2014a rhetorical invocation of liberty as absence of government interference with information and expression."
   },
   {
     "id": "1883-330e95-070",
@@ -737,7 +737,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence opposes imposing binding fetters on the freedom of discussion\u2014fetters are constraints on freedom from interference with debate/discussion in parliamentary proceedings."
+    "haiku_v2_rationale": "The sentence opposes \"fetters on the freedom of discussion\" \u2014 invoking freedom from governmental interference with parliamentary debate and discussion."
   },
   {
     "id": "1997-02-05-67a8b4-026",
@@ -747,7 +747,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Schools are freed to institutional autonomy and self-governance; they have acquired capacity to operate independently and want to retain that empowerment."
+    "haiku_v2_rationale": "Schools have acquired the freedom (capacity/empowerment) to govern themselves and manage their own operations, and they want to retain that enabling power."
   },
   {
     "id": "1886-bff98e-052",
@@ -757,7 +757,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "This grants Ireland (or a jurisdiction) empowerment to govern its own fiscal/taxation matters \u2014 freedom to act autonomously in financial policy, not freedom from interference with pre-existing conduct."
+    "haiku_v2_rationale": "Nations or territories are empowered to conduct their own fiscal/taxation policy without external interference, an enabling capacity to self-govern in financial matters."
   },
   {
     "id": "1949-11-03-db92fe-014",
@@ -766,8 +766,8 @@
     "haiku": "other",
     "opus": "other",
     "agree": true,
-    "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "The speaker claims freedom (capacity/empowerment) to introduce restrictive legislation\u2014freedom from political constraint to act, an executive prerogative being asserted."
+    "haiku_v2": "other",
+    "haiku_v2_rationale": "The speaker is claiming authority to act (introduce legislation) if a condition arises. \"At liberty to\" is a parliamentary/formal phrase meaning \"empowered to\" or \"authorized to\" in this context\u2014the freedom being discussed is the speaker's own capacity to legislate, not freedom from interference."
   },
   {
     "id": "1806-3cf2ef-004",
@@ -777,7 +777,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The house (Parliament) is being secured in its freedom from interference with judicial proceedings and arbitrary control through the institutional protection of trial by jury."
+    "haiku_v2_rationale": "Freedom of Parliament (the House) from undue interference in its proceedings; trial by jury is a mechanism protecting this institutional freedom from arbitrary action."
   },
   {
     "id": "1925-07-29-243544-013",
@@ -787,7 +787,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Cabinet members freed from interference with discussion; freedom of discussion is negative liberty\u2014the absence of constraint on debate."
+    "haiku_v2_rationale": "The phrase \"freedom of discussion\" names freedom from interference with debate or deliberation within the Cabinet."
   },
   {
     "id": "1865-ecdcf2-000",
@@ -797,7 +797,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "The noble Lord was at perfect liberty to apply to the Sheriff \u2014 this is parliamentary procedure language, not a substantive claim about liberty as a value; \"at liberty to\" is an idiomatic expression meaning \"permitted\" or \"able\" in the formal procedural sense."
+    "haiku_v2_rationale": "The phrase \"at liberty to apply\" is parliamentary procedural language referring to permission or eligibility to take an action, not a substantive claim about freedom as a political value."
   },
   {
     "id": "1884-8197db-046",
@@ -806,8 +806,8 @@
     "haiku": "other",
     "opus": "other",
     "agree": true,
-    "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "A Royal Charter grants specific groups freedom and independence from external constraints\u2014a non-interference right confirmed by royal authority."
+    "haiku_v2": "positive_liberty",
+    "haiku_v2_rationale": "A Royal Charter conveys freedom and independence \u2014 a positive capacity or right of self-governance/autonomy granted to a body or jurisdiction."
   },
   {
     "id": "1808-7e790d-167",
@@ -817,7 +817,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The House (Parliament) is described as guardian/protector of liberty and property of the people \u2014 freedom from interference with those foundational rights against state tyranny."
+    "haiku_v2_rationale": "The House of Parliament is characterised as guardian protecting the people's liberty and property from interference or violation\u2014a classic formulation of negative liberty."
   },
   {
     "id": "1905-0b457a-020",
@@ -827,7 +827,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Religious liberty is freedom from interference with religious belief and practice\u2014the sentence claims the Bill violates freedom from constraint on religion."
+    "haiku_v2_rationale": "Religious liberty is freedom from state interference with conscience and worship; the sentence criticises violation of freedom from such interference."
   },
   {
     "id": "2007-06-12-22813b-021",
@@ -837,7 +837,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "\"Liberty\" here refers to the civil liberties organization as a proper noun (Liberty briefings), not a substantive claim about liberty-as-a-value or freedom from/to something."
+    "haiku_v2_rationale": "The sentence refers to \"Liberty briefings\" (briefings from Liberty, the civil rights organization) and discusses their content quality, not a substantive claim about liberty-as-a-value or freedom from/to anything."
   },
   {
     "id": "1938-04-27-713710-095",
@@ -847,7 +847,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom of contract is freedom from interference with the ability to enter into voluntary agreements; it names a constraint on what others may do to prevent contractual liberty."
+    "haiku_v2_rationale": "Freedom of contract names the freedom from interference with parties' ability to make binding agreements."
   },
   {
     "id": "1814-f8032c-125",
@@ -857,7 +857,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The cause of freedom is invoked as a noble cause opposed to tyranny, outrage, and blood\u2014a rhetorical invocation of liberty as what should be valued against oppression and despotism."
+    "haiku_v2_rationale": "Freedom is being opposed to tyranny, outrage, and blood as a rhetorical invocation of liberty as a cause against despotism and violence."
   },
   {
     "id": "1898-ac5fcf-015",
@@ -867,7 +867,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Freedom from interference with the press \u2014 a classic negative liberty against censorship or suppression of publication."
+    "haiku_v2_rationale": "The press is being freed from interference\u2014specifically from censorship or coercive restrictions on publication. This invokes freedom from governmental or institutional obstruction of the press's ability to publish."
   },
   {
     "id": "1939-07-14-0897f2-117",
@@ -877,7 +877,7 @@
     "opus": "ambiguous",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The speaker invokes \"liberty\" as a value opposed to the dangers facing the country (implied tyranny or destruction), and pledges support to the Government to defend it\u2014this is a rhetorical appeal to negative liberty (freedom from external threat/tyranny) as a cause uniting the nation."
+    "haiku_v2_rationale": "The speaker invokes \"democracy and liberty\" as a cause that motivates national unity against threats (\"the fire\"), using liberty rhetorically as a value opposed to its destruction\u2014a classic negative liberty invocation (freedom from tyranny/oppression)."
   },
   {
     "id": "2020-07-21-ffe20e-000",
@@ -887,7 +887,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Universities are being granted the capacity to invest in accordance with their own local priorities, rather than having investment decisions dictated externally\u2014this is empowerment to self-determine within their domain."
+    "haiku_v2_rationale": "Universities freed (empowered) to invest in line with local priorities\u2014capacity to decide their own investment strategy, not freedom from interference with existing investments."
   },
   {
     "id": "2007-03-08-b14083-008",
@@ -897,7 +897,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "Victims of trafficking are freed from control, coercion, and forced labour\u2014negatively, freedom from enslavement and exploitation."
+    "haiku_v2_rationale": "Victims of trafficking are freed from forced labor and exploitation\u2014a negative liberty from interference with bodily autonomy and choice."
   },
   {
     "id": "1824-1bb67f-315",
@@ -907,7 +907,7 @@
     "opus": "other",
     "agree": true,
     "haiku_v2": "other",
-    "haiku_v2_rationale": "The phrase \"the liberty I take in writing to you\" is a polite rhetorical convention meaning \"forgive my presumption in contacting you\" \u2014 a procedural courtesy, not a substantive claim about freedom-as-a-value."
+    "haiku_v2_rationale": "The phrase \"take the liberty of\" is a courteous formulaic expression asking permission to do something (here, to write). It is parliamentary/epistolary procedure, not a substantive claim about freedom as a value."
   },
   {
     "id": "1824-e4aa52-009",
@@ -917,7 +917,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence concerns whether measures that abridge (restrict) the liberty/freedom of the subject should require justification; this addresses freedom from unwanted state interference with the subject's liberty."
+    "haiku_v2_rationale": "What is being protected: the liberty/freedom of the subject from abridgement (interference with their rights). The normative claim is against measures that would restrict this freedom without proper justification."
   },
   {
     "id": "1980-02-26-0ff1c3-061",
@@ -926,8 +926,8 @@
     "haiku": "negative_liberty",
     "opus": "negative_liberty",
     "agree": true,
-    "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Directors are being freed from constraints on their discretionary action; the sentence advocates limiting this freedom by imposing bounds on their capacity to act without restriction."
+    "haiku_v2": "negative_liberty",
+    "haiku_v2_rationale": "Directors' capacity to act without constraint (to do what they like) is being bounded or restricted, involving freedom from interference with their discretionary actions."
   },
   {
     "id": "2004-01-15-3ab96f-008",
@@ -936,8 +936,8 @@
     "haiku": "negative_liberty",
     "opus": "negative_liberty",
     "agree": true,
-    "haiku_v2": "ambiguous",
-    "haiku_v2_rationale": "The sentence claims that unspecified freedom will be protected from threats (from interference/removal), without clarifying which specific liberty is at stake or whether the protection is about non-interference or empowerment."
+    "haiku_v2": "negative_liberty",
+    "haiku_v2_rationale": "An unspecified freedom (not named) is being protected from threat or interference\u2014the assertion is that non-interference with this freedom will be secured and defended."
   },
   {
     "id": "1938-06-24-4234e3-157",
@@ -947,7 +947,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence concerns \"freedom to engage labour\"\u2014a freedom from interference with the capacity to hire workers without conditions or restrictions."
+    "haiku_v2_rationale": "Freedom to engage labour (hire workers) \u2014 what is being constrained is the capacity or right to hire; the speaker is questioning why the Department limits this freedom through Fair Wages Clauses and conditions, framing the issue as constraint on employers' freedom to manage their labour practices."
   },
   {
     "id": "1810-7c4614-031",
@@ -957,7 +957,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "The object of freedom is \"liberty\" itself; the sentence describes attempts through moral, legal, and political arrangements to increase liberty and happiness as a collective good \u2014 an enabling or empowering of the people's condition rather than simply freedom from interference."
+    "haiku_v2_rationale": "The speaker credits arrangements and attempts aimed to \"increase the liberty and happiness\" of the people through various institutional and legal means\u2014this describes efforts to expand the capacities and well-being of the population, which is the empowering sense of positive liberty."
   },
   {
     "id": "1954-12-07-f64139-057",
@@ -967,7 +967,7 @@
     "opus": "positive_liberty",
     "agree": true,
     "haiku_v2": "positive_liberty",
-    "haiku_v2_rationale": "Controls are described as productive of freedom for other people\u2014enabling people's capacity to act, not merely removing interference from them."
+    "haiku_v2_rationale": "Controls are framed as enabling productive capacity\u2014\"productive of even greater freedom for other people\"\u2014through constraint or regulation, representing freedom as an achieved state of empowerment rather than absence of interference."
   },
   {
     "id": "1822-9dd597-310",
@@ -977,7 +977,7 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The country and Parliament enjoy freedom from interference with their independence and self-governance\u2014they are unobstructed in their actual exercise of authority across reigns."
+    "haiku_v2_rationale": "The country and parliament are being freed from constraint (tyranny/interference in governance), measured by de facto \"practical liberty\" and independence\u2014a negative liberty claim about freedom from external interference with sovereign independence."
   },
   {
     "id": "1804-dcd329-352",
@@ -987,7 +987,7 @@
     "opus": "negative_liberty",
     "agree": true,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The constitution and liberty of the country are endangered\u2014being preserved from threat/oppression. This is negative liberty: freedom of the nation from foreign threat and tyranny."
+    "haiku_v2_rationale": "The \"liberty of the country\" is threatened and endangered (negative liberty\u2014freedom from foreign domination and despotism)."
   },
   {
     "id": "1904-3910ab-016",
@@ -997,6 +997,6 @@
     "opus": "negative_liberty",
     "agree": false,
     "haiku_v2": "negative_liberty",
-    "haiku_v2_rationale": "The sentence invokes \"liberty of discussion\" \u2014 freedom from interference with debate and expression \u2014 as a value that produced beneficial social outcomes (making discussion profitable)."
+    "haiku_v2_rationale": "Freedom of discussion (the object) from interference or restriction, even when excessive; the speaker argues that this liberty\u2014freedom from constraints on debate\u2014has produced beneficial results."
   }
 ]

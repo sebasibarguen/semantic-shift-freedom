@@ -1,15 +1,13 @@
 # ABOUTME: Tracks how freedom's semantic neighborhood restructures over time.
 # ABOUTME: Tests the "stable word, changing context" finding with zero researcher degrees of freedom.
 
-import sys
 import json
 import numpy as np
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from embeddings import TemporalEmbeddings
-from metrics import cosine_similarity, cosine_distance
-from domain_tagger import DomainTagger
+from .embeddings import TemporalEmbeddings
+from .metrics import cosine_similarity, cosine_distance
+from .domain_tagger import DomainTagger
 
 CONTROL_WORDS = [
     "liberty", "justice", "truth", "honor", "power",

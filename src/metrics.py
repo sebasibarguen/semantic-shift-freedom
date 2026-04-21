@@ -3,7 +3,7 @@
 
 import numpy as np
 from typing import Optional
-from embeddings import TemporalEmbeddings
+from .embeddings import TemporalEmbeddings
 
 
 def cosine_similarity(v1: np.ndarray, v2: np.ndarray) -> float:

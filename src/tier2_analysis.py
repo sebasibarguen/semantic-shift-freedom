@@ -5,8 +5,8 @@ import json
 import re
 from pathlib import Path
 from collections import Counter, defaultdict
-from normalizer import EarlyModernNormalizer
-from domain_tagger import DomainTagger
+from .normalizer import EarlyModernNormalizer
+from .domain_tagger import DomainTagger
 
 
 # Freedom variants to search for (pre-normalization)

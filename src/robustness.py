@@ -1,14 +1,12 @@
 # ABOUTME: Bootstrap confidence intervals and cluster sensitivity analysis.
 # ABOUTME: Tests whether the 1880 crossover and freedom/liberty divergence are statistically robust.
 
-import sys
 import json
 import numpy as np
 from pathlib import Path
 from collections import Counter
 
-sys.path.insert(0, str(Path(__file__).parent))
-from embeddings import TemporalEmbeddings
+from .embeddings import TemporalEmbeddings
 
 LEGAL_CLUSTER = ["slavery", "bondage", "emancipation", "rights", "law", "citizen", "slave", "servitude"]
 PERSONAL_CLUSTER = ["choice", "autonomy", "independence", "self", "ability", "power", "individual", "personal"]

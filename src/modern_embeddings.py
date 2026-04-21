@@ -5,21 +5,20 @@ import json
 import numpy as np
 from pathlib import Path
 
+from .embeddings import TemporalEmbeddings
+from .metrics import cosine_similarity
+from .semantic_axis import (
+    CONSTRAINT_SEEDS, AGENCY_SEEDS, CONTROL_WORDS,
+    expand_pole, build_axis, project_onto_axis, linear_trend,
+    find_changepoint_bic, REFERENCE_DECADE, EXPANSION_K,
+)
+
 
 def run_coha_analysis(coha_dir: str, gbooks_dir: str, output_path: str):
     """
     Run the full COHA analysis: freedom-liberty similarity, SemAxis projection,
     control words, and cross-validation against Google Books.
     """
-    import sys
-    sys.path.insert(0, str(Path(__file__).parent))
-    from embeddings import TemporalEmbeddings
-    from metrics import cosine_similarity
-    from semantic_axis import (
-        CONSTRAINT_SEEDS, AGENCY_SEEDS, CONTROL_WORDS,
-        expand_pole, build_axis, project_onto_axis, linear_trend,
-        find_changepoint_bic, REFERENCE_DECADE, EXPANSION_K,
-    )
 
     results = {"corpus_comparison": {}, "coha": {}, "gbooks": {}}
 

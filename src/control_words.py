@@ -1,13 +1,11 @@
 # ABOUTME: Compares freedom/liberty divergence against control word pairs.
 # ABOUTME: Establishes whether observed semantic drift is unusual or typical for abstract nouns.
 
-import sys
 import json
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from embeddings import TemporalEmbeddings
-from metrics import cosine_similarity, semantic_change_score, neighbor_overlap
+from .embeddings import TemporalEmbeddings
+from .metrics import cosine_similarity, semantic_change_score, neighbor_overlap
 
 
 # Control pairs: (word1, word2, category)

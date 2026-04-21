@@ -180,9 +180,7 @@ def extract_from_parlparse(debates_dir, output_dir, domain_tagger=None):
 
 
 if __name__ == "__main__":
-    import sys
-    sys.path.insert(0, str(Path(__file__).parent))
-    from domain_tagger import DomainTagger
+    from .domain_tagger import DomainTagger
 
     tagger = DomainTagger()
     extract_from_parlparse(

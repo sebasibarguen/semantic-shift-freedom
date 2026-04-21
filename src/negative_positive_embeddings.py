@@ -12,17 +12,13 @@ Based on Isaiah Berlin's "Two Concepts of Liberty" (1958).
 """
 
 import json
-import sys
 from pathlib import Path
 from datetime import datetime
 
 import numpy as np
 
-# Add parent to path for imports
-sys.path.insert(0, str(Path(__file__).parent))
-
-from embeddings import TemporalEmbeddings
-from metrics import cosine_distance, cosine_similarity
+from .embeddings import TemporalEmbeddings
+from .metrics import cosine_distance, cosine_similarity
 
 
 # Concept clusters for negative vs positive freedom

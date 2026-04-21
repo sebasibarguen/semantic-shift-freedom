@@ -74,11 +74,9 @@ def run_glove_analysis(coha_dir: str, glove_dir: str, output_path: str):
     Run SemAxis analysis on GloVe embeddings aligned to COHA.
     Expects glove_dir to have aligned HistWords-format files labeled 2014 and 2024.
     """
-    import sys
-    sys.path.insert(0, str(Path(__file__).parent))
-    from embeddings import TemporalEmbeddings
-    from metrics import cosine_similarity
-    from semantic_axis import (
+    from .embeddings import TemporalEmbeddings
+    from .metrics import cosine_similarity
+    from .semantic_axis import (
         CONSTRAINT_SEEDS, AGENCY_SEEDS, CONTROL_WORDS,
         expand_pole, build_axis, project_onto_axis, linear_trend,
         EXPANSION_K,

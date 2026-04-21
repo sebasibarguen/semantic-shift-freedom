@@ -1,14 +1,12 @@
 # ABOUTME: Projects freedom onto a constraint→agency semantic axis using the SemAxis method.
 # ABOUTME: Tests when the legal-to-personal shift happened with change-point detection.
 
-import sys
 import json
 import numpy as np
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from embeddings import TemporalEmbeddings
-from metrics import cosine_similarity, cosine_distance
+from .embeddings import TemporalEmbeddings
+from .metrics import cosine_similarity, cosine_distance
 
 # Seed words for each pole — expanded via nearest neighbors
 CONSTRAINT_SEEDS = ["slavery", "bondage", "servitude", "oppression"]

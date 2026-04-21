@@ -30,7 +30,7 @@ AGENCY_POLES = {
 
 def extract_sentences(df, frequency_data):
     """Extract every sentence containing freedom/liberty with classifications."""
-    from domain_tagger import DomainTagger
+    from .domain_tagger import DomainTagger
     tagger = DomainTagger()
 
     sentences_by_decade = defaultdict(list)
@@ -193,9 +193,7 @@ def write_output(sentences_by_decade, output_dir):
 
 def run_extraction(csv_path="/data/hansard-speeches-v310.csv", output_dir="/tmp/hansard_data"):
     """Run the full extraction pipeline."""
-    import sys
-    sys.path.insert(0, str(Path(__file__).parent))
-    from hansard_analysis import load_hansard
+    from .hansard_analysis import load_hansard
 
     # Load dataset
     df = load_hansard(csv_path)
