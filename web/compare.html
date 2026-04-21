@@ -83,6 +83,12 @@
             color: var(--muted); margin-bottom: 0.15rem;
         }
         .method-cell .method-value { font-weight: 600; }
+        .method-cell .method-rationale {
+            font-size: 0.72rem; color: var(--muted); margin-top: 0.3rem;
+            line-height: 1.35; font-weight: 400; font-style: italic;
+            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
         .method-cell.pos { background: #f0fff4; border-color: #c6f6d5; }
         .method-cell.neg { background: #fff5f5; border-color: #fed7d7; }
         .method-cell.amb { background: #fffff0; border-color: #fefcbf; }
@@ -551,8 +557,9 @@ function renderCard(s) {
                 ${sbertBar}
             </div>
             <div class="method-cell ${llmClass}">
-                <div class="method-name">LLM (Haiku)</div>
+                <div class="method-name">LLM (Haiku v2)</div>
                 <div class="method-value">${llmLabel}</div>
+                ${llm?.rationale ? `<div class="method-rationale" title="${llm.rationale.replace(/"/g, '&quot;')}">${llm.rationale}</div>` : ''}
             </div>
         </div>
         <div class="label-row">

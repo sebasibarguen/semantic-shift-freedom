@@ -7,7 +7,7 @@
 !.env.example
 
 # Runtime batch state (contains transient batch IDs)
-outputs/.batch_state_*.json
+**/.batch_state_*.json
 
 # Python
 .venv/

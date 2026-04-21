@@ -384,6 +384,7 @@
   "methods": [
     "domains",
     "sbert",
-    "llm"
+    "llm",
+    "llm_v1"
   ]
 }

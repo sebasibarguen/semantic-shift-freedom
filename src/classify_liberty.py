@@ -117,10 +117,14 @@ def format_user_message(record: dict) -> str:
     return "".join(parts)
 
 
-def build_request(record: dict, max_tokens: int = 300) -> Request:
-    """Turn a sentence record into a Batch API Request."""
+def build_request(record: dict, custom_id: str | None = None, max_tokens: int = 300) -> Request:
+    """Turn a sentence record into a Batch API Request.
+
+    custom_id defaults to record['id'] but should be set to a guaranteed-unique
+    value (e.g. a positional index) when the corpus has id collisions.
+    """
     return Request(
-        custom_id=record["id"],
+        custom_id=custom_id if custom_id is not None else record["id"],
         params=MessageCreateParamsNonStreaming(
             model=MODEL,
             max_tokens=max_tokens,
@@ -133,9 +137,13 @@ def build_request(record: dict, max_tokens: int = 300) -> Request:
 
 
 def submit_batch(client: anthropic.Anthropic, records: list[dict]) -> str:
-    """Submit one request per record, return the batch ID."""
+    """Submit one request per record, return the batch ID.
+
+    Uses positional custom_ids ("i-000000") to survive corpora with duplicate
+    sentence ids. Callers merge results back by index order.
+    """
     print(f"Building {len(records):,} requests...")
-    requests = [build_request(r) for r in records]
+    requests = [build_request(r, custom_id=f"i-{i:06d}") for i, r in enumerate(records)]
 
     print("Submitting batch...")
     batch = client.messages.batches.create(requests=requests)
@@ -227,9 +235,9 @@ def run_eval():
     ]
     results = classify(records, state_file=state_path)
 
-    # Merge v2 results back
-    for d in eval_data:
-        res = results.get(d["id"], {"label": "error", "rationale": "missing"})
+    # Merge v2 results back by positional index
+    for i, d in enumerate(eval_data):
+        res = results.get(f"i-{i:06d}", {"label": "error", "rationale": "missing"})
         d["haiku_v2"] = res["label"]
         d["haiku_v2_rationale"] = res["rationale"]
 
@@ -286,7 +294,7 @@ def print_eval_report(eval_data: list[dict]):
 
 
 def run_input_file(input_path: Path):
-    """Classify every sentence in a file, merge results into methods.llm."""
+    """Classify every sentence in a file. Preserves old methods.llm as llm_v1."""
     records = json.loads(input_path.read_text())
     if not isinstance(records, list):
         sys.exit("Input file must be a JSON list of sentence records")
@@ -295,9 +303,15 @@ def run_input_file(input_path: Path):
     state_path = input_path.parent / f".batch_state_{input_path.stem}.json"
     results = classify(records, state_file=state_path)
 
-    for r in records:
-        res = results.get(r["id"], {"label": "error", "rationale": "missing"})
+    preserved = 0
+    for i, r in enumerate(records):
+        res = results.get(f"i-{i:06d}", {"label": "error", "rationale": "missing"})
         r.setdefault("methods", {})
+        # Preserve the existing v1 label (first run only — don't clobber llm_v1 on reruns)
+        existing = r["methods"].get("llm")
+        if existing and "llm_v1" not in r["methods"] and existing.get("version") != "v2_batched_tooluse":
+            r["methods"]["llm_v1"] = existing
+            preserved += 1
         r["methods"]["llm"] = {
             "label": res["label"],
             "rationale": res["rationale"],
@@ -306,7 +320,7 @@ def run_input_file(input_path: Path):
         }
 
     input_path.write_text(json.dumps(records, separators=(",", ":")))
-    print(f"Wrote {len(records)} records back to {input_path}")
+    print(f"Wrote {len(records)} records back to {input_path} (preserved {preserved} v1 labels)")
 
 
 def run_resume(batch_id: str, output_path: Path):

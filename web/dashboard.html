@@ -66,7 +66,22 @@
         <div class="stat-card"><div class="number" id="s-freedom">—</div><div class="label">Freedom</div></div>
         <div class="stat-card"><div class="number" id="s-liberty">—</div><div class="label">Liberty</div></div>
         <div class="stat-card"><div class="number" id="s-agree">—</div><div class="label">Methods agree</div></div>
-        <div class="stat-card"><div class="number" id="s-disagree">—</div><div class="label">Methods disagree</div></div>
+        <div class="stat-card"><div class="number" id="s-ambiguous">—</div><div class="label">Ambiguous (v2 only)</div></div>
+    </div>
+
+    <div class="chart-box" style="background:white;border-radius:10px;padding:1.1rem 1.25rem;margin-bottom:1.5rem;box-shadow:0 2px 6px rgba(0,0,0,0.06);border-left:4px solid var(--accent);">
+        <h3 style="font-size:1rem;color:var(--primary);margin-bottom:0.5rem;font-weight:500;">Classifier: Haiku 4.5 v2 (per-sentence, tool-use, rationales)</h3>
+        <div style="font-size:0.88rem;color:var(--text);line-height:1.55;">
+            All <b>145,367</b> sentences re-classified with the upgraded pipeline.
+            On the 100-sentence Opus gold set, agreement went from
+            <b style="color:var(--secondary);">58%</b> (v1: 20-sentence batched text-parse) to
+            <b style="color:var(--green);">71%</b> (v2: per-sentence request via Batches API, strict tool-use,
+            forced {rationale, label} output) — <b>+13pp</b>.
+            Biggest fix: "freedom of X" false-positives dropped from 19 to 3 out of 100.
+            Each sentence now carries its own one-line rationale (visible in the
+            <a href="compare.html">sentence browser</a>).
+            v1 labels preserved as <code>methods.llm_v1</code> for comparison.
+        </div>
     </div>
 
     <div class="chart-grid">
@@ -79,9 +94,14 @@
             <canvas id="c-sbert-hist"></canvas>
         </div>
         <div class="chart-box full">
-            <h3>LLM Classification by Decade</h3>
+            <h3>LLM Classification by Decade (v2)</h3>
             <canvas id="c-llm-decade"></canvas>
-            <p class="chart-caption">Proportion of positive, negative, ambiguous, and other liberty classifications per decade.</p>
+            <p class="chart-caption">Share of each liberty class per decade (positive / negative / ambiguous). "Other" excluded — procedural, proper nouns, no liberty claim.</p>
+        </div>
+        <div class="chart-box full">
+            <h3>v1 → v2 Label Migration</h3>
+            <canvas id="c-v1-v2"></canvas>
+            <p class="chart-caption">Where v2 moved sentences compared to v1. The big shift: v1's "positive_liberty" over-predictions reclassified mostly as "negative_liberty" or "ambiguous".</p>
         </div>
         <div class="chart-box full">
             <h3>SBERT Mean Score by Decade</h3>
@@ -139,18 +159,18 @@ function buildDashboard() {
     const freedom = allData.filter(s => s.word === 'freedom').length;
     const liberty = allData.filter(s => s.word === 'liberty').length;
 
-    let agree = 0, disagree = 0;
+    let agree = 0, ambiguous = 0;
     for (const s of allData) {
         const a = getAgreement(s);
         if (a === 'agree') agree++;
-        else if (a === 'disagree') disagree++;
+        if (s.methods.llm?.label === 'ambiguous') ambiguous++;
     }
 
     document.getElementById('s-total').textContent = total.toLocaleString();
     document.getElementById('s-freedom').textContent = freedom.toLocaleString();
     document.getElementById('s-liberty').textContent = liberty.toLocaleString();
     document.getElementById('s-agree').textContent = Math.round(agree / total * 100) + '%';
-    document.getElementById('s-disagree').textContent = Math.round(disagree / total * 100) + '%';
+    document.getElementById('s-ambiguous').textContent = Math.round(ambiguous / total * 100) + '%';
 
     chartLLMDist();
     chartSbertHist();
@@ -159,6 +179,7 @@ function buildDashboard() {
     chartDomainDecade();
     chartPartyLLM();
     chartPartySbert();
+    chartV1V2Migration();
     buildAgreementMatrix();
 }
 
@@ -219,29 +240,65 @@ function chartSbertHist() {
 
 function chartLLMDecade() {
     const byDecade = {};
-    DECADES.forEach(d => byDecade[d] = { positive_liberty: 0, negative_liberty: 0, total: 0 });
+    const cats = ['positive_liberty', 'negative_liberty', 'ambiguous'];
+    DECADES.forEach(d => { byDecade[d] = { positive_liberty: 0, negative_liberty: 0, ambiguous: 0, total: 0 }; });
     for (const s of allData) {
         const d = Math.floor(s.year / 10) * 10;
         const l = s.methods.llm?.label;
-        if (byDecade[d] && (l === 'positive_liberty' || l === 'negative_liberty')) {
+        if (byDecade[d] && cats.includes(l)) {
             byDecade[d][l]++;
             byDecade[d].total++;
         }
     }
+    const shown = DECADES.filter(d => byDecade[d].total > 0);
     new Chart(document.getElementById('c-llm-decade'), {
         type: 'bar',
         data: {
-            labels: DECADES.filter(d => byDecade[d].total > 0).map(d => d + 's'),
-            datasets: ['positive_liberty', 'negative_liberty'].map(cat => ({
+            labels: shown.map(d => d + 's'),
+            datasets: cats.map(cat => ({
                 label: cat.replace('_', ' '),
-                data: DECADES.filter(d => byDecade[d].total > 0).map(d => Math.round(byDecade[d][cat] / byDecade[d].total * 100)),
+                data: shown.map(d => Math.round(byDecade[d][cat] / byDecade[d].total * 100)),
                 backgroundColor: COLORS[cat],
             }))
         },
         options: {
             plugins: { legend: { position: 'bottom' } },
-            scales: { x: { stacked: true }, y: { title: { display: true, text: '% of pos+neg sentences' }, max: 100, stacked: true } },
+            scales: { x: { stacked: true }, y: { title: { display: true, text: '% of liberty-claim sentences' }, max: 100, stacked: true } },
             responsive: true,
+        }
+    });
+}
+
+function chartV1V2Migration() {
+    // For each v1 label, count how many v2 put in each label.
+    const cats = ['positive_liberty', 'negative_liberty', 'ambiguous', 'other'];
+    const matrix = {};
+    cats.forEach(c => { matrix[c] = {}; cats.forEach(k => matrix[c][k] = 0); });
+    let stable = 0, changed = 0;
+    for (const s of allData) {
+        const v1 = s.methods.llm_v1?.label;
+        const v2 = s.methods.llm?.label;
+        if (!v1 || !v2 || !cats.includes(v1) || !cats.includes(v2)) continue;
+        matrix[v1][v2]++;
+        if (v1 === v2) stable++; else changed++;
+    }
+    // Render as stacked bar: x = v1 label, stacks = where v2 put them
+    new Chart(document.getElementById('c-v1-v2'), {
+        type: 'bar',
+        data: {
+            labels: cats.map(c => 'v1 = ' + c.replace('_', ' ')),
+            datasets: cats.map(v2Label => ({
+                label: 'v2 = ' + v2Label.replace('_', ' '),
+                data: cats.map(v1Label => matrix[v1Label][v2Label]),
+                backgroundColor: COLORS[v2Label],
+            }))
+        },
+        options: {
+            plugins: {
+                legend: { position: 'bottom' },
+                title: { display: true, text: `Stable (same label): ${stable.toLocaleString()} — Changed: ${changed.toLocaleString()} (${Math.round(changed/(stable+changed)*100)}%)`, font: { size: 13, weight: 400 } },
+            },
+            scales: { x: { stacked: true }, y: { stacked: true, title: { display: true, text: 'Sentences' } } },
         }
     });
 }
