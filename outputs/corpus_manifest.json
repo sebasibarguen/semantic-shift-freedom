@@ -1,0 +1,707 @@
+{
+  "metadata": {
+    "data_dir": "/Users/sebas/Dev/writing/experiments/freedom-semantic-shift/web/data",
+    "purpose": "Audit generated sentence-corpus coverage and stale method fields.",
+    "note": "This manifest is generated from local JSON outputs. It does not replace source-corpus provenance, but it makes coverage gaps and stale methods explicit."
+  },
+  "index_summary": {
+    "total_sentences": 145367,
+    "methods": [
+      "domains",
+      "sbert",
+      "llm",
+      "llm_v1"
+    ],
+    "decades": [
+      1800,
+      1810,
+      1820,
+      1830,
+      1840,
+      1850,
+      1860,
+      1870,
+      1880,
+      1890,
+      1900,
+      1910,
+      1920,
+      1930,
+      1940,
+      1950,
+      1960,
+      1970,
+      1980,
+      1990,
+      2000,
+      2010,
+      2020
+    ],
+    "year_count": 207
+  },
+  "scan": {
+    "total_records": 145367,
+    "years": [
+      1803,
+      1804,
+      1805,
+      1806,
+      1807,
+      1808,
+      1809,
+      1810,
+      1811,
+      1812,
+      1814,
+      1815,
+      1817,
+      1818,
+      1819,
+      1820,
+      1821,
+      1822,
+      1823,
+      1824,
+      1825,
+      1826,
+      1827,
+      1828,
+      1829,
+      1830,
+      1831,
+      1832,
+      1833,
+      1834,
+      1835,
+      1836,
+      1837,
+      1838,
+      1839,
+      1840,
+      1841,
+      1842,
+      1843,
+      1844,
+      1845,
+      1846,
+      1847,
+      1848,
+      1849,
+      1850,
+      1851,
+      1852,
+      1853,
+      1854,
+      1855,
+      1856,
+      1857,
+      1858,
+      1859,
+      1860,
+      1861,
+      1862,
+      1863,
+      1864,
+      1865,
+      1866,
+      1867,
+      1868,
+      1869,
+      1870,
+      1871,
+      1872,
+      1873,
+      1874,
+      1875,
+      1876,
+      1877,
+      1878,
+      1879,
+      1880,
+      1881,
+      1882,
+      1883,
+      1884,
+      1885,
+      1886,
+      1887,
+      1888,
+      1889,
+      1890,
+      1891,
+      1892,
+      1893,
+      1894,
+      1895,
+      1896,
+      1897,
+      1898,
+      1899,
+      1900,
+      1901,
+      1902,
+      1903,
+      1904,
+      1905,
+      1906,
+      1907,
+      1908,
+      1919,
+      1920,
+      1921,
+      1922,
+      1923,
+      1924,
+      1925,
+      1926,
+      1927,
+      1928,
+      1929,
+      1930,
+      1931,
+      1932,
+      1933,
+      1934,
+      1935,
+      1936,
+      1937,
+      1938,
+      1939,
+      1940,
+      1941,
+      1942,
+      1943,
+      1944,
+      1945,
+      1946,
+      1947,
+      1948,
+      1949,
+      1950,
+      1951,
+      1952,
+      1953,
+      1954,
+      1955,
+      1956,
+      1957,
+      1958,
+      1959,
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1969,
+      1970,
+      1971,
+      1972,
+      1973,
+      1974,
+      1975,
+      1976,
+      1977,
+      1978,
+      1979,
+      1980,
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987,
+      1988,
+      1989,
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "year_range": [
+      1803,
+      2021
+    ],
+    "missing_year_ranges": [
+      {
+        "start": 1813,
+        "end": 1813,
+        "n_years": 1
+      },
+      {
+        "start": 1816,
+        "end": 1816,
+        "n_years": 1
+      },
+      {
+        "start": 1909,
+        "end": 1918,
+        "n_years": 10
+      }
+    ],
+    "parties": [
+      "Alliance",
+      "Conservative",
+      "Democratic Unionist Party",
+      "Green Party",
+      "Independent",
+      "Independent Conservative",
+      "Independent Labour",
+      "Independent SDP",
+      "Independent Socialist",
+      "Independent Unionist",
+      "Labour",
+      "Labour (Co-op)",
+      "Liberal",
+      "Liberal Democrat",
+      "Plaid Cymru",
+      "Respect",
+      "Scottish National Party",
+      "Social Democratic & Labour Party",
+      "Social Democratic Party",
+      "Speaker",
+      "The Independent Group for Change",
+      "UK Independence Party",
+      "Ulster Popular Unionist Party",
+      "Ulster Unionist Party",
+      "United Kingdom Unionist",
+      "United Ulster Unionist Party",
+      "nan"
+    ],
+    "method_counts": {
+      "domains": 145367,
+      "freq": 48658,
+      "llm": 145367,
+      "llm_v1": 145367,
+      "pole_score": 48658,
+      "sbert": 145367
+    },
+    "llm_label_counts": {
+      "ambiguous": 7562,
+      "error": 2,
+      "negative_liberty": 95147,
+      "other": 14591,
+      "positive_liberty": 28065
+    },
+    "sentence_files": {
+      "sentences_1800s.json": {
+        "records": 1032,
+        "size_kb": 885.6,
+        "method_counts": {
+          "domains": 1032,
+          "llm": 1032,
+          "llm_v1": 1032,
+          "sbert": 1032
+        },
+        "llm_label_counts": {
+          "ambiguous": 10,
+          "negative_liberty": 583,
+          "other": 323,
+          "positive_liberty": 116
+        }
+      },
+      "sentences_1810s.json": {
+        "records": 1843,
+        "size_kb": 1606.6,
+        "method_counts": {
+          "domains": 1843,
+          "llm": 1843,
+          "llm_v1": 1843,
+          "sbert": 1843
+        },
+        "llm_label_counts": {
+          "ambiguous": 40,
+          "negative_liberty": 1346,
+          "other": 311,
+          "positive_liberty": 146
+        }
+      },
+      "sentences_1820s.json": {
+        "records": 3688,
+        "size_kb": 3146.2,
+        "method_counts": {
+          "domains": 3688,
+          "llm": 3688,
+          "llm_v1": 3688,
+          "sbert": 3688
+        },
+        "llm_label_counts": {
+          "ambiguous": 91,
+          "negative_liberty": 2548,
+          "other": 688,
+          "positive_liberty": 361
+        }
+      },
+      "sentences_1830s.json": {
+        "records": 6565,
+        "size_kb": 5653.4,
+        "method_counts": {
+          "domains": 6565,
+          "llm": 6565,
+          "llm_v1": 6565,
+          "sbert": 6565
+        },
+        "llm_label_counts": {
+          "ambiguous": 189,
+          "negative_liberty": 4001,
+          "other": 1629,
+          "positive_liberty": 746
+        }
+      },
+      "sentences_1840s.json": {
+        "records": 4861,
+        "size_kb": 4156.6,
+        "method_counts": {
+          "domains": 4861,
+          "llm": 4861,
+          "llm_v1": 4861,
+          "sbert": 4861
+        },
+        "llm_label_counts": {
+          "ambiguous": 83,
+          "error": 1,
+          "negative_liberty": 3148,
+          "other": 1142,
+          "positive_liberty": 487
+        }
+      },
+      "sentences_1850s.json": {
+        "records": 6713,
+        "size_kb": 5804.7,
+        "method_counts": {
+          "domains": 6713,
+          "llm": 6713,
+          "llm_v1": 6713,
+          "sbert": 6713
+        },
+        "llm_label_counts": {
+          "ambiguous": 139,
+          "negative_liberty": 4178,
+          "other": 1577,
+          "positive_liberty": 819
+        }
+      },
+      "sentences_1860s.json": {
+        "records": 6260,
+        "size_kb": 5332.7,
+        "method_counts": {
+          "domains": 6260,
+          "llm": 6260,
+          "llm_v1": 6260,
+          "sbert": 6260
+        },
+        "llm_label_counts": {
+          "ambiguous": 164,
+          "negative_liberty": 4233,
+          "other": 1047,
+          "positive_liberty": 816
+        }
+      },
+      "sentences_1870s.json": {
+        "records": 4166,
+        "size_kb": 3469.7,
+        "method_counts": {
+          "domains": 4166,
+          "llm": 4166,
+          "llm_v1": 4166,
+          "sbert": 4166
+        },
+        "llm_label_counts": {
+          "ambiguous": 86,
+          "negative_liberty": 2997,
+          "other": 605,
+          "positive_liberty": 478
+        }
+      },
+      "sentences_1880s.json": {
+        "records": 3511,
+        "size_kb": 2986.8,
+        "method_counts": {
+          "domains": 3511,
+          "llm": 3511,
+          "llm_v1": 3511,
+          "sbert": 3511
+        },
+        "llm_label_counts": {
+          "ambiguous": 110,
+          "negative_liberty": 2333,
+          "other": 588,
+          "positive_liberty": 480
+        }
+      },
+      "sentences_1890s.json": {
+        "records": 3469,
+        "size_kb": 2980.7,
+        "method_counts": {
+          "domains": 3469,
+          "llm": 3469,
+          "llm_v1": 3469,
+          "sbert": 3469
+        },
+        "llm_label_counts": {
+          "ambiguous": 96,
+          "negative_liberty": 2208,
+          "other": 526,
+          "positive_liberty": 639
+        }
+      },
+      "sentences_1900s.json": {
+        "records": 3298,
+        "size_kb": 2765.9,
+        "method_counts": {
+          "domains": 3298,
+          "llm": 3298,
+          "llm_v1": 3298,
+          "sbert": 3298
+        },
+        "llm_label_counts": {
+          "ambiguous": 103,
+          "negative_liberty": 2173,
+          "other": 409,
+          "positive_liberty": 613
+        }
+      },
+      "sentences_1910s.json": {
+        "records": 829,
+        "size_kb": 707.9,
+        "method_counts": {
+          "domains": 829,
+          "llm": 829,
+          "llm_v1": 829,
+          "sbert": 829
+        },
+        "llm_label_counts": {
+          "ambiguous": 47,
+          "negative_liberty": 521,
+          "other": 59,
+          "positive_liberty": 202
+        }
+      },
+      "sentences_1920s.json": {
+        "records": 4909,
+        "size_kb": 4119.7,
+        "method_counts": {
+          "domains": 4909,
+          "llm": 4909,
+          "llm_v1": 4909,
+          "sbert": 4909
+        },
+        "llm_label_counts": {
+          "ambiguous": 235,
+          "error": 1,
+          "negative_liberty": 3323,
+          "other": 431,
+          "positive_liberty": 919
+        }
+      },
+      "sentences_1930s.json": {
+        "records": 7024,
+        "size_kb": 5864.5,
+        "method_counts": {
+          "domains": 7024,
+          "llm": 7024,
+          "llm_v1": 7024,
+          "sbert": 7024
+        },
+        "llm_label_counts": {
+          "ambiguous": 409,
+          "negative_liberty": 4886,
+          "other": 479,
+          "positive_liberty": 1250
+        }
+      },
+      "sentences_1940s.json": {
+        "records": 8750,
+        "size_kb": 7100.5,
+        "method_counts": {
+          "domains": 8750,
+          "llm": 8750,
+          "llm_v1": 8750,
+          "sbert": 8750
+        },
+        "llm_label_counts": {
+          "ambiguous": 621,
+          "negative_liberty": 5882,
+          "other": 471,
+          "positive_liberty": 1776
+        }
+      },
+      "sentences_1950s.json": {
+        "records": 8960,
+        "size_kb": 7186.8,
+        "method_counts": {
+          "domains": 8960,
+          "llm": 8960,
+          "llm_v1": 8960,
+          "sbert": 8960
+        },
+        "llm_label_counts": {
+          "ambiguous": 628,
+          "negative_liberty": 5735,
+          "other": 437,
+          "positive_liberty": 2160
+        }
+      },
+      "sentences_1960s.json": {
+        "records": 8926,
+        "size_kb": 7109.4,
+        "method_counts": {
+          "domains": 8926,
+          "llm": 8926,
+          "llm_v1": 8926,
+          "sbert": 8926
+        },
+        "llm_label_counts": {
+          "ambiguous": 636,
+          "negative_liberty": 5857,
+          "other": 467,
+          "positive_liberty": 1966
+        }
+      },
+      "sentences_1970s.json": {
+        "records": 11905,
+        "size_kb": 9360.5,
+        "method_counts": {
+          "domains": 11905,
+          "llm": 11905,
+          "llm_v1": 11905,
+          "sbert": 11905
+        },
+        "llm_label_counts": {
+          "ambiguous": 945,
+          "negative_liberty": 7650,
+          "other": 446,
+          "positive_liberty": 2864
+        }
+      },
+      "sentences_1980s.json": {
+        "records": 12332,
+        "size_kb": 10663.5,
+        "method_counts": {
+          "domains": 12332,
+          "freq": 12332,
+          "llm": 12332,
+          "llm_v1": 12332,
+          "pole_score": 12332,
+          "sbert": 12332
+        },
+        "llm_label_counts": {
+          "ambiguous": 930,
+          "negative_liberty": 8207,
+          "other": 436,
+          "positive_liberty": 2759
+        }
+      },
+      "sentences_1990s.json": {
+        "records": 10214,
+        "size_kb": 8809.0,
+        "method_counts": {
+          "domains": 10214,
+          "freq": 10214,
+          "llm": 10214,
+          "llm_v1": 10214,
+          "pole_score": 10214,
+          "sbert": 10214
+        },
+        "llm_label_counts": {
+          "ambiguous": 522,
+          "negative_liberty": 6506,
+          "other": 482,
+          "positive_liberty": 2704
+        }
+      },
+      "sentences_2000s.json": {
+        "records": 11382,
+        "size_kb": 9980.2,
+        "method_counts": {
+          "domains": 11382,
+          "freq": 11382,
+          "llm": 11382,
+          "llm_v1": 11382,
+          "pole_score": 11382,
+          "sbert": 11382
+        },
+        "llm_label_counts": {
+          "ambiguous": 707,
+          "negative_liberty": 6987,
+          "other": 945,
+          "positive_liberty": 2743
+        }
+      },
+      "sentences_2010s.json": {
+        "records": 12652,
+        "size_kb": 11229.9,
+        "method_counts": {
+          "domains": 12652,
+          "freq": 12652,
+          "llm": 12652,
+          "llm_v1": 12652,
+          "pole_score": 12652,
+          "sbert": 12652
+        },
+        "llm_label_counts": {
+          "ambiguous": 654,
+          "negative_liberty": 8391,
+          "other": 962,
+          "positive_liberty": 2645
+        }
+      },
+      "sentences_2020s.json": {
+        "records": 2078,
+        "size_kb": 1844.4,
+        "method_counts": {
+          "domains": 2078,
+          "freq": 2078,
+          "llm": 2078,
+          "llm_v1": 2078,
+          "pole_score": 2078,
+          "sbert": 2078
+        },
+        "llm_label_counts": {
+          "ambiguous": 117,
+          "negative_liberty": 1454,
+          "other": 131,
+          "positive_liberty": 376
+        }
+      }
+    },
+    "stale_method_keys": []
+  },
+  "checks": {
+    "index_total_matches_scan": true,
+    "from_to_removed": true,
+    "llm_labels_present": 145365
+  }
+}

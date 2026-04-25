@@ -2,6 +2,10 @@
 
 Computational analysis of how the word "freedom" shifted meaning across 500 years of English text.
 
+Current hypothesis test: whether the proportion of positive-liberty versus
+negative-liberty uses changes over time. The project no longer treats surface
+preposition grammar as an active measurement method.
+
 ## Setup
 
 Requires Python 3.12+ and [`uv`](https://docs.astral.sh/uv/).
@@ -20,7 +24,7 @@ The `data/` directory is not included (too large). Download each dataset and pla
 | Dataset | Source | Scripts |
 |---------|--------|---------|
 | HistWords (COHA + Google Books) | [Stanford NLP](https://nlp.stanford.edu/projects/histwords/) | `embeddings.py`, `freedom_liberty_analysis.py`, `modern_embeddings.py` |
-| EEBO (Early English Books Online) | [Text Creation Partnership](https://textcreationpartnership.org/) | `tier2_analysis.py`, `negative_positive_eebo.py` |
+| EEBO (Early English Books Online) | [Text Creation Partnership](https://textcreationpartnership.org/) | `tier2_analysis.py`, `tier2_fulltext_analysis.py` |
 | Hansard Parliamentary Debates | [Historic Hansard API](https://api.parliament.uk/historic-hansard/), [parlparse](https://github.com/mysociety/parlparse) | `hansard_*.py`, `parlparse_extractor.py` |
 | Wikipedia dump | [Wikimedia Downloads](https://dumps.wikimedia.org/) | `wiki_*.py` |
 
@@ -36,13 +40,17 @@ uv run python -m src.freedom_liberty_analysis
 uv run python -m src.robustness
 uv run python -m src.control_words
 
+# Sentence-label proportion trends and corpus coverage audit
+uv run python -m src.liberty_trends
+uv run python -m src.corpus_manifest
+
 # Google Trends (2004-present or COVID-era)
 uv run python -m src.trends --range full
 uv run python -m src.trends --range 2020s
 
 # Hansard / EEBO analysis scripts
 uv run python -m src.hansard_analysis
-uv run python -m src.negative_positive_eebo
+uv run python -m src.tier2_fulltext_analysis
 ```
 
 Each script's `ABOUTME` comment at the top describes inputs and outputs.
@@ -57,7 +65,14 @@ uv run python -m src.classify_liberty --input web/data/sentences_1980s.json
 
 # Evaluate against the 100-sentence Opus comparison set
 uv run python -m src.classify_liberty --eval
+
+# Create a deterministic stratified sample for human annotation
+uv run python -m src.sample_annotation_set --per-bucket 6
 ```
+
+See `docs/annotation_protocol.md` for the human validation workflow. LLM labels
+are useful for large-scale trend exploration, but publication-grade claims
+should be checked against adjudicated human labels.
 
 ## Heavy jobs on Modal
 

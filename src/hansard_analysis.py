@@ -1,5 +1,5 @@
 # ABOUTME: Analyzes freedom/liberty usage in UK Parliamentary debates (Hansard).
-# ABOUTME: Tracks collocates, FROM/TO framing, and frequency over time in political speech.
+# ABOUTME: Tracks collocates, contexts, and frequency over time in political speech.
 
 import json
 import re
@@ -61,57 +61,6 @@ def analyze_frequency(df):
         }
         r = results[y]
         print(f"  {y:<8} {r['total_speeches']:>8,} {r['freedom_count']:>10,} {r['liberty_count']:>10,} {r['freedom_rate']:>8.1f} {r['liberty_rate']:>8.1f}")
-
-    return results
-
-
-def analyze_from_to(df):
-    """Analyze 'freedom FROM X' vs 'freedom TO Y' framing."""
-    print("\n=== FREEDOM FROM vs FREEDOM TO ===")
-    from_pattern = re.compile(r"\bfreedom\s+from\s+(\w+)", re.IGNORECASE)
-    to_pattern = re.compile(r"\bfreedom\s+to\s+(\w+)", re.IGNORECASE)
-
-    yearly_from = Counter()
-    yearly_to = Counter()
-    from_objects = Counter()
-    to_objects = Counter()
-
-    freedom_rows = df[df["has_freedom"]]
-    for _, row in freedom_rows.iterrows():
-        year = int(row["year"])
-        text = row.get("speech") or row.get("text") or ""
-
-        for m in from_pattern.finditer(str(text)):
-            yearly_from[year] += 1
-            from_objects[m.group(1).lower()] += 1
-        for m in to_pattern.finditer(str(text)):
-            yearly_to[year] += 1
-            to_objects[m.group(1).lower()] += 1
-
-    # Aggregate by 5-year periods
-    periods = defaultdict(lambda: {"from": 0, "to": 0})
-    for y in set(yearly_from.keys()) | set(yearly_to.keys()):
-        period = (y // 5) * 5
-        periods[period]["from"] += yearly_from[y]
-        periods[period]["to"] += yearly_to[y]
-
-    results = {
-        "by_period": {},
-        "from_objects": dict(from_objects.most_common(30)),
-        "to_objects": dict(to_objects.most_common(30)),
-    }
-
-    print(f"\n  {'Period':<12} {'FROM':>8} {'TO':>8} {'%FROM':>8}")
-    print(f"  {'-'*38}")
-    for p in sorted(periods.keys()):
-        d = periods[p]
-        total = d["from"] + d["to"]
-        pct = round(d["from"] / total * 100, 1) if total > 0 else 0
-        results["by_period"][str(p)] = {"from": d["from"], "to": d["to"], "pct_from": pct}
-        print(f"  {p}-{p+4:<7} {d['from']:>8} {d['to']:>8} {pct:>7.1f}%")
-
-    print(f"\n  Top FROM objects: {', '.join(f'{w}({c})' for w, c in from_objects.most_common(15))}")
-    print(f"  Top TO objects:   {', '.join(f'{w}({c})' for w, c in to_objects.most_common(15))}")
 
     return results
 
@@ -241,7 +190,6 @@ def run_hansard_analysis(output_path: str = "outputs/hansard_analysis.json"):
     }
 
     results["frequency"] = analyze_frequency(df)
-    results["from_to"] = analyze_from_to(df)
     results["collocates"] = analyze_collocates(df)
     results["contexts"] = extract_contexts(df)
 

@@ -4,9 +4,9 @@
 """
 Negative vs Positive Freedom Analysis - Word Embeddings
 
-Uses HistWords temporal embeddings to measure whether "freedom" has moved
-closer to positive-liberty concepts (rights, entitlements) or negative-liberty
-concepts (absence, removal of constraints).
+Uses HistWords temporal embeddings to measure whether "freedom" has trended
+toward positive-liberty concepts (rights, capacities, opportunities) or
+negative-liberty concepts (absence, removal of constraints).
 
 Based on Isaiah Berlin's "Two Concepts of Liberty" (1958).
 """
@@ -14,6 +14,7 @@ Based on Isaiah Berlin's "Two Concepts of Liberty" (1958).
 import json
 from pathlib import Path
 from datetime import datetime
+from math import erf, sqrt
 
 import numpy as np
 
@@ -42,6 +43,40 @@ POSITIVE_CONCEPTS = {
     # Self-determination words
     'autonomy': ['autonomy', 'self-determination', 'independence', 'sovereignty', 'agency'],
 }
+
+
+def normal_two_sided_p(z: float) -> float:
+    """Approximate two-sided p-value from a normal z-score."""
+    return float(2 * (1 - (0.5 * (1 + erf(abs(z) / sqrt(2))))))
+
+
+def linear_trend(decades: list[int], values: list[float]) -> dict | None:
+    """OLS trend over decades. Slope is reported per century."""
+    if len(decades) < 3 or len(decades) != len(values):
+        return None
+
+    x = (np.array(decades, dtype=float) - np.mean(decades)) / 100.0
+    y = np.array(values, dtype=float)
+    ss_xx = float(np.sum(x**2))
+    if ss_xx == 0:
+        return None
+
+    slope = float(np.sum(x * (y - np.mean(y))) / ss_xx)
+    intercept = float(np.mean(y))
+    y_hat = intercept + slope * x
+    residuals = y - y_hat
+    rss = float(np.sum(residuals**2))
+    df = len(y) - 2
+    se = sqrt((rss / df) / ss_xx) if df > 0 and ss_xx > 0 else 0.0
+    z = slope / se if se > 0 else 0.0
+
+    return {
+        "slope_per_century": round(slope, 6),
+        "intercept_at_mean_decade": round(intercept, 6),
+        "std_error": round(se, 6),
+        "z": round(z, 3),
+        "p_value_approx": round(normal_two_sided_p(z), 6) if se > 0 else None,
+    }
 
 
 def compute_cluster_distance(embeddings: TemporalEmbeddings, word: str, decade: int,
@@ -149,16 +184,17 @@ def analyze_freedom_trajectory(embeddings: TemporalEmbeddings) -> dict:
         if 'error' not in pos_dist:
             results['positive_cluster'][decade] = pos_dist
 
-        # Compute ratio (negative / positive) - higher = more negative-leaning
+        # Compute signed distance gap. Positive means closer to positive concepts
+        # because positive distance is smaller than negative distance.
         if 'error' not in neg_dist and 'error' not in pos_dist:
             neg_mean = neg_dist.get('overall', {}).get('mean_distance', 1)
             pos_mean = pos_dist.get('overall', {}).get('mean_distance', 1)
-            # Invert: if closer to positive (lower distance), ratio should be lower
-            # ratio < 1 means closer to positive, ratio > 1 means closer to negative
+            positive_tilt = neg_mean - pos_mean
             results['ratio_trajectory'][decade] = {
                 'neg_distance': neg_mean,
                 'pos_distance': pos_mean,
-                'ratio': neg_mean / pos_mean if pos_mean > 0 else None,
+                'distance_ratio_neg_over_pos': neg_mean / pos_mean if pos_mean > 0 else None,
+                'positive_tilt': positive_tilt,
                 'closer_to': 'negative' if neg_mean < pos_mean else 'positive',
             }
 
@@ -176,6 +212,32 @@ def analyze_freedom_trajectory(embeddings: TemporalEmbeddings) -> dict:
                 results['individual_concepts'][concept][decade] = round(dist, 4)
 
     return results
+
+
+def summarize_tilt_trend(ratio_trajectory: dict[int, dict]) -> dict:
+    """Summarize whether the positive/negative semantic tilt changed over time."""
+    decades = sorted(ratio_trajectory.keys())
+    tilts = [ratio_trajectory[d]['positive_tilt'] for d in decades]
+    trend = linear_trend(decades, tilts)
+
+    early_decades = decades[:3]
+    late_decades = decades[-3:]
+    early_mean = float(np.mean([ratio_trajectory[d]['positive_tilt'] for d in early_decades]))
+    late_mean = float(np.mean([ratio_trajectory[d]['positive_tilt'] for d in late_decades]))
+    endpoint_change = late_mean - early_mean
+
+    return {
+        "metric": "positive_tilt = negative_cluster_distance - positive_cluster_distance",
+        "interpretation": "positive values are closer to positive-liberty concepts; the hypothesis test concerns change over time, not an absolute crossover",
+        "first_decade": decades[0],
+        "last_decade": decades[-1],
+        "early_decades": early_decades,
+        "late_decades": late_decades,
+        "early_mean_positive_tilt": round(early_mean, 6),
+        "late_mean_positive_tilt": round(late_mean, 6),
+        "early_to_late_change": round(endpoint_change, 6),
+        "trend": trend,
+    }
 
 
 def main():
@@ -213,18 +275,19 @@ def main():
             'positive_concepts': POSITIVE_CONCEPTS,
         },
         'trajectory': results,
+        'trend_test': summarize_tilt_trend(results['ratio_trajectory']),
     }
 
     # Print summary
     print("\nDistance to Concept Clusters Over Time:")
-    print(f"{'Decade':<10} {'Neg Distance':>14} {'Pos Distance':>14} {'Ratio':>10} {'Closer To':>12}")
-    print("-" * 60)
+    print(f"{'Decade':<10} {'Neg Distance':>14} {'Pos Distance':>14} {'Pos Tilt':>12} {'Closer To':>12}")
+    print("-" * 68)
 
     for decade in results['decades']:
         if decade in results['ratio_trajectory']:
             data = results['ratio_trajectory'][decade]
             print(f"{decade:<10} {data['neg_distance']:>14.4f} {data['pos_distance']:>14.4f} "
-                  f"{data['ratio']:>10.3f} {data['closer_to']:>12}")
+                  f"{data['positive_tilt']:>12.4f} {data['closer_to']:>12}")
 
     # Summary statistics
     print()
@@ -232,37 +295,19 @@ def main():
     print("SUMMARY")
     print("=" * 70)
 
-    ratios = results['ratio_trajectory']
-    first_decade = min(ratios.keys())
-    last_decade = max(ratios.keys())
-
-    first_ratio = ratios[first_decade]['ratio']
-    last_ratio = ratios[last_decade]['ratio']
-
+    trend_test = output['trend_test']
+    trend = trend_test['trend'] or {}
     print(f"""
-1. In {first_decade}, 'freedom' was {'closer to NEGATIVE' if first_ratio > 1 else 'closer to POSITIVE'} concepts
-   (ratio: {first_ratio:.3f})
+1. Primary metric: positive_tilt = negative distance - positive distance.
+   Higher values mean "freedom" is relatively closer to positive-liberty concepts.
 
-2. In {last_decade}, 'freedom' was {'closer to NEGATIVE' if last_ratio > 1 else 'closer to POSITIVE'} concepts
-   (ratio: {last_ratio:.3f})
+2. Early mean ({trend_test['early_decades']}): {trend_test['early_mean_positive_tilt']:+.4f}
+   Late mean ({trend_test['late_decades']}):  {trend_test['late_mean_positive_tilt']:+.4f}
+   Change: {trend_test['early_to_late_change']:+.4f}
 
-3. Change: {((last_ratio - first_ratio) / first_ratio * 100):+.1f}% shift in ratio
+3. Linear trend: {trend.get('slope_per_century', 'N/A')} per century
+   Approx p-value: {trend.get('p_value_approx', 'N/A')}
 """)
-
-    # Track when "freedom" became closer to positive cluster
-    crossover_decade = None
-    prev_closer = ratios[first_decade]['closer_to']
-    for decade in sorted(ratios.keys()):
-        current_closer = ratios[decade]['closer_to']
-        if prev_closer == 'negative' and current_closer == 'positive':
-            crossover_decade = decade
-            break
-        prev_closer = current_closer
-
-    if crossover_decade:
-        print(f"4. Crossover decade (became closer to positive): {crossover_decade}")
-    else:
-        print("4. No crossover - 'freedom' remained closer to same cluster throughout")
 
     # Key concept trajectories
     print()
@@ -291,24 +336,22 @@ def main():
     print("=" * 70)
 
     # Determine trend
-    ratios_list = [ratios[d]['ratio'] for d in sorted(ratios.keys())]
-    trend_start = np.mean(ratios_list[:3])  # First 3 decades
-    trend_end = np.mean(ratios_list[-3:])   # Last 3 decades
+    tilt_change = trend_test['early_to_late_change']
 
-    if trend_end < trend_start:
+    if tilt_change > 0:
         print("""
-FINDING: 'Freedom' has moved CLOSER to POSITIVE concepts over time.
+FINDING: 'Freedom' trended toward POSITIVE concepts over the observed period.
 
-This supports the hypothesis that freedom shifted from:
-- Negative liberty (freedom FROM constraints)
-- To positive liberty (freedom TO do/have things)
+This supports the revised hypothesis only as a trend claim: the relative
+association changed over time. It does not require an absolute switch from
+one liberty category to another.
 """)
     else:
         print("""
-FINDING: 'Freedom' has remained closer to or moved toward NEGATIVE concepts.
+FINDING: 'Freedom' did not trend toward POSITIVE concepts over the observed period.
 
-This suggests negative liberty framing (freedom FROM) may still dominate
-in semantic space, even if phrase-level analysis shows different patterns.
+This weakens the revised hypothesis in the embedding-cluster analysis. The
+result should be triangulated against sentence-level label proportions.
 """)
 
 

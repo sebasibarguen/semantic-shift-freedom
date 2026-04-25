@@ -1,0 +1,989 @@
+{
+  "metadata": {
+    "source": "/Users/sebas/Dev/writing/experiments/freedom-semantic-shift/web/data",
+    "total_records": 145367,
+    "min_denominator": 30,
+    "primary_hypothesis": "The proportion of positive-liberty labels changes over time among records classified as positive or negative liberty.",
+    "note": "This analysis tests trends in label proportions. It does not require an absolute switch from negative to positive liberty."
+  },
+  "by_decade": {
+    "1800": {
+      "total": 1032,
+      "counts": {
+        "positive_liberty": 116,
+        "negative_liberty": 583,
+        "ambiguous": 10,
+        "other": 323,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 699,
+        "substantive": 709
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.165951,
+        "lower": 0.140212,
+        "upper": 0.195343
+      },
+      "positive_share_of_substantive": {
+        "point": 0.163611,
+        "lower": 0.138207,
+        "upper": 0.19264
+      },
+      "negative_share_of_substantive": {
+        "point": 0.822285,
+        "lower": 0.792431,
+        "upper": 0.848665
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.014104,
+        "lower": 0.007679,
+        "upper": 0.025767
+      },
+      "other_error_missing_share_all": {
+        "point": 0.312984,
+        "lower": 0.28543,
+        "upper": 0.341926
+      }
+    },
+    "1810": {
+      "total": 1843,
+      "counts": {
+        "positive_liberty": 146,
+        "negative_liberty": 1346,
+        "ambiguous": 40,
+        "other": 311,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 1492,
+        "substantive": 1532
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.097855,
+        "lower": 0.083795,
+        "upper": 0.113981
+      },
+      "positive_share_of_substantive": {
+        "point": 0.0953,
+        "lower": 0.081592,
+        "upper": 0.111033
+      },
+      "negative_share_of_substantive": {
+        "point": 0.87859,
+        "lower": 0.861281,
+        "upper": 0.894005
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.02611,
+        "lower": 0.019232,
+        "upper": 0.035358
+      },
+      "other_error_missing_share_all": {
+        "point": 0.168747,
+        "lower": 0.15234,
+        "upper": 0.186531
+      }
+    },
+    "1820": {
+      "total": 3688,
+      "counts": {
+        "positive_liberty": 361,
+        "negative_liberty": 2548,
+        "ambiguous": 91,
+        "other": 688,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 2909,
+        "substantive": 3000
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.124098,
+        "lower": 0.11261,
+        "upper": 0.136577
+      },
+      "positive_share_of_substantive": {
+        "point": 0.120333,
+        "lower": 0.109174,
+        "upper": 0.132464
+      },
+      "negative_share_of_substantive": {
+        "point": 0.849333,
+        "lower": 0.836086,
+        "upper": 0.861687
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.030333,
+        "lower": 0.024771,
+        "upper": 0.037097
+      },
+      "other_error_missing_share_all": {
+        "point": 0.186551,
+        "lower": 0.174307,
+        "upper": 0.199447
+      }
+    },
+    "1830": {
+      "total": 6565,
+      "counts": {
+        "positive_liberty": 746,
+        "negative_liberty": 4001,
+        "ambiguous": 189,
+        "other": 1629,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 4747,
+        "substantive": 4936
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.157152,
+        "lower": 0.147076,
+        "upper": 0.167782
+      },
+      "positive_share_of_substantive": {
+        "point": 0.151135,
+        "lower": 0.141414,
+        "upper": 0.161398
+      },
+      "negative_share_of_substantive": {
+        "point": 0.810575,
+        "lower": 0.799404,
+        "upper": 0.821264
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.03829,
+        "lower": 0.033286,
+        "upper": 0.044013
+      },
+      "other_error_missing_share_all": {
+        "point": 0.248134,
+        "lower": 0.237835,
+        "upper": 0.258728
+      }
+    },
+    "1840": {
+      "total": 4861,
+      "counts": {
+        "positive_liberty": 487,
+        "negative_liberty": 3148,
+        "ambiguous": 83,
+        "other": 1142,
+        "error": 1,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 3635,
+        "substantive": 3718
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.133975,
+        "lower": 0.123287,
+        "upper": 0.145436
+      },
+      "positive_share_of_substantive": {
+        "point": 0.130984,
+        "lower": 0.120519,
+        "upper": 0.142211
+      },
+      "negative_share_of_substantive": {
+        "point": 0.846692,
+        "lower": 0.834753,
+        "upper": 0.857914
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.022324,
+        "lower": 0.018045,
+        "upper": 0.027589
+      },
+      "other_error_missing_share_all": {
+        "point": 0.235137,
+        "lower": 0.223427,
+        "upper": 0.247265
+      }
+    },
+    "1850": {
+      "total": 6713,
+      "counts": {
+        "positive_liberty": 819,
+        "negative_liberty": 4178,
+        "ambiguous": 139,
+        "other": 1577,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 4997,
+        "substantive": 5136
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.163898,
+        "lower": 0.153893,
+        "upper": 0.17442
+      },
+      "positive_share_of_substantive": {
+        "point": 0.159463,
+        "lower": 0.149705,
+        "upper": 0.169729
+      },
+      "negative_share_of_substantive": {
+        "point": 0.813474,
+        "lower": 0.802587,
+        "upper": 0.823891
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.027064,
+        "lower": 0.022967,
+        "upper": 0.031868
+      },
+      "other_error_missing_share_all": {
+        "point": 0.234917,
+        "lower": 0.224929,
+        "upper": 0.245209
+      }
+    },
+    "1860": {
+      "total": 6260,
+      "counts": {
+        "positive_liberty": 816,
+        "negative_liberty": 4233,
+        "ambiguous": 164,
+        "other": 1047,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 5049,
+        "substantive": 5213
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.161616,
+        "lower": 0.15172,
+        "upper": 0.172026
+      },
+      "positive_share_of_substantive": {
+        "point": 0.156532,
+        "lower": 0.146921,
+        "upper": 0.166648
+      },
+      "negative_share_of_substantive": {
+        "point": 0.812008,
+        "lower": 0.801174,
+        "upper": 0.822384
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.03146,
+        "lower": 0.027055,
+        "upper": 0.036554
+      },
+      "other_error_missing_share_all": {
+        "point": 0.167252,
+        "lower": 0.158212,
+        "upper": 0.176701
+      }
+    },
+    "1870": {
+      "total": 4166,
+      "counts": {
+        "positive_liberty": 478,
+        "negative_liberty": 2997,
+        "ambiguous": 86,
+        "other": 605,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 3475,
+        "substantive": 3561
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.137554,
+        "lower": 0.126502,
+        "upper": 0.149407
+      },
+      "positive_share_of_substantive": {
+        "point": 0.134232,
+        "lower": 0.123428,
+        "upper": 0.145824
+      },
+      "negative_share_of_substantive": {
+        "point": 0.841618,
+        "lower": 0.829258,
+        "upper": 0.85324
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.024151,
+        "lower": 0.019598,
+        "upper": 0.029729
+      },
+      "other_error_missing_share_all": {
+        "point": 0.145223,
+        "lower": 0.134851,
+        "upper": 0.156249
+      }
+    },
+    "1880": {
+      "total": 3511,
+      "counts": {
+        "positive_liberty": 480,
+        "negative_liberty": 2333,
+        "ambiguous": 110,
+        "other": 588,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 2813,
+        "substantive": 2923
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.170636,
+        "lower": 0.157186,
+        "upper": 0.184985
+      },
+      "positive_share_of_substantive": {
+        "point": 0.164215,
+        "lower": 0.151227,
+        "upper": 0.178085
+      },
+      "negative_share_of_substantive": {
+        "point": 0.798153,
+        "lower": 0.783214,
+        "upper": 0.812308
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.037633,
+        "lower": 0.031318,
+        "upper": 0.045161
+      },
+      "other_error_missing_share_all": {
+        "point": 0.167474,
+        "lower": 0.155487,
+        "upper": 0.180187
+      }
+    },
+    "1890": {
+      "total": 3469,
+      "counts": {
+        "positive_liberty": 639,
+        "negative_liberty": 2208,
+        "ambiguous": 96,
+        "other": 526,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 2847,
+        "substantive": 2943
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.224447,
+        "lower": 0.209498,
+        "upper": 0.240138
+      },
+      "positive_share_of_substantive": {
+        "point": 0.217125,
+        "lower": 0.202604,
+        "upper": 0.232385
+      },
+      "negative_share_of_substantive": {
+        "point": 0.750255,
+        "lower": 0.734296,
+        "upper": 0.765561
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.03262,
+        "lower": 0.026786,
+        "upper": 0.039672
+      },
+      "other_error_missing_share_all": {
+        "point": 0.151629,
+        "lower": 0.140079,
+        "upper": 0.163949
+      }
+    },
+    "1900": {
+      "total": 3298,
+      "counts": {
+        "positive_liberty": 613,
+        "negative_liberty": 2173,
+        "ambiguous": 103,
+        "other": 409,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 2786,
+        "substantive": 2889
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.220029,
+        "lower": 0.205037,
+        "upper": 0.235792
+      },
+      "positive_share_of_substantive": {
+        "point": 0.212184,
+        "lower": 0.197662,
+        "upper": 0.22747
+      },
+      "negative_share_of_substantive": {
+        "point": 0.752163,
+        "lower": 0.736091,
+        "upper": 0.767566
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.035652,
+        "lower": 0.029484,
+        "upper": 0.043054
+      },
+      "other_error_missing_share_all": {
+        "point": 0.124015,
+        "lower": 0.113201,
+        "upper": 0.135703
+      }
+    },
+    "1910": {
+      "total": 829,
+      "counts": {
+        "positive_liberty": 202,
+        "negative_liberty": 521,
+        "ambiguous": 47,
+        "other": 59,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 723,
+        "substantive": 770
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.279391,
+        "lower": 0.247916,
+        "upper": 0.313199
+      },
+      "positive_share_of_substantive": {
+        "point": 0.262338,
+        "lower": 0.2325,
+        "upper": 0.294535
+      },
+      "negative_share_of_substantive": {
+        "point": 0.676623,
+        "lower": 0.642777,
+        "upper": 0.708716
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.061039,
+        "lower": 0.04621,
+        "upper": 0.080226
+      },
+      "other_error_missing_share_all": {
+        "point": 0.07117,
+        "lower": 0.055575,
+        "upper": 0.090722
+      }
+    },
+    "1920": {
+      "total": 4909,
+      "counts": {
+        "positive_liberty": 919,
+        "negative_liberty": 3323,
+        "ambiguous": 235,
+        "other": 431,
+        "error": 1,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 4242,
+        "substantive": 4477
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.216643,
+        "lower": 0.204505,
+        "upper": 0.229294
+      },
+      "positive_share_of_substantive": {
+        "point": 0.205271,
+        "lower": 0.193695,
+        "upper": 0.217353
+      },
+      "negative_share_of_substantive": {
+        "point": 0.742238,
+        "lower": 0.729221,
+        "upper": 0.754839
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.052491,
+        "lower": 0.046333,
+        "upper": 0.059415
+      },
+      "other_error_missing_share_all": {
+        "point": 0.088002,
+        "lower": 0.080395,
+        "upper": 0.096252
+      }
+    },
+    "1930": {
+      "total": 7024,
+      "counts": {
+        "positive_liberty": 1250,
+        "negative_liberty": 4886,
+        "ambiguous": 409,
+        "other": 479,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 6136,
+        "substantive": 6545
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.203716,
+        "lower": 0.193825,
+        "upper": 0.213977
+      },
+      "positive_share_of_substantive": {
+        "point": 0.190985,
+        "lower": 0.181645,
+        "upper": 0.200689
+      },
+      "negative_share_of_substantive": {
+        "point": 0.746524,
+        "lower": 0.735843,
+        "upper": 0.756916
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.06249,
+        "lower": 0.056879,
+        "upper": 0.068615
+      },
+      "other_error_missing_share_all": {
+        "point": 0.068195,
+        "lower": 0.062532,
+        "upper": 0.074329
+      }
+    },
+    "1940": {
+      "total": 8750,
+      "counts": {
+        "positive_liberty": 1776,
+        "negative_liberty": 5882,
+        "ambiguous": 621,
+        "other": 471,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 7658,
+        "substantive": 8279
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.231914,
+        "lower": 0.222597,
+        "upper": 0.2415
+      },
+      "positive_share_of_substantive": {
+        "point": 0.214519,
+        "lower": 0.20581,
+        "upper": 0.223492
+      },
+      "negative_share_of_substantive": {
+        "point": 0.710472,
+        "lower": 0.700607,
+        "upper": 0.720143
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.075009,
+        "lower": 0.06953,
+        "upper": 0.080882
+      },
+      "other_error_missing_share_all": {
+        "point": 0.053829,
+        "lower": 0.049293,
+        "upper": 0.058756
+      }
+    },
+    "1950": {
+      "total": 8960,
+      "counts": {
+        "positive_liberty": 2160,
+        "negative_liberty": 5735,
+        "ambiguous": 628,
+        "other": 437,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 7895,
+        "substantive": 8523
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.273591,
+        "lower": 0.263869,
+        "upper": 0.283533
+      },
+      "positive_share_of_substantive": {
+        "point": 0.253432,
+        "lower": 0.24431,
+        "upper": 0.262776
+      },
+      "negative_share_of_substantive": {
+        "point": 0.672885,
+        "lower": 0.662849,
+        "upper": 0.682766
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.073683,
+        "lower": 0.068326,
+        "upper": 0.079424
+      },
+      "other_error_missing_share_all": {
+        "point": 0.048772,
+        "lower": 0.044503,
+        "upper": 0.053429
+      }
+    },
+    "1960": {
+      "total": 8926,
+      "counts": {
+        "positive_liberty": 1966,
+        "negative_liberty": 5857,
+        "ambiguous": 636,
+        "other": 467,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 7823,
+        "substantive": 8459
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.25131,
+        "lower": 0.241822,
+        "upper": 0.261043
+      },
+      "positive_share_of_substantive": {
+        "point": 0.232415,
+        "lower": 0.223537,
+        "upper": 0.241536
+      },
+      "negative_share_of_substantive": {
+        "point": 0.692399,
+        "lower": 0.682478,
+        "upper": 0.702144
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.075186,
+        "lower": 0.069758,
+        "upper": 0.081001
+      },
+      "other_error_missing_share_all": {
+        "point": 0.052319,
+        "lower": 0.047889,
+        "upper": 0.057134
+      }
+    },
+    "1970": {
+      "total": 11905,
+      "counts": {
+        "positive_liberty": 2864,
+        "negative_liberty": 7650,
+        "ambiguous": 945,
+        "other": 446,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 10514,
+        "substantive": 11459
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.272399,
+        "lower": 0.263973,
+        "upper": 0.280991
+      },
+      "positive_share_of_substantive": {
+        "point": 0.249935,
+        "lower": 0.242092,
+        "upper": 0.257945
+      },
+      "negative_share_of_substantive": {
+        "point": 0.667598,
+        "lower": 0.658917,
+        "upper": 0.676165
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.082468,
+        "lower": 0.07757,
+        "upper": 0.087646
+      },
+      "other_error_missing_share_all": {
+        "point": 0.037463,
+        "lower": 0.034199,
+        "upper": 0.041026
+      }
+    },
+    "1980": {
+      "total": 12332,
+      "counts": {
+        "positive_liberty": 2759,
+        "negative_liberty": 8207,
+        "ambiguous": 930,
+        "other": 436,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 10966,
+        "substantive": 11896
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.251596,
+        "lower": 0.243562,
+        "upper": 0.259804
+      },
+      "positive_share_of_substantive": {
+        "point": 0.231927,
+        "lower": 0.224429,
+        "upper": 0.239597
+      },
+      "negative_share_of_substantive": {
+        "point": 0.689896,
+        "lower": 0.681524,
+        "upper": 0.698145
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.078178,
+        "lower": 0.073488,
+        "upper": 0.083139
+      },
+      "other_error_missing_share_all": {
+        "point": 0.035355,
+        "lower": 0.032238,
+        "upper": 0.038762
+      }
+    },
+    "1990": {
+      "total": 10214,
+      "counts": {
+        "positive_liberty": 2704,
+        "negative_liberty": 6506,
+        "ambiguous": 522,
+        "other": 482,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 9210,
+        "substantive": 9732
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.293594,
+        "lower": 0.284381,
+        "upper": 0.302979
+      },
+      "positive_share_of_substantive": {
+        "point": 0.277846,
+        "lower": 0.269036,
+        "upper": 0.286832
+      },
+      "negative_share_of_substantive": {
+        "point": 0.668516,
+        "lower": 0.659099,
+        "upper": 0.677801
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.053637,
+        "lower": 0.049335,
+        "upper": 0.058292
+      },
+      "other_error_missing_share_all": {
+        "point": 0.04719,
+        "lower": 0.043245,
+        "upper": 0.051475
+      }
+    },
+    "2000": {
+      "total": 11382,
+      "counts": {
+        "positive_liberty": 2743,
+        "negative_liberty": 6987,
+        "ambiguous": 707,
+        "other": 945,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 9730,
+        "substantive": 10437
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.281912,
+        "lower": 0.273059,
+        "upper": 0.290936
+      },
+      "positive_share_of_substantive": {
+        "point": 0.262815,
+        "lower": 0.254459,
+        "upper": 0.271346
+      },
+      "negative_share_of_substantive": {
+        "point": 0.669445,
+        "lower": 0.660359,
+        "upper": 0.678406
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.06774,
+        "lower": 0.063076,
+        "upper": 0.072722
+      },
+      "other_error_missing_share_all": {
+        "point": 0.083026,
+        "lower": 0.078096,
+        "upper": 0.088237
+      }
+    },
+    "2010": {
+      "total": 12652,
+      "counts": {
+        "positive_liberty": 2645,
+        "negative_liberty": 8391,
+        "ambiguous": 654,
+        "other": 962,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 11036,
+        "substantive": 11690
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.23967,
+        "lower": 0.231797,
+        "upper": 0.247724
+      },
+      "positive_share_of_substantive": {
+        "point": 0.226262,
+        "lower": 0.218767,
+        "upper": 0.233936
+      },
+      "negative_share_of_substantive": {
+        "point": 0.717793,
+        "lower": 0.709564,
+        "upper": 0.725879
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.055945,
+        "lower": 0.051923,
+        "upper": 0.060259
+      },
+      "other_error_missing_share_all": {
+        "point": 0.076035,
+        "lower": 0.071544,
+        "upper": 0.080784
+      }
+    },
+    "2020": {
+      "total": 2078,
+      "counts": {
+        "positive_liberty": 376,
+        "negative_liberty": 1454,
+        "ambiguous": 117,
+        "other": 131,
+        "error": 0,
+        "missing": 0
+      },
+      "denominators": {
+        "positive_plus_negative": 1830,
+        "substantive": 1947
+      },
+      "positive_share_of_positive_negative": {
+        "point": 0.205464,
+        "lower": 0.187579,
+        "upper": 0.224584
+      },
+      "positive_share_of_substantive": {
+        "point": 0.193118,
+        "lower": 0.176194,
+        "upper": 0.211249
+      },
+      "negative_share_of_substantive": {
+        "point": 0.74679,
+        "lower": 0.727001,
+        "upper": 0.765607
+      },
+      "ambiguous_share_of_substantive": {
+        "point": 0.060092,
+        "lower": 0.050377,
+        "upper": 0.07154
+      },
+      "other_error_missing_share_all": {
+        "point": 0.063041,
+        "lower": 0.053376,
+        "upper": 0.074319
+      }
+    }
+  },
+  "trend_tests": {
+    "positive_share_of_positive_negative": {
+      "first_decade": 1800,
+      "last_decade": 2020,
+      "n_decades": 23,
+      "slope_per_century": 0.073937,
+      "std_error": 0.009136,
+      "z": 8.093,
+      "p_value_approx": 0.0,
+      "first_proportion": 0.165951,
+      "last_proportion": 0.205464,
+      "endpoint_change": 0.039513,
+      "endpoint_z": 2.331,
+      "endpoint_p_value_approx": 0.019728
+    },
+    "positive_share_of_substantive": {
+      "first_decade": 1800,
+      "last_decade": 2020,
+      "n_decades": 23,
+      "slope_per_century": 0.065217,
+      "std_error": 0.008351,
+      "z": 7.81,
+      "p_value_approx": 0.0,
+      "first_proportion": 0.163611,
+      "last_proportion": 0.193118,
+      "endpoint_change": 0.029507,
+      "endpoint_z": 1.786,
+      "endpoint_p_value_approx": 0.074146
+    },
+    "negative_share_of_substantive": {
+      "first_decade": 1800,
+      "last_decade": 2020,
+      "n_decades": 23,
+      "slope_per_century": -0.08969,
+      "std_error": 0.010739,
+      "z": -8.352,
+      "p_value_approx": 0.0,
+      "first_proportion": 0.822285,
+      "last_proportion": 0.74679,
+      "endpoint_change": -0.075495,
+      "endpoint_z": -4.335,
+      "endpoint_p_value_approx": 1.5e-05
+    },
+    "ambiguous_share_of_substantive": {
+      "first_decade": 1800,
+      "last_decade": 2020,
+      "n_decades": 23,
+      "slope_per_century": 0.024473,
+      "std_error": 0.004709,
+      "z": 5.198,
+      "p_value_approx": 0.0,
+      "first_proportion": 0.014104,
+      "last_proportion": 0.060092,
+      "endpoint_change": 0.045988,
+      "endpoint_z": 6.595,
+      "endpoint_p_value_approx": 0.0
+    }
+  }
+}

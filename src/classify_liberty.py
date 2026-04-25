@@ -41,23 +41,21 @@ POLL_INTERVAL_SEC = 20
 
 SYSTEM_PROMPT = """You classify individual sentences from UK Parliamentary debates (Hansard, 1803-2025) according to Isaiah Berlin's "Two Concepts of Liberty."
 
-CRITICAL RULE: "freedom of X" (speech, press, religion, debate, conscience, navigation, contract, trade, association, expression, movement) is almost always NEGATIVE liberty — it names freedom from interference with X. Do NOT classify these as positive liberty even when the surface grammar uses "to".
+Do not classify from surface grammar. Identify the liberty claim being made: non-interference/protection from constraint, enabled capacity, mixed/underspecified, or no substantive liberty claim.
 
-NEGATIVE LIBERTY (freedom FROM interference):
-- "freedom of speech/press/religion/conscience/debate/expression" = negative
-- "freedom from want/fear/oppression/torture" = negative
-- "civil liberties", "personal liberty" re: detention, habeas corpus = negative
-- "freedom of contract/trade/navigation/movement" = negative
-- "restrict/curtail/infringe freedom" = negative (discussing removal of non-interference)
-- rhetorical invocations of liberty as a cause opposed to tyranny = negative
+NEGATIVE LIBERTY (non-interference / protection against constraint):
+- speech, press, religion, conscience, debate, expression, contract, trade, navigation, and movement as protected spheres
+- want, fear, oppression, torture, arbitrary detention, censorship, interference, infringement, or coercion as constraints to be removed or prevented
+- civil liberties and personal liberty in contexts of detention, arrest, habeas corpus, or due process
+- restrictions, curtailments, infringements, erosion, or attacks on liberty
+- rhetorical invocations of liberty as a cause opposed to tyranny
 
-POSITIVE LIBERTY (capacity/empowerment TO act):
-- "freedom to choose one's school/doctor" = positive (enabled capacity)
-- "freedom to innovate/compete/provide services" = positive (opportunity)
-- "grant liberty to [country/body] to govern itself" = positive (empowerment)
-- "financial freedom", self-sufficiency = positive
-- welfare/education enabling people to do things = positive
-- local authorities given "freedom to raise funding" = positive
+POSITIVE LIBERTY (capacity / empowerment / enabled agency):
+- enabled choice over schools, doctors, services, local priorities, or practical options
+- opportunity to innovate, compete, provide services, participate, or exercise self-direction
+- a country, institution, local authority, or group being empowered to govern or act
+- financial freedom, self-sufficiency, and practical independence
+- welfare, education, health, or social provision framed as enabling people to act
 
 AMBIGUOUS (genuine mixed or under-specified):
 - sentences that explicitly present both enabling and constraining aspects
@@ -71,7 +69,7 @@ OTHER (not making a claim about liberty-as-a-value):
 - the word appears incidentally without substantive use
 
 Guidance:
-- Reason about what is being freed and from-or-to what. The grammatical "from"/"to" is a hint, not a rule.
+- Reason about what is being freed, what constraint is removed, or what capacity is enabled.
 - Prefer "ambiguous" over guessing when a single-sentence excerpt genuinely does not disambiguate.
 - Always call the classify_liberty tool exactly once per request."""
 
@@ -84,7 +82,7 @@ TOOL_DEFINITION = {
         "properties": {
             "rationale": {
                 "type": "string",
-                "description": "One sentence: what is being freed, and from-or-to what? Name the specific object of freedom in the sentence.",
+                "description": "One sentence: name the liberty object and whether the sentence concerns non-interference, enabled capacity, ambiguity, or non-substantive usage.",
             },
             "label": {
                 "type": "string",

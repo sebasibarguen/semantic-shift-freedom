@@ -9,8 +9,6 @@ from pathlib import Path
 
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
-FROM_RE = re.compile(r"\bfreedom\s+from\s+(\w+)", re.IGNORECASE)
-TO_RE = re.compile(r"\bfreedom\s+to\s+(\w+)", re.IGNORECASE)
 WORD_RE = re.compile(r"[a-z]+")
 
 # Berlin-style pole words for a simple heuristic score
@@ -67,19 +65,16 @@ def extract_sentences(df, frequency_data):
             id_source = f"{date}-{speaker}-{i}"
             sid = f"{date[:10]}-{hashlib.md5(id_source.encode()).hexdigest()[:6]}-{i:03d}"
 
-            # Method 1: FROM/TO framing
-            from_to = classify_from_to(sent)
-
-            # Method 2: Domain tagging
+            # Method 1: Domain tagging
             words_in_sent = WORD_RE.findall(sent_lower)
             domain_dist = tagger.get_domain_distribution(words_in_sent)
             # Keep only non-zero domains, drop 'untagged'
             domains = {k: v for k, v in domain_dist.items() if v > 0 and k != "untagged"}
 
-            # Method 3: Pole word heuristic
+            # Method 2: Pole word heuristic
             pole_score = compute_pole_score(words_in_sent)
 
-            # Method 4: Frequency context
+            # Method 3: Frequency context
             freq_ctx = get_frequency_context(year, frequency_data)
 
             record = {
@@ -91,7 +86,6 @@ def extract_sentences(df, frequency_data):
                 "speaker": speaker,
                 "party": party,
                 "methods": {
-                    "from_to": from_to,
                     "domains": domains,
                     "pole_score": pole_score,
                     "freq": freq_ctx,
@@ -106,18 +100,6 @@ def extract_sentences(df, frequency_data):
 
     print(f"  Total: {total:,} sentences across {len(sentences_by_decade)} decades")
     return sentences_by_decade
-
-
-def classify_from_to(sentence):
-    """Classify a sentence's FROM/TO framing."""
-    from_match = FROM_RE.search(sentence)
-    to_match = TO_RE.search(sentence)
-
-    if from_match:
-        return {"type": "from", "object": from_match.group(1).lower()}
-    elif to_match:
-        return {"type": "to", "object": to_match.group(1).lower()}
-    return {"type": "neither", "object": None}
 
 
 def compute_pole_score(words):

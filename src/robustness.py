@@ -1,10 +1,9 @@
-# ABOUTME: Bootstrap confidence intervals and cluster sensitivity analysis.
-# ABOUTME: Tests whether the 1880 crossover and freedom/liberty divergence are statistically robust.
+# ABOUTME: Bootstrap confidence intervals and trend-oriented robustness analysis.
+# ABOUTME: Tests freedom/liberty divergence and legal-vs-personal distance-gap trends.
 
 import json
 import numpy as np
 from pathlib import Path
-from collections import Counter
 
 from .embeddings import TemporalEmbeddings
 
@@ -145,92 +144,90 @@ def bootstrap_pair_similarity(emb, word1, word2, decade, n_bootstrap=N_BOOTSTRAP
     }
 
 
-def cluster_sensitivity(emb, word, full_legal, full_personal, decades, n_trials=100, rng=None):
-    """
-    Test sensitivity of crossover to cluster composition.
-    For each trial, randomly drop 2 words from each cluster and find the crossover.
-    """
-    if rng is None:
-        rng = np.random.default_rng(RANDOM_SEED)
+def linear_trend(decades, values):
+    """OLS trend over decades. Slope is reported per century."""
+    x = (np.array(decades, dtype=float) - np.mean(decades)) / 100.0
+    y = np.array(values, dtype=float)
+    if len(x) < 3:
+        return None
 
-    crossover_counts = Counter()
-    no_crossover_count = 0
+    ss_xx = float(np.sum(x**2))
+    if ss_xx == 0:
+        return None
 
-    for _ in range(n_trials):
-        # Drop 2 random words from each cluster
-        legal_subset = list(rng.choice(full_legal, size=max(3, len(full_legal) - 2), replace=False))
-        personal_subset = list(rng.choice(full_personal, size=max(3, len(full_personal) - 2), replace=False))
-
-        prev_closer = None
-        crossover = None
-        for decade in decades:
-            legal_d, _ = cluster_distance(emb, word, legal_subset, decade)
-            personal_d, _ = cluster_distance(emb, word, personal_subset, decade)
-
-            if legal_d is None or personal_d is None:
-                continue
-
-            closer = "legal" if legal_d < personal_d else "personal"
-            if prev_closer and prev_closer != closer:
-                crossover = decade
-                break
-            prev_closer = closer
-
-        if crossover:
-            crossover_counts[crossover] += 1
-        else:
-            no_crossover_count += 1
+    slope = float(np.sum(x * (y - np.mean(y))) / ss_xx)
+    y_hat = np.mean(y) + slope * x
+    residuals = y - y_hat
+    df = len(y) - 2
+    se = float(np.sqrt((np.sum(residuals**2) / df) / ss_xx)) if df > 0 else 0.0
+    z = slope / se if se > 0 else 0.0
 
     return {
-        "crossover_distribution": {str(k): v for k, v in sorted(crossover_counts.items())},
-        "no_crossover_count": no_crossover_count,
-        "n_trials": n_trials,
-        "modal_crossover": max(crossover_counts, key=crossover_counts.get) if crossover_counts else None,
+        "slope_per_century": round(slope, 6),
+        "std_error": round(se, 6),
+        "z": round(float(z), 3),
     }
 
 
-def permutation_test_crossover(emb, word, legal_cluster, personal_cluster, decades,
-                                 observed_crossover, n_permutations=1000, rng=None):
+def cluster_gap_trajectory(emb, word, legal_cluster, personal_cluster, decades):
     """
-    Permutation test: pool legal+personal cluster words, randomly split into two groups,
-    see how often a crossover at or before the observed decade occurs by chance.
+    Compute personal-minus-legal cluster distance by decade.
+
+    Positive gap means legal/status concepts are closer because the personal
+    cluster is farther away. A declining gap means movement toward personal
+    concepts relative to legal/status concepts.
     """
+    trajectory = {}
+    for decade in decades:
+        legal_d, legal_words = cluster_distance(emb, word, legal_cluster, decade)
+        personal_d, personal_words = cluster_distance(emb, word, personal_cluster, decade)
+        if legal_d is None or personal_d is None:
+            continue
+        trajectory[str(decade)] = {
+            "legal_distance": round(legal_d, 6),
+            "personal_distance": round(personal_d, 6),
+            "personal_minus_legal_gap": round(personal_d - legal_d, 6),
+            "n_legal_words": len(legal_words),
+            "n_personal_words": len(personal_words),
+        }
+    return trajectory
+
+
+def gap_trend_test(trajectory, n_permutations=1000, rng=None):
+    """Trend and permutation test for the legal-vs-personal distance gap."""
     if rng is None:
         rng = np.random.default_rng(RANDOM_SEED)
 
-    pooled = legal_cluster + personal_cluster
-    n_legal = len(legal_cluster)
-    count_at_or_before = 0
+    decades = [int(d) for d in sorted(trajectory.keys(), key=int)]
+    gaps = [trajectory[str(d)]["personal_minus_legal_gap"] for d in decades]
+    trend = linear_trend(decades, gaps)
+    if trend is None:
+        return None
 
+    observed_slope = trend["slope_per_century"]
+    count_as_strong = 0
     for _ in range(n_permutations):
-        shuffled = rng.permutation(pooled)
-        fake_legal = list(shuffled[:n_legal])
-        fake_personal = list(shuffled[n_legal:])
+        shuffled = rng.permutation(gaps)
+        perm_trend = linear_trend(decades, shuffled.tolist())
+        if perm_trend and abs(perm_trend["slope_per_century"]) >= abs(observed_slope):
+            count_as_strong += 1
 
-        prev_closer = None
-        crossover = None
-        for decade in decades:
-            legal_d, _ = cluster_distance(emb, word, fake_legal, decade)
-            personal_d, _ = cluster_distance(emb, word, fake_personal, decade)
+    early = decades[:3]
+    late = decades[-3:]
+    early_mean = float(np.mean([trajectory[str(d)]["personal_minus_legal_gap"] for d in early]))
+    late_mean = float(np.mean([trajectory[str(d)]["personal_minus_legal_gap"] for d in late]))
 
-            if legal_d is None or personal_d is None:
-                continue
-
-            closer = "legal" if legal_d < personal_d else "personal"
-            if prev_closer and prev_closer != closer:
-                crossover = decade
-                break
-            prev_closer = closer
-
-        if crossover is not None and crossover <= observed_crossover:
-            count_at_or_before += 1
-
-    p_value = count_at_or_before / n_permutations
     return {
-        "observed_crossover": observed_crossover,
-        "p_value": round(p_value, 4),
+        "metric": "personal_minus_legal_gap",
+        "interpretation": "positive means legal/status concepts are closer; declining values mean movement toward personal/capacity concepts",
+        "early_decades": early,
+        "late_decades": late,
+        "early_mean_gap": round(early_mean, 6),
+        "late_mean_gap": round(late_mean, 6),
+        "early_to_late_change": round(late_mean - early_mean, 6),
+        "trend": trend,
+        "permutation_p_value": round(count_as_strong / n_permutations, 4),
         "n_permutations": n_permutations,
-        "crossovers_at_or_before": count_at_or_before,
     }
 
 
@@ -240,7 +237,7 @@ def run_analysis():
 
     print("=" * 70)
     print("ROBUSTNESS ANALYSIS")
-    print("Bootstrap CIs, Cluster Sensitivity, Permutation Tests")
+    print("Bootstrap CIs and trend tests")
     print("=" * 70)
     print()
 
@@ -320,52 +317,40 @@ def run_analysis():
     print()
 
     # =========================================================================
-    # 3. CLUSTER SENSITIVITY ANALYSIS
+    # 3. LEGAL-vs-PERSONAL GAP TREND
     # =========================================================================
     print("=" * 70)
-    print("3. CLUSTER SENSITIVITY: Crossover Date Distribution")
-    print(f"   (Randomly dropping 2 words from each cluster, {100} trials)")
+    print("3. TREND TEST: Legal-vs-Personal Cluster Gap")
+    print("   Gap = personal distance - legal distance")
     print("=" * 70)
     print()
 
-    sensitivity = cluster_sensitivity(
-        emb, "freedom", LEGAL_CLUSTER, PERSONAL_CLUSTER, decades,
-        n_trials=200, rng=rng
+    gap_trajectory = cluster_gap_trajectory(
+        emb, "freedom", LEGAL_CLUSTER, PERSONAL_CLUSTER, decades
     )
+    gap_test = gap_trend_test(gap_trajectory, n_permutations=1000, rng=rng)
+    results["legal_personal_gap_trajectory"] = gap_trajectory
+    results["legal_personal_gap_trend"] = gap_test
 
-    results["cluster_sensitivity"] = sensitivity
+    print(f"{'Decade':<10} {'Legal':>10} {'Personal':>10} {'Gap':>10}")
+    print("-" * 46)
+    for decade in key_decades:
+        row = gap_trajectory.get(str(decade))
+        if not row:
+            continue
+        print(
+            f"  {decade:<8} {row['legal_distance']:>10.4f} "
+            f"{row['personal_distance']:>10.4f} {row['personal_minus_legal_gap']:>+10.4f}"
+        )
 
-    print("  Crossover decade distribution:")
-    for decade, count in sorted(sensitivity["crossover_distribution"].items()):
-        bar = "#" * (count // 2)
-        print(f"    {decade}: {count:>4} ({count/sensitivity['n_trials']*100:.0f}%)  {bar}")
-    print(f"    No crossover: {sensitivity['no_crossover_count']}")
-    print(f"  Modal crossover: {sensitivity['modal_crossover']}")
     print()
-
-    # =========================================================================
-    # 4. PERMUTATION TEST
-    # =========================================================================
-    print("=" * 70)
-    print("4. PERMUTATION TEST: Is the crossover non-random?")
-    print("   H0: Legal and personal clusters are interchangeable")
-    print("=" * 70)
-    print()
-
-    perm_result = permutation_test_crossover(
-        emb, "freedom", LEGAL_CLUSTER, PERSONAL_CLUSTER, decades,
-        observed_crossover=1880, n_permutations=1000, rng=rng
-    )
-
-    results["permutation_test"] = perm_result
-
-    print(f"  Observed crossover: {perm_result['observed_crossover']}")
-    print(f"  Crossovers at or before 1880 under H0: {perm_result['crossovers_at_or_before']}/{perm_result['n_permutations']}")
-    print(f"  p-value: {perm_result['p_value']}")
-    if perm_result['p_value'] < 0.05:
-        print("  → SIGNIFICANT at p < 0.05: the crossover is unlikely under random cluster assignment")
-    else:
-        print("  → NOT significant: random cluster splits produce similar crossovers")
+    if gap_test:
+        trend = gap_test["trend"]
+        print(f"  Early mean gap ({gap_test['early_decades']}): {gap_test['early_mean_gap']:+.4f}")
+        print(f"  Late mean gap ({gap_test['late_decades']}):  {gap_test['late_mean_gap']:+.4f}")
+        print(f"  Early→late change: {gap_test['early_to_late_change']:+.4f}")
+        print(f"  Slope/century: {trend['slope_per_century']:+.4f}")
+        print(f"  Permutation p-value: {gap_test['permutation_p_value']}")
     print()
 
     # =========================================================================
@@ -389,8 +374,9 @@ def run_analysis():
     print("=" * 70)
     print()
     print(f"1. Freedom-liberty divergence significant: {results.get('divergence_significant', 'N/A')}")
-    print(f"2. Modal crossover decade: {sensitivity['modal_crossover']} (from {sensitivity['n_trials']} random cluster subsets)")
-    print(f"3. Permutation test p-value: {perm_result['p_value']}")
+    if gap_test:
+        print(f"2. Legal-personal gap slope/century: {gap_test['trend']['slope_per_century']:+.4f}")
+        print(f"3. Legal-personal gap permutation p-value: {gap_test['permutation_p_value']}")
 
     return results
 

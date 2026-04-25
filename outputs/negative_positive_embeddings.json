@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "analysis_date": "2026-01-25T17:35:32.993814",
+    "analysis_date": "2026-04-25T10:31:23.807738",
     "source": "HistWords (Google Books)",
     "coverage": "1800-1990",
     "negative_concepts": {
@@ -102,7 +102,7 @@
         },
         "constraints": {
           "mean_distance": 0.8645448479269566,
-          "std_distance": 0.0937347873467986,
+          "std_distance": 0.09373478734679858,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
@@ -116,14 +116,14 @@
         },
         "overall": {
           "mean_distance": 0.9146750271425662,
-          "std_distance": 0.10118928754583434,
+          "std_distance": 0.10118928754583431,
           "n_concepts": 22
         }
       },
       "1810": {
         "absence": {
           "mean_distance": 0.9845195896984568,
-          "std_distance": 0.06450228609266825,
+          "std_distance": 0.06450228609266827,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
@@ -136,15 +136,15 @@
           "concepts_total": 10
         },
         "liberation": {
-          "mean_distance": 0.8469500500923569,
-          "std_distance": 0.09365464235597293,
+          "mean_distance": 0.8469500500923571,
+          "std_distance": 0.09365464235597291,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.89147750107842,
-          "std_distance": 0.10073684958971955,
+          "std_distance": 0.10073684958971957,
           "n_concepts": 22
         }
       },
@@ -158,35 +158,35 @@
         },
         "constraints": {
           "mean_distance": 0.8554926855630394,
-          "std_distance": 0.05305534087615801,
+          "std_distance": 0.053055340876158014,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
-          "mean_distance": 0.8502638123131577,
-          "std_distance": 0.06483511348339448,
+          "mean_distance": 0.8502638123131575,
+          "std_distance": 0.06483511348339457,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8972530096949035,
-          "std_distance": 0.08361169186863031,
+          "std_distance": 0.08361169186863036,
           "n_concepts": 22
         }
       },
       "1830": {
         "absence": {
           "mean_distance": 0.9756998433250755,
-          "std_distance": 0.04303046760276522,
+          "std_distance": 0.04303046760276521,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
           "mean_distance": 0.8039767436145666,
-          "std_distance": 0.0674692856420751,
+          "std_distance": 0.06746928564207512,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
@@ -213,22 +213,22 @@
           "concepts_total": 7
         },
         "constraints": {
-          "mean_distance": 0.8169200119813965,
-          "std_distance": 0.08126865493953227,
+          "mean_distance": 0.8169200119813963,
+          "std_distance": 0.08126865493953224,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.8012613211573427,
-          "std_distance": 0.08824770417418844,
+          "std_distance": 0.08824770417418847,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8597913643163562,
-          "std_distance": 0.10474961738250113,
+          "std_distance": 0.10474961738250115,
           "n_concepts": 22
         }
       },
@@ -242,21 +242,21 @@
         },
         "constraints": {
           "mean_distance": 0.8268386525815667,
-          "std_distance": 0.07103129848063808,
+          "std_distance": 0.07103129848063812,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.8323692263558546,
-          "std_distance": 0.10590119466982446,
+          "std_distance": 0.10590119466982452,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8742347078740115,
-          "std_distance": 0.10239658881341515,
+          "std_distance": 0.10239658881341518,
           "n_concepts": 22
         }
       },
@@ -270,7 +270,7 @@
         },
         "constraints": {
           "mean_distance": 0.818750268914848,
-          "std_distance": 0.06641355568930041,
+          "std_distance": 0.06641355568930037,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
@@ -284,28 +284,28 @@
         },
         "overall": {
           "mean_distance": 0.8575572550737575,
-          "std_distance": 0.08336801441284657,
+          "std_distance": 0.08336801441284654,
           "n_concepts": 22
         }
       },
       "1870": {
         "absence": {
           "mean_distance": 0.9331196741424991,
-          "std_distance": 0.07449070339779772,
+          "std_distance": 0.07449070339779773,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
           "mean_distance": 0.7900291454559623,
-          "std_distance": 0.05491825088477814,
+          "std_distance": 0.054918250884778134,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.7854379400088156,
-          "std_distance": 0.08888162621344492,
+          "std_distance": 0.0888816262134449,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
@@ -319,14 +319,14 @@
       "1880": {
         "absence": {
           "mean_distance": 0.9494826866115356,
-          "std_distance": 0.07964348898826801,
+          "std_distance": 0.07964348898826798,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
-          "mean_distance": 0.788432506624434,
-          "std_distance": 0.06349984830628914,
+          "mean_distance": 0.7884325066244342,
+          "std_distance": 0.0634998483062891,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
@@ -339,29 +339,29 @@
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8465673794519933,
-          "std_distance": 0.10545313358803396,
+          "mean_distance": 0.8465673794519936,
+          "std_distance": 0.10545313358803393,
           "n_concepts": 22
         }
       },
       "1890": {
         "absence": {
           "mean_distance": 0.9166323873526157,
-          "std_distance": 0.08588663323636142,
+          "std_distance": 0.0858866332363615,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
           "mean_distance": 0.7928842778647387,
-          "std_distance": 0.08702242096220235,
+          "std_distance": 0.08702242096220238,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.7866544428666402,
-          "std_distance": 0.08330117679933301,
+          "std_distance": 0.08330117679933295,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
@@ -381,50 +381,50 @@
           "concepts_total": 7
         },
         "constraints": {
-          "mean_distance": 0.7839918169089193,
-          "std_distance": 0.07960201318822302,
+          "mean_distance": 0.7839918169089195,
+          "std_distance": 0.07960201318822303,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.847443088156612,
-          "std_distance": 0.10320908715589056,
+          "std_distance": 0.10320908715589047,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8489853924724798,
-          "std_distance": 0.1118926702194123,
+          "std_distance": 0.11189267021941227,
           "n_concepts": 22
         }
       },
       "1910": {
         "absence": {
           "mean_distance": 0.9425696543593078,
-          "std_distance": 0.07255479508631672,
+          "std_distance": 0.07255479508631675,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
           "mean_distance": 0.7960695392319675,
-          "std_distance": 0.08734070497879468,
+          "std_distance": 0.08734070497879459,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.8326715255356699,
-          "std_distance": 0.07363930577814058,
+          "std_distance": 0.07363930577814057,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8510018454778717,
-          "std_distance": 0.10242410571064728,
+          "std_distance": 0.10242410571064724,
           "n_concepts": 22
         }
       },
@@ -437,22 +437,22 @@
           "concepts_total": 7
         },
         "constraints": {
-          "mean_distance": 0.8082961871776642,
-          "std_distance": 0.07149621726395781,
+          "mean_distance": 0.8082961871776643,
+          "std_distance": 0.07149621726395784,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.8211959178373516,
-          "std_distance": 0.07726265073960215,
+          "std_distance": 0.07726265073960209,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8470919982505601,
-          "std_distance": 0.08550002165816785,
+          "mean_distance": 0.8470919982505603,
+          "std_distance": 0.08550002165816784,
           "n_concepts": 22
         }
       },
@@ -466,21 +466,21 @@
         },
         "constraints": {
           "mean_distance": 0.8001714636925111,
-          "std_distance": 0.07134828756252583,
+          "std_distance": 0.07134828756252581,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
-          "mean_distance": 0.783438485857817,
-          "std_distance": 0.11251849280533416,
+          "mean_distance": 0.7834384858578171,
+          "std_distance": 0.11251849280533407,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8325602320278385,
-          "std_distance": 0.0995220831450722,
+          "mean_distance": 0.8325602320278382,
+          "std_distance": 0.09952208314507217,
           "n_concepts": 22
         }
       },
@@ -494,48 +494,48 @@
         },
         "constraints": {
           "mean_distance": 0.7868447855499963,
-          "std_distance": 0.0584243437602102,
+          "std_distance": 0.05842434376021022,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.791857927251308,
-          "std_distance": 0.08779557628015702,
+          "std_distance": 0.08779557628015705,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8290257533964401,
-          "std_distance": 0.09425970937620677,
+          "std_distance": 0.09425970937620679,
           "n_concepts": 22
         }
       },
       "1950": {
         "absence": {
-          "mean_distance": 0.9380698920473362,
+          "mean_distance": 0.9380698920473359,
           "std_distance": 0.0893468761748872,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
-          "mean_distance": 0.7989329399395266,
-          "std_distance": 0.06772072090224436,
+          "mean_distance": 0.7989329399395265,
+          "std_distance": 0.06772072090224439,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
-          "mean_distance": 0.8241926592407486,
-          "std_distance": 0.09645103865689446,
+          "mean_distance": 0.8241926592407488,
+          "std_distance": 0.09645103865689444,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8489446336331984,
+          "mean_distance": 0.8489446336331983,
           "std_distance": 0.10267627917503781,
           "n_concepts": 22
         }
@@ -543,20 +543,20 @@
       "1960": {
         "absence": {
           "mean_distance": 0.9215475232217588,
-          "std_distance": 0.06363965053442033,
+          "std_distance": 0.06363965053442035,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
           "mean_distance": 0.7864635086788732,
-          "std_distance": 0.04651603316347766,
+          "std_distance": 0.04651603316347765,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
-          "mean_distance": 0.8245144210254965,
+          "mean_distance": 0.8245144210254963,
           "std_distance": 0.09569051402401772,
           "n_concepts": 5,
           "concepts_found": 5,
@@ -570,15 +570,15 @@
       },
       "1970": {
         "absence": {
-          "mean_distance": 0.9280316062810758,
-          "std_distance": 0.07494651811860448,
+          "mean_distance": 0.928031606281076,
+          "std_distance": 0.07494651811860445,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
-          "mean_distance": 0.8006748444041968,
-          "std_distance": 0.069244756650969,
+          "mean_distance": 0.8006748444041969,
+          "std_distance": 0.06924475665096899,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
@@ -592,14 +592,14 @@
         },
         "overall": {
           "mean_distance": 0.8452589913552798,
-          "std_distance": 0.09465259031234234,
+          "std_distance": 0.09465259031234231,
           "n_concepts": 22
         }
       },
       "1980": {
         "absence": {
           "mean_distance": 0.9261411014825028,
-          "std_distance": 0.04341154897601004,
+          "std_distance": 0.04341154897601007,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
@@ -619,36 +619,36 @@
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8324784935105124,
-          "std_distance": 0.09657965680298296,
+          "mean_distance": 0.8324784935105122,
+          "std_distance": 0.09657965680298294,
           "n_concepts": 22
         }
       },
       "1990": {
         "absence": {
           "mean_distance": 0.9435324412925032,
-          "std_distance": 0.09225647816654879,
+          "std_distance": 0.09225647816654876,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "constraints": {
-          "mean_distance": 0.7989283484164449,
-          "std_distance": 0.057151065869922656,
+          "mean_distance": 0.7989283484164448,
+          "std_distance": 0.05715106586992266,
           "n_concepts": 10,
           "concepts_found": 10,
           "concepts_total": 10
         },
         "liberation": {
           "mean_distance": 0.8268997989086101,
-          "std_distance": 0.10344979510102612,
+          "std_distance": 0.10344979510102616,
           "n_concepts": 5,
           "concepts_found": 5,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.85129588944341,
-          "std_distance": 0.10350736872250842,
+          "std_distance": 0.10350736872250843,
           "n_concepts": 22
         }
       }
@@ -657,14 +657,14 @@
       "1800": {
         "rights": {
           "mean_distance": 0.804396118930688,
-          "std_distance": 0.15818631278971448,
+          "std_distance": 0.15818631278971454,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
           "mean_distance": 0.9117180506322867,
-          "std_distance": 0.07090322244787793,
+          "std_distance": 0.07090322244787794,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
@@ -678,20 +678,20 @@
         },
         "autonomy": {
           "mean_distance": 0.7464420837246977,
-          "std_distance": 0.16464216933729628,
+          "std_distance": 0.1646421693372963,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8728810837902702,
-          "std_distance": 0.14446003847800046,
+          "std_distance": 0.14446003847800049,
           "n_concepts": 23
         }
       },
       "1810": {
         "rights": {
-          "mean_distance": 0.8044473448275843,
+          "mean_distance": 0.8044473448275845,
           "std_distance": 0.16146820198838627,
           "n_concepts": 6,
           "concepts_found": 6,
@@ -706,28 +706,28 @@
         },
         "action": {
           "mean_distance": 0.9600463653035918,
-          "std_distance": 0.07221111585875777,
+          "std_distance": 0.07221111585875774,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
-          "mean_distance": 0.7669308595253146,
-          "std_distance": 0.1653449792268349,
+          "mean_distance": 0.7669308595253147,
+          "std_distance": 0.16534497922683486,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8797702279784185,
-          "std_distance": 0.1431552426458022,
+          "std_distance": 0.14315524264580218,
           "n_concepts": 23
         }
       },
       "1820": {
         "rights": {
           "mean_distance": 0.832935842484111,
-          "std_distance": 0.1453972275552798,
+          "std_distance": 0.14539722755527984,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
@@ -740,8 +740,8 @@
           "concepts_total": 6
         },
         "action": {
-          "mean_distance": 0.9345897884371889,
-          "std_distance": 0.0584333050368627,
+          "mean_distance": 0.934589788437189,
+          "std_distance": 0.05843330503686274,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
@@ -754,22 +754,22 @@
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8919054600440144,
-          "std_distance": 0.1197506260954252,
+          "mean_distance": 0.8919054600440142,
+          "std_distance": 0.11975062609542522,
           "n_concepts": 23
         }
       },
       "1830": {
         "rights": {
-          "mean_distance": 0.8451128228112115,
+          "mean_distance": 0.8451128228112114,
           "std_distance": 0.14580389947733477,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
-          "mean_distance": 0.9021837777665502,
-          "std_distance": 0.051706852278990204,
+          "mean_distance": 0.9021837777665503,
+          "std_distance": 0.05170685227899017,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
@@ -783,21 +783,21 @@
         },
         "autonomy": {
           "mean_distance": 0.7680301391581601,
-          "std_distance": 0.17550765103552968,
+          "std_distance": 0.17550765103552962,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8808425249853576,
-          "std_distance": 0.12976165245043406,
+          "std_distance": 0.12976165245043403,
           "n_concepts": 23
         }
       },
       "1840": {
         "rights": {
           "mean_distance": 0.8490406014371769,
-          "std_distance": 0.1484550846862324,
+          "std_distance": 0.14845508468623242,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
@@ -818,7 +818,7 @@
         },
         "autonomy": {
           "mean_distance": 0.7970957998759111,
-          "std_distance": 0.17724769393904746,
+          "std_distance": 0.17724769393904738,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
@@ -839,14 +839,14 @@
         },
         "capacity": {
           "mean_distance": 0.8995610758846548,
-          "std_distance": 0.062440252452315034,
+          "std_distance": 0.06244025245231504,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
-          "mean_distance": 0.918610565320443,
-          "std_distance": 0.06583842926005706,
+          "mean_distance": 0.9186105653204429,
+          "std_distance": 0.06583842926005708,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
@@ -860,35 +860,35 @@
         },
         "overall": {
           "mean_distance": 0.8679142842834828,
-          "std_distance": 0.12390327270573712,
+          "std_distance": 0.12390327270573713,
           "n_concepts": 23
         }
       },
       "1860": {
         "rights": {
-          "mean_distance": 0.826516250022662,
-          "std_distance": 0.14303831612982892,
+          "mean_distance": 0.8265162500226619,
+          "std_distance": 0.14303831612982898,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
           "mean_distance": 0.8662444075210995,
-          "std_distance": 0.10338601242119938,
+          "std_distance": 0.10338601242119935,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
-          "mean_distance": 0.9117031105614825,
+          "mean_distance": 0.9117031105614822,
           "std_distance": 0.06073348410594684,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
-          "mean_distance": 0.7750450975282008,
-          "std_distance": 0.2020683955270047,
+          "mean_distance": 0.7750450975282009,
+          "std_distance": 0.20206839552700467,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
@@ -909,7 +909,7 @@
         },
         "capacity": {
           "mean_distance": 0.888000804779249,
-          "std_distance": 0.06193306618411692,
+          "std_distance": 0.0619330661841169,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
@@ -923,7 +923,7 @@
         },
         "autonomy": {
           "mean_distance": 0.7258694129243318,
-          "std_distance": 0.1501534947664063,
+          "std_distance": 0.15015349476640627,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
@@ -937,104 +937,104 @@
       "1880": {
         "rights": {
           "mean_distance": 0.8350691573191829,
-          "std_distance": 0.13450340784101505,
+          "std_distance": 0.13450340784101492,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
           "mean_distance": 0.8728744711269624,
-          "std_distance": 0.06952357606202271,
+          "std_distance": 0.06952357606202267,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
-          "mean_distance": 0.9119094896551295,
-          "std_distance": 0.06104817840574838,
+          "mean_distance": 0.9119094896551296,
+          "std_distance": 0.06104817840574834,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.6845085524777788,
-          "std_distance": 0.1402191642595975,
+          "std_distance": 0.14021916425959752,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8421331481814738,
-          "std_distance": 0.12882660637195711,
+          "mean_distance": 0.8421331481814739,
+          "std_distance": 0.12882660637195706,
           "n_concepts": 23
         }
       },
       "1890": {
         "rights": {
           "mean_distance": 0.8188356300307955,
-          "std_distance": 0.14738780016930342,
+          "std_distance": 0.14738780016930336,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
           "mean_distance": 0.8726757155219608,
-          "std_distance": 0.08238681631230936,
+          "std_distance": 0.08238681631230933,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.898997077967768,
-          "std_distance": 0.05417465633042587,
+          "std_distance": 0.05417465633042586,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.6576539103697616,
-          "std_distance": 0.15884199822158082,
+          "std_distance": 0.1588419982215808,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8292462287204331,
-          "std_distance": 0.14085620931461704,
+          "std_distance": 0.140856209314617,
           "n_concepts": 23
         }
       },
       "1900": {
         "rights": {
           "mean_distance": 0.8135938288623157,
-          "std_distance": 0.1529606805285381,
+          "std_distance": 0.15296068052853806,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
-          "mean_distance": 0.8846628080075631,
-          "std_distance": 0.06760925040632618,
+          "mean_distance": 0.8846628080075633,
+          "std_distance": 0.06760925040632616,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.9031426124636733,
-          "std_distance": 0.06851680446237213,
+          "std_distance": 0.06851680446237207,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
-          "mean_distance": 0.692296720322552,
+          "mean_distance": 0.6922967203225519,
           "std_distance": 0.13035869822418117,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8382923908589216,
+          "mean_distance": 0.8382923908589214,
           "std_distance": 0.13186002471341243,
           "n_concepts": 23
         }
@@ -1042,7 +1042,7 @@
       "1910": {
         "rights": {
           "mean_distance": 0.81176863776479,
-          "std_distance": 0.14177638671211687,
+          "std_distance": 0.14177638671211684,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
@@ -1062,7 +1062,7 @@
           "concepts_total": 7
         },
         "autonomy": {
-          "mean_distance": 0.7084966814711086,
+          "mean_distance": 0.7084966814711087,
           "std_distance": 0.15691281024848577,
           "n_concepts": 4,
           "concepts_found": 4,
@@ -1070,42 +1070,42 @@
         },
         "overall": {
           "mean_distance": 0.8392521733063047,
-          "std_distance": 0.13599456530019116,
+          "std_distance": 0.1359945653001911,
           "n_concepts": 23
         }
       },
       "1920": {
         "rights": {
-          "mean_distance": 0.8422805848194956,
-          "std_distance": 0.13499456237823096,
+          "mean_distance": 0.8422805848194957,
+          "std_distance": 0.13499456237823085,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
           "mean_distance": 0.9011253032716683,
-          "std_distance": 0.08012288542355807,
+          "std_distance": 0.08012288542355808,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.9130764357287777,
-          "std_distance": 0.07107185594513964,
+          "std_distance": 0.0710718559451396,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.6979484471318741,
-          "std_distance": 0.13896976411804995,
+          "std_distance": 0.13896976411804998,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8540767029206924,
-          "std_distance": 0.13129047080495665,
+          "mean_distance": 0.8540767029206925,
+          "std_distance": 0.13129047080495662,
           "n_concepts": 23
         }
       },
@@ -1119,35 +1119,35 @@
         },
         "capacity": {
           "mean_distance": 0.8836308233467118,
-          "std_distance": 0.06887364422099689,
+          "std_distance": 0.06887364422099684,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.9047673612710468,
-          "std_distance": 0.06652392777932564,
+          "std_distance": 0.06652392777932566,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
-          "mean_distance": 0.692666813710284,
-          "std_distance": 0.13622768787779466,
+          "mean_distance": 0.6926668137102842,
+          "std_distance": 0.13622768787779463,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8505518771737515,
-          "std_distance": 0.12174430890297822,
+          "std_distance": 0.1217443089029782,
           "n_concepts": 23
         }
       },
       "1940": {
         "rights": {
           "mean_distance": 0.8255347752079175,
-          "std_distance": 0.13925171514170218,
+          "std_distance": 0.1392517151417022,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
@@ -1161,14 +1161,14 @@
         },
         "action": {
           "mean_distance": 0.8660457912651583,
-          "std_distance": 0.06428240890155631,
+          "std_distance": 0.06428240890155633,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.6774531031597574,
-          "std_distance": 0.16747779707898885,
+          "std_distance": 0.16747779707898883,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
@@ -1189,168 +1189,168 @@
         },
         "capacity": {
           "mean_distance": 0.8835241016919161,
-          "std_distance": 0.07281211942181869,
+          "std_distance": 0.07281211942181871,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.8803852768902721,
-          "std_distance": 0.07131965913554764,
+          "std_distance": 0.07131965913554761,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.6662830967014028,
-          "std_distance": 0.1606194218641538,
+          "std_distance": 0.16061942186415376,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8277763976386094,
-          "std_distance": 0.13874564906883977,
+          "std_distance": 0.13874564906883974,
           "n_concepts": 23
         }
       },
       "1960": {
         "rights": {
           "mean_distance": 0.8351659776355124,
-          "std_distance": 0.13259553233360058,
+          "std_distance": 0.13259553233360055,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
-          "mean_distance": 0.8753188105687162,
-          "std_distance": 0.04632001878779256,
+          "mean_distance": 0.8753188105687161,
+          "std_distance": 0.04632001878779254,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.8498400327140416,
-          "std_distance": 0.07894304297780902,
+          "std_distance": 0.07894304297780905,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
-          "mean_distance": 0.7000212594100738,
-          "std_distance": 0.1771245998529772,
+          "mean_distance": 0.7000212594100739,
+          "std_distance": 0.17712459985297718,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8266032172114762,
-          "std_distance": 0.12683951422549802,
+          "std_distance": 0.126839514225498,
           "n_concepts": 23
         }
       },
       "1970": {
         "rights": {
           "mean_distance": 0.8111351277481545,
-          "std_distance": 0.1053935005181945,
+          "std_distance": 0.10539350051819447,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
-          "mean_distance": 0.8845843793000433,
-          "std_distance": 0.0692890221778726,
+          "mean_distance": 0.8845843793000435,
+          "std_distance": 0.06928902217787253,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.8582068104213657,
-          "std_distance": 0.08136342246876813,
+          "std_distance": 0.08136342246876814,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.7162758288172625,
-          "std_distance": 0.17089447811213235,
+          "std_distance": 0.17089447811213232,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8281246969785999,
-          "std_distance": 0.12083865396285874,
+          "std_distance": 0.12083865396285871,
           "n_concepts": 23
         }
       },
       "1980": {
         "rights": {
           "mean_distance": 0.7929785303056917,
-          "std_distance": 0.09579544391786204,
+          "std_distance": 0.09579544391786202,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
           "mean_distance": 0.8917734652658171,
-          "std_distance": 0.09000228355232068,
+          "std_distance": 0.09000228355232073,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.893000225402899,
-          "std_distance": 0.09672984490520085,
+          "std_distance": 0.09672984490520081,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.7088320724369411,
-          "std_distance": 0.1546865061739697,
+          "std_distance": 0.15468650617396967,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
           "mean_distance": 0.8345583409129177,
-          "std_distance": 0.1288785460887923,
+          "std_distance": 0.12887854608879226,
           "n_concepts": 23
         }
       },
       "1990": {
         "rights": {
           "mean_distance": 0.8163279576620891,
-          "std_distance": 0.09760820450766541,
+          "std_distance": 0.09760820450766546,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "capacity": {
           "mean_distance": 0.8889781109504536,
-          "std_distance": 0.04004476490272771,
+          "std_distance": 0.040044764902727695,
           "n_concepts": 6,
           "concepts_found": 6,
           "concepts_total": 6
         },
         "action": {
           "mean_distance": 0.8671770791490455,
-          "std_distance": 0.07930096157713591,
+          "std_distance": 0.07930096157713588,
           "n_concepts": 7,
           "concepts_found": 7,
           "concepts_total": 7
         },
         "autonomy": {
           "mean_distance": 0.7375309355059858,
-          "std_distance": 0.1300128126742198,
+          "std_distance": 0.1300128126742197,
           "n_concepts": 4,
           "concepts_found": 4,
           "concepts_total": 5
         },
         "overall": {
-          "mean_distance": 0.8370521612061965,
-          "std_distance": 0.10281785192871795,
+          "mean_distance": 0.8370521612061966,
+          "std_distance": 0.10281785192871794,
           "n_concepts": 23
         }
       }
@@ -1359,121 +1359,141 @@
       "1800": {
         "neg_distance": 0.9146750271425662,
         "pos_distance": 0.8728810837902702,
-        "ratio": 1.0478804548848923,
+        "distance_ratio_neg_over_pos": 1.0478804548848923,
+        "positive_tilt": 0.041793943352296026,
         "closer_to": "positive"
       },
       "1810": {
         "neg_distance": 0.89147750107842,
         "pos_distance": 0.8797702279784185,
-        "ratio": 1.0133071940009872,
+        "distance_ratio_neg_over_pos": 1.0133071940009872,
+        "positive_tilt": 0.011707273100001525,
         "closer_to": "positive"
       },
       "1820": {
         "neg_distance": 0.8972530096949035,
-        "pos_distance": 0.8919054600440144,
-        "ratio": 1.005995646276933,
+        "pos_distance": 0.8919054600440142,
+        "distance_ratio_neg_over_pos": 1.0059956462769333,
+        "positive_tilt": 0.005347549650889349,
         "closer_to": "positive"
       },
       "1830": {
         "neg_distance": 0.8755401412277405,
         "pos_distance": 0.8808425249853576,
-        "ratio": 0.9939803272353304,
+        "distance_ratio_neg_over_pos": 0.9939803272353304,
+        "positive_tilt": -0.005302383757617157,
         "closer_to": "negative"
       },
       "1840": {
         "neg_distance": 0.8597913643163562,
         "pos_distance": 0.8773438553192751,
-        "ratio": 0.9799936012585039,
+        "distance_ratio_neg_over_pos": 0.9799936012585039,
+        "positive_tilt": -0.01755249100291889,
         "closer_to": "negative"
       },
       "1850": {
         "neg_distance": 0.8742347078740115,
         "pos_distance": 0.8679142842834828,
-        "ratio": 1.0072823131327382,
+        "distance_ratio_neg_over_pos": 1.0072823131327382,
+        "positive_tilt": 0.0063204235905286454,
         "closer_to": "positive"
       },
       "1860": {
         "neg_distance": 0.8575572550737575,
         "pos_distance": 0.8538550482306847,
-        "ratio": 1.0043358727581975,
+        "distance_ratio_neg_over_pos": 1.0043358727581975,
+        "positive_tilt": 0.003702206843072764,
         "closer_to": "positive"
       },
       "1870": {
         "neg_distance": 0.8345144942545999,
         "pos_distance": 0.8594782512342567,
-        "ratio": 0.9709547543014526,
+        "distance_ratio_neg_over_pos": 0.9709547543014526,
+        "positive_tilt": -0.024963756979656804,
         "closer_to": "negative"
       },
       "1880": {
-        "neg_distance": 0.8465673794519933,
-        "pos_distance": 0.8421331481814738,
-        "ratio": 1.005265475275608,
+        "neg_distance": 0.8465673794519936,
+        "pos_distance": 0.8421331481814739,
+        "distance_ratio_neg_over_pos": 1.0052654752756083,
+        "positive_tilt": 0.004434231270519673,
         "closer_to": "positive"
       },
       "1890": {
         "neg_distance": 0.8308428047476771,
         "pos_distance": 0.8292462287204331,
-        "ratio": 1.0019253340828667,
+        "distance_ratio_neg_over_pos": 1.0019253340828667,
+        "positive_tilt": 0.0015965760272440566,
         "closer_to": "positive"
       },
       "1900": {
         "neg_distance": 0.8489853924724798,
-        "pos_distance": 0.8382923908589216,
-        "ratio": 1.0127556944690888,
+        "pos_distance": 0.8382923908589214,
+        "distance_ratio_neg_over_pos": 1.012755694469089,
+        "positive_tilt": 0.010693001613558462,
         "closer_to": "positive"
       },
       "1910": {
         "neg_distance": 0.8510018454778717,
         "pos_distance": 0.8392521733063047,
-        "ratio": 1.0140001688947413,
+        "distance_ratio_neg_over_pos": 1.0140001688947413,
+        "positive_tilt": 0.011749672171566972,
         "closer_to": "positive"
       },
       "1920": {
-        "neg_distance": 0.8470919982505601,
-        "pos_distance": 0.8540767029206924,
-        "ratio": 0.9918219234335199,
+        "neg_distance": 0.8470919982505603,
+        "pos_distance": 0.8540767029206925,
+        "distance_ratio_neg_over_pos": 0.9918219234335199,
+        "positive_tilt": -0.006984704670132236,
         "closer_to": "negative"
       },
       "1930": {
-        "neg_distance": 0.8325602320278385,
+        "neg_distance": 0.8325602320278382,
         "pos_distance": 0.8505518771737515,
-        "ratio": 0.9788470925422017,
+        "distance_ratio_neg_over_pos": 0.9788470925422014,
+        "positive_tilt": -0.017991645145913227,
         "closer_to": "negative"
       },
       "1940": {
         "neg_distance": 0.8290257533964401,
         "pos_distance": 0.8215468184357211,
-        "ratio": 1.0091034799148264,
+        "distance_ratio_neg_over_pos": 1.0091034799148264,
+        "positive_tilt": 0.0074789349607190525,
         "closer_to": "positive"
       },
       "1950": {
-        "neg_distance": 0.8489446336331984,
+        "neg_distance": 0.8489446336331983,
         "pos_distance": 0.8277763976386094,
-        "ratio": 1.0255724082674686,
+        "distance_ratio_neg_over_pos": 1.0255724082674684,
+        "positive_tilt": 0.021168235994588835,
         "closer_to": "positive"
       },
       "1960": {
         "neg_distance": 0.8380927206576602,
         "pos_distance": 0.8266032172114762,
-        "ratio": 1.0138996597242187,
+        "distance_ratio_neg_over_pos": 1.0138996597242187,
+        "positive_tilt": 0.011489503446183935,
         "closer_to": "positive"
       },
       "1970": {
         "neg_distance": 0.8452589913552798,
         "pos_distance": 0.8281246969785999,
-        "ratio": 1.0206904762521805,
+        "distance_ratio_neg_over_pos": 1.0206904762521805,
+        "positive_tilt": 0.017134294376679904,
         "closer_to": "positive"
       },
       "1980": {
-        "neg_distance": 0.8324784935105124,
+        "neg_distance": 0.8324784935105122,
         "pos_distance": 0.8345583409129177,
-        "ratio": 0.9975078466052713,
+        "distance_ratio_neg_over_pos": 0.997507846605271,
+        "positive_tilt": -0.0020798474024055214,
         "closer_to": "negative"
       },
       "1990": {
         "neg_distance": 0.85129588944341,
-        "pos_distance": 0.8370521612061965,
-        "ratio": 1.017016536002593,
+        "pos_distance": 0.8370521612061966,
+        "distance_ratio_neg_over_pos": 1.0170165360025927,
+        "positive_tilt": 0.014243728237213316,
         "closer_to": "positive"
       }
     },
@@ -1720,6 +1740,32 @@
         "1980": 0.7209,
         "1990": 0.7263
       }
+    }
+  },
+  "trend_test": {
+    "metric": "positive_tilt = negative_cluster_distance - positive_cluster_distance",
+    "interpretation": "positive values are closer to positive-liberty concepts; the hypothesis test concerns change over time, not an absolute crossover",
+    "first_decade": 1800,
+    "last_decade": 1990,
+    "early_decades": [
+      1800,
+      1810,
+      1820
+    ],
+    "late_decades": [
+      1970,
+      1980,
+      1990
+    ],
+    "early_mean_positive_tilt": 0.019616,
+    "late_mean_positive_tilt": 0.009766,
+    "early_to_late_change": -0.00985,
+    "trend": {
+      "slope_per_century": 0.000321,
+      "intercept_at_mean_decade": 0.004699,
+      "std_error": 0.005971,
+      "z": 0.054,
+      "p_value_approx": 0.95712
     }
   }
 }
