@@ -1,0 +1,21 @@
+{
+  "n_sample": 239,
+  "n_providers": 1,
+  "providers": [
+    "claude"
+  ],
+  "n_gold": 0,
+  "n_silver": 239,
+  "n_disputed": 0,
+  "gold_rate": 0.0,
+  "silver_rate": 1.0,
+  "disputed_rate": 0.0,
+  "low_confidence_in_gold": 0,
+  "label_distribution_gold": {},
+  "label_distribution_silver": {
+    "ambiguous": 29,
+    "negative_liberty": 123,
+    "other": 54,
+    "positive_liberty": 33
+  }
+}
