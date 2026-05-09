@@ -1,0 +1,1914 @@
+[
+  {
+    "sentence_id": "1804-dcd329-352",
+    "label": "negative_liberty",
+    "rationale": "Country\u2019s liberty is portrayed as endangered in a national contest, invoking protection against external threat or tyranny.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1806-3cf2ef-004",
+    "label": "negative_liberty",
+    "rationale": "Freedom of the House is framed as secured by trial by jury, protecting institutional liberty from arbitrary interference.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1807-7555ea-075",
+    "label": "positive_liberty",
+    "rationale": "Irishmen\u2019s stake in institutions is framed as practical inclusion/empowerment to preserve liberty-linked institutions.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1807-821f35-004",
+    "label": "negative_liberty",
+    "rationale": "Liberty/security/national independence are framed as blessings to defend from peril, a protective non-interference claim.",
+    "confidence": 0.74,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1808-6330f5-002",
+    "label": "negative_liberty",
+    "rationale": "Liberty of the subject invokes civil/personal liberty protected from parliamentary or state injustice/constraint.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1808-7e790d-167",
+    "label": "negative_liberty",
+    "rationale": "Liberty of the people is framed as something Parliament guards, implying protection from infringement alongside property.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1809-65a12f-137",
+    "label": "other",
+    "rationale": "\u201cTaken the liberty\u201d is a polite parliamentary idiom about speaking, not a substantive claim about liberty.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1810-7c4614-031",
+    "label": "ambiguous",
+    "rationale": "Liberty of the people is invoked as a goal, but the sentence does not specify whether this means removing restraints or enabling capacity.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1811-cf3ffc-171",
+    "label": "other",
+    "rationale": "\u201cTake the liberty\u201d is a procedural/polite phrase about reading to the House, not a substantive liberty claim.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1812-731848-139",
+    "label": "ambiguous",
+    "rationale": "Liberty is invoked abstractly as a political virtue tied to government; no clear non-interference or enabling-capacity claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1814-dd446d-150",
+    "label": "negative_liberty",
+    "rationale": "Freedom of parliamentary debates is a protected sphere; rules protect debate from interference during a session.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1814-f8032c-125",
+    "label": "negative_liberty",
+    "rationale": "Freedom is invoked as a political cause against kingly pride and tyranny, i.e. protection from oppressive rule.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1815-0a5dd1-001",
+    "label": "other",
+    "rationale": "\u201cTake the liberty\u201d is an idiomatic procedural courtesy about speaking in detail, not a substantive liberty claim.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1815-bd0c79-681",
+    "label": "ambiguous",
+    "rationale": "\u201cSpirit of liberty\u201d is a bare historical invocation; the sentence does not specify non-interference or enabled capacity.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1818-be1b30-006",
+    "label": "positive_liberty",
+    "rationale": "Liberty object is citizens' ability to raise their own funds; this frames freedom as enabled financial capacity/self-action.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1819-9adafb-141",
+    "label": "ambiguous",
+    "rationale": "Liberty is invoked as abstract 'rational principles' without specifying non-interference or enabled capacity.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1819-9d34c8-112",
+    "label": "negative_liberty",
+    "rationale": "Press liberty and parliamentary debate are protected spheres of non-interference, contrasted with despotic governments.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1820-deeaf0-000",
+    "label": "ambiguous",
+    "rationale": "Freedom is mentioned but not specified; the sentence asks for clarification rather than identifying non-interference or enabled capacity.",
+    "confidence": 0.75,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1822-5d2ccf-080",
+    "label": "other",
+    "rationale": "\u201cTaken the liberty\u201d is a polite idiom for speaking, not a substantive liberty claim.",
+    "confidence": 0.99,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1822-9dd597-310",
+    "label": "negative_liberty",
+    "rationale": "Country\u2019s practical liberty and Parliament\u2019s independence are framed as freedom from undue control/interference.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1822-af1595-013",
+    "label": "other",
+    "rationale": "\u201cTake the liberty\u201d is an idiomatic/procedural phrase about speaking, not a substantive claim about liberty.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1824-1bb67f-315",
+    "label": "other",
+    "rationale": "\u201cLiberty\u201d is an idiom meaning presumption in writing a letter, not a substantive claim about political or personal liberty.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1824-e4aa52-009",
+    "label": "negative_liberty",
+    "rationale": "Liberty of the subject is framed as protected against state abridgement, requiring justification for any restriction.",
+    "confidence": 0.94,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1826-20426e-061",
+    "label": "negative_liberty",
+    "rationale": "Liberty of foreign ships to carry trade goods; it concerns permission/non-interference in navigation and trade, with specified exceptions.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1829-61ffa3-008",
+    "label": "negative_liberty",
+    "rationale": "Religious liberty is invoked as protection of conscience/worship from state constraint; substantive non-interference claim.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1829-6a97d3-081",
+    "label": "error",
+    "rationale": "",
+    "confidence": -1.0,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": "empty content"
+  },
+  {
+    "sentence_id": "1829-cbd157-015",
+    "label": "negative_liberty",
+    "rationale": "Liberty/independence are framed as resistance to despotism, encroachment and oppression\u2014protection from domination.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1830-00f22c-558",
+    "label": "ambiguous",
+    "rationale": "Liberty of fellow-subjects is invoked as a general good, but the sentence does not specify non-interference or enabled capacity.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1832-035b21-183",
+    "label": "negative_liberty",
+    "rationale": "Freedom of the labourer is discussed as release from compelled employment/status constraints; chiefly non-interference.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1832-1ed70a-087",
+    "label": "error",
+    "rationale": "",
+    "confidence": -1.0,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": "empty content"
+  },
+  {
+    "sentence_id": "1833-556314-025",
+    "label": "negative_liberty",
+    "rationale": "Liberty object is a man's ability to obtain wages; phrased as being free/allowed to do so, implying absence of constraint.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1833-7fed93-405",
+    "label": "positive_liberty",
+    "rationale": "Ireland's political freedom after Union suggests reduced collective self-government/agency, an enabled-capacity claim.",
+    "confidence": 0.66,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1834-d17a61-030",
+    "label": "negative_liberty",
+    "rationale": "Freedom of debate is framed as being attacked; this concerns protection of parliamentary speech from interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1835-36d9c4-002",
+    "label": "negative_liberty",
+    "rationale": "Liberty is treated as being wasted by existing laws, implying legal constraint or deprivation to be removed.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1835-3ddb46-008",
+    "label": "other",
+    "rationale": "\u201cTake the liberty of observing\u201d is a polite parliamentary idiom, not a substantive claim about freedom or constraint.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1836-7a7cfb-078",
+    "label": "negative_liberty",
+    "rationale": "Political liberty in the Peninsula is invoked as a cause, implying resistance to domination or tyranny; a non-interference claim.",
+    "confidence": 0.74,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1836-ec1ee7-033",
+    "label": "ambiguous",
+    "rationale": "The Earl\u2019s authority is both empowered by conferred powers and protected from being fettered, mixing enabled agency with non-interference.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1838-faaae8-066",
+    "label": "other",
+    "rationale": "\u201cTake the liberty\u201d is a procedural/polite idiom for reading passages, not a substantive claim about liberty.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1840-295e3f-017",
+    "label": "other",
+    "rationale": "\u201cTake the liberty\u201d is a polite parliamentary phrase about speaking, not a substantive liberty claim.",
+    "confidence": 0.99,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1840-ff925a-020",
+    "label": "ambiguous",
+    "rationale": "Liberty of the land is invoked rhetorically, but the sentence does not specify whether it means non-interference or enabled capacity.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1842-179949-012",
+    "label": "negative_liberty",
+    "rationale": "Liberty of enslaved people means release from slavery/coercion when in an English colony; a protection from constraint.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-1c58cf-017",
+    "label": "other",
+    "rationale": "\u2018At liberty to pursue\u2019 is procedural permission/available options for ministers, not a substantive liberty-as-value claim.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-22d395-031",
+    "label": "other",
+    "rationale": "The phrase 'at liberty to prove' denotes a procedural permission to present evidence, not a substantive liberty-as-value claim.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-b836c3-008",
+    "label": "other",
+    "rationale": "\u201cAt liberty\u201d means personally permitted to use the information; it is incidental permission, not a substantive liberty claim.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-cf9bfc-081",
+    "label": "negative_liberty",
+    "rationale": "Religious freedom concerns individual creed and independent support, a protected sphere of conscience/religion against coercion.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1844-48ed32-078",
+    "label": "negative_liberty",
+    "rationale": "Objects are speech ('language') and people's freedom; the sentence challenges restraint/curtailment as interference.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1845-5f9d3d-450",
+    "label": "negative_liberty",
+    "rationale": "Liberty of relief recipients; condemns coercive deprivation/vassalage as a condition of aid, a non-interference claim.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1845-b8d460-006",
+    "label": "negative_liberty",
+    "rationale": "Liberty of action means being unbound/free from constraint on other points; a non-interference claim.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1846-32e32f-020",
+    "label": "other",
+    "rationale": "\u201cAt liberty to narrate\u201d is an idiom about permission to recount an interview, not a substantive liberty claim.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1846-3324bb-007",
+    "label": "negative_liberty",
+    "rationale": "Civil and religious liberty are invoked as protected spheres, threatened by expanded Church influence in the Lords; concern is preventing institutional encroachment.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1851-b831dc-054",
+    "label": "negative_liberty",
+    "rationale": "Liberty of fasting/attending mass concerns religious practice protected from masters\u2019 interference or denial.",
+    "confidence": 0.91,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1851-e57be1-052",
+    "label": "negative_liberty",
+    "rationale": "Freedom to trade is treated as a protected sphere, extending non-interference subject to revenue and fair-dealer limits.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1852-4750a8-038",
+    "label": "ambiguous",
+    "rationale": "Bare reference to 'liberty' being great lacks an object or context, so non-interference vs enabled capacity cannot be determined.",
+    "confidence": 0.55,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1853-291237-005",
+    "label": "negative_liberty",
+    "rationale": "Press liberty is a protected sphere of expression/non-interference, paired with its public power.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1853-7e686f-006",
+    "label": "negative_liberty",
+    "rationale": "Religious liberty is framed as a natural right invaded by law, i.e. protection from state interference.",
+    "confidence": 0.96,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1854-3407a8-124",
+    "label": "negative_liberty",
+    "rationale": "Liberty object is parties deserting stipulated duties; the sentence states a legal non-permission/constraint on their action.",
+    "confidence": 0.74,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1855-caf92d-084",
+    "label": "other",
+    "rationale": "\u201cTook the liberty of recommending\u201d is a polite idiom/procedural phrasing, not a substantive claim about liberty.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1856-6beeb1-184",
+    "label": "positive_liberty",
+    "rationale": "Political liberty of the people implies expanded capacity for political participation/self-government, though details are not specified.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1856-ca9e60-261",
+    "label": "ambiguous",
+    "rationale": "Freedom is invoked substantively but abstractly; the sentence does not specify non-interference or enabled capacity.",
+    "confidence": 0.67,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1857-cbcec0-031",
+    "label": "other",
+    "rationale": "\u201cTaking the liberty\u201d is a polite parliamentary idiom, not a substantive claim about liberty as non-interference or enabled agency.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1859-aa121c-025",
+    "label": "negative_liberty",
+    "rationale": "Liberty is protected through reasoned judicial decisions and regular law, guarding against arbitrary constraint.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1859-f5b053-007",
+    "label": "other",
+    "rationale": "Parliamentary procedural use: asks whether a member is permitted/at liberty to make a statement, not a liberty-as-value claim.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1860-3e014a-002",
+    "label": "negative_liberty",
+    "rationale": "Freedom of emancipados from bondage/status constraint; concerns obtaining release from coercive servitude.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1860-9221d3-059",
+    "label": "other",
+    "rationale": "Government's 'at liberty' means permitted/authorized to advise, an incidental idiom rather than a substantive liberty-value claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1861-b1b8df-003",
+    "label": "other",
+    "rationale": "\u201cTake the liberty\u201d is a parliamentary/polite formula for proceeding to read, not a substantive liberty claim.",
+    "confidence": 0.99,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1862-0064cb-065",
+    "label": "negative_liberty",
+    "rationale": "Colleges' freedom of action is framed as removing state-imposed restrictions, a non-interference claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1864-f1d5e2-009",
+    "label": "negative_liberty",
+    "rationale": "Freedom of contract is treated as a protected sphere from state interference, a non-interference claim.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1865-ecdcf2-000",
+    "label": "other",
+    "rationale": "\u201cAt liberty to apply\u201d is a procedural/permission idiom, not a substantive claim about liberty as non-interference or empowerment.",
+    "confidence": 0.94,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1868-961c0c-031",
+    "label": "negative_liberty",
+    "rationale": "Freedom of contract is framed as a protected sphere from government interference, even though the Bill is said not to interfere.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1868-cff155-064",
+    "label": "ambiguous",
+    "rationale": "Freedom is invoked as a general principle for the request, without specifying non-interference or enabled capacity.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1868-d840ad-082",
+    "label": "negative_liberty",
+    "rationale": "Slaves\u2019 freedom is freedom from slavery/master control, a protected status against coercive domination.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1869-da5b2f-005",
+    "label": "negative_liberty",
+    "rationale": "Freedom of speech and writing are protected expressive spheres, framed as demands against restriction/non-interference.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1870-88737e-030",
+    "label": "negative_liberty",
+    "rationale": "Individual liberty is said to be abridged by class legislation, framing liberty as protection from restrictive interference.",
+    "confidence": 0.94,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1870-afcf55-121",
+    "label": "negative_liberty",
+    "rationale": "Europe\u2019s liberty is framed as threatened by Russian encroachment/absorption, a constraint or domination to be resisted.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1871-9fc067-014",
+    "label": "negative_liberty",
+    "rationale": "Liberty of the subject is framed as protection via parliamentary control against constraint or overreach; a non-interference claim.",
+    "confidence": 0.79,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1871-b9ae04-108",
+    "label": "negative_liberty",
+    "rationale": "Women's rights and state liberty are invoked against government regulation and compulsory examination, i.e. protection from interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1871-c6b77e-048",
+    "label": "ambiguous",
+    "rationale": "Liberty in the East is invoked broadly as a policy aim, without specifying non-interference or enabled capacity.",
+    "confidence": 0.64,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1874-8343c7-170",
+    "label": "negative_liberty",
+    "rationale": "Soldiers\u2019 option to enter the Reserve is framed as being permitted/not prevented after service, a non-interference claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1876-499f2b-009",
+    "label": "negative_liberty",
+    "rationale": "Constitutional liberty is the people's protected privilege to condemn rulers; this concerns preserving political expression from constraint.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1879-3cc243-165",
+    "label": "negative_liberty",
+    "rationale": "Liberty is opposed to exaggerated centralism, implying protection from centralized state interference or control.",
+    "confidence": 0.75,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1879-519db2-018",
+    "label": "ambiguous",
+    "rationale": "Freedom is asserted as a right, but its object is unspecified and paired with property security and good governance; liberty concept is underdetermined.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1880-0dc8e9-207",
+    "label": "negative_liberty",
+    "rationale": "Teachers' freedom to classify/withdraw pupils is said to be blocked by regulations, a constraint on action/non-interference.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1881-8ba5a1-017",
+    "label": "negative_liberty",
+    "rationale": "Freedom of action is threatened by popular pressure; the claim concerns protection from coercive constraint/interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1881-e2a0f5-028",
+    "label": "other",
+    "rationale": "\u201cLiberty of action\u201d refers to an MP\u2019s procedural discretion in Committee, not a substantive liberty-as-value claim.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1883-265a4d-276",
+    "label": "ambiguous",
+    "rationale": "Bare appeal to 'true liberty' in support of a measure; no object or mechanism shows non-interference or enabled capacity.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1883-330e95-070",
+    "label": "negative_liberty",
+    "rationale": "Freedom of discussion in Committee is framed as being fettered by government-imposed constraints, a non-interference claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1883-f8d5d2-006",
+    "label": "negative_liberty",
+    "rationale": "Liberty is portrayed as being violated by 'crimes against' it, a non-interference/protection-from-infringement claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1884-8197db-046",
+    "label": "positive_liberty",
+    "rationale": "Institutional freedom and independence are described as conveyed by charter, suggesting empowered autonomy to govern or act.",
+    "confidence": 0.64,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1885-d7f650-149",
+    "label": "negative_liberty",
+    "rationale": "\u201cWilkes and Liberty\u201d invokes a political cause of civil liberty against state oppression/interference, despite being quoted as a slogan.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1886-bff98e-052",
+    "label": "positive_liberty",
+    "rationale": "Fiscal liberty denotes a government's practical autonomy to set fiscal policy, i.e. empowered self-government rather than personal non-interference.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1886-c009ec-015",
+    "label": "other",
+    "rationale": "\u201cTook the liberty of saying\u201d is a parliamentary/polite idiom, not a substantive claim about liberty as non-interference or enabled agency.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1892-afc388-000",
+    "label": "negative_liberty",
+    "rationale": "Religious liberty is a protected sphere; the provision concerns safeguarding freedom of religion from interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1894-c22fd7-013",
+    "label": "ambiguous",
+    "rationale": "Freedom of the country is invoked to justify an Act and government powers, but the freedom protected or enabled is not specified.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1896-323d3e-023",
+    "label": "negative_liberty",
+    "rationale": "Slave\u2019s freedom from bondage is pursued via court access; the claim concerns release from coercive constraint.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-21c0dd-107",
+    "label": "other",
+    "rationale": "\u201cAt liberty to legislate\u201d is an idiomatic claim about permission/propriety in lawmaking, not a substantive liberty value.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-262558-001",
+    "label": "negative_liberty",
+    "rationale": "Freedom of speech and constitutional action are denied by police coercion; this is non-interference/protection from state repression.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-287adf-005",
+    "label": "positive_liberty",
+    "rationale": "Freedom for the Secretary/administration over grant conditions means greater discretionary capacity to act, not a civil non-interference claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-ac5fcf-015",
+    "label": "negative_liberty",
+    "rationale": "Freedom of the press is framed as being interfered with; this is a protected sphere against constraint.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1899-185551-001",
+    "label": "negative_liberty",
+    "rationale": "Individual liberty/laissez-faire is invoked as a sphere protected from interference, even while justifying regulation of a dangerous trade.",
+    "confidence": 0.84,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1899-6936b6-017",
+    "label": "positive_liberty",
+    "rationale": "Liberty of colonies to set fiscal arrangements: empowerment/self-government to act without needing foreign approval.",
+    "confidence": 0.87,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1900-67b5db-000",
+    "label": "other",
+    "rationale": "Parliamentary procedural phrase: reserving the liberty to vote later, not a substantive liberty-as-value claim.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1900-d4162c-001",
+    "label": "positive_liberty",
+    "rationale": "Local authorities would gain discretionary freedom to act; this is institutional empowerment, though the specific action is unspecified.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1901-64793a-003",
+    "label": "negative_liberty",
+    "rationale": "Owner's control of school is framed as absence of trust/legal constraint\u2014freedom from interference in using property.",
+    "confidence": 0.87,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1903-188c9b-009",
+    "label": "negative_liberty",
+    "rationale": "Followers' freedom of action is framed as being allowed/not constrained by Government direction, a non-interference claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1903-c11e5d-000",
+    "label": "other",
+    "rationale": "Index/table entry with page numbers; 'Freedom of Contract' is a heading, not a substantive liberty claim.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1904-3910ab-016",
+    "label": "negative_liberty",
+    "rationale": "Liberty of discussion concerns freedom of debate/expression as a protected sphere against restraint, even if criticized as license.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1905-0b457a-020",
+    "label": "negative_liberty",
+    "rationale": "Religious liberty is framed as a protected sphere infringed by the Bill, a non-interference claim.",
+    "confidence": 0.96,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1905-88726f-029",
+    "label": "ambiguous",
+    "rationale": "Freedom from interference is invoked, but also paternalistic restraint to prevent self-ruin; the liberty claim is mixed.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1905-8ac0c4-192",
+    "label": "positive_liberty",
+    "rationale": "Freedom for Ireland means empowered self-government like Canada/Australia, framed as enabling national prosperity and contentment.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1906-e287a8-104",
+    "label": "negative_liberty",
+    "rationale": "Belligerent's legal liberty to destroy/detain/seize vessels denotes absence of legal constraint or non-interference.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1907-c02d7b-009",
+    "label": "negative_liberty",
+    "rationale": "Liberty of the subject and expressing hostile views are protected spheres against suppression by majority or minority.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-02-18-0a42ec-069",
+    "label": "negative_liberty",
+    "rationale": "Liberty of MPs to criticise a Bill is a protected sphere of debate/speech, framed as being interfered with.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-08-07-f43242-082",
+    "label": "ambiguous",
+    "rationale": "Liberty after revolution is invoked broadly with equality/fraternisation, without specifying non-interference or enabled capacity.",
+    "confidence": 0.66,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-11-07-6a5b4e-022",
+    "label": "positive_liberty",
+    "rationale": "Freedom is tied to self-government: a people or body being enabled to govern itself and exercise collective agency.",
+    "confidence": 0.74,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-11-10-748b6e-040",
+    "label": "ambiguous",
+    "rationale": "Freedom in an unspecified process is contrasted with compulsion in inquiry procedure; mixed/unclear liberty object.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-11-26-b44d86-019",
+    "label": "negative_liberty",
+    "rationale": "Women\u2019s liberty to be excused from an obligation concerns protection from compelled service in certain circumstances.",
+    "confidence": 0.73,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-12-16-64eadb-023",
+    "label": "other",
+    "rationale": "\u201cTake the liberty of saying\u201d is a polite idiom for speaking, not a substantive claim about liberty.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1920-02-23-17f4e8-036",
+    "label": "positive_liberty",
+    "rationale": "National freedom is framed as collective self-determination: a nation enabled to live its own life and work out its destiny.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1920-02-24-460b68-016",
+    "label": "ambiguous",
+    "rationale": "Human liberty is invoked rhetorically, but no specific protected sphere or enabling capacity is stated.",
+    "confidence": 0.74,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1922-03-06-4a9da5-020",
+    "label": "ambiguous",
+    "rationale": "Liberty/freedom are invoked as aspirations and a rival conception, but the sentence does not specify non-interference or enabled capacity.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1922-03-08-07a2c7-092",
+    "label": "positive_liberty",
+    "rationale": "Political freedom is framed as capacity: the Treaty may not grant it directly but provides the means to obtain it later.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1923-03-09-bda389-025",
+    "label": "other",
+    "rationale": "Member\u2019s 'full freedom' refers to reserving procedural discretion in Committee, not a substantive liberty claim.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1924-10-08-ff76e4-011",
+    "label": "ambiguous",
+    "rationale": "Freedom in the surrounding 'atmosphere' is metaphorical and under-specified; it is unclear whether it means less constraint or enabled action.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1925-07-29-243544-013",
+    "label": "negative_liberty",
+    "rationale": "Freedom of discussion concerns speech/debate as a protected sphere, implying non-interference in Cabinet deliberation.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1926-11-19-52ba73-083",
+    "label": "negative_liberty",
+    "rationale": "Colleges\u2019 freedom is threatened by enforced regulations, a claim about interference/control over institutional autonomy.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1927-03-24-86760b-084",
+    "label": "positive_liberty",
+    "rationale": "Local education authorities' freedom concerns their empowered capacity to govern or act, here denied.",
+    "confidence": 0.73,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1927-12-21-1aeea2-010",
+    "label": "negative_liberty",
+    "rationale": "Liberty of the subject is invoked against statutory tribunals, framing protection from state/legal constraint or interference.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1929-10-30-c627d8-080",
+    "label": "other",
+    "rationale": "Freedom refers to the speaker\u2019s procedural/political latitude to discuss remedies, not a substantive liberty claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1930-06-26-c44a27-001",
+    "label": "other",
+    "rationale": "Liberty is procedural latitude granted by the chair to an MP, not a substantive claim about freedom as a political value.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1930-11-28-1faefe-002",
+    "label": "ambiguous",
+    "rationale": "Liberty is invoked bare as a slogan; no object or constraint/capacity is specified, so the liberty claim is under-specified.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1934-12-11-bb203b-007",
+    "label": "ambiguous",
+    "rationale": "Indian people\u2019s greater freedom is invoked substantively, but the sentence does not specify non-interference or enabled self-government/capacity.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1936-12-18-b55022-024",
+    "label": "ambiguous",
+    "rationale": "Freedom is invoked as a desired value alongside justice, but the sentence does not specify non-interference or enabled capacity.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1937-05-05-441d98-137",
+    "label": "negative_liberty",
+    "rationale": "Liberty is invoked as a protected sphere/value under attack, implying resistance to coercion or tyranny.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1938-02-28-060995-010",
+    "label": "negative_liberty",
+    "rationale": "Oil industries' freedom from strikes means absence of disruptive constraint/interference, a negative-liberty claim.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1938-04-27-713710-095",
+    "label": "negative_liberty",
+    "rationale": "Freedom of contract is a protected sphere from interference, so this invokes negative liberty.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1938-06-24-4234e3-157",
+    "label": "negative_liberty",
+    "rationale": "Freedom of local authorities to engage labour is framed as being limited by departmental conditions, i.e. non-interference/contractual freedom.",
+    "confidence": 0.84,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1939-07-14-0897f2-117",
+    "label": "negative_liberty",
+    "rationale": "Liberty is invoked as a democratic cause to defend against world threats/tyranny, i.e. protection from domination rather than enabled capacity.",
+    "confidence": 0.74,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1940-04-18-b6c6da-070",
+    "label": "positive_liberty",
+    "rationale": "India\u2019s freedom is framed as sovereign self-determination: capacity to decide its own future course by its own volition.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1941-01-30-3950b7-003",
+    "label": "negative_liberty",
+    "rationale": "Occupiers' preservation and sale of mole skins are described as permitted, i.e. free from legal interference or restriction.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1944-03-17-bef458-030",
+    "label": "ambiguous",
+    "rationale": "Hospital management freedom is asserted alongside required public control, mixing autonomy/enabled governance with constraint.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1945-12-20-e761f5-006",
+    "label": "positive_liberty",
+    "rationale": "Press liberty is framed as enabling independent local newspapers through newsprint allocation, especially those free of combines.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1947-07-10-df941b-008",
+    "label": "ambiguous",
+    "rationale": "The freedom won is not specified; it could mean release from constraint or enabled agency, so the liberty object is underdetermined.",
+    "confidence": 0.65,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1948-01-22-57f806-009",
+    "label": "negative_liberty",
+    "rationale": "Freedom of civil servants in political and civic activities concerns being allowed/non-interfered with in protected participation.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1948-10-27-4e9509-009",
+    "label": "negative_liberty",
+    "rationale": "Liberties of tolerant democracy are framed as protections destroyed by communist despotism; a non-interference/anti-tyranny claim.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-03-24-dd6607-312",
+    "label": "positive_liberty",
+    "rationale": "Economic freedom for the nation is framed as restored prosperity/self-sufficiency enabled by coordinated government, managers and workers.",
+    "confidence": 0.77,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-07-11-e9f72b-001",
+    "label": "negative_liberty",
+    "rationale": "Market/trade freedom is described as being restricted by state limitations, a non-interference claim about constraints on the market.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-07-18-ba34a5-000",
+    "label": "negative_liberty",
+    "rationale": "Freedom of the herring industry/trade is framed as removing state price controls, a non-interference claim.",
+    "confidence": 0.94,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-11-03-db92fe-014",
+    "label": "other",
+    "rationale": "\u201cAt liberty to introduce legislation\u201d means being entitled/free to act procedurally, not a substantive liberty-as-value claim.",
+    "confidence": 0.91,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1950-09-13-673c62-016",
+    "label": "negative_liberty",
+    "rationale": "Freedom is invoked as a political cause in wartime, opposed to tyranny and domination; this is protection from oppression.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1951-04-26-bed128-000",
+    "label": "ambiguous",
+    "rationale": "Freedom is invoked abstractly without specifying non-interference or enabled capacity, so the liberty claim is under-specified.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1951-06-01-a6c442-079",
+    "label": "negative_liberty",
+    "rationale": "Liberty of the person/British way of life is invoked as being violated; a broad non-interference rights claim, though under-specified.",
+    "confidence": 0.7,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1952-06-25-1ae411-047",
+    "label": "negative_liberty",
+    "rationale": "Bakers\u2019 freedom to produce varied breads is framed as a return from restrictions on trade/production, i.e. non-interference.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1953-04-17-639f6e-026",
+    "label": "ambiguous",
+    "rationale": "Students' 'freedom' is invoked as autonomy not abused, but the sentence does not specify whether this is non-interference or enabled agency.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1953-04-21-7cb906-007",
+    "label": "ambiguous",
+    "rationale": "\u201cBritish freedom\u201d is invoked as a value, but the sentence does not specify whether it means non-interference or enabled capacity.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1954-02-12-3f03ac-027",
+    "label": "positive_liberty",
+    "rationale": "Freedom of veterinary surgeons is framed as being given by a Bill, suggesting enabled professional capacity/discretion rather than a specified protected sphere.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1954-12-07-f64139-057",
+    "label": "positive_liberty",
+    "rationale": "Freedom of other people is said to be produced/enabled by controls, framing liberty as an enhanced capacity rather than mere non-interference.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1955-05-03-98c34e-004",
+    "label": "positive_liberty",
+    "rationale": "Freedom of choice for consumers and farmers is framed as enabled practical choice through plenty and policy support.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1957-07-11-ca9168-003",
+    "label": "other",
+    "rationale": "\u201cAt liberty to do so\u201d is a procedural permission to raise points, not a substantive liberty-as-value claim.",
+    "confidence": 0.96,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1959-01-26-cf3abb-022",
+    "label": "negative_liberty",
+    "rationale": "Individual liberty is to be safeguarded by legal protections, implying protection from interference or constraint.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1959-06-17-5b8436-007",
+    "label": "negative_liberty",
+    "rationale": "Freedom of choice is framed as something not to be restricted, emphasizing protection from interference or constraint.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1959-07-08-ee483b-010",
+    "label": "positive_liberty",
+    "rationale": "Local authorities' freedom is a granted capacity to decide/use the general grant, i.e. empowered agency rather than protection from interference.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1961-03-23-13e128-037",
+    "label": "negative_liberty",
+    "rationale": "Liberty is framed as being eroded, implying protection from infringement or constraint; the specific sphere is not detailed.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1962-03-08-fa577f-001",
+    "label": "negative_liberty",
+    "rationale": "Calves\u2019 freedom of movement concerns release from physical confinement/restraint, a non-interference claim despite the animal-welfare context.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1963-01-29-e0c254-005",
+    "label": "negative_liberty",
+    "rationale": "Liberty of individuals is framed as freedom from Government interference in personal matters.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1963-05-10-dbf3bf-002",
+    "label": "other",
+    "rationale": "\u201cFreedom from Hunger Campaign\u201d is a campaign name mentioned incidentally; no substantive liberty claim is made.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1964-11-18-39fb93-000",
+    "label": "negative_liberty",
+    "rationale": "Freedom of movement for private/business aircraft is sought by easing licensing constraints short of full instrument rating.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1964-11-20-2616f5-035",
+    "label": "ambiguous",
+    "rationale": "Object is 'local freedom'; the sentence values it but does not specify non-interference or enabled local self-government.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1965-05-03-9707f9-002",
+    "label": "negative_liberty",
+    "rationale": "Freedom of speech is a protected sphere of expression, contrasted with Nazi oppression as constraint.",
+    "confidence": 0.97,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1966-07-07-1079f9-009",
+    "label": "negative_liberty",
+    "rationale": "Election freedom concerns whether voting/contesting is free from coercion or interference; a non-interference claim.",
+    "confidence": 0.75,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1967-06-22-2c8c75-063",
+    "label": "negative_liberty",
+    "rationale": "Freedom is linked to absence of D Notices/Official Secrets constraints, implying non-interference with press or information.",
+    "confidence": 0.89,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1971-02-11-49f250-001",
+    "label": "other",
+    "rationale": "\u201cAt liberty to say\u201d is a formula about permission to disclose in debate, not a substantive liberty-as-value claim.",
+    "confidence": 0.96,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1973-02-02-79df61-064",
+    "label": "negative_liberty",
+    "rationale": "Road hauliers\u2019 and drivers\u2019 freedom of action is framed as protection from unwarranted restriction/non-interference.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1975-04-09-5f838f-123",
+    "label": "ambiguous",
+    "rationale": "Freedom of the country/Western Europe is invoked as a broad future value, but the sentence does not specify non-interference or enabled capacity.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1975-07-07-ffd4f4-093",
+    "label": "negative_liberty",
+    "rationale": "Civil liberty in arrest law is framed as protection from compulsory state powers and criminal process constraints.",
+    "confidence": 0.94,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1976-01-27-936d76-039",
+    "label": "negative_liberty",
+    "rationale": "Freedom of association/membership in the ESU is said to have been ended, a constraint on non-interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1976-05-24-4f7e49-036",
+    "label": "negative_liberty",
+    "rationale": "Freedom of conscience is invoked as a protected sphere against doctrinal constraint or interference.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1978-02-01-1d5aa0-008",
+    "label": "ambiguous",
+    "rationale": "Individual liberty and rights are invoked generally, but no specific constraint or enabling capacity is identified.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-07-12-ecca08-001",
+    "label": "positive_liberty",
+    "rationale": "Local authorities' freedom under the Bill is framed as capacity/discretion to act, i.e. institutional empowerment.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-07-18-896d28-036",
+    "label": "ambiguous",
+    "rationale": "Bare reference to freedom as a topic, with no context to tell whether it means non-interference or enabled capacity.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-12-11-aa882c-001",
+    "label": "negative_liberty",
+    "rationale": "Freedom under law is invoked as a rule-of-law protection against arbitrary coercion in Northern Ireland.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-12-12-38be99-110",
+    "label": "ambiguous",
+    "rationale": "People\u2019s freedom/independence are invoked with both removal of deprivation of rights and enabling opportunities/self-government.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1980-02-26-0ff1c3-061",
+    "label": "negative_liberty",
+    "rationale": "Directors' freedom to act is framed as an unconstrained sphere that may be bounded; this concerns non-interference/constraint.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1980-03-07-7851f2-005",
+    "label": "positive_liberty",
+    "rationale": "Next of kin are to be granted choice over body disposal; this frames liberty as enabled agency/practical decision-making.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1981-02-12-ff4823-000",
+    "label": "negative_liberty",
+    "rationale": "Freedom of information/open government concerns access to information and reduced state secrecy, a non-interference civil-liberty claim.",
+    "confidence": 0.66,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1981-07-28-4c8a6e-033",
+    "label": "ambiguous",
+    "rationale": "Liberty/freedom are mentioned generally with no object or context to distinguish non-interference from enabled capacity.",
+    "confidence": 0.8,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1982-07-23-066894-047",
+    "label": "other",
+    "rationale": "Truncated fragment mentions personal liberty/freedom but makes no substantive liberty claim.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1983-05-03-dd6d5a-045",
+    "label": "negative_liberty",
+    "rationale": "Citizen liberty is weighed against enhanced state powers, concerning protection from coercive interference.",
+    "confidence": 0.87,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1985-01-21-688f2e-003",
+    "label": "negative_liberty",
+    "rationale": "Fundamental freedoms in a bill of rights are to be constitutionally protected from state interference.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1985-05-16-4fe3b3-045",
+    "label": "negative_liberty",
+    "rationale": "Unspecified freedoms are framed as needing protection from infringement, a non-interference claim, though context is limited.",
+    "confidence": 0.68,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1987-11-10-bb5f9d-000",
+    "label": "negative_liberty",
+    "rationale": "MPs\u2019 freedom to speak, vote, enter and work in Parliament concerns protected spheres of non-interference, though the sentence says they are not at issue.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1988-03-24-47dac8-054",
+    "label": "negative_liberty",
+    "rationale": "Freedom of speech, thought and writing are protected spheres against interference/censorship.",
+    "confidence": 0.96,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1988-11-02-4a4134-019",
+    "label": "ambiguous",
+    "rationale": "\u201cHuman freedoms\u201d are invoked as foundational values, but the sentence does not specify whether they mean non-interference or enabled capacity.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1989-02-17-f2f9c2-016",
+    "label": "positive_liberty",
+    "rationale": "The object is choice; 'freedom to choose' frames liberty as enabled agency rather than protection from interference.",
+    "confidence": 0.7,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1991-05-20-377e6d-016",
+    "label": "positive_liberty",
+    "rationale": "Freedom to run their affairs denotes empowered self-direction and practical control, not merely protection from interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1992-11-24-0308c9-027",
+    "label": "negative_liberty",
+    "rationale": "Citizens\u2019 single-market freedom implies removal of barriers to trade/movement; a non-interference claim, though not fully specified.",
+    "confidence": 0.67,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1993-11-22-81d164-082",
+    "label": "negative_liberty",
+    "rationale": "Free markets, private enterprise and personal freedom invoke protected economic/personal spheres, chiefly non-interference rather than enabled capacity.",
+    "confidence": 0.76,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1993-11-29-91199e-016",
+    "label": "ambiguous",
+    "rationale": "Shopping freedom/choice is mixed: Sunday opening expands choice for car owners but restricts practical choice for elderly non-drivers.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1996-02-26-756bf4-008",
+    "label": "error",
+    "rationale": "",
+    "confidence": -1.0,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": "empty content"
+  },
+  {
+    "sentence_id": "1996-04-26-533113-002",
+    "label": "negative_liberty",
+    "rationale": "Freedom of speech is framed as protection from restrictions on advertising/expression, even where it may incite violence.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1997-02-05-67a8b4-026",
+    "label": "positive_liberty",
+    "rationale": "School freedom refers to institutional autonomy/ability to govern themselves and make choices, an enabled capacity.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1998-07-07-2597f7-006",
+    "label": "other",
+    "rationale": "\u201cFreedom of information award\u201d is an award name/descriptive accolade; the sentence makes no substantive liberty claim.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1999-05-12-975aae-027",
+    "label": "positive_liberty",
+    "rationale": "Institutional freedom of action for the WA concerns granting or withholding empowered capacity to act/govern.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "1999-12-14-692fb4-019",
+    "label": "negative_liberty",
+    "rationale": "Concerns civil rights of offenders motivated by beliefs, opposing reduced rights or harsher treatment as an unjust constraint.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2000-04-18-40a174-002",
+    "label": "other",
+    "rationale": "\u201cFreedom of Information Bill\u201d is a bill title mentioned procedurally; no substantive liberty claim is made.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2002-01-08-059adc-008",
+    "label": "positive_liberty",
+    "rationale": "Commercial freedom for the Post Office business is framed as enabling it to operate effectively and secure its future.",
+    "confidence": 0.83,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2003-11-19-e8f2ec-016",
+    "label": "negative_liberty",
+    "rationale": "The liberty is a protected legal/civic freedom; opposing its erosion frames liberty as non-interference from restriction.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2003-11-26-b30455-007",
+    "label": "ambiguous",
+    "rationale": "\u201cGenuine freedom\u201d is invoked without specifying freedom from restraint or capacity to act, so the liberty claim is under-specified.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2004-01-15-3ab96f-008",
+    "label": "negative_liberty",
+    "rationale": "The referenced freedom is protected against threats, framing liberty as non-interference/protection from constraint.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2004-03-29-b44a62-020",
+    "label": "negative_liberty",
+    "rationale": "Freedom of information and privacy are framed as protected civil liberties against secrecy or intrusion, not enabled capacity.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2005-02-28-6b147b-004",
+    "label": "negative_liberty",
+    "rationale": "Liberty is framed as subject to deprivation or restraint by orders, i.e. protection from coercive constraint.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2006-05-23-e048d6-026",
+    "label": "ambiguous",
+    "rationale": "Student freedoms are invoked, but the specific liberty object is unspecified; balance with discipline/security does not disambiguate.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2007-03-08-b14083-008",
+    "label": "negative_liberty",
+    "rationale": "Freedom of trafficked prostitutes is denied by coercion and forced work; concerns protection from constraint and exploitation.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2007-06-12-22813b-021",
+    "label": "other",
+    "rationale": "\u201cLiberty\u201d refers to the organisation\u2019s briefings, not a substantive claim about freedom or constraint.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2009-01-21-58f10d-005",
+    "label": "error",
+    "rationale": "",
+    "confidence": -1.0,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": "empty content"
+  },
+  {
+    "sentence_id": "2010-07-14-67b4ff-005",
+    "label": "negative_liberty",
+    "rationale": "Civil liberties/privacy from CCTV and DNA collection, plus information freedom, are framed as protections against state interference.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2012-07-06-18d8f0-000",
+    "label": "ambiguous",
+    "rationale": "Central bank operational independence is framed as both freedom and constrained discretion, mixing enabled agency with limits.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2012-11-20-f6433c-003",
+    "label": "positive_liberty",
+    "rationale": "Freedom to set corporation tax rates concerns Northern Ireland\u2019s empowered capacity to govern fiscal policy, not protection from interference.",
+    "confidence": 0.86,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2012-12-18-0cfce1-023",
+    "label": "ambiguous",
+    "rationale": "Liberty is invoked as an important value, but no specific protected sphere, constraint, or enabling capacity is identified.",
+    "confidence": 0.74,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2013-04-10-2ab30c-011",
+    "label": "other",
+    "rationale": "\u201cLiberty\u201d appears only in a book title, not as a substantive claim about freedom.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2013-09-12-94be61-013",
+    "label": "positive_liberty",
+    "rationale": "Royal Mail's commercial freedom is framed as enabled capacity to operate and succeed in a competitive market.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2016-02-25-43f371-003",
+    "label": "positive_liberty",
+    "rationale": "Freedom of choice is grounded in democratic self-government, framing Westminster democracy as enabling collective agency.",
+    "confidence": 0.75,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2017-09-12-04c813-049",
+    "label": "positive_liberty",
+    "rationale": "Liberty object is MPs' ability to represent constituents; it concerns practical/institutional capacity to act, not a protected private sphere.",
+    "confidence": 0.72,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2018-01-29-fc6b82-002",
+    "label": "other",
+    "rationale": "\u201cFreedom of information requests\u201d names an access procedure; the sentence uses it instrumentally, not as a liberty-value claim.",
+    "confidence": 0.88,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2018-03-19-5be985-003",
+    "label": "negative_liberty",
+    "rationale": "Online freedom is treated as a protected sphere, bounded by preventing harm to others; a non-interference claim with harm limits.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2018-06-13-2e3c04-003",
+    "label": "error",
+    "rationale": "",
+    "confidence": -1.0,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": "empty content"
+  },
+  {
+    "sentence_id": "2019-01-28-fc8e34-010",
+    "label": "other",
+    "rationale": "Freedom of movement is mentioned as an immigration topic; the sentence makes no substantive liberty claim.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2019-03-27-180e85-002",
+    "label": "error",
+    "rationale": "",
+    "confidence": -1.0,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": "empty content"
+  },
+  {
+    "sentence_id": "2019-04-02-50e8e4-002",
+    "label": "negative_liberty",
+    "rationale": "Religious belief is framed as a protected sphere against persecution/non-interference, making a negative liberty claim.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2019-10-15-3f9a2e-001",
+    "label": "negative_liberty",
+    "rationale": "Freedom of expression in parliamentary debate is a protected sphere of non-interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-01-20-c61f0c-002",
+    "label": "negative_liberty",
+    "rationale": "Freedom of movement within Europe is a protected sphere; ending it is framed as a restriction on non-interference.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-05-13-76d628-003",
+    "label": "ambiguous",
+    "rationale": "Freedom from CAP constraints is negative liberty, while giving farmers freedom suggests enabled agency; the sentence mixes both liberty objects.",
+    "confidence": 0.82,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-07-01-f40971-011",
+    "label": "negative_liberty",
+    "rationale": "Hong Kong people's rights and freedoms are framed as protections that must not be compromised or sacrificed.",
+    "confidence": 0.78,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-07-21-5abd1e-016",
+    "label": "positive_liberty",
+    "rationale": "Local authorities\u2019 licensing freedom is framed as empowered local discretion to decide and act for their area.",
+    "confidence": 0.84,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-07-21-ffe20e-000",
+    "label": "positive_liberty",
+    "rationale": "Universities\u2019 freedom to invest via loans is framed as enabled capacity to act according to local priorities.",
+    "confidence": 0.9,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-01-28-713fa6-011",
+    "label": "ambiguous",
+    "rationale": "Freedom is invoked as a broad British value alongside democracy and equality, without specifying non-interference or enabled capacity.",
+    "confidence": 0.62,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-02-04-e5dffc-004",
+    "label": "negative_liberty",
+    "rationale": "Freedom of religion is a protected sphere against state interference or repression in China.",
+    "confidence": 0.93,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-03-17-27a774-001",
+    "label": "negative_liberty",
+    "rationale": "Freedom of movement of people is a protected sphere of non-interference across borders.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-03-25-543ba8-000",
+    "label": "other",
+    "rationale": "\u201cLiberty\u201d is a company/employer name in Rotherham, not a substantive claim about liberty as non-interference or empowerment.",
+    "confidence": 0.98,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-04-12-e26568-010",
+    "label": "positive_liberty",
+    "rationale": "Freedom to act is framed as enabled capacity and inspiration provided by the Award.",
+    "confidence": 0.92,
+    "raw_provider_id": "gpt:gpt-5.5",
+    "error": null
+  }
+]

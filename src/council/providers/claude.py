@@ -87,7 +87,8 @@ class ClaudeProvider(BaseCouncilProvider):
             print(
                 f"[claude] [{time.strftime('%H:%M:%S')}] {batch.processing_status} | "
                 f"processing={counts.processing} succeeded={counts.succeeded} "
-                f"errored={counts.errored} canceled={counts.canceled} expired={counts.expired}"
+                f"errored={counts.errored} canceled={counts.canceled} expired={counts.expired}",
+                flush=True,
             )
             if batch.processing_status == "ended":
                 break

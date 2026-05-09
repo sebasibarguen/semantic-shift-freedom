@@ -1,0 +1,1914 @@
+[
+  {
+    "sentence_id": "1804-dcd329-352",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of the country\" is framed as being \"endangered\" by an external threat, invoking negative liberty as protection against attack or tyranny.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1806-3cf2ef-004",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of that house\" refers to parliamentary privilege and protection from external interference, a classic negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1807-7555ea-075",
+    "label": "ambiguous",
+    "rationale": "Refers abstractly to 'the idea of liberty' connected to institutions; while demanding practical inclusion, the specific nature of the liberty itself remains underspecified.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1807-821f35-004",
+    "label": "negative_liberty",
+    "rationale": "Liberty is invoked rhetorically alongside security and national independence as an invaluable blessing to be defended, aligning with negative liberty as protection from external threat.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1808-6330f5-002",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of the subject\" is a classic formulation for civil liberties and protection against arbitrary state power, indicating negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1808-7e790d-167",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty and property\" refers to the classic negative liberty of citizens being protected from arbitrary interference or constraint by the state.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1809-65a12f-137",
+    "label": "other",
+    "rationale": "The phrase 'taken the liberty' is a polite parliamentary idiom, not a substantive claim about liberty as a political or social value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1810-7c4614-031",
+    "label": "ambiguous",
+    "rationale": "\"Liberty of the people\" is paired with happiness but lacks specific context to determine if it means non-interference or enabled capacity.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1811-cf3ffc-171",
+    "label": "other",
+    "rationale": "The phrase 'take the liberty of' is a procedural idiom and polite convention, not a substantive claim about liberty as a political or social value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1812-731848-139",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty\" is invoked rhetorically alongside \"honour\" and \"virtue\" as a foundational political ideal, traditionally denoting freedom from arbitrary power.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1814-dd446d-150",
+    "label": "negative_liberty",
+    "rationale": "The 'freedom of our debates' refers to parliamentary privilege, protecting members' speech from outside interference or constraint, which is a classic negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1814-f8032c-125",
+    "label": "negative_liberty",
+    "rationale": "The \"cause of freedom\" is invoked rhetorically as a historical struggle against the absolute power of kings and opposed to \"tyranny,\" fitting the negative liberty concept.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1815-0a5dd1-001",
+    "label": "other",
+    "rationale": "The phrase 'take the liberty of' is a conversational idiom regarding parliamentary procedure, not a substantive claim about liberty.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1815-bd0c79-681",
+    "label": "negative_liberty",
+    "rationale": "The 'spirit of liberty' refers to the historical political cause opposed to monarchical tyranny during the English Civil War, aligning with negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1818-be1b30-006",
+    "label": "positive_liberty",
+    "rationale": "The \"liberty of raising the money\" refers to the financial self-sufficiency and practical empowerment of the citizens of London to act independently.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1819-9adafb-141",
+    "label": "negative_liberty",
+    "rationale": "\"Rational principles of liberty\" invokes liberty as a broad political cause, typically meaning constitutional freedom from arbitrary rule and tyranny, aligning with negative liberty.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1819-9d34c8-112",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of the press\" and \"freedom of debate\" are classic negative liberties, representing protected spheres of expression free from state interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1820-deeaf0-000",
+    "label": "ambiguous",
+    "rationale": "The sentence asks for a definition of 'freedom' without providing enough context to determine if it refers to non-interference or enabled capacity.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1822-5d2ccf-080",
+    "label": "other",
+    "rationale": "The phrase \"taken the liberty of\" is a polite parliamentary idiom, not a substantive claim about liberty as a political or social value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1822-9dd597-310",
+    "label": "negative_liberty",
+    "rationale": "\"Practical liberty\" refers to the constitutional freedoms and civil liberties enjoyed by the country, aligning with negative liberty as protection from arbitrary rule.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1822-af1595-013",
+    "label": "other",
+    "rationale": "The phrase \"take the liberty of\" is a procedural idiom, not a substantive claim about liberty as a political or social value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1824-1bb67f-315",
+    "label": "other",
+    "rationale": "The phrase 'excuse the liberty I take' is a conventional polite expression, not a substantive claim about liberty as a political or social value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1824-e4aa52-009",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of the subject\" refers to civil liberties, and the concern over measures that \"abridge\" it clearly invokes negative liberty as protection from interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1826-20426e-061",
+    "label": "negative_liberty",
+    "rationale": "The phrase 'at liberty to bring' refers to trade and navigation without constraint or interference, which is a classic negative liberty claim.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1829-61ffa3-008",
+    "label": "negative_liberty",
+    "rationale": "The object is 'religious liberty', which classically refers to non-interference and protection from state constraint or penalty regarding religious belief and practice.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1829-6a97d3-081",
+    "label": "other",
+    "rationale": "\"Freedom of the city\" refers to a specific civic status or privilege, not a substantive philosophical claim about liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1829-cbd157-015",
+    "label": "negative_liberty",
+    "rationale": "Liberty is framed as opposition to despotism and oppression, aligning with negative liberty (protection from constraint).",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1830-00f22c-558",
+    "label": "ambiguous",
+    "rationale": "The term 'liberty' is invoked broadly alongside 'general good' and 'happiness' without enough context to determine if it means non-interference or enabled capacity.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1832-035b21-183",
+    "label": "ambiguous",
+    "rationale": "The sentence contrasts two views of freedom: an enabled capacity to be an 'industrious labourer' versus a negative liberty of 'total cessation from any employment.'",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1832-1ed70a-087",
+    "label": "negative_liberty",
+    "rationale": "\"This freedom\" refers to voting without coercion or intimidation (via secrecy), which is protection from interference, a classic negative liberty concept.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1833-556314-025",
+    "label": "negative_liberty",
+    "rationale": "\"At liberty to obtain\" refers to the absence of restrictions on a man's ability to earn or contract for a specific wage, indicating negative liberty.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1833-7fed93-405",
+    "label": "ambiguous",
+    "rationale": "\"Political freedom\" for Ireland post-Union could mean the capacity for self-government (positive) or freedom from oppressive British rule (negative).",
+    "confidence": 0.7,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1834-d17a61-030",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of debate\" is framed as a protected sphere of speech that is being attacked or infringed upon, indicating negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1835-36d9c4-002",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty\" is framed as something being \"wasted\" or unnecessarily restricted by laws, indicating a concern with over-regulation and the curtailment of negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1835-3ddb46-008",
+    "label": "other",
+    "rationale": "The phrase 'take the liberty of' is a procedural idiom and does not make a substantive claim about liberty as a value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1836-7a7cfb-078",
+    "label": "negative_liberty",
+    "rationale": "\"Cause of liberty\" refers to the political struggle against tyranny and absolutism in the Peninsula, a classic rhetorical invocation of negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1836-ec1ee7-033",
+    "label": "negative_liberty",
+    "rationale": "The phrase 'friends of freedom' is a rhetorical invocation of political liberty as a broad cause, aligning with negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1838-faaae8-066",
+    "label": "other",
+    "rationale": "The phrase 'take the liberty of' is a procedural/polite idiom, not a substantive claim about liberty as a political or social value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1840-295e3f-017",
+    "label": "other",
+    "rationale": "The phrase 'take the liberty of' is a procedural idiom used in parliamentary speech, not a substantive claim about liberty as a value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1840-ff925a-020",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty\" is invoked rhetorically as a broad political ideal opposed to arbitrary refusal or unjust governance, aligning with negative liberty.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1842-179949-012",
+    "label": "negative_liberty",
+    "rationale": "The liberty object is enslaved people; the sentence concerns their release from bondage, a classic negative liberty (freedom from constraint and coercion).",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-1c58cf-017",
+    "label": "other",
+    "rationale": "The phrase 'at liberty to' is used idiomatically to indicate procedural options or permission, not a substantive claim about liberty as a political value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-22d395-031",
+    "label": "other",
+    "rationale": "The phrase 'at liberty to' is used as a legal/procedural idiom meaning 'permitted to', rather than making a substantive claim about liberty as a political value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-b836c3-008",
+    "label": "other",
+    "rationale": "The phrase \"at liberty to\" is used idiomatically to mean having permission or lacking an obligation to keep a secret, not a substantive claim about liberty as a political value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1843-cf9bfc-081",
+    "label": "negative_liberty",
+    "rationale": "\"Religious freedom\" is invoked as a protected sphere of conscience and independent belief, characteristic of negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1844-48ed32-078",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of the people\" and \"language of men\" are framed as spheres protected from being \"restrained,\" indicating negative liberty (non-interference).",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1845-5f9d3d-450",
+    "label": "negative_liberty",
+    "rationale": "\"their liberty\" refers to personal freedom from constraint or subjugation (\"vassalage\"), framing liberty as non-interference and protection against deprivation.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1845-b8d460-006",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of action\" refers to the speaker's freedom from external constraint or obligation regarding his future actions, indicating negative liberty.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1846-32e32f-020",
+    "label": "other",
+    "rationale": "The phrase \"at liberty to narrate\" is an idiomatic expression meaning having permission to speak, not a substantive claim about political or social liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1846-3324bb-007",
+    "label": "negative_liberty",
+    "rationale": "\"Civil and religious liberty\" refers to protecting religious conscience and civil life from the undue political influence or interference of the established Church.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1851-b831dc-054",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of fasting or attending mass\" refers to religious freedom and the absence of interference from masters, indicating negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1851-e57be1-052",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom to trade\" is explicitly framed as a protected sphere of non-interference, characteristic of negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1852-4750a8-038",
+    "label": "ambiguous",
+    "rationale": "Bare use of \"liberty\" without sufficient context to determine if it refers to non-interference, enabled capacity, or a procedural/idiomatic usage.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1853-291237-005",
+    "label": "negative_liberty",
+    "rationale": "The liberty of the press is a classic negative liberty, referring to the press's freedom from censorship or state interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1853-7e686f-006",
+    "label": "negative_liberty",
+    "rationale": "\"Religious liberty\" is framed as a natural right being \"invaded\" by a law, indicating a concern with non-interference and protection from constraint.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1854-3407a8-124",
+    "label": "other",
+    "rationale": "The phrase \"at liberty to desert\" is an idiomatic legal expression meaning \"permitted to,\" rather than a substantive claim about liberty as a political or social value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1855-caf92d-084",
+    "label": "other",
+    "rationale": "The phrase 'took the liberty of' is a polite parliamentary idiom, not a substantive claim about liberty as a political or social value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1856-6beeb1-184",
+    "label": "positive_liberty",
+    "rationale": "\"Political liberty\" here refers to the people's participation in government (likely the franchise), which is a claim to positive liberty (empowerment and self-direction).",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1856-ca9e60-261",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is invoked as a broad political value whose boundaries must be maintained against disorder, aligning with classical negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1857-cbcec0-031",
+    "label": "other",
+    "rationale": "The phrase 'taking the liberty of' is a conversational idiom and parliamentary procedure, not a substantive claim about liberty as a value.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1859-aa121c-025",
+    "label": "negative_liberty",
+    "rationale": "The 'protection of liberty' is framed as requiring judicial transparency and the rule of law to prevent arbitrary decisions, a classic negative liberty concern.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1859-f5b053-007",
+    "label": "other",
+    "rationale": "The phrase 'at liberty to make that statement' is a parliamentary procedural idiom regarding permission to speak, not a substantive claim about liberty.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1860-3e014a-002",
+    "label": "negative_liberty",
+    "rationale": "The 'freedom' of the 'emancipados' refers to release from servitude or bondage, which is a classic negative liberty claim concerning non-interference and protection from constraint.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1860-9221d3-059",
+    "label": "other",
+    "rationale": "The phrase 'at liberty to' is used as an idiom meaning 'permitted to' regarding diplomatic advice, rather than making a substantive philosophical claim about liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1861-b1b8df-003",
+    "label": "other",
+    "rationale": "The phrase 'take the liberty of' is a procedural/polite idiom, not a substantive claim about liberty as a value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1862-0064cb-065",
+    "label": "negative_liberty",
+    "rationale": "The \"freedom of action\" of the Colleges is framed as negative liberty, specifically asking the State to \"remove restrictions\" it had previously imposed.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1864-f1d5e2-009",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of contract\" is framed as a protected sphere free from government interference, which is a classic negative liberty claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1865-ecdcf2-000",
+    "label": "other",
+    "rationale": "The phrase 'at perfect liberty to' is an idiomatic expression meaning permitted to act, not a substantive claim about liberty as a value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1868-961c0c-031",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of contract\" is framed as a protected sphere that the Government Bill does not \"interfere with\", indicating negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1868-cff155-064",
+    "label": "ambiguous",
+    "rationale": "The word \"freedom\" is invoked as an abstract principle alongside equality and fair play, lacking sufficient context to determine if it means non-interference or enabled capacity.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1868-d840ad-082",
+    "label": "negative_liberty",
+    "rationale": "Freedom refers to emancipation from slavery, which is the removal of absolute constraint and coercion, a classic example of negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1869-da5b2f-005",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of speech\" and \"freedom of writing\" are classic negative liberties, representing protected spheres of non-interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1870-88737e-030",
+    "label": "negative_liberty",
+    "rationale": "The sentence refers to legislation that \"abridges\" a man's liberty, framing liberty as a sphere of non-interference that is being constrained.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1870-afcf55-121",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of all Europe\" is framed as something threatened by foreign encroachment and absorption, indicating protection against external constraint and oppression.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1871-9fc067-014",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of the subject\" refers to the classic protection of citizens from arbitrary state power or constraint, a negative liberty concept.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1871-b9ae04-108",
+    "label": "negative_liberty",
+    "rationale": "Liberty is framed as being infringed by government regulation and coercive examination, indicating a negative liberty claim against state interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1871-c6b77e-048",
+    "label": "ambiguous",
+    "rationale": "\"Liberty in the East\" is a broad geopolitical goal; without further context, it is unclear whether it means freedom from despotic rule (negative) or empowered self-government (positive).",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1874-8343c7-170",
+    "label": "other",
+    "rationale": "The phrase \"at liberty\" is used here to mean \"permitted\" or \"given the option\" within an administrative military context, rather than making a substantive political claim about liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1876-499f2b-009",
+    "label": "negative_liberty",
+    "rationale": "The liberty object is 'Constitutional liberty', defined as the privilege to condemn political figures, which is a claim to freedom of speech and expression (non-interference).",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1879-3cc243-165",
+    "label": "negative_liberty",
+    "rationale": "\"English spirit of liberty\" is opposed to \"exaggerated centralism,\" framing liberty as freedom from central state interference and control.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1879-519db2-018",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is invoked alongside \"security for property\" as a fundamental right, reflecting classical negative liberty (protection from interference).",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1880-0dc8e9-207",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is 'freedom of classification', referring to the enabled capacity and professional autonomy of teachers to make practical choices regarding student examinations.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1881-8ba5a1-017",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of action\" is threatened by \"popular pressure\" and \"agitation,\" framing liberty as the absence of external coercion or interference.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1881-e2a0f5-028",
+    "label": "other",
+    "rationale": "\"Liberty of action\" is used here as a procedural idiom meaning the member retains the option to vote or act as they choose in Committee, not a substantive philosophical claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1883-265a4d-276",
+    "label": "ambiguous",
+    "rationale": "\"True liberty\" is invoked rhetorically without enough context to determine if it means non-interference or enabled capacity.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1883-330e95-070",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of discussion\" is framed as a protected sphere threatened by \"binding fetters\" (constraints) imposed by the Government, indicating negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1883-f8d5d2-006",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty\" is invoked rhetorically as a cause or state that has been attacked (\"crimes perpetrated against\"), aligning with negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1884-8197db-046",
+    "label": "positive_liberty",
+    "rationale": "The \"freedom and independence\" conveyed by a Royal Charter refers to the empowerment of a local authority or institution to govern itself.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1885-d7f650-149",
+    "label": "negative_liberty",
+    "rationale": "\"Wilkes and Liberty\" is a historical slogan invoking liberty as a cause opposed to arbitrary government and tyranny, representing negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1886-bff98e-052",
+    "label": "positive_liberty",
+    "rationale": "\"Fiscal liberty\" refers to a political entity's empowered capacity to govern its own finances and exercise self-direction in fiscal policy.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1886-c009ec-015",
+    "label": "other",
+    "rationale": "The phrase 'took the liberty of' is a conversational idiom, not a substantive claim about liberty as a value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1892-afc388-000",
+    "label": "negative_liberty",
+    "rationale": "\"Religious liberty\" refers to the protection of religious practice from interference or constraint, a classic negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1894-c22fd7-013",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is paired with \"peace\" to justify an Act maintaining order, implying protection from coercion, disorder, or intimidation (negative liberty).",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1896-323d3e-023",
+    "label": "negative_liberty",
+    "rationale": "The sentence refers to a slave claiming 'freedom' (emancipation from bondage and coercion), which is a classic negative liberty claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-21c0dd-107",
+    "label": "other",
+    "rationale": "The phrase 'at liberty to legislate' is an idiomatic expression concerning parliamentary permission or procedure, rather than a substantive claim about political liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-262558-001",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of speech\" and \"constitutional action\" are framed as spheres of non-interference currently violated by police coercion and violence.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-287adf-005",
+    "label": "positive_liberty",
+    "rationale": "The Secretary for Scotland is being empowered with greater discretion to distribute grants, reflecting positive liberty as institutional capacity to act.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1898-ac5fcf-015",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of the press\" is framed as a protected sphere against \"interference,\" which is a classic negative liberty claim.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1899-185551-001",
+    "label": "negative_liberty",
+    "rationale": "The speaker explicitly links 'individual liberty' to 'laissez faire' and 'interference', framing liberty as non-interference from state regulation.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1899-6936b6-017",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is the colonies' ability to make fiscal arrangements, framing liberty as the empowerment of a political entity to govern and act independently.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1900-67b5db-000",
+    "label": "other",
+    "rationale": "\"reserve to himself the liberty of voting\" is a procedural phrase indicating the retention of an option, not a substantive claim about liberty-as-a-value.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1900-d4162c-001",
+    "label": "positive_liberty",
+    "rationale": "The 'freedom' of local authorities refers to their empowered capacity to act or govern, which aligns with positive liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1901-64793a-003",
+    "label": "negative_liberty",
+    "rationale": "The liberty object is the private owner's use of his school; it concerns negative liberty as it emphasizes the absence of legal constraints (trusts) on property.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1903-188c9b-009",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of action\" refers to followers acting without party constraint or whips, representing a negative liberty claim of non-interference.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1903-c11e5d-000",
+    "label": "other",
+    "rationale": "This is an index entry listing page numbers for \"Freedom of Contract\", not a substantive claim about liberty.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1904-3910ab-016",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of discussion\" refers to freedom of speech and debate, a classic negative liberty protecting expression from interference or censorship.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1905-0b457a-020",
+    "label": "negative_liberty",
+    "rationale": "\"Religious liberty\" is a classic negative liberty, representing a protected sphere free from state interference. The sentence complains of its violation.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1905-88726f-029",
+    "label": "negative_liberty",
+    "rationale": "\"Anybody's freedom\" is explicitly framed in terms of non-interference, a classic negative liberty concept.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1905-8ac0c4-192",
+    "label": "positive_liberty",
+    "rationale": "\"Freedom\" refers to Ireland's self-government and political autonomy, aligning with positive liberty as a country being empowered to govern itself.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1906-e287a8-104",
+    "label": "other",
+    "rationale": "\"At liberty\" is used here to describe a belligerent's permission under international law, not making a substantive claim about liberty as a political value.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1907-c02d7b-009",
+    "label": "negative_liberty",
+    "rationale": "The sentence concerns 'the liberty of the subject' and the freedom to express hostile views, which is a classic negative liberty (freedom of speech/expression without interference).",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-02-18-0a42ec-069",
+    "label": "negative_liberty",
+    "rationale": "The liberty of MPs to criticize a bill is framed as a sphere protected from interference, indicating negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-08-07-f43242-082",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty\" is invoked alongside equality and fraternisation as the result of a revolution, implying liberation from tyranny or oppression.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-11-07-6a5b4e-022",
+    "label": "positive_liberty",
+    "rationale": "\"Self-government and freedom\" refers to collective self-determination and the capacity to govern, which is a classic expression of positive liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-11-10-748b6e-040",
+    "label": "negative_liberty",
+    "rationale": "Freedom is explicitly contrasted with \"elements of compulsion,\" framing it as the absence of constraint or coercion.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-11-26-b44d86-019",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty to be excused\" refers to an exemption from a compulsory duty, representing freedom from constraint or compulsion.",
+    "confidence": 0.7,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1919-12-16-64eadb-023",
+    "label": "other",
+    "rationale": "The phrase 'take the liberty of saying' is a procedural idiom, not a substantive claim about liberty as a political or philosophical value.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1920-02-23-17f4e8-036",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is nations, framed as the capacity for collective self-determination ('live its own life and work out its own destinies'), which is a positive liberty claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1920-02-24-460b68-016",
+    "label": "negative_liberty",
+    "rationale": "\"Human liberty\" is invoked rhetorically as a political cause, which typically aligns with negative liberty (freedom from constraint).",
+    "confidence": 0.7,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1922-03-06-4a9da5-020",
+    "label": "ambiguous",
+    "rationale": "The sentence contrasts two conceptions of liberty/freedom without providing enough context to determine if they refer to non-interference or enabled capacity.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1922-03-08-07a2c7-092",
+    "label": "positive_liberty",
+    "rationale": "\"Freedom\" refers to national self-government, framed as a capacity or status to be achieved through the \"means\" provided by the Treaty.",
+    "confidence": 0.7,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1923-03-09-bda389-025",
+    "label": "other",
+    "rationale": "The speaker reserves 'full freedom' to act in Committee, which is a procedural parliamentary phrase denoting discretion rather than a substantive claim about liberty-as-a-value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1924-10-08-ff76e4-011",
+    "label": "other",
+    "rationale": "\"Freedom\" describes the relaxed or unconstrained atmosphere of a meeting, not a substantive political or philosophical claim about liberty as a value.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1925-07-29-243544-013",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of discussion\" refers to the absence of constraints on speech and debate, a classic negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1926-11-19-52ba73-083",
+    "label": "negative_liberty",
+    "rationale": "The \"freedom\" of theological colleges is framed as being threatened by \"regulations controlling\" them, a clear negative liberty claim against interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1927-03-24-86760b-084",
+    "label": "positive_liberty",
+    "rationale": "\"Freedom for the local education authorities\" refers to the empowerment and capacity of a local authority to act or govern, which is a positive liberty claim.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1927-12-21-1aeea2-010",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty of the subject\" opposed to \"statutory tribunals\" invokes negative liberty, protecting individuals from arbitrary state power via ordinary legal due process.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1929-10-30-c627d8-080",
+    "label": "other",
+    "rationale": "\"Freedom\" refers to the speaker's lack of ministerial constraints in debate, a procedural use rather than a substantive claim about liberty as a political value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1930-06-26-c44a27-001",
+    "label": "other",
+    "rationale": "The sentence uses \"liberty\" in the context of parliamentary procedure, referring to the Deputy-Chairman allowing a member latitude in debate, not a substantive claim about liberty-as-a-value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1930-11-28-1faefe-002",
+    "label": "ambiguous",
+    "rationale": "Bare invocation of \"Liberty\" without sufficient context to determine if it refers to non-interference or enabled capacity.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1934-12-11-bb203b-007",
+    "label": "ambiguous",
+    "rationale": "\"Greater freedom\" for the Indian people implies both the removal of British imperial rule (negative) and the capacity for self-government (positive), making it mixed.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1936-12-18-b55022-024",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is invoked as a broad political cause alongside justice, typically representing freedom from oppression or tyranny.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1937-05-05-441d98-137",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty\" is invoked rhetorically as a cause under attack by foreign adversaries, aligning with negative liberty as protection against tyranny.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1938-02-28-060995-010",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom from strikes\" denotes the absence of industrial disruption, a negative liberty construction framing strikes as an interference or constraint.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1938-04-27-713710-095",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of contract\" is a classic negative liberty, representing a protected sphere free from external interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1938-06-24-4234e3-157",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom to engage labour\" refers to freedom of contract without interference or conditions (like the Fair Wages Clause), which is a negative liberty concept.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1939-07-14-0897f2-117",
+    "label": "negative_liberty",
+    "rationale": "Liberty is invoked rhetorically alongside democracy as a foundational cause opposed to tyranny, fitting the negative liberty category.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1940-04-18-b6c6da-070",
+    "label": "positive_liberty",
+    "rationale": "India's freedom is defined as sovereignty and the capacity to decide its own course of action by its own volition, which is a clear claim of positive liberty (self-determination).",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1941-01-30-3950b7-003",
+    "label": "negative_liberty",
+    "rationale": "\"At liberty to preserve and sell\" denotes the absence of legal prohibition or interference regarding an economic activity, indicating negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1944-03-17-bef458-030",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is 'freedom in the general policy and management', referring to an institution's capacity for self-direction and governance, which aligns with positive liberty.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1945-12-20-e761f5-006",
+    "label": "positive_liberty",
+    "rationale": "Liberty here refers to the enabled capacity of independent provincial newspapers to publish, achieved through the active government provision of newsprint.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1947-07-10-df941b-008",
+    "label": "ambiguous",
+    "rationale": "Bare \"freedom\" without enough context to determine if it refers to non-interference or enabled capacity.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1948-01-22-57f806-009",
+    "label": "negative_liberty",
+    "rationale": "The freedom of civil servants to engage in political and civic activities without employer restriction is a claim of non-interference.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1948-10-27-4e9509-009",
+    "label": "negative_liberty",
+    "rationale": "Liberty is framed as a set of protections against 'intolerant and harsh despotism' and 'Communism', indicating negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-03-24-dd6607-312",
+    "label": "positive_liberty",
+    "rationale": "\"Economic freedom\" here refers to the nation's financial self-sufficiency and prosperity achieved through collective effort, indicating enabled capacity.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-07-11-e9f72b-001",
+    "label": "negative_liberty",
+    "rationale": "The sentence discusses 'freedom of the market' in the context of avoiding 'limitations' and being 'severely restricted', which is a classic negative liberty claim about non-interference in trade.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-07-18-ba34a5-000",
+    "label": "negative_liberty",
+    "rationale": "\"Complete freedom to the industry\" refers to the removal of government constraints (\"withdrawing price controls\"), which is a clear negative liberty claim of non-interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1949-11-03-db92fe-014",
+    "label": "other",
+    "rationale": "The phrase \"at liberty to\" is used idiomatically to mean having the procedural right or option to introduce legislation, not as a substantive claim about liberty.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1950-09-13-673c62-016",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is invoked rhetorically as a cause opposed to tyranny in the context of WWII, aligning with negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1951-04-26-bed128-000",
+    "label": "ambiguous",
+    "rationale": "Bare invocation of \"freedom\" without enough context to determine if it refers to non-interference or enabled capacity.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1951-06-01-a6c442-079",
+    "label": "negative_liberty",
+    "rationale": "\"Liberty and freedom\" are invoked rhetorically as foundational British values and rights of the human personality, implying protection against constraint.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1952-06-25-1ae411-047",
+    "label": "positive_liberty",
+    "rationale": "Freedom for bakers to make special breads concerns the opportunity to innovate, provide services, and exercise self-direction in their craft.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1953-04-17-639f6e-026",
+    "label": "ambiguous",
+    "rationale": "The 'freedom' entrusted to students is underspecified; it could refer to a lack of disciplinary constraint (negative) or the enabled capacity for self-direction (positive).",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1953-04-21-7cb906-007",
+    "label": "ambiguous",
+    "rationale": "\"British freedom\" is a broad, underspecified phrase; without further context, it is unclear whether it refers to non-interference or enabled capacity.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1954-02-12-3f03ac-027",
+    "label": "positive_liberty",
+    "rationale": "The veterinary surgeon is given 'much more freedom', indicating enabled capacity, professional discretion, and self-direction in providing services.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1954-12-07-f64139-057",
+    "label": "positive_liberty",
+    "rationale": "The speaker argues that state controls produce freedom rather than restrict it, framing liberty as an enabled outcome of intervention rather than the mere absence of restraint.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1955-05-03-98c34e-004",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is 'freedom of choice' for consumers and farmers, framed as enabled practical options supported by agricultural policy and 'plenty'.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1957-07-11-ca9168-003",
+    "label": "other",
+    "rationale": "The phrase 'at liberty to do so' is an idiomatic/procedural expression meaning permitted to contact the speaker, not a substantive claim about liberty-as-a-value.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1959-01-26-cf3abb-022",
+    "label": "negative_liberty",
+    "rationale": "The 'liberty of the individual' is framed as something to be safeguarded by legislation, implying protection against arbitrary constraint or state interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1959-06-17-5b8436-007",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of choice\" is the object; the speaker argues against restricting it, framing liberty as non-interference and protection from constraint.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1959-07-08-ee483b-010",
+    "label": "positive_liberty",
+    "rationale": "The 'freedom' refers to local authorities being empowered to make choices and act using the general grant, which is a claim of positive liberty (enabled capacity).",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1961-03-23-13e128-037",
+    "label": "negative_liberty",
+    "rationale": "The phrase 'erosion of liberty' frames liberty as a protected sphere that is being encroached upon or diminished, characteristic of negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1962-03-08-fa577f-001",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of movement\" for calves refers to the absence of physical constraint or strict confinement, which aligns with the concept of negative liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1963-01-29-e0c254-005",
+    "label": "negative_liberty",
+    "rationale": "The sentence explicitly discusses government interference with the liberty of people, framing liberty as non-interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1963-05-10-dbf3bf-002",
+    "label": "other",
+    "rationale": "\"Freedom from Hunger Campaign\" is a proper noun; the sentence merely mentions posters for this named campaign without making a substantive claim about liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1964-11-18-39fb93-000",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of movement\" for aircraft refers to removing regulatory constraints (requiring a full instrument rating) to allow pilots to fly without interference.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1964-11-20-2616f5-035",
+    "label": "positive_liberty",
+    "rationale": "\"Local freedom\" refers to the empowerment and capacity of local authorities or communities to govern and make decisions, aligning with positive liberty.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1965-05-03-9707f9-002",
+    "label": "negative_liberty",
+    "rationale": "Freedom of speech and opposition to Nazi oppression are classic negative liberty concepts concerning protection from censorship and tyranny.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1966-07-07-1079f9-009",
+    "label": "ambiguous",
+    "rationale": "\"Freedom in elections\" could refer to the absence of coercion (negative) or the capacity for democratic participation (positive), leaving the exact concept underspecified.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1967-06-22-2c8c75-063",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is defined by the absence of state censorship mechanisms (D Notices, Official Secrets Act), indicating negative liberty as non-interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1971-02-11-49f250-001",
+    "label": "other",
+    "rationale": "\"At liberty to say\" is a conversational idiom regarding permission to disclose, not a substantive claim about political liberty.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1973-02-02-79df61-064",
+    "label": "negative_liberty",
+    "rationale": "The liberty object is 'freedom of action', framed in terms of an 'unwarranted restriction', which clearly invokes negative liberty as the absence of constraint or interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1975-04-09-5f838f-123",
+    "label": "ambiguous",
+    "rationale": "\"Freedom of this country and Western Europe\" is a broad rhetorical invocation alongside peace and prosperity, lacking context to distinguish between non-interference and enabled capacity.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1975-07-07-ffd4f4-093",
+    "label": "negative_liberty",
+    "rationale": "\"Civil liberty\" is contrasted with \"compulsory powers\" and \"laws of arrest,\" framing liberty as protection from state coercion and arbitrary detention.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1976-01-27-936d76-039",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom to belong to the ESU\" refers to freedom of association. The ending of this freedom represents a constraint or infringement, marking it as a negative liberty claim.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1976-05-24-4f7e49-036",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of conscience\" is the liberty object, representing a classic negative liberty protecting personal belief from external interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1978-02-01-1d5aa0-008",
+    "label": "negative_liberty",
+    "rationale": "The phrase 'liberty of the individual' paired with 'rights' typically invokes classical negative liberty (a protected sphere of non-interference), though the exact context is unspecified.",
+    "confidence": 0.65,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-07-12-ecca08-001",
+    "label": "positive_liberty",
+    "rationale": "\"local authorities freedom\" refers to the empowerment and enabled capacity of local government to act or make choices, which is positive liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-07-18-896d28-036",
+    "label": "ambiguous",
+    "rationale": "Bare \"freedom\" without enough context to determine if it refers to non-interference or enabled capacity.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-12-11-aa882c-001",
+    "label": "negative_liberty",
+    "rationale": "The phrase 'freedom under the law' refers to negative liberty, specifically the protection of civil liberties and freedom from arbitrary interference within a legal framework.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1979-12-12-38be99-110",
+    "label": "positive_liberty",
+    "rationale": "The granting of 'freedom and independence' to a population refers to collective self-determination and the empowerment of a group to govern itself, aligning with positive liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1980-02-26-0ff1c3-061",
+    "label": "negative_liberty",
+    "rationale": "The \"freedom of directors to do what they like\" refers to an absence of constraints or bounds on their actions, which is a negative liberty concept.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1980-03-07-7851f2-005",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is 'freedom of choice over the means of disposal', which claims an enabled choice over practical options, fitting positive liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1981-02-12-ff4823-000",
+    "label": "other",
+    "rationale": "\"Freedom of Information Bill\" is a proper noun referring to proposed legislation, not a substantive claim about liberty-as-a-value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1981-07-28-4c8a6e-033",
+    "label": "ambiguous",
+    "rationale": "Bare mention of \"liberty and freedom\" as topics of discussion without enough context to determine if it means non-interference or enabled capacity.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1982-07-23-066894-047",
+    "label": "negative_liberty",
+    "rationale": "\"Personal liberty and freedom\" in the context of \"human rights\" typically refers to civil liberties and protection from constraint, aligning with negative liberty despite the truncation.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1983-05-03-dd6d5a-045",
+    "label": "negative_liberty",
+    "rationale": "\"The liberty of the citizen\" is weighed against \"enhanced powers\" of the state, framing liberty as non-interference and protection from state constraint.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1985-01-21-688f2e-003",
+    "label": "negative_liberty",
+    "rationale": "The object is 'fundamental freedoms'; enshrining them in a bill of rights refers to constitutional protections against state interference, a classic negative liberty claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1985-05-16-4fe3b3-045",
+    "label": "ambiguous",
+    "rationale": "The phrase \"both sets of freedoms\" lacks sufficient context to determine whether it refers to non-interference or enabled capacity.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1987-11-10-bb5f9d-000",
+    "label": "negative_liberty",
+    "rationale": "The \"freedom of Members of Parliament to speak [and] vote\" refers to parliamentary privilege and freedom of speech, which are protections against interference (negative liberty).",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1988-03-24-47dac8-054",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of speech, thought, and the written word\" are classic negative liberties, representing protected spheres of non-interference and expression.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1988-11-02-4a4134-019",
+    "label": "negative_liberty",
+    "rationale": "Invokes Roosevelt's 'four freedoms' (speech, worship, want, fear), which align with negative liberty as protected spheres and freedom from constraints.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1989-02-17-f2f9c2-016",
+    "label": "positive_liberty",
+    "rationale": "The phrase 'freedom to choose' refers to enabled capacity and the practical opportunity to make choices, aligning with positive liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1991-05-20-377e6d-016",
+    "label": "positive_liberty",
+    "rationale": "The 'freedom... in the running of their affairs' refers to enabled capacity and self-direction, which is a positive liberty claim.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1992-11-24-0308c9-027",
+    "label": "ambiguous",
+    "rationale": "The 'freedom' extended by the single market could mean the removal of cross-border barriers (negative) or new practical opportunities to work and travel (positive).",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1993-11-22-81d164-082",
+    "label": "negative_liberty",
+    "rationale": "\"Personal freedom\" is paired with free markets and private enterprise, indicating a classic negative liberty claim about non-interference by the state.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1993-11-29-91199e-016",
+    "label": "positive_liberty",
+    "rationale": "The speaker equates \"freedom\" with the practical \"choice\" and \"opportunity\" to shop, framing liberty as enabled capacity and evaluating it based on practical options available to different groups.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1996-02-26-756bf4-008",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of information\" is a civil liberty akin to freedom of expression and the press, concerning the removal of state secrecy and non-interference in accessing information.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1996-04-26-533113-002",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of speech\" is a classic negative liberty, representing a protected sphere free from interference or censorship.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1997-02-05-67a8b4-026",
+    "label": "positive_liberty",
+    "rationale": "The freedom of schools refers to institutional empowerment and the capacity to govern themselves or make choices, which aligns with positive liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1998-07-07-2597f7-006",
+    "label": "other",
+    "rationale": "The phrase 'freedom of information award' refers to the title of an award; the sentence does not make a substantive claim about liberty as a value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1999-05-12-975aae-027",
+    "label": "positive_liberty",
+    "rationale": "\"Freedom of action\" for the WA refers to institutional empowerment and the capacity to act, which is a positive liberty claim.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "1999-12-14-692fb4-019",
+    "label": "other",
+    "rationale": "\"Liberty\" is used as a proper noun referring to a civil rights organization, not making a substantive claim about liberty-as-a-value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2000-04-18-40a174-002",
+    "label": "other",
+    "rationale": "\"Freedom\" is used as part of the proper noun \"Freedom of Information Bill\", not as a substantive claim about liberty.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2002-01-08-059adc-008",
+    "label": "positive_liberty",
+    "rationale": "\"Commercial freedom\" for the post office refers to empowering the institution with the capacity to operate and compete commercially.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2003-11-19-e8f2ec-016",
+    "label": "negative_liberty",
+    "rationale": "\"This great liberty\" is framed as something subject to \"erosion,\" indicating a protected sphere of non-interference being encroached upon.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2003-11-26-b30455-007",
+    "label": "ambiguous",
+    "rationale": "The phrase 'genuine freedom' is invoked, but the sentence lacks sufficient context to determine whether it refers to non-interference or enabled capacity.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2004-01-15-3ab96f-008",
+    "label": "negative_liberty",
+    "rationale": "\"That freedom\" is framed as a protected sphere that must be defended against threats from public bodies, indicating negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2004-03-29-b44a62-020",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of information\" is framed as a civil liberty and protected sphere, contrasting with privacy, indicating negative liberty (protection from state secrecy).",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2005-02-28-6b147b-004",
+    "label": "negative_liberty",
+    "rationale": "\"Deprivation\" and \"restraint\" of liberty refer to physical detention and restrictions on movement, which are constraints on negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2006-05-23-e048d6-026",
+    "label": "ambiguous",
+    "rationale": "The specific \"freedoms\" are underspecified; discipline and security could protect students from peer interference (negative) or enable their capacity to thrive and learn (positive).",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2007-03-08-b14083-008",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" here refers to the absence of coercion and enslavement; being \"sold\" and \"made to work\" are direct constraints, indicating negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2007-06-12-22813b-021",
+    "label": "other",
+    "rationale": "\"Liberty\" refers to the human rights organization (proper noun), not a substantive claim about liberty as a value.",
+    "confidence": 0.99,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2009-01-21-58f10d-005",
+    "label": "other",
+    "rationale": "\"Freedom of information\" is used here as an administrative term for FOI requests, rather than making a substantive philosophical claim about liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2010-07-14-67b4ff-005",
+    "label": "negative_liberty",
+    "rationale": "Welcomes measures restricting state surveillance (CCTV, DNA) and the 'freedom Bill', reflecting protection from state interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2012-07-06-18d8f0-000",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is the central bank; 'operational independence' and 'freedom in a framework' describe an institution's empowered capacity to act and exercise discretion.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2012-11-20-f6433c-003",
+    "label": "positive_liberty",
+    "rationale": "The \"freedom to set corporation tax rates\" refers to the capacity and empowerment of Northern Ireland to govern its own tax policy, indicating positive liberty.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2012-12-18-0cfce1-023",
+    "label": "ambiguous",
+    "rationale": "Bare invocation of \"liberty\" alongside justice without enough context to determine if it refers to non-interference or enabled capacity.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2013-04-10-2ab30c-011",
+    "label": "other",
+    "rationale": "The word 'Liberty' appears as part of a book title ('The Constitution of Liberty'), making this a proper noun usage rather than a substantive claim.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2013-09-12-94be61-013",
+    "label": "positive_liberty",
+    "rationale": "\"Commercial freedom\" is framed as enabling Royal Mail's capacity to compete and succeed in the market, aligning with positive liberty as empowerment.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2016-02-25-43f371-003",
+    "label": "positive_liberty",
+    "rationale": "\"Freedom of choice\" rooted in \"democracy\" invokes collective self-determination and the enabled capacity to govern oneself, aligning with positive liberty.",
+    "confidence": 0.8,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2017-09-12-04c813-049",
+    "label": "positive_liberty",
+    "rationale": "The 'freedom to do so' refers to the enabled capacity and practical opportunity of MPs to effectively represent their constituents.",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2018-01-29-fc6b82-002",
+    "label": "other",
+    "rationale": "\"Freedom of information requests\" refers to a specific administrative mechanism, not a substantive claim about liberty as a value.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2018-03-19-5be985-003",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is framed around the harm principle (non-interference limited only by harm to others), a classic negative liberty concept applied to the online world.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2018-06-13-2e3c04-003",
+    "label": "negative_liberty",
+    "rationale": "Refers to the EU's 'four freedoms' (movement of goods, capital, services, people), which are negative liberties protecting trade and movement from state interference.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2019-01-28-fc8e34-010",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of movement\" refers to the absence of constraints on travel and immigration, which is a protected sphere of negative liberty.",
+    "confidence": 0.85,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2019-03-27-180e85-002",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of speech\" is a classic negative liberty, representing a protected sphere of expression free from interference or censorship.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2019-04-02-50e8e4-002",
+    "label": "negative_liberty",
+    "rationale": "The liberty object is 'freedom of religious belief' in the context of persecution, which is a classic negative liberty claim about protection from constraint and interference.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2019-10-15-3f9a2e-001",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of expression\" is a classic negative liberty, protecting speech and debate from external interference or censorship.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-01-20-c61f0c-002",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of movement\" refers to the absence of constraints on travel and migration, which is a classic negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-05-13-76d628-003",
+    "label": "negative_liberty",
+    "rationale": "The sentence explicitly frames freedom as the removal of \"constraints\" (the CAP) that \"held us back,\" which is a classic negative liberty claim of non-interference.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-07-01-f40971-011",
+    "label": "negative_liberty",
+    "rationale": "The \"freedoms of... the people of Hong Kong\" refers to civil liberties and protection from authoritarian interference and oppression.",
+    "confidence": 0.9,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-07-21-5abd1e-016",
+    "label": "positive_liberty",
+    "rationale": "The liberty object is the local area/authority; the sentence concerns its enabled capacity and empowerment to make licensing decisions.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2020-07-21-ffe20e-000",
+    "label": "positive_liberty",
+    "rationale": "The \"freedom to invest\" refers to the enabled capacity of universities to make choices and act according to local priorities, which is a positive liberty claim.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-01-28-713fa6-011",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom\" is invoked as a core national value that people \"fought and died for,\" implying defense against tyranny, oppression, or foreign subjugation (negative liberty).",
+    "confidence": 0.75,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-02-04-e5dffc-004",
+    "label": "negative_liberty",
+    "rationale": "\"Freedom of religion\" is a classic negative liberty, referring to the protection of religious practice and conscience from state interference or coercion.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-03-17-27a774-001",
+    "label": "negative_liberty",
+    "rationale": "The sentence invokes \"freedom of movement,\" which is a protected sphere of non-interference, classifying it as negative liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-03-25-543ba8-000",
+    "label": "other",
+    "rationale": "\"Liberty\" refers to the company Liberty Steel, not a substantive claim about liberty-as-a-value.",
+    "confidence": 1.0,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  },
+  {
+    "sentence_id": "2021-04-12-e26568-010",
+    "label": "positive_liberty",
+    "rationale": "The phrase \"freedom... to do something\" refers to enabled capacity and opportunity provided by the award, classifying it as positive liberty.",
+    "confidence": 0.95,
+    "raw_provider_id": "gemini:gemini-3.1-pro-preview",
+    "error": null
+  }
+]

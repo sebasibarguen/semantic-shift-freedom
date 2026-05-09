@@ -1,21 +1,28 @@
 {
   "n_sample": 239,
-  "n_providers": 1,
+  "n_providers": 3,
   "providers": [
-    "claude"
+    "claude",
+    "gemini",
+    "gpt"
   ],
-  "n_gold": 0,
-  "n_silver": 239,
-  "n_disputed": 0,
-  "gold_rate": 0.0,
-  "silver_rate": 1.0,
-  "disputed_rate": 0.0,
+  "n_gold": 178,
+  "n_silver": 56,
+  "n_disputed": 5,
+  "gold_rate": 0.7448,
+  "silver_rate": 0.2343,
+  "disputed_rate": 0.0209,
   "low_confidence_in_gold": 0,
-  "label_distribution_gold": {},
+  "label_distribution_gold": {
+    "ambiguous": 14,
+    "negative_liberty": 99,
+    "other": 39,
+    "positive_liberty": 26
+  },
   "label_distribution_silver": {
-    "ambiguous": 29,
-    "negative_liberty": 123,
-    "other": 54,
-    "positive_liberty": 33
+    "ambiguous": 18,
+    "negative_liberty": 19,
+    "other": 6,
+    "positive_liberty": 13
   }
 }

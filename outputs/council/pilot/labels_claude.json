@@ -2,15 +2,15 @@
   {
     "sentence_id": "1804-dcd329-352",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the country\" invoked rhetorically as a cause endangered by external threat, opposed to tyranny\u2014classic negative liberty framing.",
-    "confidence": 0.75,
+    "rationale": "\"Liberty of the country\" invoked rhetorically as a cause endangered by external threat\u2014classic non-interference framing against tyranny.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1806-3cf2ef-004",
     "label": "negative_liberty",
-    "rationale": "Freedom of Parliament from interference/coercion, secured by jury trial as protection against arbitrary prosecution\u2014non-interference framing.",
+    "rationale": "Freedom of Parliament secured by jury trial \u2014 protection against arbitrary prosecution/interference, a non-interference claim.",
     "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -18,7 +18,7 @@
   {
     "sentence_id": "1807-7555ea-075",
     "label": "ambiguous",
-    "rationale": "\"Liberty\" invoked as the abstract value associated with British institutions; no specific non-interference or enabling claim is made\u2014usage is rhetorical/under-specified.",
+    "rationale": "\"Liberty\" invoked rhetorically as an abstract value associated with British institutions, without specifying non-interference or enabled capacity; under-specified.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -26,7 +26,7 @@
   {
     "sentence_id": "1807-821f35-004",
     "label": "negative_liberty",
-    "rationale": "\"Liberty\" invoked rhetorically alongside security and national independence as blessings to defend against external threat\u2014classic non-interference framing.",
+    "rationale": "\"Liberty\" invoked alongside security and national independence as blessings to defend against external threat \u2014 a rhetorical non-interference framing.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -34,31 +34,31 @@
   {
     "sentence_id": "1808-6330f5-002",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the subject\" invoked as protection against parliamentary/state interference\u2014classic non-interference framing.",
-    "confidence": 0.78,
+    "rationale": "\"Liberty of the subject\" invoked as protection against state/parliamentary action\u2014classic non-interference framing of civil liberty.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1808-7e790d-167",
     "label": "negative_liberty",
-    "rationale": "Liberty of the people paired with property, framed as something to be guarded against encroachment\u2014classic non-interference invocation.",
-    "confidence": 0.75,
+    "rationale": "\"Liberty of the people\" paired with property, framed as something to be guarded by Parliament against encroachment\u2014classic non-interference invocation.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1809-65a12f-137",
     "label": "other",
-    "rationale": "\"Taken the liberty to address\" is a parliamentary politeness idiom, not a substantive liberty claim.",
-    "confidence": 0.98,
+    "rationale": "\"Taken the liberty to address\" is a parliamentary courtesy idiom, not a substantive liberty claim.",
+    "confidence": 0.97,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1810-7c4614-031",
     "label": "ambiguous",
-    "rationale": "\"Liberty of the people\" invoked as general value alongside happiness, without specifying non-interference vs. enabled capacity; bare rhetorical use.",
+    "rationale": "\"Liberty of the people\" invoked generally alongside happiness, without specifying non-interference vs. enabled capacity; bare rhetorical use.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -66,7 +66,7 @@
   {
     "sentence_id": "1811-cf3ffc-171",
     "label": "other",
-    "rationale": "Parliamentary idiom \"take the liberty of reading\"; non-substantive usage of liberty.",
+    "rationale": "\"Take the liberty of reading\" is a parliamentary politeness idiom, not a substantive liberty claim.",
     "confidence": 0.98,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -74,7 +74,7 @@
   {
     "sentence_id": "1812-731848-139",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of liberty as a cherished value alongside honour and virtue, traditionally associated with protection from tyranny/constraint.",
+    "rationale": "Rhetorical invocation of liberty as a cherished value tied to constitutional government, opposed to tyranny\u2014classic negative-liberty framing.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -82,16 +82,16 @@
   {
     "sentence_id": "1814-dd446d-150",
     "label": "negative_liberty",
-    "rationale": "\"Freedom of our debates\" framed as a sphere to be protected by rules\u2014non-interference with parliamentary debate.",
-    "confidence": 0.7,
+    "rationale": "\"Freedom of our debates\" refers to protecting parliamentary debate from interference/constraint\u2014a classic non-interference sphere.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1814-f8032c-125",
     "label": "negative_liberty",
-    "rationale": "\"Cause of freedom\" invoked rhetorically against tyranny and kingly pride; frames liberty as opposition to oppression/tyranny, characteristic of negative liberty.",
-    "confidence": 0.6,
+    "rationale": "\"Cause of freedom\" invoked rhetorically in opposition to tyranny and outrage, framing liberty as protection against oppressive power.",
+    "confidence": 0.65,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -106,7 +106,7 @@
   {
     "sentence_id": "1815-bd0c79-681",
     "label": "ambiguous",
-    "rationale": "Bare historical reference to \"spirit of liberty\" during civil war without specifying non-interference or capacity; rhetorical/under-specified.",
+    "rationale": "\"Spirit of liberty\" invoked rhetorically in historical narrative about civil war/Revolution; bare reference without specifying interference or capacity.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -114,7 +114,7 @@
   {
     "sentence_id": "1818-be1b30-006",
     "label": "negative_liberty",
-    "rationale": "Liberty object is citizens of London being permitted to raise money themselves\u2014non-interference from central authority in their fiscal self-arrangement.",
+    "rationale": "Liberty of citizens of London to raise money themselves without interference\u2014claim against external constraint on self-financing.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -122,7 +122,7 @@
   {
     "sentence_id": "1819-9adafb-141",
     "label": "negative_liberty",
-    "rationale": "\"Rational principles of liberty\" invoked rhetorically against war/bloodshed; framed as a cause opposed to oppression, fitting negative liberty's protective sense.",
+    "rationale": "\"Rational principles of liberty\" invoked rhetorically as cause opposed to war/tyranny; classic non-interference framing without specific enabling capacity.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -130,7 +130,7 @@
   {
     "sentence_id": "1819-9d34c8-112",
     "label": "negative_liberty",
-    "rationale": "Liberty of the press and freedom of debate invoked as protected spheres against despotism\u2014classic non-interference claims.",
+    "rationale": "Liberty of the press and freedom of debate framed as protected spheres against despotic interference\u2014classic non-interference claims.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -138,16 +138,16 @@
   {
     "sentence_id": "1820-deeaf0-000",
     "label": "ambiguous",
-    "rationale": "Bare rhetorical question about \"freedom\" with no context to determine whether non-interference or enabled capacity is meant.",
-    "confidence": 0.85,
+    "rationale": "Bare rhetorical question about the meaning of \"freedom\" with no context to determine whether non-interference or capacity is at issue.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1822-5d2ccf-080",
     "label": "other",
-    "rationale": "\"Took the liberty of offering\" is parliamentary idiom, not a substantive liberty claim.",
-    "confidence": 0.98,
+    "rationale": "\"Took the liberty of\" is a parliamentary idiom; no substantive liberty claim.",
+    "confidence": 0.97,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -162,7 +162,7 @@
   {
     "sentence_id": "1822-af1595-013",
     "label": "other",
-    "rationale": "\"Take the liberty of\" is a parliamentary courtesy idiom, not a substantive liberty claim.",
+    "rationale": "\"Take the liberty of\" is a parliamentary politeness idiom, not a substantive liberty claim.",
     "confidence": 0.98,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -170,7 +170,7 @@
   {
     "sentence_id": "1824-1bb67f-315",
     "label": "other",
-    "rationale": "\"Excuse the liberty I take\" is a polite epistolary idiom, not a substantive liberty claim.",
+    "rationale": "\"Excuse the liberty I take\" is an idiomatic politeness formula in a letter, not a substantive liberty claim.",
     "confidence": 0.98,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -178,7 +178,7 @@
   {
     "sentence_id": "1824-e4aa52-009",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the subject\" framed as something not to be abridged without justification\u2014classic non-interference/protection from state constraint.",
+    "rationale": "\"Liberty of the subject\" framed as something not to be abridged without justification \u2014 classic non-interference/protection against state constraint.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -186,8 +186,8 @@
   {
     "sentence_id": "1826-20426e-061",
     "label": "negative_liberty",
-    "rationale": "\"At liberty to bring\" describes ships' permission to trade without restriction\u2014non-interference in navigation/trade, a classic negative liberty in commerce.",
-    "confidence": 0.75,
+    "rationale": "\"At liberty to bring\" describes ships' permission to trade goods without restriction\u2014a non-interference / free trade claim about navigation and commerce.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -202,7 +202,7 @@
   {
     "sentence_id": "1829-6a97d3-081",
     "label": "other",
-    "rationale": "\"Freedom of the city\" is an idiomatic civic privilege/status, not a substantive claim about non-interference or enabled agency.",
+    "rationale": "\"Freedom of the city\" is an idiomatic civic status/honor, not a substantive liberty claim about non-interference or capacity.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -210,7 +210,7 @@
   {
     "sentence_id": "1829-cbd157-015",
     "label": "negative_liberty",
-    "rationale": "Liberty of nations/peoples framed as resistance to despotism, encroachment, and oppression\u2014classic non-interference rhetoric against tyranny.",
+    "rationale": "Liberty of nations/peoples framed as resistance to despotism, oppression, and encroachment\u2014classic non-interference rhetoric opposing tyranny.",
     "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -218,7 +218,7 @@
   {
     "sentence_id": "1830-00f22c-558",
     "label": "ambiguous",
-    "rationale": "Bare invocation of \"liberty\" of fellow-subjects paired with happiness; no context to determine non-interference vs. enabled capacity.",
+    "rationale": "Bare rhetorical invocation of \"liberty\" of fellow-subjects without context specifying non-interference or enabled capacity.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -226,15 +226,15 @@
   {
     "sentence_id": "1832-035b21-183",
     "label": "ambiguous",
-    "rationale": "\"Freedom\" of enslaved people discussed abstractly; speaker contests its meaning (cessation of labor vs. industrious liberty), without clearly invoking non-interference or enabled capacity.",
-    "confidence": 0.55,
+    "rationale": "Discusses freedom of enslaved persons but in meta-commentary about how \"freedom\" is conceived; bare \"freedom\" with competing readings (non-coercion vs. capacity for industry).",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1832-1ed70a-087",
     "label": "negative_liberty",
-    "rationale": "Refers to freedom of the voter via secret ballot \u2014 protection from intimidation/coercion by landlords/employers, i.e., non-interference in the act of voting.",
+    "rationale": "\"Freedom\" refers to voter freedom from intimidation/coercion via secret ballot \u2014 protection from constraint on electoral choice.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -242,15 +242,15 @@
   {
     "sentence_id": "1833-556314-025",
     "label": "negative_liberty",
-    "rationale": "\"At liberty to obtain\" here invokes non-interference with a worker's freedom to seek/earn wages without restriction.",
-    "confidence": 0.6,
+    "rationale": "\"At liberty to obtain\" concerns non-interference with a worker's freedom to seek/accept wages\u2014a protected sphere of contract free from restriction.",
+    "confidence": 0.65,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1833-7fed93-405",
     "label": "negative_liberty",
-    "rationale": "\"Political freedom\" of Ireland framed as decline under Union\u2014invokes liberty as protection from external/imperial constraint, a classic non-interference claim.",
+    "rationale": "\"Political freedom\" of Ireland framed as declining under the Union\u2014invokes liberty as protection from external/imperial constraint on a nation.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -258,7 +258,7 @@
   {
     "sentence_id": "1834-d17a61-030",
     "label": "negative_liberty",
-    "rationale": "Freedom of debate in the Lords framed as under attack\u2014non-interference with parliamentary speech, classic negative liberty.",
+    "rationale": "Freedom of debate in the House framed as under attack; classic non-interference/protected sphere of parliamentary speech.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -266,7 +266,7 @@
   {
     "sentence_id": "1835-36d9c4-002",
     "label": "negative_liberty",
-    "rationale": "Liberty paired with money as something wasted by oppressive laws; invokes liberty as protection against constraint/excessive legal interference.",
+    "rationale": "Liberty paired with money as something wasted by oppressive laws; invokes liberty as protected sphere being eroded\u2014non-interference framing.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -274,7 +274,7 @@
   {
     "sentence_id": "1835-3ddb46-008",
     "label": "other",
-    "rationale": "\"Take the liberty of observing\" is a parliamentary courtesy phrase, not a substantive liberty claim.",
+    "rationale": "\"Take the liberty of observing\" is a parliamentary politeness formula, not a substantive liberty claim.",
     "confidence": 0.97,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -282,15 +282,15 @@
   {
     "sentence_id": "1836-7a7cfb-078",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of \"the cause of liberty\" in the Peninsula (Spain/Portugal), opposing tyranny \u2014 a classic negative-liberty trope.",
+    "rationale": "Rhetorical invocation of \"the cause of liberty\" in the Peninsular context, opposing tyranny\u2014classic negative-liberty framing.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1836-ec1ee7-033",
-    "label": "negative_liberty",
-    "rationale": "\"Friends of freedom\" used rhetorically as a cause the Earl champions; invokes liberty as opposition to oppression/tyranny without specifying enabled capacity.",
+    "label": "other",
+    "rationale": "\"Friends of freedom\" is a rhetorical invocation of liberty as a cause; the sentence is mainly about conferring discretionary powers, not a substantive liberty claim.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -298,7 +298,7 @@
   {
     "sentence_id": "1838-faaae8-066",
     "label": "other",
-    "rationale": "\"Take the liberty of reading\" is parliamentary procedural idiom, not a substantive liberty claim.",
+    "rationale": "\"Take the liberty of reading\" is a parliamentary politeness idiom, not a substantive liberty claim.",
     "confidence": 0.97,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -314,15 +314,15 @@
   {
     "sentence_id": "1840-ff925a-020",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of \"land of liberty\" contrasted with denial of a just request, evoking liberty as freedom from oppression/arbitrary refusal.",
-    "confidence": 0.55,
+    "rationale": "Rhetorical invocation of \"land of liberty\" opposing denial of a just request; frames liberty as protection against arbitrary refusal/oppression.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1842-179949-012",
     "label": "negative_liberty",
-    "rationale": "Liberty of slaves from bondage\u2014freedom from coercion/enslavement upon entering English territory; classic non-interference/emancipation claim.",
+    "rationale": "Liberty of slaves from bondage\u2014removal of coercion/constraint upon entering English jurisdiction; classic non-interference/freedom-from-slavery claim.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -330,7 +330,7 @@
   {
     "sentence_id": "1843-1c58cf-017",
     "label": "other",
-    "rationale": "\"At liberty to pursue\" is a parliamentary/procedural idiom meaning \"permitted/able to choose,\" not a substantive liberty claim.",
+    "rationale": "\"At liberty to pursue\" is parliamentary/procedural idiom meaning \"free to choose among options\"; no substantive liberty-as-value claim.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -338,7 +338,7 @@
   {
     "sentence_id": "1843-22d395-031",
     "label": "other",
-    "rationale": "\"At liberty to prove\" is procedural/permissive usage about a party's standing in legal proceedings, not a substantive liberty claim.",
+    "rationale": "\"At liberty to prove\" is a procedural/legal usage meaning permitted to do so, not a substantive liberty-as-value claim.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -346,7 +346,7 @@
   {
     "sentence_id": "1843-b836c3-008",
     "label": "other",
-    "rationale": "\"At liberty to make use of it\" is procedural/idiomatic usage about a speaker's permission to disclose information, not a substantive liberty claim.",
+    "rationale": "\"At liberty to make use of it\" is procedural/idiomatic usage about permission to act on a document, not a substantive liberty claim.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -354,15 +354,15 @@
   {
     "sentence_id": "1843-cf9bfc-081",
     "label": "negative_liberty",
-    "rationale": "Religious freedom framed as protected sphere of conscience/belief without coercion\u2014classic negative liberty in religion.",
-    "confidence": 0.78,
+    "rationale": "\"Religious freedom\" framed as a protected sphere of conscience and creed, free from external imposition\u2014classic non-interference.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1844-48ed32-078",
     "label": "negative_liberty",
-    "rationale": "Concerns restraining speech and \"freedom of the people\" \u2014 framed as protection of expression from constraint, classic negative liberty.",
+    "rationale": "Concerns restraining speech and freedom of the people\u2014non-interference with expression against constraint.",
     "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -370,23 +370,23 @@
   {
     "sentence_id": "1845-5f9d3d-450",
     "label": "negative_liberty",
-    "rationale": "Liberty of the poor/relief recipients framed as protection against being deprived of it as a coercive condition\u2014non-interference.",
-    "confidence": 0.8,
+    "rationale": "Liberty of the poor framed as protection against being deprived/coerced into vassalage as condition of relief \u2014 non-interference.",
+    "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1845-b8d460-006",
-    "label": "negative_liberty",
-    "rationale": "\"Liberty of action\" claimed as freedom from constraint/commitment on other points\u2014a non-interference claim regarding the speaker's own conduct.",
-    "confidence": 0.7,
+    "label": "other",
+    "rationale": "\"Liberty of action\" claimed by an MP refers to parliamentary non-interference with his independent judgment\u2014a procedural/rhetorical use rather than substantive liberty claim.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1846-32e32f-020",
     "label": "other",
-    "rationale": "\"At liberty to narrate\" is procedural/idiomatic usage about permission to speak, not a substantive liberty claim.",
+    "rationale": "\"At liberty to narrate\" is procedural/idiomatic usage, not a substantive liberty claim.",
     "confidence": 0.95,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -394,8 +394,8 @@
   {
     "sentence_id": "1846-3324bb-007",
     "label": "negative_liberty",
-    "rationale": "\"Civil and religious liberty\" invoked as a sphere protected from Church/state encroachment via bishops in Lords\u2014non-interference framing.",
-    "confidence": 0.7,
+    "rationale": "\"Civil and religious liberty\" invoked as protected sphere against Church/state encroachment via new bishops in Lords\u2014non-interference framing.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -410,15 +410,15 @@
   {
     "sentence_id": "1851-e57be1-052",
     "label": "negative_liberty",
-    "rationale": "Freedom to trade framed as removing restrictions/interference on commerce \u2014 a classic negative liberty (protected sphere of trade).",
-    "confidence": 0.85,
+    "rationale": "Freedom to trade framed as removal of restrictions/interference on commerce \u2014 classic negative liberty (protected sphere of trade).",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1852-4750a8-038",
     "label": "ambiguous",
-    "rationale": "Bare reference to \"the liberty\" with no context to determine whether it concerns non-interference or enabled capacity.",
+    "rationale": "Bare evaluative comment on \"the liberty\" without context to identify object or whether non-interference or capacity is meant.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -426,7 +426,7 @@
   {
     "sentence_id": "1853-291237-005",
     "label": "negative_liberty",
-    "rationale": "Liberty of the press as a protected sphere of expression free from interference\u2014classic negative liberty.",
+    "rationale": "Press liberty as a protected sphere of expression free from interference\u2014classic negative liberty.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -434,7 +434,7 @@
   {
     "sentence_id": "1853-7e686f-006",
     "label": "negative_liberty",
-    "rationale": "Religious liberty framed as a natural right invaded by law\u2014classic non-interference / protection from state encroachment on conscience.",
+    "rationale": "Religious liberty framed as natural right invaded by law\u2014classic non-interference claim against state intrusion into religion.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -442,7 +442,7 @@
   {
     "sentence_id": "1854-3407a8-124",
     "label": "other",
-    "rationale": "\"At liberty to desert\" is an idiomatic legal phrase about contractual permission, not a substantive liberty claim.",
+    "rationale": "\"Not at liberty to desert\" is a procedural/legal idiom about contractual permission, not a substantive liberty claim.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -458,16 +458,16 @@
   {
     "sentence_id": "1856-6beeb1-184",
     "label": "ambiguous",
-    "rationale": "\"Political liberty of the people\" in context of franchise/reform\u2014an underspecified invocation that could mean non-interference or enabled participation; bare phrase without disambiguation.",
+    "rationale": "\"Political liberty of the people\" in context of franchise/reform settlement is underspecified between non-interference and enabled participation/self-government.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1856-ca9e60-261",
-    "label": "negative_liberty",
-    "rationale": "Freedom invoked rhetorically as a value threatened by overreach beyond order; treats liberty as a protected sphere needing limits, closer to non-interference framing.",
-    "confidence": 0.5,
+    "label": "ambiguous",
+    "rationale": "Rhetorical aphorism about \"freedom\" without specifying enabling or constraining aspect; bare invocation warning against excess, defensible either way.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -482,7 +482,7 @@
   {
     "sentence_id": "1859-aa121c-025",
     "label": "negative_liberty",
-    "rationale": "Liberty here refers to protection via judicial reasoning\u2014safeguarding individuals from arbitrary legal decisions, a non-interference/rule-of-law concern.",
+    "rationale": "Liberty as a protected sphere requiring safeguards via reasoned judicial decisions\u2014non-interference/rule-of-law protection.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -498,15 +498,15 @@
   {
     "sentence_id": "1860-3e014a-002",
     "label": "negative_liberty",
-    "rationale": "Freedom of emancipados (freed slaves) \u2014 concerns release from bondage/constraint, a paradigmatic non-interference liberty claim.",
-    "confidence": 0.75,
+    "rationale": "Freedom of emancipados (freed slaves) from bondage\u2014removal of coercive constraint of slavery, a paradigmatic non-interference liberty.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1860-9221d3-059",
     "label": "other",
-    "rationale": "\"At liberty to give advice\" is a procedural/idiomatic usage about permission, not a substantive liberty-as-value claim.",
+    "rationale": "\"At liberty to give advice\" is a procedural/idiomatic usage meaning permitted, not a substantive liberty claim.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -514,7 +514,7 @@
   {
     "sentence_id": "1861-b1b8df-003",
     "label": "other",
-    "rationale": "\"Take the liberty of\" is a parliamentary politeness idiom, not a substantive liberty claim.",
+    "rationale": "\"Take the liberty of\" is a parliamentary courtesy phrase, not a substantive liberty claim.",
     "confidence": 0.98,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -522,7 +522,7 @@
   {
     "sentence_id": "1862-0064cb-065",
     "label": "negative_liberty",
-    "rationale": "Colleges' freedom of action: request to remove state-imposed restrictions\u2014classic non-interference framing.",
+    "rationale": "Colleges' freedom of action framed as removal of state-imposed restrictions\u2014classic non-interference claim.",
     "confidence": 0.88,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -530,15 +530,15 @@
   {
     "sentence_id": "1864-f1d5e2-009",
     "label": "negative_liberty",
-    "rationale": "\"Freedom of contract\" framed as a protected sphere not interfered with by Poor Law\u2014classic non-interference claim.",
-    "confidence": 0.9,
+    "rationale": "Freedom of contract framed as a protected sphere not interfered with by Poor Law\u2014classic non-interference claim.",
+    "confidence": 0.88,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1865-ecdcf2-000",
     "label": "other",
-    "rationale": "\"At perfect liberty to apply\" is parliamentary/procedural idiom meaning permitted to do so; not a substantive liberty claim.",
+    "rationale": "\"At perfect liberty to apply\" is procedural/idiomatic usage indicating permission to take an action, not a substantive liberty claim.",
     "confidence": 0.95,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -546,15 +546,15 @@
   {
     "sentence_id": "1868-961c0c-031",
     "label": "negative_liberty",
-    "rationale": "Freedom of contract framed as a sphere not interfered with by government\u2014classic non-interference claim.",
-    "confidence": 0.9,
+    "rationale": "Freedom of contract framed as a sphere not to be interfered with by Government legislation\u2014classic non-interference claim.",
+    "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1868-cff155-064",
     "label": "ambiguous",
-    "rationale": "Bare invocation of \"freedom\" alongside equality and fair play as principles, without specifying interference or capacity; under-specified.",
+    "rationale": "Bare invocation of \"freedom\" alongside equality and fair play as principles, without specifying non-interference or enabled capacity.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -562,7 +562,7 @@
   {
     "sentence_id": "1868-d840ad-082",
     "label": "negative_liberty",
-    "rationale": "Slaves claiming \"freedom\" upon reaching British soil\u2014liberation from bondage/coercion, classic non-interference/protection from constraint.",
+    "rationale": "Slaves claiming freedom upon boarding British soil\u2014liberation from bondage/coercion, classic non-interference/emancipation from constraint.",
     "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -570,7 +570,7 @@
   {
     "sentence_id": "1869-da5b2f-005",
     "label": "negative_liberty",
-    "rationale": "Freedom of speech and writing as protected spheres against constraint\u2014classic negative liberty invocation.",
+    "rationale": "Freedom of speech and writing as protected spheres against restriction\u2014classic non-interference liberties.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -578,7 +578,7 @@
   {
     "sentence_id": "1870-88737e-030",
     "label": "negative_liberty",
-    "rationale": "Liberty here is framed as being abridged by class legislation\u2014a constraint/interference on the individual, classic negative liberty.",
+    "rationale": "\"Abridges his liberty\" frames legislation as a constraint/interference on the individual's sphere \u2014 classic negative liberty.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -586,7 +586,7 @@
   {
     "sentence_id": "1870-afcf55-121",
     "label": "negative_liberty",
-    "rationale": "Liberty of Europe invoked as freedom from Russian encroachment/absorption\u2014non-interference framing against external domination.",
+    "rationale": "Liberty of Europe invoked as something to be protected from Russian encroachment/absorption\u2014non-interference framing against external domination.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -594,23 +594,23 @@
   {
     "sentence_id": "1871-9fc067-014",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the subject\" invoked as protection of MPs/citizens against increased procedural control\u2014classic non-interference framing.",
-    "confidence": 0.78,
+    "rationale": "\"Liberty of the subject\" invoked as protection against parliamentary control/restriction\u2014classic non-interference framing.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1871-b9ae04-108",
     "label": "negative_liberty",
-    "rationale": "Government regulation/examination of women framed as infringement on rights and \"general liberty of the State\"\u2014non-interference against state coercion.",
-    "confidence": 0.78,
+    "rationale": "Government regulation/examination of women framed as infringing rights and \"general liberty of the State\"\u2014a protest against state coercion and interference.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1871-c6b77e-048",
     "label": "negative_liberty",
-    "rationale": "\"Liberty in the East\" invoked rhetorically as a cause opposed to oppression/tyranny under Ottoman rule; fits negative liberty as freedom from oppression, though underspecified.",
+    "rationale": "\"Liberty in the East\" invoked rhetorically as a cause to be promoted against Ottoman/Eastern oppression\u2014a non-interference framing typical of anti-tyranny rhetoric.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -618,7 +618,7 @@
   {
     "sentence_id": "1874-8343c7-170",
     "label": "other",
-    "rationale": "\"At liberty\" used in procedural/permissive sense regarding soldiers transferring to Reserve; not a substantive liberty-as-value claim.",
+    "rationale": "\"At liberty\" used in procedural/permissive sense about soldiers being allowed to transfer to Reserve; not a substantive liberty-as-value claim.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -626,23 +626,23 @@
   {
     "sentence_id": "1876-499f2b-009",
     "label": "negative_liberty",
-    "rationale": "\"Constitutional liberty\" framed as a protected sphere/privilege against political domination; invokes liberty as cause against ruin\u2014non-interference rhetoric.",
-    "confidence": 0.6,
+    "rationale": "\"Constitutional liberty\" framed as protection of the people's privilege to speak/condemn rulers\u2014non-interference against tyranny.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1879-3cc243-165",
     "label": "negative_liberty",
-    "rationale": "\"English spirit of liberty\" invoked rhetorically against centralism as a constraining/interfering force\u2014classic non-interference framing.",
-    "confidence": 0.7,
+    "rationale": "\"English spirit of liberty\" invoked against centralism as encroaching constraint on local/individual non-interference; rhetorical opposition to centralized control.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1879-519db2-018",
     "label": "negative_liberty",
-    "rationale": "\"Right to freedom\" paired with security of property and good governance\u2014classic non-interference framing of protected rights against state encroachment.",
+    "rationale": "\"Right to freedom\" paired with security of property suggests classical non-interference rights against government encroachment, though \"well governed\" is mildly enabling.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -650,7 +650,7 @@
   {
     "sentence_id": "1880-0dc8e9-207",
     "label": "positive_liberty",
-    "rationale": "\"Freedom of classification\" for teachers concerns enabled capacity/discretion to organize pupils and exercise a power; framed as empowerment rendered impossible by regulations.",
+    "rationale": "\"Freedom of classification\" for teachers concerns enabled capacity/discretion to organize pupils and exercise a power; framed as empowerment rather than non-interference.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -658,23 +658,23 @@
   {
     "sentence_id": "1881-8ba5a1-017",
     "label": "negative_liberty",
-    "rationale": "\"Freedom of action\" of decision-makers framed as protection from popular pressure/coercion \u2014 non-interference claim.",
-    "confidence": 0.7,
+    "rationale": "\"Freedom of action\" of officials/body framed as protection from popular pressure/coercion depriving them \u2014 non-interference claim.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1881-e2a0f5-028",
     "label": "other",
-    "rationale": "\"Liberty of action in Committee\" is parliamentary procedural usage\u2014reserving the right to act freely in committee, not a substantive liberty-as-value claim.",
-    "confidence": 0.9,
+    "rationale": "\"Liberty of action in Committee\" is parliamentary procedural usage, not a substantive liberty-as-value claim.",
+    "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1883-265a4d-276",
     "label": "ambiguous",
-    "rationale": "Bare invocation of \"true liberty\" without specifying non-interference or enabled capacity; rhetorical and underspecified.",
+    "rationale": "Bare rhetorical invocation of \"true liberty\" without context specifying non-interference or enabled capacity; both readings defensible.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -682,7 +682,7 @@
   {
     "sentence_id": "1883-330e95-070",
     "label": "negative_liberty",
-    "rationale": "Freedom of discussion in Committee of Supply framed as threatened by \"binding fetters\"\u2014a constraint on parliamentary debate/speech.",
+    "rationale": "Freedom of discussion in Committee threatened by \"binding fetters\"\u2014classic non-interference claim against constraint on parliamentary speech.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -690,7 +690,7 @@
   {
     "sentence_id": "1883-f8d5d2-006",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of liberty as a cause violated by \"crimes\"\u2014frames liberty as something to be protected from infringement, characteristic of negative liberty.",
+    "rationale": "Rhetorical invocation of liberty as a cause violated by \"crimes\"\u2014frames liberty as a protected sphere against oppression/interference.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -698,7 +698,7 @@
   {
     "sentence_id": "1884-8197db-046",
     "label": "positive_liberty",
-    "rationale": "Quotes definition of borough as \"freedom and independence conveyed by Royal Charter\"\u2014chartered self-government/empowerment of a locality.",
+    "rationale": "\"Freedom and independence conveyed by Royal Charter\" describes an enabled capacity/empowerment granted to a body, fitting positive liberty.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -706,7 +706,7 @@
   {
     "sentence_id": "1885-d7f650-149",
     "label": "negative_liberty",
-    "rationale": "Historical reference to the \"Wilkes and Liberty\" slogan; rhetorical invocation of liberty as cause against governmental oppression/tyranny.",
+    "rationale": "Historical reference to \"Wilkes and Liberty\" slogan; rhetorical invocation against governmental oppression/censorship, fitting negative liberty against tyranny.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -714,7 +714,7 @@
   {
     "sentence_id": "1886-bff98e-052",
     "label": "negative_liberty",
-    "rationale": "Fiscal liberty here means freedom from external interference in setting taxes/finances\u2014a protected sphere of autonomy from constraint.",
+    "rationale": "Fiscal liberty here means freedom from external interference in setting taxes/finances\u2014a protected sphere of non-interference for the colony/dominion.",
     "confidence": 0.65,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -722,7 +722,7 @@
   {
     "sentence_id": "1886-c009ec-015",
     "label": "other",
-    "rationale": "\"Took the liberty of saying\" is an idiomatic parliamentary phrase, not a substantive liberty claim.",
+    "rationale": "\"Took the liberty of saying\" is a parliamentary/idiomatic phrase, not a substantive liberty claim.",
     "confidence": 0.97,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -730,7 +730,7 @@
   {
     "sentence_id": "1892-afc388-000",
     "label": "negative_liberty",
-    "rationale": "Religious liberty as protected sphere of conscience/worship free from state interference\u2014classic negative liberty.",
+    "rationale": "Religious liberty as a protected sphere from interference/coercion in matters of conscience and worship.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -738,7 +738,7 @@
   {
     "sentence_id": "1894-c22fd7-013",
     "label": "ambiguous",
-    "rationale": "\"Freedom of his country\" invoked rhetorically alongside peace, supporting coercive Act; bare freedom without disambiguation between non-interference and capacity.",
+    "rationale": "\"Freedom\" of Ireland invoked rhetorically alongside peace, supporting coercive Act; bare invocation without specifying non-interference vs. capacity.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -746,7 +746,7 @@
   {
     "sentence_id": "1896-323d3e-023",
     "label": "negative_liberty",
-    "rationale": "Slave's liberty to claim freedom from bondage\u2014removal of coercive constraint of slavery, classic non-interference framing.",
+    "rationale": "Slave's liberty to claim freedom from bondage\u2014removal of coercive constraint of slavery, classic non-interference/emancipation claim.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -754,7 +754,7 @@
   {
     "sentence_id": "1898-21c0dd-107",
     "label": "other",
-    "rationale": "\"At liberty to legislate\" is a procedural/idiomatic usage about Parliament's permission to act, not a substantive liberty claim.",
+    "rationale": "\"At liberty to legislate\" is a procedural/idiomatic usage about permission to act, not a substantive liberty claim.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -762,7 +762,7 @@
   {
     "sentence_id": "1898-262558-001",
     "label": "negative_liberty",
-    "rationale": "Protests denial of freedom of speech and constitutional action, with police violence as constraint\u2014classic non-interference claim.",
+    "rationale": "Protests denial of freedom of speech and constitutional action, with police baton charges as coercive interference\u2014classic non-interference claim.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -770,7 +770,7 @@
   {
     "sentence_id": "1898-287adf-005",
     "label": "positive_liberty",
-    "rationale": "Freedom for the Secretary for Scotland to determine grant conditions\u2014enabled administrative capacity/discretion to act, positive liberty.",
+    "rationale": "\"Greater freedom\" for the Secretary for Scotland regarding grant distribution conditions\u2014enabled administrative capacity/discretion to act, not protection from interference.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -778,7 +778,7 @@
   {
     "sentence_id": "1898-ac5fcf-015",
     "label": "negative_liberty",
-    "rationale": "Freedom of the press framed as a protected sphere being interfered with\u2014classic non-interference claim.",
+    "rationale": "Freedom of the press framed as being interfered with\u2014classic non-interference/protected sphere claim.",
     "confidence": 0.95,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -786,23 +786,23 @@
   {
     "sentence_id": "1899-185551-001",
     "label": "negative_liberty",
-    "rationale": "Individual liberty invoked as laissez-faire principle of non-interference; speaker frames regulation as not infringing this protected sphere.",
-    "confidence": 0.8,
+    "rationale": "\"Individual liberty\" invoked as laissez-faire principle of non-interference; speaker frames regulation as not infringing this protected sphere.",
+    "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1899-6936b6-017",
     "label": "negative_liberty",
-    "rationale": "Liberty of colonies to make fiscal arrangements free from foreign interference\u2014non-interference in self-governing fiscal sphere.",
-    "confidence": 0.65,
+    "rationale": "Liberty of colonies to make fiscal arrangements free from foreign Power's interference\u2014non-interference in self-governance, leaning negative.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1900-67b5db-000",
     "label": "other",
-    "rationale": "Procedural use: \"reserve the liberty of voting\" refers to parliamentary discretion, not a substantive liberty claim.",
+    "rationale": "Procedural use: \"reserve to himself the liberty of voting\" refers to parliamentary prerogative, not a substantive liberty claim.",
     "confidence": 0.95,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -810,7 +810,7 @@
   {
     "sentence_id": "1900-d4162c-001",
     "label": "positive_liberty",
-    "rationale": "Refers to local authorities having a \"kind of freedom\" to act\u2014enabled capacity/self-direction of an institution, characteristic of positive liberty.",
+    "rationale": "Refers to local authorities having a \"kind of freedom\" to act\u2014enabled capacity/self-direction of an institution, i.e., positive liberty.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -818,7 +818,7 @@
   {
     "sentence_id": "1901-64793a-003",
     "label": "negative_liberty",
-    "rationale": "\"At liberty to do what he liked\" describes a private owner's lack of constraint over property\u2014non-interference with property rights.",
+    "rationale": "\"At liberty to do what he liked\" describes a private owner's legal non-interference/discretion over property\u2014a negative liberty claim about absence of constraint.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -826,7 +826,7 @@
   {
     "sentence_id": "1903-188c9b-009",
     "label": "negative_liberty",
-    "rationale": "\"Freedom of action\" for followers refers to non-interference by the Government in their conduct\u2014a protected sphere from constraint.",
+    "rationale": "\"Freedom of action\" for followers concerns non-interference by government in their conduct\u2014a protected sphere from constraint.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -834,15 +834,15 @@
   {
     "sentence_id": "1903-c11e5d-000",
     "label": "other",
-    "rationale": "Index/contents entry listing page numbers for \"Freedom of Contract\"; no substantive liberty claim being made.",
-    "confidence": 0.95,
+    "rationale": "Index/contents entry listing page numbers under \"Freedom of Contract\"; no substantive liberty claim being made.",
+    "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1904-3910ab-016",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of discussion\" framed as a protected sphere of expression/debate, valuable even when excessive\u2014classic non-interference claim.",
+    "rationale": "\"Liberty of discussion\" invokes free expression/debate as a protected sphere from constraint, classic negative liberty.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -850,7 +850,7 @@
   {
     "sentence_id": "1905-0b457a-020",
     "label": "negative_liberty",
-    "rationale": "Religious liberty framed as a protected sphere violated by the Bill\u2014non-interference with religion.",
+    "rationale": "Religious liberty framed as a protected sphere being violated\u2014non-interference with religion.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -858,15 +858,15 @@
   {
     "sentence_id": "1905-88726f-029",
     "label": "negative_liberty",
-    "rationale": "\"Freedom\" here is the protected sphere of non-interference (drinking/personal conduct), explicitly contrasted with paternalist restriction\u2014negative liberty as the object.",
-    "confidence": 0.75,
+    "rationale": "\"Freedom\" here is the protected sphere of non-interference (likely drink/trade); speaker disclaims interfering with it while justifying paternalistic protection of the weak.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1905-8ac0c4-192",
     "label": "positive_liberty",
-    "rationale": "Freedom for Ireland framed as self-government/home rule analogous to Canada/Australia\u2014empowering a nation to govern itself, characteristic positive liberty.",
+    "rationale": "\"Freedom\" for Ireland refers to self-government/Home Rule akin to Canada/Australia\u2014empowerment of a nation to govern itself, fitting positive liberty.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -882,31 +882,31 @@
   {
     "sentence_id": "1907-c02d7b-009",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the subject\" paired with protection of expressing hostile views = non-interference with speech and personal liberty against suppression.",
-    "confidence": 0.85,
+    "rationale": "\"Liberty of the subject\" paired with the chance to express hostile views \u2014 protection of speech/expression from interference by hostile audiences.",
+    "confidence": 0.82,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1919-02-18-0a42ec-069",
     "label": "negative_liberty",
-    "rationale": "Liberty of MPs to criticise a Bill framed as a protected sphere against interference/constraint by procedural restriction.",
-    "confidence": 0.8,
+    "rationale": "Liberty of MPs to criticise a Bill framed as a sphere being interfered with/restricted\u2014classic non-interference concern.",
+    "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1919-08-07-f43242-082",
     "label": "ambiguous",
-    "rationale": "Bare invocation of \"liberty\" in revolutionary triad (liberty/equality/fraternity) without context specifying non-interference or enabled capacity.",
-    "confidence": 0.7,
+    "rationale": "Liberty invoked rhetorically as a revolutionary slogan (liberty, equality, fraternity); no specific liberty object or claim about non-interference vs. capacity.",
+    "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1919-11-07-6a5b4e-022",
     "label": "positive_liberty",
-    "rationale": "\"Self-government and freedom\" frames liberty as collective self-rule and enabled agency of a people, characteristic of positive liberty.",
+    "rationale": "\"Self-government and freedom\" frames liberty as a collective capacity for self-rule \u2014 enabled agency of a people to govern themselves.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -914,15 +914,15 @@
   {
     "sentence_id": "1919-11-10-748b6e-040",
     "label": "ambiguous",
-    "rationale": "Bare \"freedom\" contrasted with \"compulsion\" in unspecified inquiry process; insufficient context to identify the liberty object as non-interference or capacity.",
-    "confidence": 0.55,
+    "rationale": "Explicitly contrasts \"freedom\" with \"elements of compulsion\" in an inquiry process; both enabling and constraining aspects present without specifying the liberty object clearly.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1919-11-26-b44d86-019",
     "label": "other",
-    "rationale": "\"Liberty to be excused\" is a procedural/permission usage (being allowed to opt out of duty), not a substantive liberty-as-value claim.",
+    "rationale": "\"Liberty to be excused\" is a procedural permission/exemption, not a substantive liberty claim about non-interference or enabled capacity.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -938,15 +938,15 @@
   {
     "sentence_id": "1920-02-23-17f4e8-036",
     "label": "positive_liberty",
-    "rationale": "National self-determination \u2014 a nation's capacity to live its own life and work out its own destinies \u2014 is a classic positive liberty (collective self-direction) claim.",
+    "rationale": "National self-determination\u2014a nation's capacity to \"live its own life and work out its own destinies\"\u2014is the paradigmatic positive liberty of collective self-direction.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1920-02-24-460b68-016",
-    "label": "negative_liberty",
-    "rationale": "\"Human liberty\" invoked rhetorically as a cause/value championed by opponents of tyranny; fits Berlin's negative liberty rhetorical mold but quite bare.",
+    "label": "ambiguous",
+    "rationale": "\"Human liberty\" invoked rhetorically as a cause/value championed by opponents; no specific constraint or capacity named, but framing aligns with classic anti-tyranny rhetoric.",
     "confidence": 0.5,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -954,15 +954,15 @@
   {
     "sentence_id": "1922-03-06-4a9da5-020",
     "label": "ambiguous",
-    "rationale": "Bare invocation of \"liberty\" and \"freedom\" as contested aspirations without specifying non-interference or enabled capacity; both readings defensible.",
-    "confidence": 0.6,
+    "rationale": "Bare invocation of \"liberty\" and \"freedom\" as contested ideals without specifying non-interference or enabled capacity; both readings defensible.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1922-03-08-07a2c7-092",
     "label": "ambiguous",
-    "rationale": "\"Freedom which they require\" is bare/underspecified\u2014could mean independence (self-government/positive) or non-interference from Britain (negative); context insufficient.",
+    "rationale": "\"Freedom which they require\" \u2014 bare, unspecified national/political freedom; treaty as means to attain it later. No clear non-interference vs capacity framing.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -970,7 +970,7 @@
   {
     "sentence_id": "1923-03-09-bda389-025",
     "label": "other",
-    "rationale": "\"Full freedom\" here is parliamentary procedure\u2014reserving the right to act in Committee\u2014not a substantive liberty claim.",
+    "rationale": "\"Full freedom\" here is parliamentary procedural usage\u2014reserving the right to act in Committee\u2014not a substantive liberty claim.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -986,23 +986,23 @@
   {
     "sentence_id": "1925-07-29-243544-013",
     "label": "other",
-    "rationale": "Sarcastic rhetorical remark about Cabinet discussion; \"freedom\" used incidentally without substantive liberty claim.",
-    "confidence": 0.7,
+    "rationale": "Sarcastic rhetorical remark about Cabinet discussion; \"freedom of discussion\" used incidentally/ironically rather than as a substantive liberty claim.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1926-11-19-52ba73-083",
     "label": "negative_liberty",
-    "rationale": "Theological colleges' freedom from external regulations/control by the University\u2014non-interference in their internal affairs.",
-    "confidence": 0.8,
+    "rationale": "Theological colleges' freedom from regulatory control by the University\u2014framed as protection against interference/constraint on institutional autonomy.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1927-03-24-86760b-084",
     "label": "positive_liberty",
-    "rationale": "Concerns whether local education authorities are empowered to act/self-direct; framed as enabled capacity of an institution, hence positive liberty (denied here).",
+    "rationale": "Concerns whether local education authorities are empowered to act/govern\u2014an institutional capacity claim, denying positive liberty to LEAs.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1010,7 +1010,7 @@
   {
     "sentence_id": "1927-12-21-1aeea2-010",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the subject\" invoked against statutory tribunals \u2014 protection from state/legal interference, classic negative liberty.",
+    "rationale": "\"Liberty of the subject\" invoked against statutory tribunals\u2014classic non-interference framing protecting individuals from state/administrative constraint.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1026,7 +1026,7 @@
   {
     "sentence_id": "1930-06-26-c44a27-001",
     "label": "other",
-    "rationale": "Procedural use by Deputy-Chairman granting latitude to speak in debate; not a substantive liberty claim.",
+    "rationale": "Procedural use by Deputy-Chairman granting latitude in debate; not a substantive liberty claim.",
     "confidence": 0.95,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1034,7 +1034,7 @@
   {
     "sentence_id": "1930-11-28-1faefe-002",
     "label": "ambiguous",
-    "rationale": "Bare rhetorical invocation of \"Liberty\" as a cause without context; insufficient information to determine whether non-interference or capacity is meant.",
+    "rationale": "Bare rhetorical invocation of \"Liberty\" without context; cannot determine whether non-interference or capacity is meant.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1042,7 +1042,7 @@
   {
     "sentence_id": "1934-12-11-bb203b-007",
     "label": "negative_liberty",
-    "rationale": "Freedom of the Indian people in colonial context \u2014 invokes liberty from imperial constraint/rule, characteristic negative liberty framing.",
+    "rationale": "\"Greater freedom\" for the Indian people in colonial context\u2014rhetorical invocation of liberty against imperial constraint, fits negative liberty framing.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1050,15 +1050,15 @@
   {
     "sentence_id": "1936-12-18-b55022-024",
     "label": "ambiguous",
-    "rationale": "Bare invocation of \"freedom\" alongside justice, without context specifying non-interference or enabled capacity; rhetorical and under-specified.",
-    "confidence": 0.6,
+    "rationale": "Bare invocation of \"freedom\" alongside justice without specifying non-interference or enabled capacity; under-specified rhetorical usage.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1937-05-05-441d98-137",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of liberty as a value under attack by hostile (fascist) regimes; fits negative liberty's anti-tyranny framing.",
+    "rationale": "Rhetorical invocation of liberty as a value under attack by (fascist) regimes; frames liberty as cause opposed to tyranny \u2014 negative liberty.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1066,7 +1066,7 @@
   {
     "sentence_id": "1938-02-28-060995-010",
     "label": "other",
-    "rationale": "\"Freedom from strikes\" describes absence of disruption to industry, not a substantive liberty claim about persons; incidental usage.",
+    "rationale": "\"Freedom from strikes\" describes absence of disruption/interference in industry, not a substantive liberty claim about persons or rights.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1074,15 +1074,15 @@
   {
     "sentence_id": "1938-04-27-713710-095",
     "label": "negative_liberty",
-    "rationale": "Freedom of contract is a protected sphere from state interference, a classic negative liberty, though sentence is brief reportage.",
-    "confidence": 0.75,
+    "rationale": "Freedom of contract is a classic non-interference sphere\u2014protection from state constraint on private agreements.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1938-06-24-4234e3-157",
     "label": "negative_liberty",
-    "rationale": "Concerns employers' freedom to engage labour without governmental restriction\u2014non-interference in contracting, i.e., negative liberty (challenged here).",
+    "rationale": "Concerns employers' freedom to engage labour without departmental restrictions\u2014non-interference in contracting, a negative liberty framing (though questioned).",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1090,7 +1090,7 @@
   {
     "sentence_id": "1939-07-14-0897f2-117",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of \"liberty\" alongside democracy as a cause to defend against threat (the \"fire\"), framing it as protection from tyranny.",
+    "rationale": "Rhetorical invocation of \"liberty\" alongside democracy as a cause to defend against threat (war/fascism); fits negative liberty rhetoric opposing tyranny.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1098,31 +1098,31 @@
   {
     "sentence_id": "1940-04-18-b6c6da-070",
     "label": "positive_liberty",
-    "rationale": "Liberty object is India's national self-determination/sovereignty\u2014capacity to decide her own course of action, a classic positive liberty (collective self-government) claim.",
-    "confidence": 0.78,
+    "rationale": "India's freedom framed as sovereign self-determination\u2014capacity to decide her own course of action\u2014classic positive liberty of collective self-government.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1941-01-30-3950b7-003",
     "label": "other",
-    "rationale": "\"At liberty to\" here is a procedural/permissive idiom about what occupiers may legally do with mole skins, not a substantive liberty claim.",
-    "confidence": 0.75,
+    "rationale": "\"At liberty to\" is an idiomatic permission phrase about mole skins; no substantive liberty-as-value claim.",
+    "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1944-03-17-bef458-030",
     "label": "positive_liberty",
-    "rationale": "Freedom of voluntary hospitals to manage their own policy\u2014institutional self-direction/empowerment to govern, characteristic of positive liberty.",
-    "confidence": 0.65,
+    "rationale": "Freedom of voluntary hospitals to manage policy\u2014institutional empowerment to govern themselves, framing it as enabled agency though tempered by public control.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1945-12-20-e761f5-006",
     "label": "negative_liberty",
-    "rationale": "Liberty of the press: allocating newsprint to independent papers to prevent monopoly domination protects free expression from constraint by combines.",
+    "rationale": "Liberty of the press: allocating newsprint to independent papers to prevent concentration/combine control \u2014 protecting free expression from constraint.",
     "confidence": 0.65,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1130,7 +1130,7 @@
   {
     "sentence_id": "1947-07-10-df941b-008",
     "label": "ambiguous",
-    "rationale": "Bare \"this freedom\" without context; referent and type (non-interference vs capacity) cannot be determined from the sentence alone.",
+    "rationale": "Bare \"freedom\" with no context to identify whether it refers to non-interference or enabled capacity; insufficient to disambiguate.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1138,7 +1138,7 @@
   {
     "sentence_id": "1948-01-22-57f806-009",
     "label": "negative_liberty",
-    "rationale": "Civil servants \"allowed freedom\" regarding political/civic activities \u2014 removal of restrictions on participation, a non-interference sphere for political expression.",
+    "rationale": "Civil servants \"allowed freedom\" regarding political/civic activities \u2014 protection from restriction on participation, a non-interference sphere.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1146,7 +1146,7 @@
   {
     "sentence_id": "1948-10-27-4e9509-009",
     "label": "negative_liberty",
-    "rationale": "Liberties of tolerant democracy framed as threatened with destruction by despotism\u2014rhetorical invocation of liberty as protection against tyranny/coercion.",
+    "rationale": "Liberties of tolerant democracy framed as destroyed by despotism\u2014rhetorical invocation of liberty against tyranny/coercion.",
     "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1154,15 +1154,15 @@
   {
     "sentence_id": "1949-03-24-dd6607-312",
     "label": "positive_liberty",
-    "rationale": "\"Economic freedom\" framed as a national capacity/prosperity to be achieved through unity\u2014an enabled condition, not protection from interference.",
-    "confidence": 0.7,
+    "rationale": "Economic freedom framed as national prosperity/capacity achieved through cooperative effort\u2014an enabled condition rather than removal of interference.",
+    "confidence": 0.65,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1949-07-11-e9f72b-001",
     "label": "negative_liberty",
-    "rationale": "Concerns freedom of the market from restriction/interference; a non-interference sphere (trade) being constrained\u2014negative liberty framing, even though speaker favors restriction.",
+    "rationale": "\"Freedom of the market\" framed as non-interference/absence of restriction on trade in non-ferrous metals; classic negative liberty of commerce.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1170,15 +1170,15 @@
   {
     "sentence_id": "1949-07-18-ba34a5-000",
     "label": "negative_liberty",
-    "rationale": "Calls to remove price controls on herring industry \u2014 freedom from government interference in trade, classic negative liberty.",
-    "confidence": 0.82,
+    "rationale": "\"Complete freedom to the industry\" via withdrawal of price controls = removal of state interference in trade; classic negative liberty.",
+    "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1949-11-03-db92fe-014",
     "label": "other",
-    "rationale": "\"At liberty to introduce legislation\" is procedural/idiomatic usage meaning the speaker would feel free to act, not a substantive liberty claim.",
+    "rationale": "\"Consider myself at liberty to introduce legislation\" is procedural/idiomatic usage meaning entitled or free to act, not a substantive liberty claim.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1186,7 +1186,7 @@
   {
     "sentence_id": "1950-09-13-673c62-016",
     "label": "negative_liberty",
-    "rationale": "\"Freedom\" invoked rhetorically as a cause opposed to tyranny in WWII, paired with democracy\u2014classic negative liberty framing against oppression.",
+    "rationale": "Rhetorical invocation of \"freedom\" as a cause opposed to tyranny in WWII, paired with democracy\u2014classic negative liberty framing.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1194,7 +1194,7 @@
   {
     "sentence_id": "1951-04-26-bed128-000",
     "label": "ambiguous",
-    "rationale": "Bare rhetorical reference to \"freedom\" without context specifying non-interference or enabled capacity; underspecified.",
+    "rationale": "Bare rhetorical reference to \"freedom\" without context specifying non-interference or enabled capacity; under-specified.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1202,7 +1202,7 @@
   {
     "sentence_id": "1951-06-01-a6c442-079",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of liberty/freedom as foundational values opposed to violation of human rights; frames liberty as protection against infringement.",
+    "rationale": "Rhetorical invocation of liberty/freedom as foundational values opposed to violations of human rights; framed as protection against infringement, fitting negative liberty.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1210,39 +1210,39 @@
   {
     "sentence_id": "1952-06-25-1ae411-047",
     "label": "negative_liberty",
-    "rationale": "Freedom of bakers from wartime/regulatory restrictions on what breads they may produce\u2014removal of state interference in trade.",
+    "rationale": "Freedom of bakers from wartime/regulatory restrictions on making varied breads\u2014removal of state interference in trade/production.",
     "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1953-04-17-639f6e-026",
-    "label": "negative_liberty",
-    "rationale": "Freedom granted to students as trust/non-interference in their conduct; emphasizes absence of abuse when constraints are removed.",
-    "confidence": 0.55,
+    "label": "ambiguous",
+    "rationale": "\"Freedom\" entrusted to students is bare and under-specified\u2014could mean non-interference (absence of supervision) or enabled self-direction; context insufficient to decide.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1953-04-21-7cb906-007",
     "label": "negative_liberty",
-    "rationale": "\"British freedom\" invoked rhetorically as a cherished inheritance opposed to tyranny; fits negative liberty tradition of protected liberties not to be taken for granted.",
-    "confidence": 0.55,
+    "rationale": "\"British freedom\" invoked rhetorically as a cherished condition not to be taken for granted; canonical non-interference tradition opposed to tyranny.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1954-02-12-3f03ac-027",
     "label": "ambiguous",
-    "rationale": "Bill aims to give veterinary surgeons \"much more freedom\" \u2014 context suggests enabled professional capacity/scope of action rather than removing specific constraints, but underspecified.",
-    "confidence": 0.5,
+    "rationale": "Bill aims to give veterinary surgeons \"much more freedom\"\u2014context suggests enabled professional capacity/self-direction, but bare \"freedom\" without further detail leans ambiguous.",
+    "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1954-12-07-f64139-057",
     "label": "positive_liberty",
-    "rationale": "Argues controls enable greater freedom for others\u2014framing liberty as enabled capacity produced by state action, characteristic of positive liberty.",
+    "rationale": "Argues controls enable greater freedom for others\u2014framing liberty as enabled capacity produced by regulation, characteristic of positive liberty.",
     "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1250,15 +1250,15 @@
   {
     "sentence_id": "1955-05-03-98c34e-004",
     "label": "positive_liberty",
-    "rationale": "\"Freedom of choice for the consumer and farmer\" frames liberty as enabled capacity to choose among options, a paradigmatic positive liberty claim.",
-    "confidence": 0.78,
+    "rationale": "\"Freedom of choice for the consumer and farmer\" \u2014 enabled capacity to choose among options, a positive liberty claim.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1957-07-11-ca9168-003",
     "label": "other",
-    "rationale": "Procedural \"at liberty to\" phrase indicating permission to raise points; not a substantive liberty claim.",
+    "rationale": "\"At liberty to\" is a parliamentary procedural idiom meaning permitted to raise a point; not a substantive liberty claim.",
     "confidence": 0.95,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1266,15 +1266,15 @@
   {
     "sentence_id": "1959-01-26-cf3abb-022",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the individual\" framed as something to be safeguarded against state action\u2014classic non-interference protection.",
-    "confidence": 0.8,
+    "rationale": "\"Liberty of the individual\" framed as something to be safeguarded against (presumably state) interference\u2014classic non-interference framing.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1959-06-17-5b8436-007",
     "label": "negative_liberty",
-    "rationale": "Freedom of choice framed as something not to be restricted\u2014non-interference with individual choice.",
+    "rationale": "\"Freedom of choice\" framed as something not to be restricted \u2014 non-interference with individual choice, classic negative liberty framing.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1282,7 +1282,7 @@
   {
     "sentence_id": "1959-07-08-ee483b-010",
     "label": "positive_liberty",
-    "rationale": "Local authorities given freedom/discretion to act on spending priorities under general grant\u2014enabled capacity for self-direction.",
+    "rationale": "Local authorities exercising freedom granted by general grant\u2014enabled capacity for self-direction in spending decisions.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1290,23 +1290,23 @@
   {
     "sentence_id": "1961-03-23-13e128-037",
     "label": "negative_liberty",
-    "rationale": "\"Erosion of liberty\" invokes liberty as a protected sphere being encroached upon\u2014classic non-interference framing.",
-    "confidence": 0.75,
+    "rationale": "\"Erosion of liberty\" framed as a constraint/encroachment to be guarded against \u2014 classic non-interference rhetoric.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1962-03-08-fa577f-001",
-    "label": "other",
-    "rationale": "Calves' freedom of movement; concerns animal husbandry, not a substantive human liberty claim\u2014incidental usage.",
-    "confidence": 0.8,
+    "label": "negative_liberty",
+    "rationale": "Refers to calves' freedom of movement\u2014non-interference with physical movement in animal husbandry context; not a human political liberty but structurally negative liberty.",
+    "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1963-01-29-e0c254-005",
     "label": "negative_liberty",
-    "rationale": "Liberty of people framed against government interference\u2014classic non-interference claim.",
+    "rationale": "Liberty of individuals against government interference\u2014classic non-interference framing.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1314,23 +1314,23 @@
   {
     "sentence_id": "1963-05-10-dbf3bf-002",
     "label": "other",
-    "rationale": "\"Freedom from Hunger Campaign\" is a proper noun referring to a named charitable campaign; no substantive liberty claim is being made.",
+    "rationale": "\"Freedom from Hunger Campaign\" is a proper noun naming an organization; no substantive liberty claim is made.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1964-11-18-39fb93-000",
-    "label": "positive_liberty",
-    "rationale": "\"Greater freedom of movement\" for aircraft via an intermediate qualification\u2014enabling capacity to fly under regulatory permission, not removing interference.",
-    "confidence": 0.6,
+    "label": "negative_liberty",
+    "rationale": "\"Greater freedom of movement\" for private aircraft framed as removing regulatory restriction on flying\u2014non-interference in movement.",
+    "confidence": 0.65,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1964-11-20-2616f5-035",
     "label": "positive_liberty",
-    "rationale": "\"Local freedom\" refers to the capacity/empowerment of local authorities to govern and act\u2014an enabled agency claim.",
+    "rationale": "\"Local freedom\" refers to local authorities' empowered capacity to govern/act on their own priorities \u2014 a positive liberty claim about institutional self-direction.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1338,7 +1338,7 @@
   {
     "sentence_id": "1965-05-03-9707f9-002",
     "label": "negative_liberty",
-    "rationale": "Freedom of speech invoked as protected sphere against oppression (Nazi); classic non-interference liberty claim.",
+    "rationale": "Freedom of speech invoked as a protected sphere against Nazi-style oppression \u2014 classic non-interference claim.",
     "confidence": 0.92,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1346,7 +1346,7 @@
   {
     "sentence_id": "1966-07-07-1079f9-009",
     "label": "ambiguous",
-    "rationale": "Bare \"freedom\" in elections without context specifying non-interference (no coercion) vs. enabled capacity (genuine choice); both readings defensible.",
+    "rationale": "Bare \"freedom\" of elections without context specifying non-interference (no coercion) vs. enabled capacity (genuine choice); both readings defensible.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1354,15 +1354,15 @@
   {
     "sentence_id": "1967-06-22-2c8c75-063",
     "label": "negative_liberty",
-    "rationale": "Invokes \"land of freedom\" contrasting absence of D Notices/Official Secrets Act\u2014framing liberty as non-interference with press/speech.",
-    "confidence": 0.7,
+    "rationale": "\"Land of freedom\" contrasted with D Notices/Official Secrets Act\u2014invokes liberty as absence of state censorship/secrecy constraints on press.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1971-02-11-49f250-001",
     "label": "other",
-    "rationale": "\"At liberty to say\" is a parliamentary/procedural idiom meaning permitted to speak; no substantive liberty claim.",
+    "rationale": "\"At liberty to say\" is a parliamentary/procedural idiom meaning permitted to disclose; no substantive liberty claim.",
     "confidence": 0.97,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1370,15 +1370,15 @@
   {
     "sentence_id": "1973-02-02-79df61-064",
     "label": "negative_liberty",
-    "rationale": "Hauliers' \"freedom of action\" framed as protection from restriction/regulation\u2014a non-interference claim, though the speaker dismisses it.",
-    "confidence": 0.8,
+    "rationale": "Hauliers' \"freedom of action\" framed as a protected sphere against regulatory restriction\u2014non-interference claim, though speaker dismisses it.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1975-04-09-5f838f-123",
     "label": "ambiguous",
-    "rationale": "Bare invocation of \"freedom\" of country/Western Europe alongside peace and prosperity, without specifying non-interference or enabled capacity.",
+    "rationale": "Bare invocation of \"freedom\" of country alongside peace and prosperity, without specifying non-interference or enabled capacity.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1386,7 +1386,7 @@
   {
     "sentence_id": "1975-07-07-ffd4f4-093",
     "label": "negative_liberty",
-    "rationale": "Civil liberty discussed as protection against arrest/state coercion in criminal process \u2014 classic non-interference framing.",
+    "rationale": "Civil liberty framed as protection against arrest/compulsory state powers in criminal process \u2014 classic non-interference/due process context.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1394,8 +1394,8 @@
   {
     "sentence_id": "1976-01-27-936d76-039",
     "label": "negative_liberty",
-    "rationale": "Freedom of association (to belong to a union/ESU) being ended by interference\u2014classic non-interference claim against a protected sphere.",
-    "confidence": 0.85,
+    "rationale": "Freedom to belong to a union (ESU) being \"ended\" \u2014 framed as removal/constraint on associational liberty, i.e., non-interference with freedom of association.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -1410,15 +1410,15 @@
   {
     "sentence_id": "1978-02-01-1d5aa0-008",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the individual\" paired with \"development of rights\" invokes protection from constraint/interference as a civil liberties concern.",
-    "confidence": 0.6,
+    "rationale": "\"Liberty of the individual\" paired with development of rights \u2014 classic non-interference framing of personal liberty against state constraint.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1979-07-12-ecca08-001",
     "label": "positive_liberty",
-    "rationale": "Local authorities being granted freedom to act/govern under the Bill \u2014 enabled capacity for institutions, characteristic positive liberty framing.",
+    "rationale": "Local authorities' freedom under the Bill\u2014empowerment of institutions to govern/act on education, a positive liberty claim.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1426,15 +1426,15 @@
   {
     "sentence_id": "1979-07-18-896d28-036",
     "label": "other",
-    "rationale": "Bare meta-reference to someone talking about \"freedom\" with no substantive liberty claim or context to disambiguate.",
-    "confidence": 0.85,
+    "rationale": "Bare meta-reference to someone having \"talked about freedom\"; no substantive liberty claim is made.",
+    "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1979-12-11-aa882c-001",
     "label": "negative_liberty",
-    "rationale": "\"Freedom under the law\" invoked as a principle of parliamentary democracy against the security situation\u2014rhetorical appeal to liberty as protection from arbitrary power.",
+    "rationale": "\"Freedom under the law\" invoked as principle protecting against arbitrary state action; rule-of-law framing aligns with non-interference tradition.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1442,7 +1442,7 @@
   {
     "sentence_id": "1979-12-12-38be99-110",
     "label": "positive_liberty",
-    "rationale": "Freedom/independence granted to a people long deprived of rights and opportunities \u2014 empowerment and enabled self-governance, characteristic of positive liberty.",
+    "rationale": "Freedom/independence granted to a colonized people previously deprived of rights and opportunities\u2014collective self-governance and enabled agency, classic positive liberty.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1450,7 +1450,7 @@
   {
     "sentence_id": "1980-02-26-0ff1c3-061",
     "label": "negative_liberty",
-    "rationale": "Concerns directors' freedom from constraint (non-interference) in their actions; sentence argues for limiting that protected sphere, which is a negative-liberty frame.",
+    "rationale": "Freedom of directors to act as they wish; sentence advocates limiting that non-interference sphere, which is a negative-liberty claim (about constraints on it).",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1458,15 +1458,15 @@
   {
     "sentence_id": "1980-03-07-7851f2-005",
     "label": "positive_liberty",
-    "rationale": "\"Freedom of choice\" for next of kin over disposal of body \u2014 enabled capacity to choose among options, classic positive liberty framing.",
-    "confidence": 0.75,
+    "rationale": "\"Freedom of choice\" for next of kin over disposal of body \u2014 enabled choice/agency over a practical option, characteristic of positive liberty.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1981-02-12-ff4823-000",
     "label": "negative_liberty",
-    "rationale": "Freedom of Information concerns non-interference with access to government records / protection against state secrecy \u2014 a negative liberty claim about open government.",
+    "rationale": "Freedom of Information Bill concerns protection against government secrecy/non-interference with public access to information; negative liberty framing of open government.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1474,47 +1474,47 @@
   {
     "sentence_id": "1981-07-28-4c8a6e-033",
     "label": "other",
-    "rationale": "Bare meta-mention of \"liberty and freedom\" without context specifying non-interference or enabled capacity; no substantive liberty claim made.",
-    "confidence": 0.8,
+    "rationale": "Meta-comment about discussing liberty in general; no substantive liberty claim made about any particular object.",
+    "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1982-07-23-066894-047",
     "label": "ambiguous",
-    "rationale": "Truncated sentence invoking \"personal liberty and freedom\" in human rights context; bare rhetorical invocation without enough context to specify non-interference vs. capacity.",
-    "confidence": 0.55,
+    "rationale": "Truncated sentence invoking \"personal liberty and freedom\" in human rights context without enough content to determine non-interference vs. enabled capacity.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1983-05-03-dd6d5a-045",
     "label": "negative_liberty",
-    "rationale": "\"Liberty of the citizen\" weighed against state powers/offences\u2014classic non-interference framing concerning protection from coercive state action.",
-    "confidence": 0.85,
+    "rationale": "\"Liberty of the citizen\" balanced against societal interests in context of enhanced police/criminal powers \u2014 classic non-interference/protection from state coercion.",
+    "confidence": 0.88,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1985-01-21-688f2e-003",
     "label": "negative_liberty",
-    "rationale": "\"Fundamental freedoms\" enshrined in a bill of rights typically denotes protected spheres against state interference\u2014classic negative liberty framing.",
-    "confidence": 0.7,
+    "rationale": "\"Fundamental freedoms\" in a bill of rights context refers to constitutionally protected spheres against state interference\u2014classic negative liberty framing.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1985-05-16-4fe3b3-045",
     "label": "ambiguous",
-    "rationale": "\"Both sets of freedoms\" is unspecified; protection language suggests negative liberty but the referents are not given in this sentence.",
-    "confidence": 0.6,
+    "rationale": "\"Both sets of freedoms\" is unspecified; the sentence frames protection of freedoms generally without indicating non-interference vs. enabled capacity.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1987-11-10-bb5f9d-000",
     "label": "other",
-    "rationale": "References MPs' freedom to speak/vote/enter Chamber (non-interference sphere), but explicitly says debate is NOT about that\u2014negating the liberty frame; procedural/rhetorical use.",
+    "rationale": "References MPs' freedom to speak, vote, enter Chamber\u2014classic non-interference liberties\u2014but explicitly says the debate is NOT about these, so usage is rhetorical/incidental rather than a substantive claim.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1522,7 +1522,7 @@
   {
     "sentence_id": "1988-03-24-47dac8-054",
     "label": "negative_liberty",
-    "rationale": "Invokes freedom of speech, thought, and the written word as protected spheres against destruction\u2014classic non-interference liberties.",
+    "rationale": "Invokes freedom of speech, thought, and written word as protected spheres against interference\u2014classic negative liberty.",
     "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1530,7 +1530,7 @@
   {
     "sentence_id": "1988-11-02-4a4134-019",
     "label": "ambiguous",
-    "rationale": "Quotes Roosevelt's Four Freedoms preamble; \"four essential human freedoms\" is invoked but not specified here, leaving the liberty object underspecified.",
+    "rationale": "Quotes FDR's \"Four Freedoms\" preamble; bare invocation of \"essential human freedoms\" without specifying which, so liberty claim is under-specified.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1538,7 +1538,7 @@
   {
     "sentence_id": "1989-02-17-f2f9c2-016",
     "label": "positive_liberty",
-    "rationale": "\"Freedom to choose\" framed as enabled choice/capacity to select among options \u2014 characteristic positive liberty framing.",
+    "rationale": "\"Freedom to choose\" frames liberty as enabled capacity to select among options, characteristic of positive liberty.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1546,15 +1546,15 @@
   {
     "sentence_id": "1991-05-20-377e6d-016",
     "label": "positive_liberty",
-    "rationale": "Freedom to run their own affairs/organisation \u2014 enabled self-direction and empowered agency, classic positive liberty.",
-    "confidence": 0.78,
+    "rationale": "Freedom to run their own affairs\u2014enabled self-direction and institutional self-governance, a positive liberty claim.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1992-11-24-0308c9-027",
-    "label": "positive_liberty",
-    "rationale": "Single market framed as extending citizens' freedom\u2014primarily enabled capacity to trade, work, move, and access opportunities across Europe.",
+    "label": "negative_liberty",
+    "rationale": "Single market framed as extending citizens' freedom\u2014primarily removal of barriers to trade/movement, a non-interference sphere, though enabling capacity is implicit.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1562,15 +1562,15 @@
   {
     "sentence_id": "1993-11-22-81d164-082",
     "label": "negative_liberty",
-    "rationale": "\"Personal freedom\" paired with free markets/private enterprise invokes non-interference sphere from state in economic and personal life.",
+    "rationale": "\"Personal freedom\" paired with free markets and private enterprise invokes non-interference/protected sphere from state constraint, classic negative liberty framing.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "1993-11-29-91199e-016",
-    "label": "ambiguous",
-    "rationale": "Sentence explicitly contrasts car-owners' enabled choice/freedom with restricted choice/lost opportunity for elderly shoppers \u2014 both framings are about capacity/options, but presented as competing.",
+    "label": "positive_liberty",
+    "rationale": "Sunday shopping framed as enabled choice/opportunity for some shoppers but reducing choice for others; explicitly mixed capacity claim about consumer options.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1578,7 +1578,7 @@
   {
     "sentence_id": "1996-02-26-756bf4-008",
     "label": "negative_liberty",
-    "rationale": "Freedom of information concerns access/disclosure as protection against state secrecy and constraint on knowledge \u2014 fits non-interference/protected sphere of expression and information.",
+    "rationale": "Freedom of information concerns access to government-held information without state withholding; treated as a protected sphere against interference/concealment.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1586,7 +1586,7 @@
   {
     "sentence_id": "1996-04-26-533113-002",
     "label": "negative_liberty",
-    "rationale": "Invokes freedom of speech as a protected sphere against interference, though sceptically; still a negative liberty claim being contested.",
+    "rationale": "Invokes freedom of speech as a protected sphere (non-interference), though critically \u2014 speaker disputes that advertising weapons qualifies. Liberty object is speech protection.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1594,8 +1594,8 @@
   {
     "sentence_id": "1997-02-05-67a8b4-026",
     "label": "positive_liberty",
-    "rationale": "Schools' freedom refers to grant-maintained self-governance/autonomy to manage their own affairs\u2014an enabled capacity for institutional self-direction.",
-    "confidence": 0.75,
+    "rationale": "Schools' freedom (grant-maintained self-governance) is enabled capacity to direct their own affairs, a positive liberty claim about institutional empowerment.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -1610,7 +1610,7 @@
   {
     "sentence_id": "1999-05-12-975aae-027",
     "label": "positive_liberty",
-    "rationale": "\"Freedom of action\" for the Welsh Assembly concerns the body's enabled capacity/empowerment to act, characteristic of positive liberty for an institution.",
+    "rationale": "\"Freedom of action\" for the Welsh Assembly concerns enabled capacity/empowerment of an institution to act, which is positive liberty.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1618,8 +1618,8 @@
   {
     "sentence_id": "1999-12-14-692fb4-019",
     "label": "other",
-    "rationale": "\"Liberty\" refers to the named civil rights organisation; no substantive liberty-as-value claim is made by the word itself.",
-    "confidence": 0.85,
+    "rationale": "\"Liberty\" here is the proper noun naming the civil rights organisation; no substantive liberty claim is made by the word itself.",
+    "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -1634,7 +1634,7 @@
   {
     "sentence_id": "2002-01-08-059adc-008",
     "label": "positive_liberty",
-    "rationale": "\"Commercial freedom\" for the Post Office business = enabled capacity to act/compete in the market, a positive liberty claim about institutional empowerment.",
+    "rationale": "\"Commercial freedom\" for the Post Office business \u2014 enabled capacity to act commercially, an empowerment claim for an institution.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1642,7 +1642,7 @@
   {
     "sentence_id": "2003-11-19-e8f2ec-016",
     "label": "negative_liberty",
-    "rationale": "\"Erosion of this great liberty\" invokes liberty as a protected sphere against encroachment\u2014classic non-interference framing.",
+    "rationale": "Opposes \"erosion\" of an existing liberty (likely jury trial/due process context), framing liberty as protection against encroachment\u2014classic negative liberty rhetoric.",
     "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1650,7 +1650,7 @@
   {
     "sentence_id": "2003-11-26-b30455-007",
     "label": "ambiguous",
-    "rationale": "\"Genuine freedom\" invoked rhetorically without context specifying non-interference or enabled capacity; bare freedom claim is under-specified.",
+    "rationale": "Bare invocation of \"genuine freedom\" without context specifying non-interference or enabled capacity; underspecified.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1658,15 +1658,15 @@
   {
     "sentence_id": "2004-01-15-3ab96f-008",
     "label": "negative_liberty",
-    "rationale": "Freedom framed as something to be protected against threats\u2014classic non-interference framing, defending a sphere from encroachment.",
-    "confidence": 0.75,
+    "rationale": "Freedom framed as something to be protected from threats/interference \u2014 classic non-interference framing.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2004-03-29-b44a62-020",
     "label": "negative_liberty",
-    "rationale": "Freedom of information framed as non-interference/access right weighed against privacy; both are protective spheres against constraint.",
+    "rationale": "Freedom of information framed as non-interference/disclosure right balanced against privacy; both sides concern protection from constraint/intrusion.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1674,7 +1674,7 @@
   {
     "sentence_id": "2005-02-28-6b147b-004",
     "label": "negative_liberty",
-    "rationale": "Refers to control orders depriving/restraining personal liberty (detention context) \u2014 non-interference/protection against state constraint.",
+    "rationale": "Refers to control orders depriving/restraining personal liberty (detention-like constraints) \u2014 non-interference framing, classic negative liberty.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1682,7 +1682,7 @@
   {
     "sentence_id": "2006-05-23-e048d6-026",
     "label": "ambiguous",
-    "rationale": "\"Freedoms that they want\" for students is bare/underspecified; balanced against discipline but doesn't clearly indicate non-interference vs. enabled capacity.",
+    "rationale": "\"Freedoms that they want\" for students is bare and underspecified, balanced against discipline/security; could be non-interference or enabled participation.",
     "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1690,40 +1690,40 @@
   {
     "sentence_id": "2007-03-08-b14083-008",
     "label": "negative_liberty",
-    "rationale": "Trafficked women's personal liberty: describes coercion/constraint (forced prostitution, no freedom) \u2014 non-interference violated.",
-    "confidence": 0.85,
+    "rationale": "Liberty object is trafficked women's personal liberty; \"no freedom\" denotes coercion/constraint by traffickers \u2014 non-interference framing.",
+    "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2007-06-12-22813b-021",
     "label": "other",
-    "rationale": "\"Liberty\" refers to the proper noun (advocacy organisation Liberty); no substantive liberty claim being made.",
-    "confidence": 0.95,
+    "rationale": "\"Liberty\" refers to the proper noun (the NGO Liberty); no substantive liberty claim made.",
+    "confidence": 0.97,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2009-01-21-58f10d-005",
     "label": "negative_liberty",
-    "rationale": "\"Freedom of information\" refers to the FOI regime/access to government information, a non-interference/transparency right against state opacity.",
-    "confidence": 0.6,
+    "rationale": "\"Freedom of information\" refers to access/transparency rights against government concealment \u2014 a non-interference/protection sphere, though here used incidentally about procedure.",
+    "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2010-07-14-67b4ff-005",
     "label": "negative_liberty",
-    "rationale": "References to Freedom Bill, curbing CCTV/DNA collection, and FOI extension concern protection from state surveillance and intrusion\u2014non-interference.",
-    "confidence": 0.8,
+    "rationale": "Praises rolling back surveillance (CCTV, DNA) and extending FOI\u2014protections against state intrusion into privacy, classic non-interference framing.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2012-07-06-18d8f0-000",
     "label": "positive_liberty",
-    "rationale": "Central bank operational independence framed as \"freedom in a framework\" \u2014 empowered capacity to act/self-direct within constraints, i.e., positive liberty of an institution.",
-    "confidence": 0.65,
+    "rationale": "Central bank operational independence framed as enabled capacity to act (\"freedom in a framework\"); empowerment of an institution to govern within constraints.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -1738,7 +1738,7 @@
   {
     "sentence_id": "2012-12-18-0cfce1-023",
     "label": "negative_liberty",
-    "rationale": "Rhetorical invocation of \"liberty and justice\" as values opposed to encroachment, typical negative-liberty framing though abstract.",
+    "rationale": "Rhetorical invocation of \"liberty and justice\" as values opposed to encroachment; reads as protection against constraint in classic negative-liberty register.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1746,7 +1746,7 @@
   {
     "sentence_id": "2013-04-10-2ab30c-011",
     "label": "other",
-    "rationale": "\"The Constitution of Liberty\" is a book title (proper noun); no substantive liberty claim is made.",
+    "rationale": "Reference to Hayek's book title \"The Constitution of Liberty\"; proper noun usage, no substantive liberty claim.",
     "confidence": 0.95,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1754,15 +1754,15 @@
   {
     "sentence_id": "2013-09-12-94be61-013",
     "label": "positive_liberty",
-    "rationale": "\"Commercial freedom\" for Royal Mail framed as enabled capacity to succeed/compete in the market\u2014institution empowered to act.",
-    "confidence": 0.75,
+    "rationale": "\"Commercial freedom\" for Royal Mail framed as enabled capacity to succeed/compete in the market \u2014 institutional empowerment.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2016-02-25-43f371-003",
     "label": "positive_liberty",
-    "rationale": "\"Freedom of choice\" rooted in democratic self-government invokes collective self-direction/enabled agency rather than non-interference.",
+    "rationale": "\"Freedom of choice\" rooted in democratic self-government invokes collective self-rule enabling agency, characteristic of positive liberty.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1770,23 +1770,23 @@
   {
     "sentence_id": "2017-09-12-04c813-049",
     "label": "positive_liberty",
-    "rationale": "MPs' freedom to represent constituents framed as enabled capacity/agency to act on their role, currently lacking\u2014positive liberty.",
-    "confidence": 0.65,
+    "rationale": "MPs' freedom to represent constituents framed as enabled capacity to act on their representative role, currently lacking\u2014positive liberty.",
+    "confidence": 0.6,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2018-01-29-fc6b82-002",
     "label": "other",
-    "rationale": "\"Freedom of information requests\" is a named procedural mechanism, not a substantive liberty claim.",
-    "confidence": 0.92,
+    "rationale": "\"Freedom of information requests\" is a procedural mechanism named incidentally; no substantive liberty claim is being made.",
+    "confidence": 0.9,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2018-03-19-5be985-003",
-    "label": "negative_liberty",
-    "rationale": "Freedom online framed as protected sphere bounded by harm to others\u2014classic non-interference principle (Millian liberty) applied to online conduct.",
+    "label": "ambiguous",
+    "rationale": "Freedom online discussed as both a value to support and to limit where it harms others\u2014explicitly mixed framing of non-interference and constraint.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1794,24 +1794,24 @@
   {
     "sentence_id": "2018-06-13-2e3c04-003",
     "label": "other",
-    "rationale": "\"Four freedoms\" refers to EU single market freedoms (movement of goods, services, capital, people) as a policy/legal regime, not a substantive liberty-as-value claim.",
-    "confidence": 0.8,
+    "rationale": "\"Four freedoms\" refers to EU single market freedoms (movement of goods/services/capital/people) as a named policy bundle, used incidentally without substantive liberty claim.",
+    "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2019-01-28-fc8e34-010",
     "label": "other",
-    "rationale": "\"Freedom of movement\" mentioned as a topic of discussion, not substantively claimed; sentence is about language/discourse, not asserting a liberty.",
-    "confidence": 0.75,
+    "rationale": "\"Freedom of movement\" mentioned as a topic of discussion, not a substantive liberty claim; sentence is about language/discourse, not asserting or denying the liberty.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2019-03-27-180e85-002",
     "label": "negative_liberty",
-    "rationale": "Freedom of speech invoked as protected sphere against constraint, balanced against safety\u2014core negative liberty claim.",
-    "confidence": 0.8,
+    "rationale": "Freedom of speech invoked as a protected sphere weighed against safety concerns; classic non-interference framing.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
@@ -1834,7 +1834,7 @@
   {
     "sentence_id": "2020-01-20-c61f0c-002",
     "label": "negative_liberty",
-    "rationale": "Concerns ending freedom of movement within Europe\u2014a protected sphere of unimpeded travel/residence; framed as a constraint being imposed.",
+    "rationale": "Concerns freedom of movement within Europe as a protected sphere against state-imposed restriction; classic non-interference claim.",
     "confidence": 0.8,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1842,15 +1842,15 @@
   {
     "sentence_id": "2020-05-13-76d628-003",
     "label": "negative_liberty",
-    "rationale": "Frees farmers/UK from CAP constraints\u2014removal of regulatory interference, classic non-interference framing.",
-    "confidence": 0.75,
+    "rationale": "Liberty object is farmers/UK freed from CAP constraints; framed as removal of regulatory constraint (non-interference) rather than enabled capacity.",
+    "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2020-07-01-f40971-011",
     "label": "negative_liberty",
-    "rationale": "Rights and freedoms of Hong Kong people invoked as a cause against being sacrificed\u2014rhetorical defense of liberties against external coercion (China), classic negative liberty framing.",
+    "rationale": "Refers to rights and freedoms of Hong Kong people in context of Chinese state suppression; invokes protection from oppressive interference.",
     "confidence": 0.7,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1858,7 +1858,7 @@
   {
     "sentence_id": "2020-07-21-5abd1e-016",
     "label": "positive_liberty",
-    "rationale": "Local authorities being empowered to decide and grant licences for their area \u2014 enabled capacity for local self-direction.",
+    "rationale": "Local authorities empowered to decide licensing for their area\u2014enabled capacity for local self-direction, not non-interference.",
     "confidence": 0.75,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1866,7 +1866,7 @@
   {
     "sentence_id": "2020-07-21-ffe20e-000",
     "label": "positive_liberty",
-    "rationale": "Universities' freedom to invest according to local priorities \u2014 enabled capacity/self-direction for institutions, classic positive liberty.",
+    "rationale": "Universities' freedom to invest loans according to local priorities \u2014 enabled capacity for institutional self-direction.",
     "confidence": 0.85,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1874,7 +1874,7 @@
   {
     "sentence_id": "2021-01-28-713fa6-011",
     "label": "negative_liberty",
-    "rationale": "\"Freedom\" listed rhetorically among British values fought for against tyranny; classic non-interference invocation without specific enabling context.",
+    "rationale": "\"Freedom\" listed among British values fought for; rhetorical invocation opposed to tyranny without specifying enabled capacity, fits negative liberty.",
     "confidence": 0.55,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1890,15 +1890,15 @@
   {
     "sentence_id": "2021-03-17-27a774-001",
     "label": "negative_liberty",
-    "rationale": "Freedom of movement of people across islands \u2014 protected sphere of movement free from border/state interference.",
-    "confidence": 0.8,
+    "rationale": "Freedom of movement of people across the islands\u2014a protected sphere from interference/borders, classic negative liberty.",
+    "confidence": 0.78,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   },
   {
     "sentence_id": "2021-03-25-543ba8-000",
     "label": "other",
-    "rationale": "\"Liberty\" here is the proper noun Liberty Steel in Rotherham, not a substantive liberty claim.",
+    "rationale": "\"Liberty\" is a proper noun referring to Liberty Steel in Rotherham, not a substantive liberty claim.",
     "confidence": 0.98,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
@@ -1906,8 +1906,8 @@
   {
     "sentence_id": "2021-04-12-e26568-010",
     "label": "positive_liberty",
-    "rationale": "Freedom here is enabled capacity/empowerment via the Duke of Edinburgh Award giving young people the means and inspiration to act.",
-    "confidence": 0.85,
+    "rationale": "Award gave young people enabled capacity/empowerment to act and pursue activities \u2014 classic positive liberty framing.",
+    "confidence": 0.82,
     "raw_provider_id": "claude:claude-opus-4-7",
     "error": null
   }

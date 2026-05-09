@@ -74,6 +74,63 @@ See `docs/annotation_protocol.md` for the human validation workflow. LLM labels
 are useful for large-scale trend exploration, but publication-grade claims
 should be checked against adjudicated human labels.
 
+## LLM council (gold-standard labeling)
+
+A 3-model council — Claude Opus 4.7, GPT-5.5, Gemini 3.1 Preview — labels a
+strategic 5K sentence sample. Where all three agree → gold; where two agree →
+silver; no-majority cases are kept aside (`disputed.json`) for human review.
+Each verdict carries a one-line rationale and a self-reported confidence.
+
+```bash
+# 1. Build the strategic sample (deterministic seed, ~5K sentences)
+uv run python -m src.classify_council --build-sample
+
+# 2. Submit batches to all three providers and adjudicate
+uv run python -m src.classify_council --run
+
+# Or both at once for a 239-sentence pilot to validate the pipeline
+uv run python -m src.classify_council --pilot
+
+# Resume after a crash without re-submitting batches
+uv run python -m src.classify_council --collect [--pilot-dir]
+```
+
+Outputs land in `outputs/council/{full,pilot}/`:
+- `labels_{claude,gpt,gemini}.json` — raw per-provider verdicts
+- `gold.json` — 3/3 agreement, all rationales preserved
+- `silver.json` — 2/3 agreement
+- `disputed.json` — kept aside for human review
+- `summary.json` — counts and label distribution
+
+Sample is built with `src/council/sample.py`: stratified by decade × Haiku
+label, oversampled on method-disagreement and "freedom of X" patterns,
+anchored on the existing 100-sentence Opus comparison set.
+
+## Prompt arena (hill-climb the small classifier)
+
+Iterate on the production-classifier prompt against the council gold set.
+Train/dev/test splits are deterministic by sentence id (70/15/15) — the
+test split is locked, only touched at the end.
+
+```bash
+# See split sizes and gold availability
+uv run python -m src.iterate_prompt status [--pilot-gold]
+
+# Evaluate a candidate prompt on dev
+uv run python -m src.iterate_prompt eval \
+    --prompt prompts/haiku_v3.txt --split dev
+
+# Show all logged evaluations sorted by accuracy
+uv run python -m src.iterate_prompt history --split dev
+```
+
+Each eval logs to `outputs/prompts/history.jsonl` with metrics + sample
+errors. Prompt files live in `prompts/`. The arena uses caching by
+`prompt_hash × split × model`, so re-evaluating an unchanged prompt is free.
+
+The metric is **agreement with council gold**, not Opus alone — Opus carries
+its own biases that the 3-model council triangulates against.
+
 ## Heavy jobs on Modal
 
 Three jobs benefit from cloud RAM/CPU/time: Wikipedia GloVe training (multi-hour, 32 GB RAM) and full Hansard XML parsing (GB-scale). Consolidated into `src/modal_jobs.py`, which imports logic from the local `src.*` modules — the cloud runner is the only thing Modal-specific.
@@ -107,6 +164,17 @@ npx vercel dev
 ```
 
 `R2_*` env vars enable label persistence via Cloudflare R2. The site works read-only without them.
+
+## Future work
+
+- **Fine-tune a small classifier** (ModernBERT-base / DeBERTa-v3-base) on the
+  council gold set. Once the gold has settled and the prompt arena hits a
+  ceiling, training a small classifier gives near-zero inference cost on the
+  full corpus and removes API dependency. Estimated training cost: ~$5-15.
+  Will live under `src/finetune/`.
+- **LLM-driven prompt proposer** for the arena: feed the worst dev errors plus
+  council rationales to Opus and have it propose refined prompt variants.
+  Automated hill-climbing on top of the manual harness.
 
 ## License
 
