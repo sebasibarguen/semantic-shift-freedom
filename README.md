@@ -6,6 +6,11 @@ Current hypothesis test: whether the proportion of positive-liberty versus
 negative-liberty uses changes over time. The project no longer treats surface
 preposition grammar as an active measurement method.
 
+→ **For the current methodology brief organized around the decade view,
+read [`docs/methodology.md`](docs/methodology.md).** That document is the
+shareable summary for team review; everything below this point is
+operational setup and tooling.
+
 ## Setup
 
 Requires Python 3.12+ and [`uv`](https://docs.astral.sh/uv/).
