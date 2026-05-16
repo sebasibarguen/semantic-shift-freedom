@@ -81,8 +81,18 @@ class ClaudeProvider(BaseCouncilProvider):
         provider_id = f"{self.name}:{self.model}"
 
         # Poll until done
+        consecutive_errors = 0
         while True:
-            batch = self._client.messages.batches.retrieve(handle)
+            try:
+                batch = self._client.messages.batches.retrieve(handle)
+                consecutive_errors = 0
+            except Exception as e:
+                consecutive_errors += 1
+                print(f"[claude] poll error ({consecutive_errors}): {e}", flush=True)
+                if consecutive_errors >= 10:
+                    raise
+                time.sleep(min(POLL_INTERVAL_SEC * consecutive_errors, 120))
+                continue
             counts = batch.request_counts
             print(
                 f"[claude] [{time.strftime('%H:%M:%S')}] {batch.processing_status} | "

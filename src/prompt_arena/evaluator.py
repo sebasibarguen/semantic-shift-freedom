@@ -167,6 +167,10 @@ def evaluate_prompt(
     cached = None
     if use_cache:
         cached = lookup_eval(history_path, pid, split, model)
+        # Cache hit is only valid if the sample size matches (otherwise the
+        # underlying gold dataset has changed — pilot → full, etc.)
+        if cached is not None and cached.get("n") != len(records):
+            cached = None
 
     if cached is not None:
         return EvalResult(

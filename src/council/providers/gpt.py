@@ -110,8 +110,18 @@ class GPTProvider(BaseCouncilProvider):
         # Poll
         terminal_ok = {"completed"}
         terminal_bad = {"failed", "expired", "cancelled"}
+        consecutive_errors = 0
         while True:
-            batch = self._client.batches.retrieve(handle)
+            try:
+                batch = self._client.batches.retrieve(handle)
+                consecutive_errors = 0
+            except Exception as e:
+                consecutive_errors += 1
+                print(f"[gpt] poll error ({consecutive_errors}): {e}", flush=True)
+                if consecutive_errors >= 10:
+                    raise  # 10 consecutive failures = give up
+                time.sleep(min(POLL_INTERVAL_SEC * consecutive_errors, 120))
+                continue
             counts = batch.request_counts
             print(
                 f"[gpt] [{time.strftime('%H:%M:%S')}] {batch.status} | "

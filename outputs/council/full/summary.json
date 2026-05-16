@@ -1,0 +1,28 @@
+{
+  "n_sample": 5016,
+  "n_providers": 3,
+  "providers": [
+    "claude",
+    "gemini",
+    "gpt"
+  ],
+  "n_gold": 3816,
+  "n_silver": 1076,
+  "n_disputed": 124,
+  "gold_rate": 0.7608,
+  "silver_rate": 0.2145,
+  "disputed_rate": 0.0247,
+  "low_confidence_in_gold": 0,
+  "label_distribution_gold": {
+    "ambiguous": 412,
+    "negative_liberty": 1788,
+    "other": 976,
+    "positive_liberty": 640
+  },
+  "label_distribution_silver": {
+    "ambiguous": 265,
+    "negative_liberty": 414,
+    "other": 184,
+    "positive_liberty": 213
+  }
+}

@@ -97,8 +97,18 @@ class GeminiProvider(BaseCouncilProvider):
             """Normalize whether SDK returns enum or string."""
             return getattr(s, "name", None) or str(s).split(".")[-1]
 
+        consecutive_errors = 0
         while True:
-            batch = self._client.batches.get(name=handle)
+            try:
+                batch = self._client.batches.get(name=handle)
+                consecutive_errors = 0
+            except Exception as e:
+                consecutive_errors += 1
+                print(f"[gemini] poll error ({consecutive_errors}): {e}", flush=True)
+                if consecutive_errors >= 10:
+                    raise
+                time.sleep(min(POLL_INTERVAL_SEC * consecutive_errors, 120))
+                continue
             state = _state_name(batch.state)
             print(f"[gemini] [{time.strftime('%H:%M:%S')}] state={state}", flush=True)
             if state in terminal_ok or state in terminal_bad:
