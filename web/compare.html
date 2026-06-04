@@ -209,7 +209,12 @@
     </select>
     <input type="text" id="f-search" placeholder="Search text..." style="width:140px;">
     <label><input type="checkbox" id="f-unlabeled"> Unlabeled first</label>
+    <label><input type="checkbox" id="f-blind"> Blind</label>
     <span class="count" id="filter-count"></span>
+</div>
+
+<div id="blind-banner" style="display:none; background:var(--primary); color:white; text-align:center; padding:0.45rem 1rem; font-size:0.85rem;">
+    Blind mode — model and team labels are hidden. Judge each sentence on its own.
 </div>
 
 <div class="container">
@@ -250,6 +255,17 @@ let currentUser = null;
 let manifest = null;
 let saveQueue = [];
 let saveTimer = null;
+
+// Blind mode hides model + team labels so human judgments stay independent.
+// ?blind=1 in the URL forces it on and locks the toggle (the link sent to annotators).
+const urlParams = new URLSearchParams(location.search);
+let blindMode = urlParams.get('blind') === '1';
+const blindLocked = blindMode;
+
+// ?set=<name> loads a fixed sample (data/<name>_set.json) instead of browsing decades.
+// The annotator link is compare.html?blind=1&set=validation
+const setName = urlParams.get('set');
+const validationMode = !!setName;
 
 // === EMAIL GATE ===
 function initEmailGate() {
@@ -392,9 +408,26 @@ fetch('data/index.json').then(r => r.json()).then(m => {
         opt.value = p; opt.textContent = p;
         psel.appendChild(opt);
     });
-    loadDecade(1980);
+    if (validationMode) loadValidationSet();
+    else loadDecade(1980);
     initEmailGate();
 });
+
+async function loadValidationSet() {
+    document.getElementById('cards-container').innerHTML =
+        '<div class="loading">Loading ' + setName + ' set...</div>';
+    try {
+        const data = await fetch('data/' + setName + '_set.json').then(r => r.json());
+        allSentences = data.records || data;
+        document.getElementById('total-count').textContent =
+            allSentences.length.toLocaleString() + ' (' + setName + ' set)';
+    } catch (e) {
+        document.getElementById('cards-container').innerHTML =
+            '<div class="loading">Could not load data/' + setName + '_set.json</div>';
+        allSentences = [];
+    }
+    applyFilters();
+}
 
 async function loadDecade(decade) {
     if (loadedDecades[decade]) return;
@@ -424,6 +457,7 @@ async function loadAllDecades() {
 // === FILTERS ===
 document.querySelectorAll('.filters select, .filters input').forEach(el => {
     el.addEventListener('change', () => {
+        if (validationMode) { applyFilters(); return; }  // fixed set — never reload decades
         const decade = document.getElementById('f-decade').value;
         if (decade === 'all') loadAllDecades();
         else loadDecade(+decade);
@@ -528,24 +562,11 @@ function renderCard(s) {
         'SBERT': sbert ? ({agency: 'pos', constraint: 'neg', neutral: 'none'}[sbert.label] || 'none') : 'none',
         'LLM': llm ? ({positive_liberty: 'pos', negative_liberty: 'neg', ambiguous: 'amb', other: 'oth'}[llm.label] || 'none') : 'none',
     };
-    const agreementDots = Object.entries(methodLabels).map(([name, cls]) =>
+    const agreementDots = blindMode ? '' : Object.entries(methodLabels).map(([name, cls]) =>
         `<span class="agreement-dot ${cls}" title="${name}: ${cls}"></span>`
     ).join('');
 
-    const lv = label?.label || '';
-    const btnClass = (type, cls) => lv === type ? `label-btn ${cls}` : 'label-btn';
-    const disabled = currentUser ? '' : 'disabled';
-
-    return `
-    <div class="card ${isLabeled ? 'labeled' : ''}" id="card-${s.id}">
-        <div class="sentence">${highlighted}</div>
-        <div class="meta">
-            <span>${s.speaker}</span>
-            <span class="party ${partyClass}">${s.party}</span>
-            <span>${s.date}</span>
-            <span>${s.word}</span>
-            <span style="margin-left:auto">${agreementDots}</span>
-        </div>
+    const methodsGridHtml = blindMode ? '' : `
         <div class="methods-grid">
             <div class="method-cell">
                 <div class="method-name">Domains</div>
@@ -561,7 +582,23 @@ function renderCard(s) {
                 <div class="method-value">${llmLabel}</div>
                 ${llm?.rationale ? `<div class="method-rationale" title="${llm.rationale.replace(/"/g, '&quot;')}">${llm.rationale}</div>` : ''}
             </div>
+        </div>`;
+
+    const lv = label?.label || '';
+    const btnClass = (type, cls) => lv === type ? `label-btn ${cls}` : 'label-btn';
+    const disabled = currentUser ? '' : 'disabled';
+
+    return `
+    <div class="card ${isLabeled ? 'labeled' : ''}" id="card-${s.id}">
+        <div class="sentence">${highlighted}</div>
+        <div class="meta">
+            <span>${s.speaker}</span>
+            <span class="party ${partyClass}">${s.party}</span>
+            <span>${s.date}</span>
+            <span>${s.word}</span>
+            <span style="margin-left:auto">${agreementDots}</span>
         </div>
+        ${methodsGridHtml}
         <div class="label-row">
             <button class="${btnClass('positive_liberty', 'active-pos')}" onclick="setLabel('${s.id}','positive_liberty')" ${disabled}>Pos liberty</button>
             <button class="${btnClass('negative_liberty', 'active-neg')}" onclick="setLabel('${s.id}','negative_liberty')" ${disabled}>Neg liberty</button>
@@ -570,7 +607,7 @@ function renderCard(s) {
             <input class="notes" placeholder="Notes..." value="${label?.notes || ''}" onchange="setNotes('${s.id}', this.value)" ${disabled}>
             <span class="kbd">1/2/3/4</span>
         </div>
-        ${renderTeamLabels(s.id)}
+        ${blindMode ? '' : renderTeamLabels(s.id)}
     </div>`;
 }
 
@@ -677,6 +714,31 @@ async function importJSON(event) {
     };
     reader.readAsText(file);
 }
+
+// === BLIND MODE ===
+function applyBlindUI() {
+    document.getElementById('f-blind').checked = blindMode;
+    document.getElementById('f-blind').disabled = blindLocked;
+    document.getElementById('blind-banner').style.display = blindMode ? 'block' : 'none';
+    // The LLM/agreement filters reveal the model's answer, so hide them when blind.
+    document.getElementById('f-llm').style.display = blindMode ? 'none' : '';
+    document.getElementById('f-agree').style.display = blindMode ? 'none' : '';
+}
+
+function setBlind(on) {
+    if (blindLocked) return;
+    blindMode = on;
+    if (on) {
+        // Clear model-based filters so the now-hidden controls don't keep filtering.
+        document.getElementById('f-llm').value = 'all';
+        document.getElementById('f-agree').value = 'all';
+    }
+    applyBlindUI();
+    applyFilters();
+}
+
+document.getElementById('f-blind').addEventListener('change', e => setBlind(e.target.checked));
+applyBlindUI();
 
 // Flush on page unload
 window.addEventListener('beforeunload', () => { if (saveQueue.length > 0) flushSaveQueue(); });
