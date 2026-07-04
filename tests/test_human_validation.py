@@ -133,6 +133,18 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(stats["single"], 2)
         self.assertEqual(consensus, {"a": "other", "b": "positive_liberty"})
 
+    def test_per_annotator_gold_accuracy(self):
+        # a,b are gold (answers positive/negative); c is silver → excluded.
+        annotators = {
+            "alice": {"a": "positive_liberty", "b": "negative_liberty", "c": "negative_liberty"},
+            "sloppy": {"a": "negative_liberty", "b": "negative_liberty"},  # a wrong
+        }
+        result = score(self._answer_key(), annotators)
+        pag = result["per_annotator_vs_gold"]
+        self.assertEqual(pag["n_gold_items"], 2)
+        self.assertEqual(pag["by_annotator"]["alice"]["agreement"], 1.0)
+        self.assertEqual(pag["by_annotator"]["sloppy"]["agreement"], 0.5)
+
 
 if __name__ == "__main__":
     unittest.main()

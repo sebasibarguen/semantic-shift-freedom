@@ -389,5 +389,164 @@
     },
     "permutation_p_value": 0.0,
     "n_permutations": 1000
+  },
+  "legal_personal_gap_sensitivity": {
+    "full_cluster": {
+      "slope_per_century": -0.050493,
+      "z": -5.321,
+      "permutation_p_value": 0.0,
+      "early_to_late_change": -0.062696,
+      "legal_words": [
+        "slavery",
+        "bondage",
+        "emancipation",
+        "rights",
+        "law",
+        "citizen",
+        "slave",
+        "servitude"
+      ]
+    },
+    "leave_one_out": {
+      "slavery": {
+        "slope_per_century": -0.049736,
+        "z": -5.084,
+        "permutation_p_value": 0.0,
+        "early_to_late_change": -0.064231,
+        "legal_words": [
+          "bondage",
+          "emancipation",
+          "rights",
+          "law",
+          "citizen",
+          "slave",
+          "servitude"
+        ]
+      },
+      "bondage": {
+        "slope_per_century": -0.056772,
+        "z": -6.011,
+        "permutation_p_value": 0.001,
+        "early_to_late_change": -0.072562,
+        "legal_words": [
+          "slavery",
+          "emancipation",
+          "rights",
+          "law",
+          "citizen",
+          "slave",
+          "servitude"
+        ]
+      },
+      "emancipation": {
+        "slope_per_century": -0.051421,
+        "z": -5.665,
+        "permutation_p_value": 0.0,
+        "early_to_late_change": -0.064999,
+        "legal_words": [
+          "slavery",
+          "bondage",
+          "rights",
+          "law",
+          "citizen",
+          "slave",
+          "servitude"
+        ]
+      },
+      "rights": {
+        "slope_per_century": -0.048326,
+        "z": -4.902,
+        "permutation_p_value": 0.0,
+        "early_to_late_change": -0.055962,
+        "legal_words": [
+          "slavery",
+          "bondage",
+          "emancipation",
+          "law",
+          "citizen",
+          "slave",
+          "servitude"
+        ]
+      },
+      "law": {
+        "slope_per_century": -0.05301,
+        "z": -5.352,
+        "permutation_p_value": 0.0,
+        "early_to_late_change": -0.069257,
+        "legal_words": [
+          "slavery",
+          "bondage",
+          "emancipation",
+          "rights",
+          "citizen",
+          "slave",
+          "servitude"
+        ]
+      },
+      "citizen": {
+        "slope_per_century": -0.051049,
+        "z": -5.22,
+        "permutation_p_value": 0.001,
+        "early_to_late_change": -0.060026,
+        "legal_words": [
+          "slavery",
+          "bondage",
+          "emancipation",
+          "rights",
+          "law",
+          "slave",
+          "servitude"
+        ]
+      },
+      "slave": {
+        "slope_per_century": -0.045795,
+        "z": -4.508,
+        "permutation_p_value": 0.002,
+        "early_to_late_change": -0.056458,
+        "legal_words": [
+          "slavery",
+          "bondage",
+          "emancipation",
+          "rights",
+          "law",
+          "citizen",
+          "servitude"
+        ]
+      },
+      "servitude": {
+        "slope_per_century": -0.047833,
+        "z": -5.333,
+        "permutation_p_value": 0.0,
+        "early_to_late_change": -0.058074,
+        "legal_words": [
+          "slavery",
+          "bondage",
+          "emancipation",
+          "rights",
+          "law",
+          "citizen",
+          "slave"
+        ]
+      }
+    },
+    "no_slavery_terms": {
+      "slope_per_century": -0.048376,
+      "z": -4.984,
+      "permutation_p_value": 0.0,
+      "early_to_late_change": -0.069331,
+      "legal_words": [
+        "rights",
+        "law",
+        "citizen"
+      ]
+    },
+    "slavery_terms_removed": [
+      "slavery",
+      "bondage",
+      "emancipation",
+      "slave",
+      "servitude"
+    ],
+    "interpretation": "If 'no_slavery_terms' keeps a negative slope with permutation p < 0.05, the legal\u2192personal shift is not merely abolition discourse fading."
   }
 }

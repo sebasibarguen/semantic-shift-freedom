@@ -166,6 +166,30 @@ def positive_share_trend(labels: dict[str, str], key_by_id: dict[str, dict]) -> 
     }
 
 
+def per_annotator_vs_gold(keys: dict, annotators: dict[str, dict[str, str]]) -> dict:
+    """Each annotator's accuracy on the council gold-tier items (attention check).
+
+    Gold items are 3/3 unanimous across the council, so they function as
+    known-answer checks: an annotator who scores far below the others on gold
+    is likely rushing or misunderstanding the rubric. Answers never reach the
+    browser — this is computed only here, at scoring time.
+    """
+    gold = {sid: info["council_gold"] for sid, info in keys.items()
+            if info.get("council_tier") == "gold"
+            and info.get("council_gold") in LABEL_VALUES}
+    out = {"n_gold_items": len(gold), "by_annotator": {}}
+    for name, labels in annotators.items():
+        shared = [sid for sid in gold if sid in labels]
+        pairs = [(labels[sid], gold[sid]) for sid in shared]
+        agree = sum(1 for p, g in pairs if p == g) / len(pairs) if pairs else None
+        out["by_annotator"][name] = {
+            "n_gold_labeled": len(pairs),
+            "agreement": round(agree, 4) if agree is not None else None,
+            "cohen_kappa": round(cohen_kappa(pairs), 4) if pairs else None,
+        }
+    return out
+
+
 def score(answer_key: dict, annotators: dict[str, dict[str, str]]) -> dict:
     keys = answer_key["keys"]
     valid_ids = set(keys)
@@ -231,6 +255,7 @@ def score(answer_key: dict, annotators: dict[str, dict[str, str]]) -> dict:
         "coverage": coverage,
         "inter_annotator": {"pairwise": pairwise, "fleiss": fleiss},
         "human_consensus": {"n": len(consensus), **consensus_stats},
+        "per_annotator_vs_gold": per_annotator_vs_gold(keys, annotators),
         "haiku_vs_human": confusion_and_prf(haiku, consensus),
         "council_vs_human": confusion_and_prf(council, consensus),
         "council_vs_human_by_tier": by_tier,
@@ -258,6 +283,11 @@ def print_summary(result: dict) -> None:
 
     cs = result["human_consensus"]
     print(f"\nHuman consensus: {cs['n']} ids  (agreed {cs['agreed']}, single {cs['single']}, tie/dropped {cs['tie']})")
+
+    pag = result["per_annotator_vs_gold"]
+    print(f"\nPer-annotator accuracy on {pag['n_gold_items']} council-gold items (attention check):")
+    for name, m in sorted(pag["by_annotator"].items()):
+        print(f"  {name:<14} labeled {m['n_gold_labeled']:<4} agree={m['agreement']} kappa={m['cohen_kappa']}")
 
     def show(title, m):
         print(f"\n{title}: n={m['n']} agree={m['agreement']} kappa={m['cohen_kappa']}")

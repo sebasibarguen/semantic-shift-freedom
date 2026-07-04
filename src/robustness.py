@@ -10,6 +10,11 @@ from .embeddings import TemporalEmbeddings
 LEGAL_CLUSTER = ["slavery", "bondage", "emancipation", "rights", "law", "citizen", "slave", "servitude"]
 PERSONAL_CLUSTER = ["choice", "autonomy", "independence", "self", "ability", "power", "individual", "personal"]
 
+# The legal cluster is 5/8 abolition vocabulary. If the legal→personal gap trend
+# is really "slavery talk faded from COHA" rather than "freedom moved toward
+# capacity", removing these words should flatten the trend.
+SLAVERY_TERMS = ["slavery", "bondage", "emancipation", "slave", "servitude"]
+
 N_BOOTSTRAP = 1000
 RANDOM_SEED = 42
 
@@ -231,6 +236,51 @@ def gap_trend_test(trajectory, n_permutations=1000, rng=None):
     }
 
 
+def gap_lexicon_sensitivity(emb, word, legal_cluster, personal_cluster, decades,
+                            n_permutations=1000, rng=None):
+    """Leave-one-out and slavery-vocabulary sensitivity for the legal→personal gap.
+
+    Reports the gap-trend slope and permutation p when (a) each legal-cluster
+    word is dropped one at a time, and (b) all abolition terms are dropped at
+    once. If the trend depends entirely on the slavery words, the "no slavery
+    terms" variant will lose slope and significance.
+    """
+    if rng is None:
+        rng = np.random.default_rng(RANDOM_SEED)
+
+    def slope_and_p(legal_words):
+        traj = cluster_gap_trajectory(emb, word, legal_words, personal_cluster, decades)
+        test = gap_trend_test(traj, n_permutations=n_permutations, rng=rng)
+        if not test:
+            return None
+        return {
+            "slope_per_century": test["trend"]["slope_per_century"],
+            "z": test["trend"]["z"],
+            "permutation_p_value": test["permutation_p_value"],
+            "early_to_late_change": test["early_to_late_change"],
+            "legal_words": legal_words,
+        }
+
+    full = slope_and_p(legal_cluster)
+    leave_one_out = {
+        dropped: slope_and_p([w for w in legal_cluster if w != dropped])
+        for dropped in legal_cluster
+    }
+    no_slavery = slope_and_p([w for w in legal_cluster if w not in SLAVERY_TERMS])
+
+    return {
+        "full_cluster": full,
+        "leave_one_out": leave_one_out,
+        "no_slavery_terms": no_slavery,
+        "slavery_terms_removed": SLAVERY_TERMS,
+        "interpretation": (
+            "If 'no_slavery_terms' keeps a negative slope with permutation "
+            "p < 0.05, the legal→personal shift is not merely abolition "
+            "discourse fading."
+        ),
+    }
+
+
 def run_analysis():
     project_root = Path(__file__).parent.parent
     data_dir = project_root / "data" / "sgns"
@@ -332,6 +382,12 @@ def run_analysis():
     results["legal_personal_gap_trajectory"] = gap_trajectory
     results["legal_personal_gap_trend"] = gap_test
 
+    sensitivity = gap_lexicon_sensitivity(
+        emb, "freedom", LEGAL_CLUSTER, PERSONAL_CLUSTER, decades,
+        n_permutations=1000, rng=rng,
+    )
+    results["legal_personal_gap_sensitivity"] = sensitivity
+
     print(f"{'Decade':<10} {'Legal':>10} {'Personal':>10} {'Gap':>10}")
     print("-" * 46)
     for decade in key_decades:
@@ -377,6 +433,22 @@ def run_analysis():
     if gap_test:
         print(f"2. Legal-personal gap slope/century: {gap_test['trend']['slope_per_century']:+.4f}")
         print(f"3. Legal-personal gap permutation p-value: {gap_test['permutation_p_value']}")
+
+    full = sensitivity["full_cluster"]
+    no_slav = sensitivity["no_slavery_terms"]
+    if full and no_slav:
+        print()
+        print("4. Legal-cluster lexicon sensitivity (does the gap depend on slavery vocab?):")
+        print(f"   full 8-word cluster : slope={full['slope_per_century']:+.4f}, "
+              f"perm-p={full['permutation_p_value']}")
+        print(f"   slavery terms removed: slope={no_slav['slope_per_century']:+.4f}, "
+              f"perm-p={no_slav['permutation_p_value']}  "
+              f"(kept: {', '.join(no_slav['legal_words'])})")
+        loo_slopes = {d: v["slope_per_century"] for d, v in sensitivity["leave_one_out"].items() if v}
+        if loo_slopes:
+            lo = min(loo_slopes.values())
+            hi = max(loo_slopes.values())
+            print(f"   leave-one-out slope range: [{lo:+.4f}, {hi:+.4f}]")
 
     return results
 

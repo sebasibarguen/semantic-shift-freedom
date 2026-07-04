@@ -1,0 +1,430 @@
+{
+  "metadata": {
+    "source": "/Users/sebas/Dev/writing/experiments/freedom-semantic-shift/web/data",
+    "total_records": 145367,
+    "min_denominator": 30,
+    "min_domain_denominator": 30
+  },
+  "per_word": {
+    "by_word": {
+      "freedom": {
+        "first_decade": 1800,
+        "last_decade": 2020,
+        "n_decades": 23,
+        "slope_per_century": 0.076557,
+        "std_error": 0.014926,
+        "z": 5.129,
+        "p_value_approx": 0.0,
+        "first_proportion": 0.139738,
+        "last_proportion": 0.219892,
+        "endpoint_change": 0.080154,
+        "endpoint_z": 3.199,
+        "endpoint_p_value_approx": 0.001378
+      },
+      "liberty": {
+        "first_decade": 1800,
+        "last_decade": 2020,
+        "n_decades": 23,
+        "slope_per_century": -0.038576,
+        "std_error": 0.013274,
+        "z": -2.906,
+        "p_value_approx": 0.00366,
+        "first_proportion": 0.178723,
+        "last_proportion": 0.055901,
+        "endpoint_change": -0.122823,
+        "endpoint_z": -4.855,
+        "endpoint_p_value_approx": 1e-06
+      }
+    },
+    "frequency_mix": {
+      "1800": {
+        "freedom": 229,
+        "liberty": 470,
+        "liberty_share": 0.6724
+      },
+      "1810": {
+        "freedom": 499,
+        "liberty": 993,
+        "liberty_share": 0.6655
+      },
+      "1820": {
+        "freedom": 1124,
+        "liberty": 1785,
+        "liberty_share": 0.6136
+      },
+      "1830": {
+        "freedom": 2151,
+        "liberty": 2596,
+        "liberty_share": 0.5469
+      },
+      "1840": {
+        "freedom": 1407,
+        "liberty": 2228,
+        "liberty_share": 0.6129
+      },
+      "1850": {
+        "freedom": 2087,
+        "liberty": 2910,
+        "liberty_share": 0.5823
+      },
+      "1860": {
+        "freedom": 2530,
+        "liberty": 2519,
+        "liberty_share": 0.4989
+      },
+      "1870": {
+        "freedom": 1748,
+        "liberty": 1727,
+        "liberty_share": 0.497
+      },
+      "1880": {
+        "freedom": 1295,
+        "liberty": 1518,
+        "liberty_share": 0.5396
+      },
+      "1890": {
+        "freedom": 1427,
+        "liberty": 1420,
+        "liberty_share": 0.4988
+      },
+      "1900": {
+        "freedom": 1494,
+        "liberty": 1292,
+        "liberty_share": 0.4637
+      },
+      "1910": {
+        "freedom": 405,
+        "liberty": 318,
+        "liberty_share": 0.4398
+      },
+      "1920": {
+        "freedom": 2461,
+        "liberty": 1781,
+        "liberty_share": 0.4198
+      },
+      "1930": {
+        "freedom": 3598,
+        "liberty": 2538,
+        "liberty_share": 0.4136
+      },
+      "1940": {
+        "freedom": 5485,
+        "liberty": 2173,
+        "liberty_share": 0.2838
+      },
+      "1950": {
+        "freedom": 6181,
+        "liberty": 1714,
+        "liberty_share": 0.2171
+      },
+      "1960": {
+        "freedom": 6261,
+        "liberty": 1562,
+        "liberty_share": 0.1997
+      },
+      "1970": {
+        "freedom": 9095,
+        "liberty": 1419,
+        "liberty_share": 0.135
+      },
+      "1980": {
+        "freedom": 9662,
+        "liberty": 1304,
+        "liberty_share": 0.1189
+      },
+      "1990": {
+        "freedom": 8343,
+        "liberty": 867,
+        "liberty_share": 0.0941
+      },
+      "2000": {
+        "freedom": 8238,
+        "liberty": 1492,
+        "liberty_share": 0.1533
+      },
+      "2010": {
+        "freedom": 10007,
+        "liberty": 1029,
+        "liberty_share": 0.0932
+      },
+      "2020": {
+        "freedom": 1669,
+        "liberty": 161,
+        "liberty_share": 0.088
+      }
+    }
+  },
+  "composition": {
+    "raw_trend": {
+      "first_decade": 1800,
+      "last_decade": 2020,
+      "n_decades": 23,
+      "slope_per_century": 0.073937,
+      "std_error": 0.009136,
+      "z": 8.093,
+      "p_value_approx": 0.0,
+      "first_proportion": 0.165951,
+      "last_proportion": 0.205464,
+      "endpoint_change": 0.039513,
+      "endpoint_z": 2.331,
+      "endpoint_p_value_approx": 0.019728
+    },
+    "composition_adjusted_trend": {
+      "first_decade": 1800,
+      "last_decade": 2020,
+      "n_decades": 23,
+      "slope_per_century": 0.06767,
+      "std_error": 0.007096,
+      "z": 9.536,
+      "p_value_approx": 0.0,
+      "first_proportion": 0.144236,
+      "last_proportion": 0.239546,
+      "endpoint_change": 0.09531,
+      "endpoint_z": 5.736,
+      "endpoint_p_value_approx": 0.0
+    },
+    "within_domain": {
+      "abstract_philosophical": {
+        "pooled_weight": 0.3524,
+        "trend": {
+          "first_decade": 1800,
+          "last_decade": 2020,
+          "n_decades": 23,
+          "slope_per_century": 0.059691,
+          "std_error": 0.009272,
+          "z": 6.438,
+          "p_value_approx": 0.0,
+          "first_proportion": 0.188295,
+          "last_proportion": 0.268473,
+          "endpoint_change": 0.080178,
+          "endpoint_z": 2.714,
+          "endpoint_p_value_approx": 0.006644
+        }
+      },
+      "constraint_liberation": {
+        "pooled_weight": 0.1169,
+        "trend": {
+          "first_decade": 1800,
+          "last_decade": 2020,
+          "n_decades": 23,
+          "slope_per_century": 0.071919,
+          "std_error": 0.014494,
+          "z": 4.962,
+          "p_value_approx": 1e-06,
+          "first_proportion": 0.068182,
+          "last_proportion": 0.206278,
+          "endpoint_change": 0.138096,
+          "endpoint_z": 3.245,
+          "endpoint_p_value_approx": 0.001174
+        }
+      },
+      "economic": {
+        "pooled_weight": 0.0773,
+        "trend": {
+          "first_decade": 1810,
+          "last_decade": 2020,
+          "n_decades": 22,
+          "slope_per_century": 0.217504,
+          "std_error": 0.02641,
+          "z": 8.236,
+          "p_value_approx": 0.0,
+          "first_proportion": 0.138889,
+          "last_proportion": 0.3875,
+          "endpoint_change": 0.248611,
+          "endpoint_z": 3.135,
+          "endpoint_p_value_approx": 0.001719
+        }
+      },
+      "legal": {
+        "pooled_weight": 0.0666,
+        "trend": {
+          "first_decade": 1800,
+          "last_decade": 2020,
+          "n_decades": 22,
+          "slope_per_century": 0.008198,
+          "std_error": 0.014064,
+          "z": 0.583,
+          "p_value_approx": 0.55993,
+          "first_proportion": 0.095238,
+          "last_proportion": 0.094595,
+          "endpoint_change": -0.000644,
+          "endpoint_z": -0.013,
+          "endpoint_p_value_approx": 0.989989
+        }
+      },
+      "personal": {
+        "pooled_weight": 0.0566,
+        "trend": {
+          "first_decade": 1810,
+          "last_decade": 2020,
+          "n_decades": 21,
+          "slope_per_century": 0.021438,
+          "std_error": 0.024677,
+          "z": 0.869,
+          "p_value_approx": 0.385003,
+          "first_proportion": 0.205128,
+          "last_proportion": 0.172932,
+          "endpoint_change": -0.032196,
+          "endpoint_z": -0.444,
+          "endpoint_p_value_approx": 0.656982
+        }
+      },
+      "political": {
+        "pooled_weight": 0.1804,
+        "trend": {
+          "first_decade": 1800,
+          "last_decade": 2020,
+          "n_decades": 23,
+          "slope_per_century": 0.03861,
+          "std_error": 0.013577,
+          "z": 2.844,
+          "p_value_approx": 0.004458,
+          "first_proportion": 0.135338,
+          "last_proportion": 0.159722,
+          "endpoint_change": 0.024384,
+          "endpoint_z": 0.665,
+          "endpoint_p_value_approx": 0.506267
+        }
+      },
+      "religious": {
+        "pooled_weight": 0.027,
+        "trend": {
+          "first_decade": 1810,
+          "last_decade": 2020,
+          "n_decades": 20,
+          "slope_per_century": -0.025043,
+          "std_error": 0.013523,
+          "z": -1.852,
+          "p_value_approx": 0.064046,
+          "first_proportion": 0.037037,
+          "last_proportion": 0.011976,
+          "endpoint_change": -0.025061,
+          "endpoint_z": -1.108,
+          "endpoint_p_value_approx": 0.267666
+        }
+      },
+      "servitude_bondage": {
+        "pooled_weight": 0.0066,
+        "trend": {
+          "first_decade": 1820,
+          "last_decade": 1980,
+          "n_decades": 9,
+          "slope_per_century": -0.031074,
+          "std_error": 0.059635,
+          "z": -0.521,
+          "p_value_approx": 0.602324,
+          "first_proportion": 0.358209,
+          "last_proportion": 0.342105,
+          "endpoint_change": -0.016104,
+          "endpoint_z": -0.167,
+          "endpoint_p_value_approx": 0.867761
+        }
+      },
+      "untagged": {
+        "pooled_weight": 0.1162,
+        "trend": {
+          "first_decade": 1800,
+          "last_decade": 2020,
+          "n_decades": 23,
+          "slope_per_century": 0.099351,
+          "std_error": 0.018315,
+          "z": 5.425,
+          "p_value_approx": 0.0,
+          "first_proportion": 0.129032,
+          "last_proportion": 0.379085,
+          "endpoint_change": 0.250053,
+          "endpoint_z": 3.48,
+          "endpoint_p_value_approx": 0.000502
+        }
+      }
+    }
+  },
+  "handoff": {
+    "by_source": {
+      "historic_hansard": {
+        "first_decade": 1800,
+        "last_decade": 1900,
+        "n_decades": 11,
+        "slope_per_century": 0.093756,
+        "std_error": 0.025807,
+        "z": 3.633,
+        "p_value_approx": 0.00028,
+        "first_proportion": 0.165951,
+        "last_proportion": 0.220029,
+        "endpoint_change": 0.054077,
+        "endpoint_z": 3.356,
+        "endpoint_p_value_approx": 0.00079
+      },
+      "parlparse": {
+        "first_decade": 1910,
+        "last_decade": 2020,
+        "n_decades": 12,
+        "slope_per_century": 0.036964,
+        "std_error": 0.027223,
+        "z": 1.358,
+        "p_value_approx": 0.174517,
+        "first_proportion": 0.279391,
+        "last_proportion": 0.205464,
+        "endpoint_change": -0.073927,
+        "endpoint_z": -3.855,
+        "endpoint_p_value_approx": 0.000116
+      }
+    },
+    "source_dummy_model": {
+      "n_decades": 23,
+      "slope_per_century_net_of_handoff": 0.051731,
+      "slope_se": 0.019574,
+      "slope_z": 2.643,
+      "slope_p_approx": 0.008222,
+      "handoff_level_shift": 0.033135,
+      "handoff_z": 1.278,
+      "handoff_p_approx": 0.201399
+    }
+  },
+  "classifier_error": {
+    "eval_file": "haiku_v2_eval.json",
+    "ref": "opus",
+    "hyp": "haiku_v2",
+    "by_era": {
+      "pre_1909_historic": {
+        "n": 47,
+        "agreement": 0.7021,
+        "agreement_ci": {
+          "point": 0.702128,
+          "lower": 0.560221,
+          "upper": 0.813489
+        },
+        "n_substantive": 29,
+        "false_positive_rate": 0.08,
+        "false_negative_rate": 0.25,
+        "directional_bias": -0.17
+      },
+      "post_1909_parlparse": {
+        "n": 53,
+        "agreement": 0.717,
+        "agreement_ci": {
+          "point": 0.716981,
+          "lower": 0.584295,
+          "upper": 0.820339
+        },
+        "n_substantive": 36,
+        "false_positive_rate": 0.08,
+        "false_negative_rate": 0.2727,
+        "directional_bias": -0.1927
+      },
+      "all": {
+        "n": 100,
+        "agreement": 0.71,
+        "agreement_ci": {
+          "point": 0.71,
+          "lower": 0.614609,
+          "upper": 0.789853
+        },
+        "n_substantive": 65,
+        "false_positive_rate": 0.08,
+        "false_negative_rate": 0.2667,
+        "directional_bias": -0.1867
+      }
+    }
+  }
+}
