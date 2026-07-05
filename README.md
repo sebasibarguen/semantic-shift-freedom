@@ -71,13 +71,38 @@ uv run python -m src.classify_liberty --input web/data/sentences_1980s.json
 # Evaluate against the 100-sentence Opus comparison set
 uv run python -m src.classify_liberty --eval
 
-# Create a deterministic stratified sample for human annotation
-uv run python -m src.sample_annotation_set --per-bucket 6
+# Build the blind human-validation set + held-out answer key
+uv run python -m src.sample_annotation_set
 ```
 
 See `docs/annotation_protocol.md` for the human validation workflow. LLM labels
 are useful for large-scale trend exploration, but publication-grade claims
 should be checked against adjudicated human labels.
+
+## Human validation (independent ground truth)
+
+The LLM council shares one rubric, so council agreement measures rubric
+consistency, not correctness. To get an independent check, humans label a
+fixed sample **blind** (no model or teammate labels shown) and the scorer
+reports chance-corrected agreement.
+
+```bash
+# 1. Build the sample: random draw (representative) + council silver/disputed
+#    (the hard cases excluded from every other accuracy number).
+uv run python -m src.sample_annotation_set
+#   → web/data/validation_set.json      (annotator-facing; model labels stripped)
+#   → outputs/validation_answer_key.json (scorer only — do not share)
+
+# 2. Each annotator labels blind, then uses "Export JSON" in the browser tool:
+#    web/compare.html?blind=1&set=validation
+
+# 3. Score: Cohen/Fleiss kappa between annotators, Haiku-vs-human,
+#    council-vs-human by tier, and the positive-share trend on human labels.
+uv run python -m src.score_annotations \
+    --answer-key outputs/validation_answer_key.json \
+    --labels alice.json bob.json --names alice bob
+#   → outputs/human_validation.json
+```
 
 ## LLM council (gold-standard labeling)
 
