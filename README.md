@@ -93,10 +93,17 @@ uv run python -m src.sample_annotation_set
 #   → web/data/validation_set.json      (annotator-facing; model labels stripped)
 #   → outputs/validation_answer_key.json (scorer only — do not share)
 
-# 2. Each annotator labels blind, then uses "Export JSON" in the browser tool:
-#    web/compare.html?blind=1&set=validation
+# 2. Recover the surrounding sentences each card can expand to, from the
+#    original sources. --speech-csv fills the modern gap (see the protocol).
+uv run python -m src.extract_context --speech-csv data/hansard-speeches-v310.csv
+#   → web/data/validation_context.json
 
-# 3. Score: Cohen/Fleiss kappa between annotators, Haiku-vs-human,
+# 3. Each annotator labels blind at
+#    https://freedom-semantic-shift.vercel.app/compare.html?blind=1&set=validation
+#    Labels save to the cloud as they click; pull them when ready to score:
+#    curl -s ".../api/labels?user=alice@example.com" > alice.json
+
+# 4. Score: Cohen/Fleiss kappa between annotators, Haiku-vs-human,
 #    council-vs-human by tier, and the positive-share trend on human labels.
 uv run python -m src.score_annotations \
     --answer-key outputs/validation_answer_key.json \

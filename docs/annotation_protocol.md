@@ -33,14 +33,53 @@ hard sentences excluded from every accuracy number the project currently
 reports. Sizes are configurable (`--n-random`, `--n-silver`, `--n-disputed`,
 `--n-gold`); the draw is deterministic by seed.
 
+## What Blind Mode Hides
+
+The annotator link is
+`https://freedom-semantic-shift.vercel.app/compare.html?blind=1&set=validation`
+(`blind=1` locks the toggle on). It hides:
+
+- model outputs (Haiku, SBERT, council) and the LLM/agreement filters,
+- other annotators' labels,
+- the **date, speaker, and party** on each card, plus the decade and party
+  filters that would otherwise reveal the same thing.
+
+Era and party are the strongest priors on the label — an annotator who knows a
+sentence is from 2015 is primed to read positive liberty into it. Hiding them
+is what makes the human labels an independent check rather than a rehearsal of
+the hypothesis. The sample is shuffled, so card order does not leak era either.
+
+## Surrounding Context
+
+Each card can expand to the surrounding sentences from the same speech,
+recovered from the original sources by `src.extract_context`:
+
+```bash
+uv run python -m src.extract_context --speech-csv path/to/hansard-speeches-v310.csv
+```
+
+This writes `web/data/validation_context.json` (`{id: {before, after}}`). It
+carries no speaker or date, so it is safe to show while blind.
+
+Context is deliberately **secondary**. The classifier sees one sentence, so
+only sentences labeled without context are directly comparable to it. The tool
+records `used_context` on every label, and the guidelines tell annotators to
+try the sentence alone first. Report accuracy on the no-context subset as the
+headline number and the context-assisted subset separately.
+
+The toggle appears on every card, including the ~6% where no context could be
+recovered — showing it only where context exists would leak era, since those
+misses are not spread evenly across the corpus.
+
 ## Annotation Workflow
 
-1. Each annotator opens the **blind** browser tool and labels independently:
-   `web/compare.html?blind=1&set=validation`. Blind mode hides all model
-   outputs and other annotators' labels, so judgments stay independent. The
-   `blind=1` link locks the toggle on.
-2. When done, each annotator uses **Export JSON** to save their labels.
-3. Score the exports:
+1. Each annotator opens the blind link above and labels independently.
+2. Labels save to the cloud automatically as they click; **nothing needs to be
+   exported**. Pull each annotator's file when you are ready to score:
+   ```bash
+   curl -s "https://freedom-semantic-shift.vercel.app/api/labels?user=alice@example.com" > alice.json
+   ```
+3. Score them:
    ```bash
    uv run python -m src.score_annotations \
        --answer-key outputs/validation_answer_key.json \

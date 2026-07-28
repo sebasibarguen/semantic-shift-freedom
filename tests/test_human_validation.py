@@ -145,6 +145,29 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(pag["by_annotator"]["alice"]["agreement"], 1.0)
         self.assertEqual(pag["by_annotator"]["sloppy"]["agreement"], 0.5)
 
+    def test_context_split_separates_the_comparable_subset(self):
+        # Haiku is right on 'a' and wrong on 'b'. The human needed the
+        # surrounding sentences for 'b', so only 'a' is a like-for-like test —
+        # pooling the two would understate Haiku on the question it was asked.
+        annotators = {
+            "alice": {"a": "positive_liberty", "b": "positive_liberty"},
+            "bob": {"a": "positive_liberty", "b": "positive_liberty"},
+        }
+        result = score(self._answer_key(), annotators, used_context={"b"})
+        by_ctx = result["haiku_vs_human_by_context"]
+        self.assertEqual(by_ctx["no_context"]["n"], 1)
+        self.assertEqual(by_ctx["no_context"]["agreement"], 1.0)
+        self.assertEqual(by_ctx["used_context"]["n"], 1)
+        self.assertEqual(by_ctx["used_context"]["agreement"], 0.0)
+
+    def test_context_split_defaults_to_all_no_context(self):
+        # Labels predating the used_context flag must not silently vanish.
+        annotators = {"alice": {"a": "positive_liberty", "b": "negative_liberty"}}
+        result = score(self._answer_key(), annotators)
+        by_ctx = result["haiku_vs_human_by_context"]
+        self.assertEqual(by_ctx["no_context"]["n"], 2)
+        self.assertEqual(by_ctx["used_context"]["n"], 0)
+
 
 if __name__ == "__main__":
     unittest.main()

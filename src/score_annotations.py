@@ -116,6 +116,13 @@ def load_annotator_file(path: Path) -> dict[str, str]:
     return out
 
 
+def load_context_flags(path: Path) -> set[str]:
+    """Ids this annotator opened the surrounding sentences for before labeling."""
+    raw = json.loads(Path(path).read_text())
+    return {sid for sid, entry in raw.items()
+            if isinstance(entry, dict) and entry.get("used_context")}
+
+
 def human_consensus(annotators: dict[str, dict[str, str]]) -> tuple[dict[str, str], dict[str, int]]:
     """Majority label per id across annotators. Strict ties are dropped (no consensus)."""
     by_id: dict[str, list[str]] = defaultdict(list)
@@ -190,7 +197,24 @@ def per_annotator_vs_gold(keys: dict, annotators: dict[str, dict[str, str]]) -> 
     return out
 
 
-def score(answer_key: dict, annotators: dict[str, dict[str, str]]) -> dict:
+def haiku_by_context_use(haiku: dict[str, str], consensus: dict[str, str],
+                         used_context: set[str]) -> dict:
+    """Split Haiku-vs-human by whether the human read the surrounding sentences.
+
+    Haiku only ever sees the single sentence. Where the human needed context to
+    decide, the two are not answering the same question, so that subset is a
+    floor on Haiku rather than a fair test of it.
+    """
+    out = {}
+    for name, ids in (("no_context", set(consensus) - used_context),
+                      ("used_context", set(consensus) & used_context)):
+        subset = {i: haiku[i] for i in ids if i in haiku}
+        out[name] = confusion_and_prf(subset, {i: consensus[i] for i in subset})
+    return out
+
+
+def score(answer_key: dict, annotators: dict[str, dict[str, str]],
+          used_context: set[str] | None = None) -> dict:
     keys = answer_key["keys"]
     valid_ids = set(keys)
 
@@ -257,6 +281,7 @@ def score(answer_key: dict, annotators: dict[str, dict[str, str]]) -> dict:
         "human_consensus": {"n": len(consensus), **consensus_stats},
         "per_annotator_vs_gold": per_annotator_vs_gold(keys, annotators),
         "haiku_vs_human": confusion_and_prf(haiku, consensus),
+        "haiku_vs_human_by_context": haiku_by_context_use(haiku, consensus, used_context or set()),
         "council_vs_human": confusion_and_prf(council, consensus),
         "council_vs_human_by_tier": by_tier,
         "trend_random_subset": {
@@ -296,6 +321,12 @@ def print_summary(result: dict) -> None:
               f"F1={pos.get('f1')} (support {pos.get('support')})")
 
     show("Haiku vs human", result["haiku_vs_human"])
+    ctx = result["haiku_vs_human_by_context"]
+    print("  split by whether the human opened the surrounding sentences "
+          "(Haiku only sees the sentence):")
+    for subset in ("no_context", "used_context"):
+        m = ctx[subset]
+        print(f"    {subset:<13} n={m['n']} agree={m['agreement']} kappa={m['cohen_kappa']}")
     show("Council-gold vs human", result["council_vs_human"])
     for tier, m in result["council_vs_human_by_tier"].items():
         print(f"    {tier:<8} n={m['n']} agree={m['agreement']} kappa={m['cohen_kappa']}")
@@ -330,8 +361,9 @@ def main() -> None:
 
     answer_key = json.loads(args.answer_key.read_text())
     annotators = {name: load_annotator_file(path) for name, path in zip(names, args.labels)}
+    used_context = set().union(*(load_context_flags(p) for p in args.labels))
 
-    result = score(answer_key, annotators)
+    result = score(answer_key, annotators, used_context)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2))
     print_summary(result)

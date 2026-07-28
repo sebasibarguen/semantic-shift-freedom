@@ -195,6 +195,19 @@
 
         .loading { text-align: center; padding: 3rem; color: var(--muted); font-size: 1.1rem; }
 
+        .context-toggle {
+            background: none; border: none; padding: 0; margin: 0.35rem 0 0;
+            font-family: inherit; font-size: 0.8rem; color: var(--muted);
+            cursor: pointer;
+        }
+        .context-toggle:hover { color: var(--primary); text-decoration: underline; }
+        .context-body {
+            margin-top: 0.4rem; padding: 0.6rem 0.75rem;
+            background: #f7fafc; border-left: 3px solid #cbd5e0; border-radius: 4px;
+            font-size: 0.88rem; line-height: 1.55; color: #4a5568;
+        }
+        .context-target { color: var(--primary); font-style: italic; }
+
         @media (max-width: 768px) {
             .filters { padding: 0.5rem 1rem; }
             .container { padding: 0.75rem; }
@@ -248,7 +261,8 @@
 </div>
 
 <div id="blind-banner" style="display:none; background:var(--primary); color:white; text-align:center; padding:0.45rem 1rem; font-size:0.85rem;">
-    Blind mode — model and team labels are hidden. Judge each sentence on its own.
+    Blind mode — model labels, team labels, and the date/speaker/party are hidden.
+    Judge each sentence on its own; open the surrounding sentences if you need more context.
 </div>
 
 <div class="save-error" id="save-error" style="display:none;"></div>
@@ -264,6 +278,13 @@
                 <strong>Ambiguous</strong> — do not guess. Keyboard: <strong>1</strong> Pos,
                 <strong>2</strong> Neg, <strong>3</strong> Ambiguous, <strong>4</strong> Other;
                 <strong>↑/↓</strong> or <strong>j/k</strong> move between sentences.
+            </p>
+            <p style="font-size:0.88rem; color:var(--muted); margin-bottom:0.7rem;">
+                <strong>Surrounding sentences.</strong> Try the sentence on its own first — that is
+                all the classifier gets, so those labels are the ones we can compare directly. If it
+                genuinely will not resolve, open <em>Show surrounding sentences</em> and label with
+                that help; we record which sentences needed it and score them separately. Using it
+                is not cheating, but reaching for it by default costs us the comparison.
             </p>
             <div class="g-item"><span class="g-name neg">2 · Negative liberty</span> — freedom
                 <em>from</em> interference, coercion, restraint, arbitrary power, detention, or censorship.
@@ -314,6 +335,9 @@ const PER_PAGE = 25;
 const API = '/api/labels';
 let allSentences = [];
 let filtered = [];
+let contexts = {};
+let contextsLoaded = false;
+let openContexts = new Set();
 let page = 0;
 let focusIndex = 0;        // absolute index into `filtered` of the active card
 let loadedDecades = {};
@@ -471,8 +495,15 @@ function queueSave(id) {
 
 function setLabel(id, label_type) {
     if (!currentUser) return;
-    // Preserve any existing notes on this id.
-    labels[id] = { ...(labels[id] || {}), label: label_type, timestamp: new Date().toISOString() };
+    // Preserve any existing notes on this id. `used_context` records whether the
+    // annotator had opened the surrounding sentences — the classifier only sees
+    // the sentence, so these labels are scored as a separate subset.
+    labels[id] = {
+        ...(labels[id] || {}),
+        label: label_type,
+        used_context: openContexts.has(id),
+        timestamp: new Date().toISOString(),
+    };
     backupLocal();
     queueSave(id);
     // Move focus to the card just labeled, then re-render to reflect state.
@@ -551,6 +582,7 @@ async function loadValidationSet() {
         allSentences = data.records || data;
         document.getElementById('total-count').textContent =
             allSentences.length.toLocaleString() + ' (' + setName + ' set)';
+        loadContexts();
     } catch (e) {
         document.getElementById('cards-container').innerHTML =
             '<div class="loading">Could not load data/' + setName + '_set.json</div>';
@@ -745,10 +777,12 @@ function renderCard(s) {
     return `
     <div class="card ${isLabeled ? 'labeled' : ''} ${isFocused ? 'focused' : ''}" id="card-${s.id}" onclick="focusCard(event, '${s.id}')">
         <div class="sentence">${highlighted}</div>
+        ${contextHtml(s.id)}
         <div class="meta">
+            ${blindMode ? '' : `
             <span>${s.speaker}</span>
             <span class="party ${partyClass}">${s.party}</span>
-            <span>${s.date}</span>
+            <span>${s.date}</span>`}
             <span>${s.word}</span>
             <span style="margin-left:auto">${agreementDots}</span>
         </div>
@@ -763,6 +797,60 @@ function renderCard(s) {
         </div>
         ${blindMode ? '' : renderTeamLabels(s.id)}
     </div>`;
+}
+
+// === SURROUNDING CONTEXT ===
+// Neighbouring sentences from the same speech, recovered from the source
+// documents by src/extract_context.py. Carries no speaker/date, so it stays
+// safe to show in blind mode.
+async function loadContexts() {
+    try {
+        const data = await fetch('data/' + setName + '_context.json').then(r => r.json());
+        contexts = data.contexts || {};
+        contextsLoaded = true;
+    } catch (e) {
+        contexts = {};
+        return;
+    }
+    renderPage();
+}
+
+function toggleContext(event, id) {
+    event.stopPropagation();
+    if (openContexts.has(id)) openContexts.delete(id);
+    else openContexts.add(id);
+    renderPage();
+}
+
+// The toggle renders for every sentence even when we have no context for it.
+// Showing it only where context exists would leak era: the sentences we could
+// not recover are not spread evenly across the corpus.
+function contextHtml(id) {
+    if (!contextsLoaded) return '';
+    let ctx = contexts[id];
+    // A speech that was a single sentence yields nothing on either side; that is
+    // the same experience as a miss, so present it the same way.
+    if (ctx && !(ctx.before || []).length && !(ctx.after || []).length) ctx = null;
+    const open = openContexts.has(id);
+    let body = '';
+    if (open) {
+        body = ctx ? `
+        <div class="context-body">
+            ${(ctx.before || []).map(t => `<span>${escapeHtml(t)}</span>`).join(' ')}
+            <span class="context-target">[the sentence above]</span>
+            ${(ctx.after || []).map(t => `<span>${escapeHtml(t)}</span>`).join(' ')}
+        </div>`
+        : `<div class="context-body"><em>No surrounding sentences available for this
+             one — label it on the sentence alone.</em></div>`;
+    }
+    return `
+        <button class="context-toggle" onclick="toggleContext(event, '${id}')">
+            ${open ? '▾ Hide context' : '▸ Show surrounding sentences'}
+        </button>${body}`;
+}
+
+function escapeHtml(s) {
+    return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 }
 
 function renderTeamLabels(id) {
@@ -922,15 +1010,20 @@ function applyBlindUI() {
     // The LLM/agreement filters reveal the model's answer, so hide them when blind.
     document.getElementById('f-llm').style.display = blindMode ? 'none' : '';
     document.getElementById('f-agree').style.display = blindMode ? 'none' : '';
+    // Decade and party are the strongest priors on the label, so they stay
+    // hidden too — otherwise the filter dropdowns leak what the card doesn't.
+    document.getElementById('f-decade').style.display = blindMode ? 'none' : '';
+    document.getElementById('f-party').style.display = blindMode ? 'none' : '';
 }
 
 function setBlind(on) {
     if (blindLocked) return;
     blindMode = on;
     if (on) {
-        // Clear model-based filters so the now-hidden controls don't keep filtering.
+        // Clear the filters behind the now-hidden controls so they don't keep filtering.
         document.getElementById('f-llm').value = 'all';
         document.getElementById('f-agree').value = 'all';
+        document.getElementById('f-party').value = 'all';
     }
     applyBlindUI();
     applyFilters();
