@@ -54,12 +54,19 @@ the hypothesis. The sample is shuffled, so card order does not leak era either.
 **Show in context** expands a card to the surrounding sentences from the same
 speech. The sentence being judged stays in place, highlighted, with the speech
 around it muted — so the annotator reads one passage rather than matching two
-copies of the same sentence. Context is recovered from the original sources by
+copies of the same sentence. **＋ More context** widens the passage further
+(3 → 9 → 25 sentences per side) and disappears once everything recovered for
+that sentence is on screen. Context comes from the original sources via
 `src.extract_context`:
 
 ```bash
-uv run python -m src.extract_context --speech-csv path/to/hansard-speeches-v310.csv
+uv run python -m src.extract_context --window 25 \
+    --speech-csv path/to/hansard-speeches-v310.csv
 ```
+
+`--window` sets how many sentences per side are stored, which caps how far
+**＋ More context** can reach. The UI never claims to be showing a whole
+speech, since a long speech can exceed the stored window.
 
 This writes `web/data/validation_context.json` (`{id: {before, after}}`). It
 carries no speaker or date, so it is safe to show while blind.

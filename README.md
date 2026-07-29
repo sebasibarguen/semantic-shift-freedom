@@ -95,7 +95,8 @@ uv run python -m src.sample_annotation_set
 
 # 2. Recover the surrounding sentences each card can expand to, from the
 #    original sources. --speech-csv fills the modern gap (see the protocol).
-uv run python -m src.extract_context --speech-csv data/hansard-speeches-v310.csv
+uv run python -m src.extract_context --window 25 \
+    --speech-csv data/hansard-speeches-v310.csv
 #   → web/data/validation_context.json
 
 # 3. Each annotator labels blind at

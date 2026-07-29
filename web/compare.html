@@ -201,6 +201,8 @@
             cursor: pointer;
         }
         .context-toggle:hover { color: var(--accent); text-decoration: underline; }
+        .context-actions { display: flex; align-items: baseline; gap: 0.9rem; }
+        .context-end { font-size: 0.78rem; color: #a0aec0; font-style: italic; }
         .context-note {
             margin-top: 0.3rem; font-size: 0.85rem; color: var(--muted); font-style: italic;
         }
@@ -288,8 +290,9 @@
             <p style="font-size:0.88rem; color:var(--muted); margin-bottom:0.7rem;">
                 <strong>Surrounding sentences.</strong> Try the sentence on its own first — that is
                 all the classifier gets, so those labels are the ones we can compare directly. If it
-                genuinely will not resolve, open <em>Show in context</em> and label with
-                that help; we record which sentences needed it and score them separately. Using it
+                genuinely will not resolve, open <em>Show in context</em> — and <em>＋ More
+                context</em> if you need to read further into the speech — then label with that
+                help; we record which sentences needed it and score them separately. Using it
                 is not cheating, but reaching for it by default costs us the comparison.
             </p>
             <div class="g-item"><span class="g-name neg">2 · Negative liberty</span> — freedom
@@ -342,8 +345,10 @@ const API = '/api/labels';
 let allSentences = [];
 let filtered = [];
 let contexts = {};
-let contextsLoaded = false;
+let contextsState = 'idle';      // idle | loading | ready | failed
 let openContexts = new Set();
+let contextLevels = new Map();   // id → sentences shown per side
+const CONTEXT_STEPS = [3, 9, 25];
 let page = 0;
 let focusIndex = 0;        // absolute index into `filtered` of the active card
 let loadedDecades = {};
@@ -809,23 +814,54 @@ function renderCard(s) {
 // Neighbouring sentences from the same speech, recovered from the source
 // documents by src/extract_context.py. Carries no speaker/date, so it stays
 // safe to show in blind mode.
+// Fetched in the background: ~1MB, and most sentences should be labeled without
+// it. The toggle renders before it arrives so the feature is never invisible.
 async function loadContexts() {
+    contextsState = 'loading';
     try {
         const data = await fetch('data/' + setName + '_context.json').then(r => r.json());
         contexts = data.contexts || {};
-        contextsLoaded = true;
+        contextsState = 'ready';
     } catch (e) {
         contexts = {};
-        return;
+        contextsState = 'failed';
     }
     renderPage();
 }
 
 function toggleContext(event, id) {
     event.stopPropagation();
-    if (openContexts.has(id)) openContexts.delete(id);
-    else openContexts.add(id);
+    if (openContexts.has(id)) {
+        openContexts.delete(id);
+        contextLevels.delete(id);   // reopening starts back at the narrow view
+    } else {
+        openContexts.add(id);
+    }
     renderPage();
+}
+
+function contextLevel(id) {
+    return contextLevels.get(id) ?? CONTEXT_STEPS[0];
+}
+
+// How many sentences we actually hold on the wider side. Once the level
+// reaches that, everything recovered for this sentence is on screen.
+function contextAvailable(ctx) {
+    return Math.max((ctx.before || []).length, (ctx.after || []).length);
+}
+
+function extendContext(event, id) {
+    event.stopPropagation();
+    const current = contextLevel(id);
+    contextLevels.set(id, CONTEXT_STEPS.find(step => step > current) ?? current);
+    // The new text goes in above the target as well as below, which would shove
+    // the sentence being judged down the page. Re-anchor it where it was.
+    const targetTop = () => document
+        .querySelector(`#card-${id} .target`)?.getBoundingClientRect().top;
+    const was = targetTop();
+    renderPage();
+    const now = targetTop();
+    if (was != null && now != null) window.scrollBy(0, now - was);
 }
 
 // The toggle renders for every sentence even when we have no context for it.
@@ -845,12 +881,17 @@ function contextFor(id) {
 function passageHtml(s, highlighted) {
     const ctx = openContexts.has(s.id) ? contextFor(s.id) : null;
     if (!ctx) return `<div class="sentence">${highlighted}</div>`;
-    const side = (parts) => (parts || []).map(escapeHtml).join(' ');
+    const n = contextLevel(s.id);
+    // `before` runs in document order, so the sentences nearest the target are
+    // at its end — take them from the back.
+    const before = (ctx.before || []).slice(-n);
+    const after = (ctx.after || []).slice(0, n);
+    const side = (parts) => parts.map(escapeHtml).join(' ');
     return `
         <div class="sentence passage">
-            <span class="ctx">${side(ctx.before)}</span>
+            <span class="ctx">${side(before)}</span>
             <span class="target">${highlighted}</span>
-            <span class="ctx">${side(ctx.after)}</span>
+            <span class="ctx">${side(after)}</span>
         </div>`;
 }
 
@@ -858,21 +899,45 @@ function passageHtml(s, highlighted) {
 // Showing it only where context exists would leak era: the sentences we could
 // not recover are not spread evenly across the corpus.
 function contextHtml(id) {
-    if (!contextsLoaded) return '';
+    // Context is only built for a named set; decade browsing has none to show.
+    if (!validationMode) return '';
     const open = openContexts.has(id);
-    const ctx = contextFor(id);
-    if (open && !ctx) {
-        return `
-        <button class="context-toggle" onclick="toggleContext(event, '${id}')">
-            ${'▾'} Hide context
-        </button>
+    const ctx = contextsState === 'ready' ? contextFor(id) : null;
+    if (!open) {
+        return `<div class="context-actions">
+            <button class="context-toggle" onclick="toggleContext(event, '${id}')">
+                ▸ Show in context
+            </button>
+        </div>`;
+    }
+    if (contextsState !== 'ready') {
+        return `<div class="context-actions">
+            <button class="context-toggle" onclick="toggleContext(event, '${id}')">
+                ▾ Hide context
+            </button>
+        </div>
+        <div class="context-note">${contextsState === 'failed'
+            ? 'Context could not be loaded — reload the page to try again.'
+            : 'Loading context…'}</div>`;
+    }
+    if (!ctx) {
+        return `<div class="context-actions">
+            <button class="context-toggle" onclick="toggleContext(event, '${id}')">
+                ▾ Hide context
+            </button>
+        </div>
         <div class="context-note">No surrounding sentences available for this one —
             label it on the sentence alone.</div>`;
     }
-    return `
+    const canExtend = contextLevel(id) < contextAvailable(ctx);
+    return `<div class="context-actions">
         <button class="context-toggle" onclick="toggleContext(event, '${id}')">
-            ${open ? '▾ Hide context' : '▸ Show in context'}
-        </button>`;
+            ▾ Hide context
+        </button>
+        ${canExtend ? `<button class="context-toggle extend"
+            onclick="extendContext(event, '${id}')">＋ More context</button>`
+            : `<span class="context-end">no further context available</span>`}
+    </div>`;
 }
 
 function escapeHtml(s) {
