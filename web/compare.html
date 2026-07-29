@@ -196,17 +196,23 @@
         .loading { text-align: center; padding: 3rem; color: var(--muted); font-size: 1.1rem; }
 
         .context-toggle {
-            background: none; border: none; padding: 0; margin: 0.35rem 0 0;
+            background: none; border: none; padding: 0; margin: 0.1rem 0 0;
             font-family: inherit; font-size: 0.8rem; color: var(--muted);
             cursor: pointer;
         }
-        .context-toggle:hover { color: var(--primary); text-decoration: underline; }
-        .context-body {
-            margin-top: 0.4rem; padding: 0.6rem 0.75rem;
-            background: #f7fafc; border-left: 3px solid #cbd5e0; border-radius: 4px;
-            font-size: 0.88rem; line-height: 1.55; color: #4a5568;
+        .context-toggle:hover { color: var(--accent); text-decoration: underline; }
+        .context-note {
+            margin-top: 0.3rem; font-size: 0.85rem; color: var(--muted); font-style: italic;
         }
-        .context-target { color: var(--primary); font-style: italic; }
+        /* Expanded: the surrounding speech recedes so the sentence being judged
+           stays the focal point. Contrast does the work, not boxes. */
+        .card .passage { border-left: 3px solid #e2e8f0; padding-left: 0.85rem; }
+        .card .passage .ctx { color: var(--muted); }
+        .card .passage .target {
+            color: var(--text); background: #e8f1fb; font-weight: 500;
+            padding: 0.1em 0.15em; border-radius: 3px;
+            -webkit-box-decoration-break: clone; box-decoration-break: clone;
+        }
 
         @media (max-width: 768px) {
             .filters { padding: 0.5rem 1rem; }
@@ -262,7 +268,7 @@
 
 <div id="blind-banner" style="display:none; background:var(--primary); color:white; text-align:center; padding:0.45rem 1rem; font-size:0.85rem;">
     Blind mode — model labels, team labels, and the date/speaker/party are hidden.
-    Judge each sentence on its own; open the surrounding sentences if you need more context.
+    Judge each sentence on its own; use <em>Show in context</em> if you need more than the sentence.
 </div>
 
 <div class="save-error" id="save-error" style="display:none;"></div>
@@ -282,7 +288,7 @@
             <p style="font-size:0.88rem; color:var(--muted); margin-bottom:0.7rem;">
                 <strong>Surrounding sentences.</strong> Try the sentence on its own first — that is
                 all the classifier gets, so those labels are the ones we can compare directly. If it
-                genuinely will not resolve, open <em>Show surrounding sentences</em> and label with
+                genuinely will not resolve, open <em>Show in context</em> and label with
                 that help; we record which sentences needed it and score them separately. Using it
                 is not cheating, but reaching for it by default costs us the comparison.
             </p>
@@ -776,7 +782,7 @@ function renderCard(s) {
 
     return `
     <div class="card ${isLabeled ? 'labeled' : ''} ${isFocused ? 'focused' : ''}" id="card-${s.id}" onclick="focusCard(event, '${s.id}')">
-        <div class="sentence">${highlighted}</div>
+        ${passageHtml(s, highlighted)}
         ${contextHtml(s.id)}
         <div class="meta">
             ${blindMode ? '' : `
@@ -825,28 +831,48 @@ function toggleContext(event, id) {
 // The toggle renders for every sentence even when we have no context for it.
 // Showing it only where context exists would leak era: the sentences we could
 // not recover are not spread evenly across the corpus.
-function contextHtml(id) {
-    if (!contextsLoaded) return '';
-    let ctx = contexts[id];
+function contextFor(id) {
     // A speech that was a single sentence yields nothing on either side; that is
     // the same experience as a miss, so present it the same way.
-    if (ctx && !(ctx.before || []).length && !(ctx.after || []).length) ctx = null;
+    const ctx = contexts[id];
+    if (!ctx || (!(ctx.before || []).length && !(ctx.after || []).length)) return null;
+    return ctx;
+}
+
+// The sentence to judge, shown alone when collapsed and in the middle of its
+// own passage when expanded. Expanding grows the text around it rather than
+// repeating it, so the annotator never has to match up two copies.
+function passageHtml(s, highlighted) {
+    const ctx = openContexts.has(s.id) ? contextFor(s.id) : null;
+    if (!ctx) return `<div class="sentence">${highlighted}</div>`;
+    const side = (parts) => (parts || []).map(escapeHtml).join(' ');
+    return `
+        <div class="sentence passage">
+            <span class="ctx">${side(ctx.before)}</span>
+            <span class="target">${highlighted}</span>
+            <span class="ctx">${side(ctx.after)}</span>
+        </div>`;
+}
+
+// The toggle renders for every sentence even when we have no context for it.
+// Showing it only where context exists would leak era: the sentences we could
+// not recover are not spread evenly across the corpus.
+function contextHtml(id) {
+    if (!contextsLoaded) return '';
     const open = openContexts.has(id);
-    let body = '';
-    if (open) {
-        body = ctx ? `
-        <div class="context-body">
-            ${(ctx.before || []).map(t => `<span>${escapeHtml(t)}</span>`).join(' ')}
-            <span class="context-target">[the sentence above]</span>
-            ${(ctx.after || []).map(t => `<span>${escapeHtml(t)}</span>`).join(' ')}
-        </div>`
-        : `<div class="context-body"><em>No surrounding sentences available for this
-             one — label it on the sentence alone.</em></div>`;
+    const ctx = contextFor(id);
+    if (open && !ctx) {
+        return `
+        <button class="context-toggle" onclick="toggleContext(event, '${id}')">
+            ${'▾'} Hide context
+        </button>
+        <div class="context-note">No surrounding sentences available for this one —
+            label it on the sentence alone.</div>`;
     }
     return `
         <button class="context-toggle" onclick="toggleContext(event, '${id}')">
-            ${open ? '▾ Hide context' : '▸ Show surrounding sentences'}
-        </button>${body}`;
+            ${open ? '▾ Hide context' : '▸ Show in context'}
+        </button>`;
 }
 
 function escapeHtml(s) {

@@ -51,8 +51,11 @@ the hypothesis. The sample is shuffled, so card order does not leak era either.
 
 ## Surrounding Context
 
-Each card can expand to the surrounding sentences from the same speech,
-recovered from the original sources by `src.extract_context`:
+**Show in context** expands a card to the surrounding sentences from the same
+speech. The sentence being judged stays in place, highlighted, with the speech
+around it muted — so the annotator reads one passage rather than matching two
+copies of the same sentence. Context is recovered from the original sources by
+`src.extract_context`:
 
 ```bash
 uv run python -m src.extract_context --speech-csv path/to/hansard-speeches-v310.csv
@@ -67,9 +70,9 @@ records `used_context` on every label, and the guidelines tell annotators to
 try the sentence alone first. Report accuracy on the no-context subset as the
 headline number and the context-assisted subset separately.
 
-The toggle appears on every card, including the ~6% where no context could be
-recovered — showing it only where context exists would leak era, since those
-misses are not spread evenly across the corpus.
+The toggle appears on every card, including the 14 single-sentence speeches that
+have nothing on either side — showing it only where context exists would leak
+era, since gaps are not spread evenly across the corpus.
 
 ## Annotation Workflow
 
