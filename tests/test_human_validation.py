@@ -3,6 +3,7 @@ import unittest
 from src.sample_annotation_set import build_validation_sample
 from src.score_annotations import (
     cohen_kappa,
+    final_labels,
     fleiss_kappa,
     human_consensus,
     score,
@@ -145,28 +146,59 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(pag["by_annotator"]["alice"]["agreement"], 1.0)
         self.assertEqual(pag["by_annotator"]["sloppy"]["agreement"], 0.5)
 
-    def test_context_split_separates_the_comparable_subset(self):
-        # Haiku is right on 'a' and wrong on 'b'. The human needed the
-        # surrounding sentences for 'b', so only 'a' is a like-for-like test —
-        # pooling the two would understate Haiku on the question it was asked.
-        annotators = {
+    def test_sentence_only_labels_drive_the_comparable_number(self):
+        # Both annotators revised 'b' after reading the context. Haiku matches
+        # the sentence-only answer, not the revision — the headline number must
+        # keep scoring Haiku on the question it was actually asked.
+        stage1 = {
+            "alice": {"a": "positive_liberty", "b": "negative_liberty"},
+            "bob": {"a": "positive_liberty", "b": "negative_liberty"},
+        }
+        final = {
             "alice": {"a": "positive_liberty", "b": "positive_liberty"},
             "bob": {"a": "positive_liberty", "b": "positive_liberty"},
         }
-        result = score(self._answer_key(), annotators, used_context={"b"})
-        by_ctx = result["haiku_vs_human_by_context"]
-        self.assertEqual(by_ctx["no_context"]["n"], 1)
-        self.assertEqual(by_ctx["no_context"]["agreement"], 1.0)
-        self.assertEqual(by_ctx["used_context"]["n"], 1)
-        self.assertEqual(by_ctx["used_context"]["agreement"], 0.0)
+        result = score(self._answer_key(), stage1, final, reviewed={"a", "b"})
+        self.assertEqual(result["haiku_vs_human"]["agreement"], 1.0)
+        self.assertEqual(result["haiku_vs_human_context_revised"]["agreement"], 0.5)
 
-    def test_context_split_defaults_to_all_no_context(self):
-        # Labels predating the used_context flag must not silently vanish.
-        annotators = {"alice": {"a": "positive_liberty", "b": "negative_liberty"}}
-        result = score(self._answer_key(), annotators)
-        by_ctx = result["haiku_vs_human_by_context"]
-        self.assertEqual(by_ctx["no_context"]["n"], 2)
-        self.assertEqual(by_ctx["used_context"]["n"], 0)
+    def test_context_effect_counts_revisions_and_resolved_ambiguity(self):
+        # 'a' was ambiguous from the sentence alone and context resolved it;
+        # 'b' was unchanged. That ratio is the window-artifact measurement.
+        stage1 = {
+            "alice": {"a": "ambiguous", "b": "negative_liberty"},
+            "bob": {"a": "ambiguous", "b": "negative_liberty"},
+        }
+        final = {
+            "alice": {"a": "positive_liberty", "b": "negative_liberty"},
+            "bob": {"a": "positive_liberty", "b": "negative_liberty"},
+        }
+        effect = score(self._answer_key(), stage1, final,
+                       reviewed={"a", "b"})["context_effect"]
+        self.assertEqual(effect["n_reviewed"], 2)
+        self.assertEqual(effect["n_changed"], 1)
+        self.assertEqual(effect["revision_rate"], 0.5)
+        self.assertEqual(effect["ambiguous_after_sentence_only"], 1)
+        self.assertEqual(effect["ambiguous_resolved_by_context"], 1)
+        self.assertEqual(effect["ambiguous_resolution_rate"], 1.0)
+        self.assertEqual(effect["transitions"], {"ambiguous -> positive_liberty": 1})
+
+    def test_unreviewed_items_stay_out_of_the_revision_rate(self):
+        # A sentence nobody saw in context cannot support "context changed
+        # nothing here" — counting it would dilute the rate toward zero.
+        stage1 = {"alice": {"a": "positive_liberty", "b": "negative_liberty"}}
+        effect = score(self._answer_key(), stage1, stage1,
+                       reviewed={"a"})["context_effect"]
+        self.assertEqual(effect["n_reviewed"], 1)
+        self.assertEqual(effect["n_changed"], 0)
+
+    def test_missing_revision_falls_back_to_the_sentence_only_label(self):
+        entries = {
+            "a": {"label": "positive_liberty"},
+            "b": {"label": "negative_liberty", "label_with_context": "ambiguous"},
+        }
+        self.assertEqual(final_labels(entries),
+                         {"a": "positive_liberty", "b": "ambiguous"})
 
 
 if __name__ == "__main__":

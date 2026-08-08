@@ -49,12 +49,37 @@ sentence is from 2015 is primed to read positive liberty into it. Hiding them
 is what makes the human labels an independent check rather than a rehearsal of
 the hypothesis. The sample is shuffled, so card order does not leak era either.
 
+## Two Stages Per Sentence
+
+Every sentence is labeled twice, in a fixed order:
+
+1. **From the sentence alone.** Context is not reachable until an answer is
+   given. This is what the classifier sees, so it is the only human label
+   comparable to it, and it is never overwritten (`label`).
+2. **After the surrounding speech is revealed.** It opens automatically once
+   stage 1 is recorded. Picking a different label records a revision
+   (`label_with_context`, `revised`); moving on keeps the first answer.
+
+Because the reveal happens strictly *after* a label is committed, seeing
+context cannot bias the comparable label. That ordering is what lets the tool
+show context to everyone without giving up the like-for-like number.
+
+It also replaces an earlier design where context was opt-in. Opt-in made the
+amount of context a matter of annotator temperament — cautious annotators
+opened it constantly, confident ones never — and that variance landed straight
+in inter-annotator kappa, which ceilings every other number here.
+
+The gap between the two passes is itself a result. `ambiguous` is the shortest
+class in the set (median 22 words, against 30 for both substantive labels),
+which is the signature of a window artifact rather than genuine indeterminacy.
+`context_effect` in the scorer reports how many `ambiguous` calls survive once
+the speech around them is visible.
+
 ## Surrounding Context
 
-**Show in context** expands a card to the surrounding sentences from the same
-speech. The sentence being judged stays in place, highlighted, with the speech
-around it muted — so the annotator reads one passage rather than matching two
-copies of the same sentence. **＋ More context** widens the passage further
+The sentence being judged stays in place, highlighted, with the speech around
+it muted — so the annotator reads one passage rather than matching two copies
+of the same sentence. **＋ More context** widens the passage further
 (3 → 9 → 25 sentences per side) and disappears once everything recovered for
 that sentence is on screen. Context comes from the original sources via
 `src.extract_context`:
@@ -71,15 +96,16 @@ speech, since a long speech can exceed the stored window.
 This writes `web/data/validation_context.json` (`{id: {before, after}}`). It
 carries no speaker or date, so it is safe to show while blind.
 
-Context is deliberately **secondary**. The classifier sees one sentence, so
-only sentences labeled without context are directly comparable to it. The tool
-records `used_context` on every label, and the guidelines tell annotators to
-try the sentence alone first. Report accuracy on the no-context subset as the
-headline number and the context-assisted subset separately.
+`context_reviewed` is set only when surrounding sentences were actually put on
+screen — not while the file is still loading, and not for the 14 sentences that
+are whole speeches with nothing around them. It is the denominator for the
+revision rate, so counting those would drag the rate toward zero.
 
-The toggle appears on every card, including the 14 single-sentence speeches that
-have nothing on either side — showing it only where context exists would leak
-era, since gaps are not spread evenly across the corpus.
+Do **not** make context conditional on which bucket a sentence came from. Tier
+is derived from council agreement, so "this card came with a paragraph" would
+be a visible tell for "the models disagreed here" — model information leaking
+into a blind task, priming `ambiguous` on exactly the disputed items. Stage 1
+is identical for every sentence for the same reason.
 
 ## Annotation Workflow
 
@@ -108,6 +134,27 @@ era, since gaps are not spread evenly across the corpus.
   tracks people, and how far the silver/disputed cases fall.
 - Treat low agreement as a measurement problem, not a model problem.
 - Keep `ambiguous` available; forcing hard labels will inflate apparent trend strength.
+- Quote `haiku_vs_human` (stage 1) as the classifier's accuracy.
+  `haiku_vs_human_context_revised` scores it against a standard it could not
+  have met, since it never saw the context — report it as the cost of the
+  one-sentence window, not as accuracy.
+- Expect the revised pass to have a lower consensus `n`: revisions give
+  annotators a second chance to diverge, and strict ties are dropped.
+
+## Budget
+
+Reading volume per sentence drives how many a volunteer can do:
+
+| Shown | Words | 500 sentences |
+|---|---|---|
+| Sentence alone | 32 | 1.1 h |
+| ± 3 sentences | 146 | 4.9 h |
+| ± 9 sentences | 324 | 10.8 h |
+| ± 25 sentences | 656 | 21.9 h |
+
+Both stages together cost roughly the ±3 row, since stage 2 opens at three
+sentences per side. Plan **~250 sentences** for a half-day sitting, not the
+400–500 that a sentence-only pass would allow.
 
 ## Analysis Rule
 

@@ -116,11 +116,29 @@ def load_annotator_file(path: Path) -> dict[str, str]:
     return out
 
 
-def load_context_flags(path: Path) -> set[str]:
-    """Ids this annotator opened the surrounding sentences for before labeling."""
+def load_entries(path: Path) -> dict[str, dict]:
+    """Load a annotator export, keeping entries with a valid sentence-only label."""
     raw = json.loads(Path(path).read_text())
-    return {sid for sid, entry in raw.items()
-            if isinstance(entry, dict) and entry.get("used_context")}
+    return {sid: entry for sid, entry in raw.items()
+            if isinstance(entry, dict) and entry.get("label") in LABEL_VALUES}
+
+
+def final_labels(entries: dict[str, dict]) -> dict[str, str]:
+    """The label that stands after the annotator read the surrounding speech."""
+    out = {}
+    for sid, entry in entries.items():
+        revised = entry.get("label_with_context")
+        out[sid] = revised if revised in LABEL_VALUES else entry["label"]
+    return out
+
+
+def reviewed_ids(entries: dict[str, dict]) -> set[str]:
+    """Ids where the annotator actually saw the context after labeling.
+
+    This is the denominator for the revision rate — without it a low rate could
+    mean "context rarely matters" or just "nobody looked".
+    """
+    return {sid for sid, entry in entries.items() if entry.get("context_reviewed")}
 
 
 def human_consensus(annotators: dict[str, dict[str, str]]) -> tuple[dict[str, str], dict[str, int]]:
@@ -197,24 +215,44 @@ def per_annotator_vs_gold(keys: dict, annotators: dict[str, dict[str, str]]) -> 
     return out
 
 
-def haiku_by_context_use(haiku: dict[str, str], consensus: dict[str, str],
-                         used_context: set[str]) -> dict:
-    """Split Haiku-vs-human by whether the human read the surrounding sentences.
+def context_effect(stage1: dict[str, str], final: dict[str, str],
+                   reviewed: set[str]) -> dict:
+    """How much reading the surrounding speech moved the human labels.
 
-    Haiku only ever sees the single sentence. Where the human needed context to
-    decide, the two are not answering the same question, so that subset is a
-    floor on Haiku rather than a fair test of it.
+    Every sentence is judged twice: once from the sentence alone (what the
+    classifier sees) and again after the speech around it is revealed. The gap
+    measures how much of the label — `ambiguous` above all — is an artifact of
+    the one-sentence window rather than the language being genuinely unclear.
     """
-    out = {}
-    for name, ids in (("no_context", set(consensus) - used_context),
-                      ("used_context", set(consensus) & used_context)):
-        subset = {i: haiku[i] for i in ids if i in haiku}
-        out[name] = confusion_and_prf(subset, {i: consensus[i] for i in subset})
-    return out
+    ids = [sid for sid in stage1 if sid in final and sid in reviewed]
+    changed = [sid for sid in ids if stage1[sid] != final[sid]]
+
+    transitions = Counter((stage1[sid], final[sid]) for sid in changed)
+
+    amb = [sid for sid in ids if stage1[sid] == "ambiguous"]
+    amb_resolved = [sid for sid in amb
+                    if final[sid] in ("positive_liberty", "negative_liberty")]
+
+    return {
+        "n_reviewed": len(ids),
+        "n_changed": len(changed),
+        "revision_rate": round(len(changed) / len(ids), 4) if ids else None,
+        "ambiguous_after_sentence_only": len(amb),
+        "ambiguous_resolved_by_context": len(amb_resolved),
+        "ambiguous_resolution_rate": round(len(amb_resolved) / len(amb), 4) if amb else None,
+        "transitions": {f"{a} -> {b}": n for (a, b), n in transitions.most_common()},
+    }
 
 
 def score(answer_key: dict, annotators: dict[str, dict[str, str]],
-          used_context: set[str] | None = None) -> dict:
+          final_annotators: dict[str, dict[str, str]] | None = None,
+          reviewed: set[str] | None = None) -> dict:
+    """Score the sentence-only pass, and the context-revised pass alongside it.
+
+    `annotators` holds the sentence-only labels — the only ones comparable to
+    the classifier, and the basis for every headline number. `final_annotators`
+    holds what stands after the annotator read the surrounding speech.
+    """
     keys = answer_key["keys"]
     valid_ids = set(keys)
 
@@ -252,6 +290,13 @@ def score(answer_key: dict, annotators: dict[str, dict[str, str]],
 
     consensus, consensus_stats = human_consensus(annotators)
 
+    final_annotators = final_annotators or annotators
+    final_annotators = {
+        name: {sid: lab for sid, lab in labels.items() if sid in valid_ids}
+        for name, labels in final_annotators.items()
+    }
+    final_consensus, _ = human_consensus(final_annotators)
+
     haiku = {sid: keys[sid]["haiku_label"] for sid in consensus
              if keys[sid].get("haiku_label") in LABEL_VALUES}
     council = {sid: keys[sid]["council_gold"] for sid in consensus
@@ -272,6 +317,11 @@ def score(answer_key: dict, annotators: dict[str, dict[str, str]],
                         if keys[sid].get("sample_reason") == "random"}
     random_haiku = {sid: keys[sid]["haiku_label"] for sid in random_consensus
                     if keys[sid].get("haiku_label") in LABEL_VALUES}
+    random_final = {sid: lab for sid, lab in final_consensus.items()
+                    if keys[sid].get("sample_reason") == "random"}
+
+    haiku_final = {sid: keys[sid]["haiku_label"] for sid in final_consensus
+                   if keys[sid].get("haiku_label") in LABEL_VALUES}
 
     return {
         "n_validation_set": len(valid_ids),
@@ -281,11 +331,13 @@ def score(answer_key: dict, annotators: dict[str, dict[str, str]],
         "human_consensus": {"n": len(consensus), **consensus_stats},
         "per_annotator_vs_gold": per_annotator_vs_gold(keys, annotators),
         "haiku_vs_human": confusion_and_prf(haiku, consensus),
-        "haiku_vs_human_by_context": haiku_by_context_use(haiku, consensus, used_context or set()),
+        "haiku_vs_human_context_revised": confusion_and_prf(haiku_final, final_consensus),
+        "context_effect": context_effect(consensus, final_consensus, reviewed or set(consensus)),
         "council_vs_human": confusion_and_prf(council, consensus),
         "council_vs_human_by_tier": by_tier,
         "trend_random_subset": {
             "human": positive_share_trend(random_consensus, keys),
+            "human_context_revised": positive_share_trend(random_final, keys),
             "haiku": positive_share_trend(random_haiku, keys),
         },
     }
@@ -320,19 +372,24 @@ def print_summary(result: dict) -> None:
         print(f"  positive_liberty  P={pos.get('precision')} R={pos.get('recall')} "
               f"F1={pos.get('f1')} (support {pos.get('support')})")
 
-    show("Haiku vs human", result["haiku_vs_human"])
-    ctx = result["haiku_vs_human_by_context"]
-    print("  split by whether the human opened the surrounding sentences "
-          "(Haiku only sees the sentence):")
-    for subset in ("no_context", "used_context"):
-        m = ctx[subset]
-        print(f"    {subset:<13} n={m['n']} agree={m['agreement']} kappa={m['cohen_kappa']}")
+    show("Haiku vs human (sentence only — like for like)", result["haiku_vs_human"])
+    show("Haiku vs human (after humans read the context)",
+         result["haiku_vs_human_context_revised"])
+
+    ce = result["context_effect"]
+    print(f"\nWhat context did to the human labels (n={ce['n_reviewed']} reviewed):")
+    print(f"  changed after reading the speech: {ce['n_changed']} ({ce['revision_rate']})")
+    print(f"  'ambiguous' from the sentence alone: {ce['ambiguous_after_sentence_only']}"
+          f" → resolved by context: {ce['ambiguous_resolved_by_context']}"
+          f" ({ce['ambiguous_resolution_rate']})")
+    for move, n in list(ce["transitions"].items())[:6]:
+        print(f"    {move}: {n}")
     show("Council-gold vs human", result["council_vs_human"])
     for tier, m in result["council_vs_human_by_tier"].items():
         print(f"    {tier:<8} n={m['n']} agree={m['agreement']} kappa={m['cohen_kappa']}")
 
     print("\nPositive-share trend on the RANDOM subset (representative):")
-    for who in ("human", "haiku"):
+    for who in ("human", "human_context_revised", "haiku"):
         t = result["trend_random_subset"][who]["trend"]
         n = result["trend_random_subset"][who]["n_labeled"]
         if t:
@@ -360,10 +417,16 @@ def main() -> None:
         parser.error("--names must have one entry per --labels file")
 
     answer_key = json.loads(args.answer_key.read_text())
-    annotators = {name: load_annotator_file(path) for name, path in zip(names, args.labels)}
-    used_context = set().union(*(load_context_flags(p) for p in args.labels))
+    entries = {name: load_entries(path) for name, path in zip(names, args.labels)}
+    annotators = {name: {sid: e["label"] for sid, e in ent.items()}
+                  for name, ent in entries.items()}
+    finals = {name: final_labels(ent) for name, ent in entries.items()}
+    # An id counts as reviewed only if every annotator who labeled it saw the
+    # context, so the revision rate is not diluted by half-reviewed items.
+    reviewed = set.intersection(*(reviewed_ids(ent) for ent in entries.values())) \
+        if entries else set()
 
-    result = score(answer_key, annotators, used_context)
+    result = score(answer_key, annotators, finals, reviewed)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2))
     print_summary(result)

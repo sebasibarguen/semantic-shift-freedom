@@ -202,6 +202,13 @@
         }
         .context-toggle:hover { color: var(--accent); text-decoration: underline; }
         .context-actions { display: flex; align-items: baseline; gap: 0.9rem; }
+        .stage {
+            font-size: 0.82rem; margin: 0.55rem 0 0.4rem; padding: 0.4rem 0.6rem;
+            border-radius: 5px; line-height: 1.45;
+        }
+        .stage-1 { color: var(--muted); background: #f7fafc; }
+        .stage-2 { color: #2c5282; background: #ebf4ff; }
+        .stage-revised { color: #276749; background: #f0fff4; }
         .context-end { font-size: 0.78rem; color: #a0aec0; font-style: italic; }
         .context-note {
             margin-top: 0.3rem; font-size: 0.85rem; color: var(--muted); font-style: italic;
@@ -270,7 +277,7 @@
 
 <div id="blind-banner" style="display:none; background:var(--primary); color:white; text-align:center; padding:0.45rem 1rem; font-size:0.85rem;">
     Blind mode — model labels, team labels, and the date/speaker/party are hidden.
-    Judge each sentence on its own; use <em>Show in context</em> if you need more than the sentence.
+    Answer from the sentence alone first; the surrounding speech opens afterwards so you can revise.
 </div>
 
 <div class="save-error" id="save-error" style="display:none;"></div>
@@ -288,12 +295,17 @@
                 <strong>↑/↓</strong> or <strong>j/k</strong> move between sentences.
             </p>
             <p style="font-size:0.88rem; color:var(--muted); margin-bottom:0.7rem;">
-                <strong>Surrounding sentences.</strong> Try the sentence on its own first — that is
-                all the classifier gets, so those labels are the ones we can compare directly. If it
-                genuinely will not resolve, open <em>Show in context</em> — and <em>＋ More
-                context</em> if you need to read further into the speech — then label with that
-                help; we record which sentences needed it and score them separately. Using it
-                is not cheating, but reaching for it by default costs us the comparison.
+                <strong>Every sentence is labeled twice.</strong> First from the sentence alone —
+                that is all the classifier gets, so it is the only judgment we can compare against
+                it. Answer even when it feels underdetermined; <em>Ambiguous</em> is the right
+                answer when the sentence genuinely does not settle it.
+            </p>
+            <p style="font-size:0.88rem; color:var(--muted); margin-bottom:0.7rem;">
+                The surrounding speech then opens by itself. Read it and ask whether it changes your
+                answer: pick a different label to revise, or just move on to keep the one you gave.
+                Use <em>＋ More context</em> to read further into the speech. Changing your mind is
+                the point — the gap between the two answers tells us how much of the ambiguity comes
+                from the sentence being short rather than the language being unclear.
             </p>
             <div class="g-item"><span class="g-name neg">2 · Negative liberty</span> — freedom
                 <em>from</em> interference, coercion, restraint, arbitrary power, detention, or censorship.
@@ -504,24 +516,65 @@ function queueSave(id) {
     saveTimer = setTimeout(flushSaveQueue, 500);
 }
 
+// Two stages per sentence. The first click records the judgment made from the
+// sentence alone — that is what the classifier saw, so it is the only label
+// comparable to it, and it is never overwritten. Context is then revealed and
+// any later click records a revision. Because the reveal happens only after a
+// label is committed, seeing context cannot bias the comparable label.
 function setLabel(id, label_type) {
     if (!currentUser) return;
-    // Preserve any existing notes on this id. `used_context` records whether the
-    // annotator had opened the surrounding sentences — the classifier only sees
-    // the sentence, so these labels are scored as a separate subset.
-    labels[id] = {
-        ...(labels[id] || {}),
-        label: label_type,
-        used_context: openContexts.has(id),
-        timestamp: new Date().toISOString(),
-    };
+    const existing = labels[id] || {};
+    const firstPass = !existing.label;
+
+    if (firstPass) {
+        labels[id] = {
+            ...existing,
+            label: label_type,
+            timestamp: new Date().toISOString(),
+        };
+        revealContext(id);
+    } else {
+        labels[id] = {
+            ...existing,
+            label_with_context: label_type,
+            revised: label_type !== existing.label,
+            context_level: contextLevel(id),
+            revised_at: new Date().toISOString(),
+        };
+    }
+
     backupLocal();
     queueSave(id);
-    // Move focus to the card just labeled, then re-render to reflect state.
     const idx = filtered.findIndex(s => s.id === id);
     if (idx >= 0) focusIndex = idx;
     renderPage();
     updateLabelStats();
+}
+
+// Opens the passage and records whether surrounding sentences were actually
+// put in front of the annotator. That flag is the denominator for the revision
+// rate, so it has to mean "saw context", not "we tried": the file may still be
+// loading, and a handful of sentences are whole speeches with nothing around
+// them. Counting either would drag the rate toward zero.
+function revealContext(id) {
+    openContexts.add(id);
+    contextLevels.set(id, CONTEXT_STEPS[0]);
+    labels[id].context_level = CONTEXT_STEPS[0];
+    labels[id].context_reviewed = contextsState === 'ready' && contextFor(id) !== null;
+}
+
+// The file can land after a card was already opened; mark those as reviewed now
+// that the annotator can actually see them.
+function markOpenCardsReviewed() {
+    let changed = false;
+    for (const id of openContexts) {
+        if (labels[id]?.label && !labels[id].context_reviewed && contextFor(id)) {
+            labels[id].context_reviewed = true;
+            queueSave(id);
+            changed = true;
+        }
+    }
+    if (changed) backupLocal();
 }
 
 function setNotes(id, notes) {
@@ -780,7 +833,9 @@ function renderCard(s) {
             </div>
         </div>`;
 
-    const lv = label?.label || '';
+    // Buttons track the label that currently stands — the revision once made,
+    // otherwise the sentence-only one.
+    const lv = label?.label_with_context || label?.label || '';
     const btnClass = (type, cls) => lv === type ? `label-btn ${cls}` : 'label-btn';
     const disabled = currentUser ? '' : 'disabled';
     const isFocused = filtered[focusIndex] && filtered[focusIndex].id === s.id;
@@ -798,6 +853,7 @@ function renderCard(s) {
             <span style="margin-left:auto">${agreementDots}</span>
         </div>
         ${methodsGridHtml}
+        ${stageHtml(s.id)}
         <div class="label-row">
             <button class="${btnClass('positive_liberty', 'active-pos')}" onclick="setLabel('${s.id}','positive_liberty')" ${disabled}>Pos liberty</button>
             <button class="${btnClass('negative_liberty', 'active-neg')}" onclick="setLabel('${s.id}','negative_liberty')" ${disabled}>Neg liberty</button>
@@ -826,6 +882,7 @@ async function loadContexts() {
         contexts = {};
         contextsState = 'failed';
     }
+    markOpenCardsReviewed();
     renderPage();
 }
 
@@ -853,7 +910,13 @@ function contextAvailable(ctx) {
 function extendContext(event, id) {
     event.stopPropagation();
     const current = contextLevel(id);
-    contextLevels.set(id, CONTEXT_STEPS.find(step => step > current) ?? current);
+    const next = CONTEXT_STEPS.find(step => step > current) ?? current;
+    contextLevels.set(id, next);
+    if (labels[id]?.label) {
+        labels[id].context_level = next;
+        backupLocal();
+        queueSave(id);
+    }
     // The new text goes in above the target as well as below, which would shove
     // the sentence being judged down the page. Re-anchor it where it was.
     const targetTop = () => document
@@ -901,6 +964,9 @@ function passageHtml(s, highlighted) {
 function contextHtml(id) {
     // Context is only built for a named set; decade browsing has none to show.
     if (!validationMode) return '';
+    // Before the first label there is nothing to offer: the sentence-only
+    // judgment has to come first, so context is not reachable yet.
+    if (!labels[id]?.label) return '';
     const open = openContexts.has(id);
     const ctx = contextsState === 'ready' ? contextFor(id) : null;
     if (!open) {
@@ -944,6 +1010,37 @@ function escapeHtml(s) {
     return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 }
 
+const LABEL_TEXT = {
+    positive_liberty: 'Positive liberty',
+    negative_liberty: 'Negative liberty',
+    ambiguous: 'Ambiguous',
+    other: 'Other',
+};
+
+// Tells the annotator which stage they are in: judging the bare sentence, or
+// deciding whether the surrounding speech changes that judgment.
+function stageHtml(id) {
+    if (!validationMode) return '';
+    const entry = labels[id];
+    if (!entry?.label) {
+        return `<div class="stage stage-1">Judge the sentence on its own — the
+            surrounding speech opens once you answer.</div>`;
+    }
+    const first = LABEL_TEXT[entry.label] || entry.label;
+    if (entry.revised) {
+        const now = LABEL_TEXT[entry.label_with_context] || entry.label_with_context;
+        return `<div class="stage stage-revised">Changed after reading the context:
+            <strong>${first}</strong> → <strong>${now}</strong></div>`;
+    }
+    if (contextsState === 'ready' && !contextFor(id)) {
+        return `<div class="stage stage-1">No surrounding speech exists for this one,
+            so <strong>${first}</strong> stands.</div>`;
+    }
+    return `<div class="stage stage-2">From the sentence alone you said
+        <strong>${first}</strong>. Does the context change it? Pick again to revise,
+        or move on to keep it.</div>`;
+}
+
 function renderTeamLabels(id) {
     const team = teamLabels[id];
     if (!team || Object.keys(team).length === 0) return '';
@@ -959,16 +1056,20 @@ function renderTeamLabels(id) {
 
 function updateLabelStats() {
     const counts = { positive_liberty: 0, negative_liberty: 0, ambiguous: 0, other: 0 };
+    let revised = 0;
     for (const v of Object.values(labels)) {
-        if (v.label && counts.hasOwnProperty(v.label)) counts[v.label]++;
+        const standing = v.label_with_context || v.label;
+        if (standing && counts.hasOwnProperty(standing)) counts[standing]++;
+        if (v.revised) revised++;
     }
-    const total = Object.keys(labels).length;
+    const total = Object.values(labels).filter(v => v.label).length;
     document.getElementById('label-stats').innerHTML =
         `<span>${total} labeled</span>` +
         `<span style="color:var(--green)">Pos: ${counts.positive_liberty}</span>` +
         `<span style="color:var(--secondary)">Neg: ${counts.negative_liberty}</span>` +
         `<span style="color:var(--orange)">Amb: ${counts.ambiguous}</span>` +
-        `<span>Other: ${counts.other}</span>`;
+        `<span>Other: ${counts.other}</span>` +
+        `<span style="color:var(--muted)">Changed by context: ${revised}</span>`;
     updateProgress(total);
 }
 
@@ -1013,8 +1114,13 @@ document.addEventListener('keydown', e => {
     const labelKeys = { '1': 'positive_liberty', '2': 'negative_liberty', '3': 'ambiguous', '4': 'other' };
 
     if (labelKeys[e.key]) {
+        // Two beats per sentence: the first key records the sentence-only
+        // answer and opens the context, so it must NOT advance — otherwise the
+        // annotator never sees stage 2 and the next key lands on the wrong
+        // card. The second key records the revision and moves on.
+        const alreadyJudged = !!labels[target.id]?.label;
         setLabel(target.id, labelKeys[e.key]);
-        setFocus(focusIndex + 1);          // advance to the next sentence
+        if (alreadyJudged) setFocus(focusIndex + 1);
         e.preventDefault();
     } else if (e.key === 'j' || e.key === 'ArrowDown') {
         setFocus(focusIndex + 1); e.preventDefault();
@@ -1037,9 +1143,11 @@ function exportJSON() {
 }
 
 function exportCSV() {
-    let csv = 'id,label,timestamp,notes\n';
+    let csv = 'id,label,label_with_context,revised,context_level,timestamp,notes\n';
     for (const [id, v] of Object.entries(labels)) {
-        csv += `"${id}","${v.label || ''}","${v.timestamp || ''}","${(v.notes || '').replace(/"/g, '""')}"\n`;
+        csv += `"${id}","${v.label || ''}","${v.label_with_context || ''}",` +
+               `"${v.revised ? 'yes' : 'no'}","${v.context_level || ''}",` +
+               `"${v.timestamp || ''}","${(v.notes || '').replace(/"/g, '""')}"\n`;
     }
     const blob = new Blob([csv], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);

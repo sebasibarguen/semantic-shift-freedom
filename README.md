@@ -86,6 +86,12 @@ consistency, not correctness. To get an independent check, humans label a
 fixed sample **blind** (no model or teammate labels shown) and the scorer
 reports chance-corrected agreement.
 
+Each sentence is labeled twice: first from the sentence alone — all the
+classifier gets, and the only comparable judgment — then again after the
+surrounding speech is revealed. The reveal happens only once the first answer
+is committed, so context cannot bias the comparable label. The gap between the
+passes measures how much `ambiguous` is an artifact of the one-sentence window.
+
 ```bash
 # 1. Build the sample: random draw (representative) + council silver/disputed
 #    (the hard cases excluded from every other accuracy number).
