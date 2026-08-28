@@ -1,5 +1,5 @@
 # ABOUTME: Analyzes freedom collocates from full-text search results.
-# ABOUTME: Works with output from eebo_fulltext_search.py.
+# ABOUTME: Reads the pre-built EEBO corpus under data/eebo/fulltext_corpus/.
 
 import json
 import re

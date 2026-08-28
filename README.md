@@ -22,6 +22,21 @@ uv sync
 cp .env.example .env  # fill in API keys
 ```
 
+`.env.example` lists which key each part of the pipeline needs. Only
+`ANTHROPIC_API_KEY` is required for the default classifier; the OpenAI and
+Google keys are needed only to run the full three-model council.
+
+### Tests and lint
+
+```bash
+uv run pytest
+uv run ruff check src tests
+```
+
+`uv sync` installs the dev group (pytest, ruff) along with the runtime
+dependencies, and `pyproject.toml` puts the repo root on `sys.path` so
+`src.*` imports resolve under pytest.
+
 ## Data
 
 The `data/` directory is not included (too large). Download each dataset and place it under `data/`. Each script has an `ABOUTME` comment at the top describing the expected path structure.
