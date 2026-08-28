@@ -6,8 +6,9 @@ from pathlib import Path
 
 import numpy as np
 
-from .embeddings import TemporalEmbeddings
-from .metrics import cosine_similarity
+from src.embeddings import TemporalEmbeddings
+from src.metrics import cosine_similarity
+
 from .semantic_axis import (
     AGENCY_SEEDS,
     CONSTRAINT_SEEDS,
@@ -17,7 +18,7 @@ from .semantic_axis import (
     build_axis,
     expand_pole,
     find_changepoint_bic,
-    linear_trend,
+    linear_trend_r2,
     project_onto_axis,
 )
 
@@ -147,7 +148,7 @@ def run_coha_analysis(coha_dir: str, gbooks_dir: str, output_path: str):
         for word in all_words:
             word_decades = [int(d) for d in sorted(projections[word].keys())]
             word_values = [projections[word][str(d)] for d in word_decades]
-            trend = linear_trend(word_decades, word_values)
+            trend = linear_trend_r2(word_decades, word_values)
             if trend:
                 trends[word] = trend
         results[label]["semaxis_trends"] = trends

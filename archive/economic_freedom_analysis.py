@@ -17,8 +17,8 @@ from pathlib import Path
 
 import numpy as np
 
-from .embeddings import TemporalEmbeddings
-from .metrics import cosine_distance as metrics_cosine_distance
+from src.embeddings import TemporalEmbeddings
+from src.metrics import cosine_distance as metrics_cosine_distance
 
 
 def cosine_distance(v1, v2):

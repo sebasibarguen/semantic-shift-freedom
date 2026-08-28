@@ -43,10 +43,10 @@ The `data/` directory is not included (too large). Download each dataset and pla
 
 | Dataset | Source | Scripts |
 |---------|--------|---------|
-| HistWords (COHA + Google Books) | [Stanford NLP](https://nlp.stanford.edu/projects/histwords/) | `embeddings.py`, `freedom_liberty_analysis.py`, `modern_embeddings.py` |
-| EEBO (Early English Books Online) | [Text Creation Partnership](https://textcreationpartnership.org/) | `tier2_analysis.py`, `tier2_fulltext_analysis.py` |
-| Hansard Parliamentary Debates | [Historic Hansard API](https://api.parliament.uk/historic-hansard/), [parlparse](https://github.com/mysociety/parlparse) | `hansard_*.py`, `parlparse_extractor.py` |
-| Wikipedia dump | [Wikimedia Downloads](https://dumps.wikimedia.org/) | `wiki_*.py` |
+| HistWords (COHA + Google Books) | [Stanford NLP](https://nlp.stanford.edu/projects/histwords/) | `src/embeddings.py`, `src/freedom_liberty_analysis.py`, `src/robustness.py` |
+| EEBO (Early English Books Online) | [Text Creation Partnership](https://textcreationpartnership.org/) | `archive/tier2_analysis.py`, `archive/tier2_fulltext_analysis.py` |
+| Hansard Parliamentary Debates | [Historic Hansard API](https://api.parliament.uk/historic-hansard/), [parlparse](https://github.com/mysociety/parlparse) | `src/hansard_*.py`, `src/parlparse_extractor.py` |
+| Wikipedia dump | [Wikimedia Downloads](https://dumps.wikimedia.org/) | `src/wiki_train.py`, `archive/wiki_embeddings.py` |
 
 ## Running analyses
 
@@ -64,16 +64,19 @@ uv run python -m src.control_words
 uv run python -m src.liberty_trends
 uv run python -m src.corpus_manifest
 
-# Google Trends (2004-present or COVID-era)
-uv run python -m src.trends --range full
-uv run python -m src.trends --range 2020s
+# Negative/positive concept cluster (Method 4, null result)
+uv run python -m src.negative_positive_embeddings
 
-# Hansard / EEBO analysis scripts
+# Method 1 robustness diagnostics
+uv run python -m src.trend_robustness
+
+# Hansard frequency/collocate analysis
 uv run python -m src.hansard_analysis
-uv run python -m src.tier2_fulltext_analysis
 ```
 
 Each script's `ABOUTME` comment at the top describes inputs and outputs.
+Analyses that are no longer part of the active claim live in `archive/` —
+see [`archive/README.md`](archive/README.md).
 
 ## LLM sentence classification
 

@@ -6,7 +6,7 @@ from pathlib import Path
 
 import numpy as np
 
-from .embeddings import TemporalEmbeddings
+from src.embeddings import TemporalEmbeddings
 
 # Seed words for each pole — expanded via nearest neighbors
 CONSTRAINT_SEEDS = ["slavery", "bondage", "servitude", "oppression"]

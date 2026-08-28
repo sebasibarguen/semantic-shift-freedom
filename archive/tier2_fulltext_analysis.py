@@ -6,7 +6,8 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from .domain_tagger import DomainTagger
+from src.domain_tagger import DomainTagger
+
 from .normalizer import EarlyModernNormalizer
 
 

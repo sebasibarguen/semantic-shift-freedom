@@ -74,8 +74,9 @@ def run_glove_analysis(coha_dir: str, glove_dir: str, output_path: str):
     Run SemAxis analysis on GloVe embeddings aligned to COHA.
     Expects glove_dir to have aligned HistWords-format files labeled 2014 and 2024.
     """
-    from .embeddings import TemporalEmbeddings
-    from .metrics import cosine_similarity
+    from src.embeddings import TemporalEmbeddings
+    from src.metrics import cosine_similarity
+
     from .semantic_axis import (
         AGENCY_SEEDS,
         CONSTRAINT_SEEDS,
@@ -83,7 +84,7 @@ def run_glove_analysis(coha_dir: str, glove_dir: str, output_path: str):
         EXPANSION_K,
         build_axis,
         expand_pole,
-        linear_trend,
+        linear_trend_r2,
     )
 
     results = {"coha": {}, "glove": {}, "combined": {}}
@@ -207,7 +208,7 @@ def run_glove_analysis(coha_dir: str, glove_dir: str, output_path: str):
     coha_freedom = coha_projections.get("freedom", {})
     coha_d = [int(d) for d in sorted(coha_freedom.keys())]
     coha_v = [coha_freedom[str(d)] for d in coha_d]
-    coha_trend = linear_trend(coha_d, coha_v)
+    coha_trend = linear_trend_r2(coha_d, coha_v)
     if coha_trend:
         print(f"  COHA only (1830-2000): {coha_trend['slope_per_century']:+.4f}/century (R²={coha_trend['r_squared']:.3f})")
         results["coha"]["trend"] = coha_trend
@@ -221,7 +222,7 @@ def run_glove_analysis(coha_dir: str, glove_dir: str, output_path: str):
 
     combined_d = sorted(all_decades.keys())
     combined_v = [all_decades[d] for d in combined_d]
-    combined_trend = linear_trend(combined_d, combined_v)
+    combined_trend = linear_trend_r2(combined_d, combined_v)
     if combined_trend:
         print(f"  Combined (1830-2024):  {combined_trend['slope_per_century']:+.4f}/century (R²={combined_trend['r_squared']:.3f})")
         results["combined"]["trend"] = combined_trend
@@ -234,14 +235,14 @@ def run_glove_analysis(coha_dir: str, glove_dir: str, output_path: str):
         coha_wd = coha_projections.get(word, {})
         cd = [int(d) for d in sorted(coha_wd.keys())]
         cv = [coha_wd[str(d)] for d in cd]
-        ct = linear_trend(cd, cv)
+        ct = linear_trend_r2(cd, cv)
 
         glove_wd = glove_projections.get(word, {})
         all_wd = dict(coha_wd)
         all_wd.update(glove_wd)
         ad = [int(d) for d in sorted(all_wd.keys())]
         av = [all_wd[str(d)] for d in ad]
-        at = linear_trend(ad, av)
+        at = linear_trend_r2(ad, av)
 
         cs = f"{ct['slope_per_century']:+.4f}" if ct else "N/A"
         as_ = f"{at['slope_per_century']:+.4f}" if at else "N/A"

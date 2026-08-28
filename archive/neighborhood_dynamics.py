@@ -6,9 +6,9 @@ from pathlib import Path
 
 import numpy as np
 
-from .domain_tagger import DomainTagger
-from .embeddings import TemporalEmbeddings
-from .metrics import cosine_distance, cosine_similarity
+from src.domain_tagger import DomainTagger
+from src.embeddings import TemporalEmbeddings
+from src.metrics import cosine_distance, cosine_similarity
 
 CONTROL_WORDS = [
     "liberty", "justice", "truth", "honor", "power",
