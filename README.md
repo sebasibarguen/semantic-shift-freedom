@@ -16,11 +16,21 @@ operational setup and tooling.
 Requires Python 3.12+ and [`uv`](https://docs.astral.sh/uv/).
 
 ```bash
+git lfs install                       # once per machine
 git clone https://github.com/sebasibarguen/semantic-shift-freedom
 cd semantic-shift-freedom
 uv sync
 cp .env.example .env  # fill in API keys
 ```
+
+`web/data/*.json` is stored in [Git LFS](https://git-lfs.com). Without
+`git lfs install` before cloning, those paths check out as ~130-byte pointer
+files and the web interface will fail to parse them. `git lfs pull` fixes an
+existing clone.
+
+**The Vercel project must have Git LFS enabled**, or the deploy serves the
+pointer files instead of the data and `compare.html` breaks at runtime rather
+than at build.
 
 `.env.example` lists which key each part of the pipeline needs. Only
 `ANTHROPIC_API_KEY` is required for the default classifier; the OpenAI and
