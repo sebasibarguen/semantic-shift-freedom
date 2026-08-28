@@ -4,22 +4,8 @@
 import json
 from pathlib import Path
 
-import numpy as np
-
 from .embeddings import TemporalEmbeddings
-
-
-def cosine_similarity(v1, v2):
-    """Compute cosine similarity between two vectors."""
-    norm1, norm2 = np.linalg.norm(v1), np.linalg.norm(v2)
-    if norm1 == 0 or norm2 == 0:
-        return 0.0
-    return float(np.dot(v1, v2) / (norm1 * norm2))
-
-
-def cosine_distance(v1, v2):
-    """Compute cosine distance (1 - similarity)."""
-    return 1.0 - cosine_similarity(v1, v2)
+from .metrics import cosine_distance, cosine_similarity
 
 
 def cluster_distance(embeddings, word, cluster_words, decade):

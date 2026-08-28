@@ -7,6 +7,8 @@ from pathlib import Path
 import numpy as np
 
 from .embeddings import TemporalEmbeddings
+from .metrics import cosine_distance, cosine_similarity
+from .stats import linear_trend
 
 LEGAL_CLUSTER = ["slavery", "bondage", "emancipation", "rights", "law", "citizen", "slave", "servitude"]
 PERSONAL_CLUSTER = ["choice", "autonomy", "independence", "self", "ability", "power", "individual", "personal"]
@@ -20,15 +22,8 @@ N_BOOTSTRAP = 1000
 RANDOM_SEED = 42
 
 
-def cosine_similarity(v1, v2):
-    n1, n2 = np.linalg.norm(v1), np.linalg.norm(v2)
-    if n1 == 0 or n2 == 0:
-        return 0.0
-    return float(np.dot(v1, v2) / (n1 * n2))
 
 
-def cosine_distance(v1, v2):
-    return 1.0 - cosine_similarity(v1, v2)
 
 
 def cluster_distance(emb, word, cluster_words, decade):
@@ -150,29 +145,6 @@ def bootstrap_pair_similarity(emb, word1, word2, decade, n_bootstrap=N_BOOTSTRAP
     }
 
 
-def linear_trend(decades, values):
-    """OLS trend over decades. Slope is reported per century."""
-    x = (np.array(decades, dtype=float) - np.mean(decades)) / 100.0
-    y = np.array(values, dtype=float)
-    if len(x) < 3:
-        return None
-
-    ss_xx = float(np.sum(x**2))
-    if ss_xx == 0:
-        return None
-
-    slope = float(np.sum(x * (y - np.mean(y))) / ss_xx)
-    y_hat = np.mean(y) + slope * x
-    residuals = y - y_hat
-    df = len(y) - 2
-    se = float(np.sqrt((np.sum(residuals**2) / df) / ss_xx)) if df > 0 else 0.0
-    z = slope / se if se > 0 else 0.0
-
-    return {
-        "slope_per_century": round(slope, 6),
-        "std_error": round(se, 6),
-        "z": round(float(z), 3),
-    }
 
 
 def cluster_gap_trajectory(emb, word, legal_cluster, personal_cluster, decades):

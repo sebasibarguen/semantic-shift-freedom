@@ -4,17 +4,16 @@
 import argparse
 import json
 from collections import Counter, defaultdict
-from math import erf, sqrt
+from math import sqrt
 from pathlib import Path
+
+from .stats import normal_two_sided_p
 
 LABELS = ("positive_liberty", "negative_liberty", "ambiguous", "other", "error", "missing")
 PRIMARY_DENOMINATOR = "positive_plus_negative"
 SENSITIVITY_DENOMINATOR = "substantive"
 
 
-def normal_two_sided_p(z: float) -> float:
-    """Approximate two-sided p-value from a normal z-score."""
-    return float(2 * (1 - (0.5 * (1 + erf(abs(z) / sqrt(2))))))
 
 
 def wilson_interval(successes: int, total: int, z: float = 1.96) -> dict:

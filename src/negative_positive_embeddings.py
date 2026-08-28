@@ -13,13 +13,13 @@ Based on Isaiah Berlin's "Two Concepts of Liberty" (1958).
 
 import json
 from datetime import datetime
-from math import erf, sqrt
 from pathlib import Path
 
 import numpy as np
 
 from .embeddings import TemporalEmbeddings
 from .metrics import cosine_distance, cosine_similarity
+from .stats import linear_trend
 
 # Concept clusters for negative vs positive freedom
 NEGATIVE_CONCEPTS = {
@@ -44,38 +44,8 @@ POSITIVE_CONCEPTS = {
 }
 
 
-def normal_two_sided_p(z: float) -> float:
-    """Approximate two-sided p-value from a normal z-score."""
-    return float(2 * (1 - (0.5 * (1 + erf(abs(z) / sqrt(2))))))
 
 
-def linear_trend(decades: list[int], values: list[float]) -> dict | None:
-    """OLS trend over decades. Slope is reported per century."""
-    if len(decades) < 3 or len(decades) != len(values):
-        return None
-
-    x = (np.array(decades, dtype=float) - np.mean(decades)) / 100.0
-    y = np.array(values, dtype=float)
-    ss_xx = float(np.sum(x**2))
-    if ss_xx == 0:
-        return None
-
-    slope = float(np.sum(x * (y - np.mean(y))) / ss_xx)
-    intercept = float(np.mean(y))
-    y_hat = intercept + slope * x
-    residuals = y - y_hat
-    rss = float(np.sum(residuals**2))
-    df = len(y) - 2
-    se = sqrt((rss / df) / ss_xx) if df > 0 and ss_xx > 0 else 0.0
-    z = slope / se if se > 0 else 0.0
-
-    return {
-        "slope_per_century": round(slope, 6),
-        "intercept_at_mean_decade": round(intercept, 6),
-        "std_error": round(se, 6),
-        "z": round(z, 3),
-        "p_value_approx": round(normal_two_sided_p(z), 6) if se > 0 else None,
-    }
 
 
 def compute_cluster_distance(embeddings: TemporalEmbeddings, word: str, decade: int,

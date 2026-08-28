@@ -18,18 +18,20 @@ from pathlib import Path
 import numpy as np
 
 from .embeddings import TemporalEmbeddings
+from .metrics import cosine_distance as metrics_cosine_distance
 
 
 def cosine_distance(v1, v2):
-    """Compute cosine distance between two vectors."""
+    """Cosine distance, or None when either vector is missing or degenerate.
+
+    The None return is the contract this module's callers branch on, so it
+    guards src.metrics.cosine_distance rather than using it directly.
+    """
     if v1 is None or v2 is None:
         return None
-    norm1 = np.linalg.norm(v1)
-    norm2 = np.linalg.norm(v2)
-    if norm1 == 0 or norm2 == 0:
+    if np.linalg.norm(v1) == 0 or np.linalg.norm(v2) == 0:
         return None
-    similarity = np.dot(v1, v2) / (norm1 * norm2)
-    return 1 - similarity
+    return metrics_cosine_distance(v1, v2)
 
 
 # Economic terms to track proximity to "freedom"

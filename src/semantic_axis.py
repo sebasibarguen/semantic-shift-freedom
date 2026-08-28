@@ -69,8 +69,13 @@ def project_onto_axis(emb, word, decade, axis):
     return float(np.dot(v, axis))
 
 
-def linear_trend(decades, values):
-    """Compute linear regression slope and R-squared."""
+def linear_trend_r2(decades, values):
+    """Per-year regression slope with R-squared.
+
+    Deliberately not src.stats.linear_trend: that one reports a
+    mean-centred per-century slope with a standard error, this one
+    reports a raw per-year slope with goodness of fit.
+    """
     x = np.array(decades, dtype=float)
     y = np.array(values, dtype=float)
     n = len(x)
@@ -109,7 +114,7 @@ def find_changepoint_bic(decades, values):
         return None
 
     # Null model: single linear fit
-    null_trend = linear_trend(decades, values)
+    null_trend = linear_trend_r2(decades, values)
     if null_trend is None:
         return None
 
@@ -126,8 +131,8 @@ def find_changepoint_bic(decades, values):
         x1, y1 = x[:split_idx], y[:split_idx]
         x2, y2 = x[split_idx:], y[split_idx:]
 
-        trend1 = linear_trend(x1.tolist(), y1.tolist())
-        trend2 = linear_trend(x2.tolist(), y2.tolist())
+        trend1 = linear_trend_r2(x1.tolist(), y1.tolist())
+        trend2 = linear_trend_r2(x2.tolist(), y2.tolist())
 
         if trend1 is None or trend2 is None:
             continue
@@ -172,7 +177,7 @@ def permutation_test_trend(emb, word, axis, decades, observed_slope, rng,
     count_as_strong = 0
     for _ in range(n_permutations):
         shuffled = rng.permutation(projections)
-        trend = linear_trend(valid_decades, shuffled.tolist())
+        trend = linear_trend_r2(valid_decades, shuffled.tolist())
         if trend and abs(trend["slope"]) >= abs(observed_slope):
             count_as_strong += 1
 
@@ -215,7 +220,7 @@ def seed_sensitivity_test(emb, decades, rng, n_trials=100):
                 valid_decades.append(decade)
 
         if len(valid_decades) >= 5:
-            trend = linear_trend(valid_decades, projections)
+            trend = linear_trend_r2(valid_decades, projections)
             if trend:
                 slopes.append(trend["slope_per_century"])
 
@@ -351,7 +356,7 @@ def run_analysis():
         word_decades = [int(d) for d in sorted(projections[word].keys())]
         word_values = [projections[word][str(d)] for d in word_decades]
 
-        trend = linear_trend(word_decades, word_values)
+        trend = linear_trend_r2(word_decades, word_values)
         if trend:
             trends[word] = trend
             direction = "→ agency" if trend["slope"] > 0 else "→ constraint"
