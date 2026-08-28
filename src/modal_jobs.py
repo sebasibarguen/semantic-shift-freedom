@@ -61,12 +61,13 @@ def train_wiki_glove(dump_url: str, label: int = 2024) -> dict:
     """Download a Wikipedia bz2 dump, train word2vec, save HistWords-format vectors."""
     import urllib.request
     from pathlib import Path
+
     from gensim.models import Word2Vec
 
     from src.wiki_train import (
         extract_to_text,
-        train_from_text,
         save_histwords_format,
+        train_from_text,
     )
 
     dump_path = Path("/vol/wiki") / "dump.xml.bz2"
@@ -118,8 +119,8 @@ def train_wiki_glove(dump_url: str, label: int = 2024) -> dict:
 )
 def extract_hansard_archive() -> dict:
     """Parse Historic Hansard XML volumes at /vol/hansard_archive/."""
-    from src.hansard_archive_extractor import run_archive_extraction
     from src.domain_tagger import DomainTagger
+    from src.hansard_archive_extractor import run_archive_extraction
 
     tagger = DomainTagger()
     result = run_archive_extraction(
@@ -144,8 +145,8 @@ def extract_hansard_archive() -> dict:
 )
 def extract_parlparse() -> dict:
     """Parse ParlParse debate XML at /vol/parlparse/debates/."""
-    from src.parlparse_extractor import extract_from_parlparse
     from src.domain_tagger import DomainTagger
+    from src.parlparse_extractor import extract_from_parlparse
 
     tagger = DomainTagger()
     result = extract_from_parlparse(

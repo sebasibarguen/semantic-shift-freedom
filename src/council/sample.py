@@ -7,7 +7,6 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-
 # Patterns that historically tripped the v1 classifier — oversample them
 # so the council gets a solid signal on the boundary cases.
 FREEDOM_OF_X_RE = re.compile(

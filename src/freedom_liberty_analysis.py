@@ -2,8 +2,9 @@
 # ABOUTME: Uses HistWords embeddings (1800-1990) to answer two specific questions
 
 import json
-import numpy as np
 from pathlib import Path
+
+import numpy as np
 
 from .embeddings import TemporalEmbeddings
 
@@ -156,8 +157,8 @@ def run_analysis():
     
     if crossover:
         print(f"CROSSOVER DETECTED around {crossover}:")
-        print(f"  Before: 'freedom' was closer to LEGAL/STATUS concepts")
-        print(f"  After: 'freedom' became closer to PERSONAL/CAPACITY concepts")
+        print("  Before: 'freedom' was closer to LEGAL/STATUS concepts")
+        print("  After: 'freedom' became closer to PERSONAL/CAPACITY concepts")
     else:
         # Check which it's consistently closer to
         legal_closer_count = sum(1 for d in results["legal_cluster_distance"] 
@@ -223,7 +224,7 @@ def run_analysis():
         auto_1990 = concept_trajectories["autonomy"][1990]
         print(f"  - 'autonomy': {auto_1800:.3f} → {auto_1990:.3f} (Δ = {auto_1990 - auto_1800:+.3f})")
         if auto_1990 < auto_1800:
-            print(f"    → Freedom moved CLOSER to autonomy")
+            print("    → Freedom moved CLOSER to autonomy")
     
     # Check slavery trajectory
     if "slavery" in concept_trajectories and 1800 in concept_trajectories["slavery"] and 1990 in concept_trajectories["slavery"]:
@@ -231,7 +232,7 @@ def run_analysis():
         slav_1990 = concept_trajectories["slavery"][1990]
         print(f"  - 'slavery': {slav_1800:.3f} → {slav_1990:.3f} (Δ = {slav_1990 - slav_1800:+.3f})")
         if slav_1990 > slav_1800:
-            print(f"    → Freedom moved AWAY from slavery")
+            print("    → Freedom moved AWAY from slavery")
     
     print()
     

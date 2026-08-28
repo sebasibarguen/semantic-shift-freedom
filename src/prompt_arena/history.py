@@ -3,7 +3,7 @@
 
 import hashlib
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 
@@ -13,7 +13,7 @@ def prompt_hash(text: str) -> str:
 
 def _now_iso() -> str:
     """ISO 8601 UTC timestamp with microseconds — sortable, stable across same-second writes."""
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%f")
+    return datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%S.%f")
 
 
 def log_evaluation(history_path: Path, entry: dict) -> None:

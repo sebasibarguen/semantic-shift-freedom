@@ -2,12 +2,13 @@
 # ABOUTME: Tests the "stable word, changing context" finding with zero researcher degrees of freedom.
 
 import json
-import numpy as np
 from pathlib import Path
 
-from .embeddings import TemporalEmbeddings
-from .metrics import cosine_similarity, cosine_distance
+import numpy as np
+
 from .domain_tagger import DomainTagger
+from .embeddings import TemporalEmbeddings
+from .metrics import cosine_distance, cosine_similarity
 
 CONTROL_WORDS = [
     "liberty", "justice", "truth", "honor", "power",
@@ -42,8 +43,8 @@ def centroid_displacement(emb, word, decade1, decade2, k=K_NEIGHBORS):
 
 def neighbor_turnover(emb, word, decade1, decade2, k=K_NEIGHBORS):
     """Track which words enter and leave a word's neighborhood."""
-    nn1 = set(w for w, _ in emb.get_nearest_neighbors(word, decade1, k))
-    nn2 = set(w for w, _ in emb.get_nearest_neighbors(word, decade2, k))
+    nn1 = {w for w, _ in emb.get_nearest_neighbors(word, decade1, k)}
+    nn2 = {w for w, _ in emb.get_nearest_neighbors(word, decade2, k)}
     return {
         "entered": sorted(nn2 - nn1),
         "exited": sorted(nn1 - nn2),
@@ -290,7 +291,6 @@ def run_analysis():
     print()
 
     domain_trajectory = {}
-    all_domains = list(tagger.lexicons.keys()) + ["untagged"]
 
     for decade in key_decades:
         nn = emb.get_nearest_neighbors("freedom", decade, K_NEIGHBORS)

@@ -7,7 +7,6 @@ from collections import Counter, defaultdict
 from math import erf, sqrt
 from pathlib import Path
 
-
 LABELS = ("positive_liberty", "negative_liberty", "ambiguous", "other", "error", "missing")
 PRIMARY_DENOMINATOR = "positive_plus_negative"
 SENSITIVITY_DENOMINATOR = "substantive"
@@ -116,19 +115,19 @@ def weighted_linear_trend(points: list[tuple[int, float, int]]) -> dict | None:
 
     x = [(d - sum(decades) / len(decades)) / 100 for d in decades]
     w_sum = sum(weights)
-    x_bar = sum(w * xi for w, xi in zip(weights, x)) / w_sum
-    y_bar = sum(w * yi for w, yi in zip(weights, y)) / w_sum
-    ss_xx = sum(w * (xi - x_bar) ** 2 for w, xi in zip(weights, x))
+    x_bar = sum(w * xi for w, xi in zip(weights, x, strict=True)) / w_sum
+    y_bar = sum(w * yi for w, yi in zip(weights, y, strict=True)) / w_sum
+    ss_xx = sum(w * (xi - x_bar) ** 2 for w, xi in zip(weights, x, strict=True))
     if ss_xx == 0:
         return None
 
     slope = sum(
         w * (xi - x_bar) * (yi - y_bar)
-        for w, xi, yi in zip(weights, x, y)
+        for w, xi, yi in zip(weights, x, y, strict=True)
     ) / ss_xx
     intercept = y_bar - slope * x_bar
-    residuals = [yi - (intercept + slope * xi) for xi, yi in zip(x, y)]
-    rss = sum(w * r**2 for w, r in zip(weights, residuals))
+    residuals = [yi - (intercept + slope * xi) for xi, yi in zip(x, y, strict=True)]
+    rss = sum(w * r**2 for w, r in zip(weights, residuals, strict=True))
     df = len(points) - 2
     se = sqrt((rss / df) / ss_xx) if df > 0 and ss_xx > 0 else 0.0
     z = slope / se if se > 0 else 0.0

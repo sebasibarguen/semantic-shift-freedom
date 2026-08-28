@@ -203,7 +203,7 @@ def _weighted_ols(rows: list[tuple[list[float], float, float]]) -> dict:
                 xtx[i][j] += w * x[i] * x[j]
     beta = _solve(xtx, xty)
     # Residual variance and coefficient standard errors.
-    rss = sum(w * (y - sum(b * xi for b, xi in zip(beta, x))) ** 2 for x, y, w in rows)
+    rss = sum(w * (y - sum(b * xi for b, xi in zip(beta, x, strict=True))) ** 2 for x, y, w in rows)
     dof = len(rows) - p
     sigma2 = rss / dof if dof > 0 else 0.0
     inv = _invert(xtx)

@@ -5,8 +5,7 @@ import json
 from pathlib import Path
 
 from .embeddings import TemporalEmbeddings
-from .metrics import cosine_similarity, semantic_change_score, neighbor_overlap
-
+from .metrics import cosine_similarity, neighbor_overlap, semantic_change_score
 
 # Control pairs: (word1, word2, category)
 # Near-synonyms expected to have moderate drift

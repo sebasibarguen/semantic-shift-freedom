@@ -2,8 +2,9 @@
 # ABOUTME: Tests freedom/liberty divergence and legal-vs-personal distance-gap trends.
 
 import json
-import numpy as np
 from pathlib import Path
+
+import numpy as np
 
 from .embeddings import TemporalEmbeddings
 

@@ -3,11 +3,9 @@
 
 from collections import Counter
 from dataclasses import asdict
-from typing import Iterable
 
 from .providers.base import CouncilLabel
 from .schema import LABEL_VALUES
-
 
 # Adjudication outcomes
 TIER_GOLD = "gold"

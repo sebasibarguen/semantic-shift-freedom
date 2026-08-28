@@ -1,10 +1,6 @@
 # ABOUTME: Tags words by semantic domain to track shifts in "freedom" collocates.
 # ABOUTME: Domains: servitude, political, economic, personal, religious, legal, abstract.
 
-from typing import Optional
-from pathlib import Path
-import json
-
 
 # Domain lexicons - curated lists of words associated with each semantic domain
 # These are used to tag collocates and track domain distribution over time
@@ -185,7 +181,7 @@ DOMAIN_LEXICONS = {
         # Philosophical schools
         'liberal', 'liberalism', 'libertarian', 'utilitarian',
         # Contrast concepts
-        'constraint', 'coercion', 'compulsion', 'necessity',
+        'constraint', 'coercion', 'compulsion',
         'positive', 'negative', 'interference', 'interfering', 'interfere', 'interferes', 'interfered',
         # Compatibility/logical relations
         'compatible', 'incompatible', 'consistent', 'inconsistent',
@@ -214,7 +210,7 @@ for domain, words in DOMAIN_LEXICONS.items():
 class DomainTagger:
     """Tags words with semantic domains."""
 
-    def __init__(self, custom_lexicons: Optional[dict] = None):
+    def __init__(self, custom_lexicons: dict | None = None):
         self.lexicons = dict(DOMAIN_LEXICONS)
         if custom_lexicons:
             for domain, words in custom_lexicons.items():
@@ -250,7 +246,7 @@ class DomainTagger:
         Calculate distribution of domains across a word list.
         Useful for analyzing collocate domain distribution over time.
         """
-        distribution = {domain: 0 for domain in self.lexicons.keys()}
+        distribution = dict.fromkeys(self.lexicons.keys(), 0)
         distribution['untagged'] = 0
 
         for word in words:

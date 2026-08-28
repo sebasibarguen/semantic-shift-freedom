@@ -85,7 +85,7 @@ class SamplerTests(unittest.TestCase):
     def test_answer_key_carries_model_and_council_labels(self):
         _, key = build_validation_sample(self.corpus, self.council, n_random=0, n_gold=0,
                                          n_silver=2, n_disputed=0, seed=3)
-        for sid, info in key["keys"].items():
+        for info in key["keys"].values():
             self.assertEqual(info["haiku_label"], "negative_liberty")  # from corpus methods.llm
             self.assertEqual(info["council_tier"], "silver")
             self.assertEqual(info["council_gold"], "negative_liberty")

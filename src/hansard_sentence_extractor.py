@@ -4,9 +4,8 @@
 import hashlib
 import json
 import re
-from collections import Counter, defaultdict
+from collections import defaultdict
 from pathlib import Path
-
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -33,7 +32,6 @@ def extract_sentences(df, frequency_data):
 
     sentences_by_decade = defaultdict(list)
     total = 0
-    skipped = 0
 
     relevant = df[df["has_freedom"] | df["has_liberty"]].copy()
     print(f"Processing {len(relevant):,} speeches with freedom/liberty...")

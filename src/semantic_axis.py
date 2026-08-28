@@ -2,11 +2,11 @@
 # ABOUTME: Tests when the legal-to-personal shift happened with change-point detection.
 
 import json
-import numpy as np
 from pathlib import Path
 
+import numpy as np
+
 from .embeddings import TemporalEmbeddings
-from .metrics import cosine_similarity, cosine_distance
 
 # Seed words for each pole — expanded via nearest neighbors
 CONSTRAINT_SEEDS = ["slavery", "bondage", "servitude", "oppression"]
@@ -382,11 +382,11 @@ def run_analysis():
         }
 
         if abs(z_score) > 2:
-            print(f"  → Freedom's trend is an OUTLIER (|z| > 2)")
+            print("  → Freedom's trend is an OUTLIER (|z| > 2)")
         elif abs(z_score) > 1:
-            print(f"  → Freedom's trend is NOTABLE but not extreme")
+            print("  → Freedom's trend is NOTABLE but not extreme")
         else:
-            print(f"  → Freedom's trend is WITHIN NORMAL RANGE")
+            print("  → Freedom's trend is WITHIN NORMAL RANGE")
 
     print()
 
@@ -432,9 +432,9 @@ def run_analysis():
             print(f"  Observed slope: {freedom_slope:+.4f} per century")
             print(f"  p-value: {perm_result['p_value']}")
             if perm_result["p_value"] < 0.05:
-                print(f"  → SIGNIFICANT at p < 0.05")
+                print("  → SIGNIFICANT at p < 0.05")
             else:
-                print(f"  → NOT significant")
+                print("  → NOT significant")
     print()
 
     # =========================================================================
@@ -458,9 +458,9 @@ def run_analysis():
             dominant = "agency" if sensitivity["pct_positive"] > 90 else "constraint"
             print(f"  → Trend direction is ROBUST: consistently toward {dominant}")
         elif sensitivity["pct_positive"] > 70 or sensitivity["pct_negative"] > 70:
-            print(f"  → Trend direction is MOSTLY CONSISTENT but not rock-solid")
+            print("  → Trend direction is MOSTLY CONSISTENT but not rock-solid")
         else:
-            print(f"  → Trend direction is SENSITIVE to seed choice")
+            print("  → Trend direction is SENSITIVE to seed choice")
 
     # =========================================================================
     # SAVE
@@ -492,7 +492,7 @@ def run_analysis():
     if changepoint:
         print(f"  3. Change-point: {changepoint['decade']}")
     else:
-        print(f"  3. Change-point: none detected (gradual trend)")
+        print("  3. Change-point: none detected (gradual trend)")
     if perm_result:
         print(f"  4. Permutation p-value: {perm_result['p_value']}")
     if sensitivity:

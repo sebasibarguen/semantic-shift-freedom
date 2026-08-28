@@ -3,7 +3,6 @@
 
 import io
 import json
-import os
 import time
 from pathlib import Path
 
@@ -12,7 +11,6 @@ from openai import OpenAI
 from ..prompt import SYSTEM_PROMPT, format_user_message
 from ..schema import COUNCIL_OUTPUT_SCHEMA, LABEL_VALUES
 from .base import BaseCouncilProvider, CouncilLabel
-
 
 # Batch API pricing (50% off list). GPT-5.5 pricing not yet definitively
 # known — using a conservative Sonnet-class estimate; adjust when published.
@@ -48,7 +46,6 @@ class GPTProvider(BaseCouncilProvider):
 
     def submit(self, records: list[dict], state_path: Path) -> str:
         self._submitted_ids = [r["id"] for r in records]
-        provider_id = f"{self.name}:{self.model}"
 
         # Build JSONL: one line per request, OpenAI Batch input format.
         lines = []

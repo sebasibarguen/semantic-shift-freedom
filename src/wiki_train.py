@@ -1,13 +1,13 @@
 # ABOUTME: Extracts text from Wikipedia bz2 dumps and trains word2vec.
 # ABOUTME: Saves trained models in HistWords format for use with TemporalEmbeddings.
 
-import re
 import bz2
 import pickle
-import numpy as np
+import re
 from pathlib import Path
 from xml.etree.ElementTree import iterparse
 
+import numpy as np
 
 # HistWords-matching hyperparameters
 W2V_PARAMS = {
@@ -45,7 +45,7 @@ class WikiDumpCorpus:
     def __iter__(self):
         count = 0
         with bz2.open(self.dump_path, "rt", errors="replace") as f:
-            for event, elem in iterparse(f, events=("end",)):
+            for _event, elem in iterparse(f, events=("end",)):
                 if elem.tag.endswith("}text"):
                     text = elem.text
                     if text:

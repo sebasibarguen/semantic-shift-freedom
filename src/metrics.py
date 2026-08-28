@@ -1,8 +1,9 @@
 # ABOUTME: Implements semantic change detection metrics.
 # ABOUTME: Provides cosine distance and neighbor overlap (Jaccard) calculations.
 
+
 import numpy as np
-from typing import Optional
+
 from .embeddings import TemporalEmbeddings
 
 
@@ -25,7 +26,7 @@ def semantic_change_score(
     word: str,
     decade1: int,
     decade2: int
-) -> Optional[float]:
+) -> float | None:
     """
     Compute semantic change score for a word between two time periods.
     Returns cosine distance (higher = more change).
@@ -48,7 +49,7 @@ def neighbor_overlap(
     decade1: int,
     decade2: int,
     k: int = 50
-) -> Optional[float]:
+) -> float | None:
     """
     Compute Jaccard overlap of k nearest neighbors between two time periods.
     Higher value = more stable semantics (neighbors are preserved).
@@ -59,8 +60,8 @@ def neighbor_overlap(
     if not nn1 or not nn2:
         return None
 
-    words1 = set(w for w, _ in nn1)
-    words2 = set(w for w, _ in nn2)
+    words1 = {w for w, _ in nn1}
+    words2 = {w for w, _ in nn2}
 
     intersection = len(words1 & words2)
     union = len(words1 | words2)

@@ -1,8 +1,7 @@
 # ABOUTME: Evaluates a candidate prompt by running the small model on a split,
 # ABOUTME: computing agreement vs council gold, F1, confusion matrix, and sample errors.
 
-import json
-from collections import Counter, defaultdict
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -10,7 +9,7 @@ import anthropic
 from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
 from anthropic.types.messages.batch_create_params import Request
 
-from ..council.schema import LABEL_VALUES, CLAUDE_TOOL
+from ..council.schema import CLAUDE_TOOL, LABEL_VALUES
 from .history import log_evaluation, lookup_eval, prompt_hash
 
 
@@ -114,17 +113,17 @@ def compute_metrics(predicted: list[str], gold: list[str], labels: list[str]) ->
     n_skipped = sum(1 for p in predicted if p == "error")
 
     valid_pred, valid_gold = [], []
-    for p, g in zip(predicted, gold):
+    for p, g in zip(predicted, gold, strict=True):
         if p == "error":
             continue
         valid_pred.append(p)
         valid_gold.append(g)
 
-    correct = sum(1 for p, g in zip(valid_pred, valid_gold) if p == g)
+    correct = sum(1 for p, g in zip(valid_pred, valid_gold, strict=True) if p == g)
     accuracy = correct / len(valid_pred) if valid_pred else 0.0
 
     cm: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
-    for p, g in zip(valid_pred, valid_gold):
+    for p, g in zip(valid_pred, valid_gold, strict=True):
         cm[p][g] += 1
 
     per_p, per_r, per_f1 = {}, {}, {}
@@ -199,7 +198,7 @@ def evaluate_prompt(
 
     # Sample errors for inspection
     errors = []
-    for r, pred in zip(records, predictions):
+    for r, pred in zip(records, predictions, strict=True):
         if pred["label"] == "error" or pred["label"] == r["gold_label"]:
             continue
         errors.append({

@@ -267,7 +267,7 @@ def print_eval_report(eval_data: list[dict]):
         print("=" * len(title))
         print(f"Agreement vs Opus: {agreement(pred_key):.1f}%  ({len(eval_data)} sentences)")
         print()
-        header = "pred \\ opus".ljust(18) + "  ".join(l[:7].rjust(7) for l in labels)
+        header = "pred \\ opus".ljust(18) + "  ".join(lbl[:7].rjust(7) for lbl in labels)
         print(header)
         for row in labels:
             vals = [str(cm.get((row, col), 0)).rjust(7) for col in labels]

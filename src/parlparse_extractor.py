@@ -6,8 +6,7 @@ import json
 import re
 from collections import defaultdict
 from pathlib import Path
-from xml.etree.ElementTree import iterparse, ParseError
-
+from xml.etree.ElementTree import ParseError, iterparse
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -59,7 +58,7 @@ def extract_from_parlparse(debates_dir, output_dir, domain_tagger=None):
         decade = (year // 10) * 10
 
         try:
-            for event, elem in iterparse(str(fpath), events=("end",)):
+            for _event, elem in iterparse(str(fpath), events=("end",)):
                 if elem.tag != "speech":
                     continue
 

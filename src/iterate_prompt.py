@@ -24,7 +24,6 @@ split is locked — only touch it for the final score, never during iteration.
 """
 
 import argparse
-import json
 import sys
 from pathlib import Path
 
@@ -125,7 +124,7 @@ def cmd_eval(args):
     print()
     print("Confusion matrix (rows=predicted, cols=gold):")
     labels = sorted(result.per_class_f1.keys())
-    header = "pred\\gold".ljust(22) + "  ".join(l[:8].ljust(8) for l in labels)
+    header = "pred\\gold".ljust(22) + "  ".join(lbl[:8].ljust(8) for lbl in labels)
     print(header)
     for row in labels:
         cells = [str(result.confusion_matrix.get(row, {}).get(col, 0)).rjust(8) for col in labels]

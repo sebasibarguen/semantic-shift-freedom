@@ -12,8 +12,8 @@ import json
 import time
 import urllib.parse
 import urllib.request
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
 
 
 def query_ngram(phrase: str, start_year: int = 1970, end_year: int = 2019,
@@ -61,7 +61,7 @@ def analyze_trend(data: dict) -> dict:
 
     # Calculate decade averages
     decade_avgs = {}
-    for i, (year, val) in enumerate(zip(years, ts)):
+    for year, val in zip(years, ts, strict=True):
         decade = (year // 10) * 10
         if decade not in decade_avgs:
             decade_avgs[decade] = []

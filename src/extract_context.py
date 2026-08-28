@@ -78,8 +78,7 @@ def fetch(url, dest):
 def archive_urls(cache_dir):
     """Volume stem -> zip URL, from the published archive link list."""
     listing = cache_dir / "hansard_archive_urls.txt"
-    if not listing.exists():
-        if not fetch(ARCHIVE_URL_LIST, listing):
+    if not listing.exists() and not fetch(ARCHIVE_URL_LIST, listing):
             raise RuntimeError(f"Could not download archive URL list: {ARCHIVE_URL_LIST}")
     urls = {}
     for line in listing.read_text().splitlines():

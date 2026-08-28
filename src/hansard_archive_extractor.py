@@ -6,8 +6,7 @@ import json
 import re
 from collections import defaultdict
 from pathlib import Path
-from xml.etree.ElementTree import iterparse, ParseError
-
+from xml.etree.ElementTree import ParseError, iterparse
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -70,7 +69,7 @@ def extract_from_archive(xml_path, domain_tagger=None):
 
     sentences = []
     try:
-        for event, elem in iterparse(str(xml_path), events=("end",)):
+        for _event, elem in iterparse(str(xml_path), events=("end",)):
             if elem.tag != "p":
                 continue
 
@@ -139,7 +138,7 @@ def extract_from_archive(xml_path, domain_tagger=None):
 
             elem.clear()
 
-    except (ParseError, Exception) as e:
+    except (ParseError, Exception):
         # Some archive files have malformed XML — skip them
         pass
 

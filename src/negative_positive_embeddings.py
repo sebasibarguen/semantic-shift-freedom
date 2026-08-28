@@ -12,15 +12,14 @@ Based on Isaiah Berlin's "Two Concepts of Liberty" (1958).
 """
 
 import json
-from pathlib import Path
 from datetime import datetime
 from math import erf, sqrt
+from pathlib import Path
 
 import numpy as np
 
 from .embeddings import TemporalEmbeddings
 from .metrics import cosine_distance, cosine_similarity
-
 
 # Concept clusters for negative vs positive freedom
 NEGATIVE_CONCEPTS = {

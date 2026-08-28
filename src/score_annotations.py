@@ -417,7 +417,7 @@ def main() -> None:
         parser.error("--names must have one entry per --labels file")
 
     answer_key = json.loads(args.answer_key.read_text())
-    entries = {name: load_entries(path) for name, path in zip(names, args.labels)}
+    entries = {name: load_entries(path) for name, path in zip(names, args.labels, strict=True)}
     annotators = {name: {sid: e["label"] for sid, e in ent.items()}
                   for name, ent in entries.items()}
     finals = {name: final_labels(ent) for name, ent in entries.items()}

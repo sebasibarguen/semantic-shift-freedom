@@ -29,11 +29,11 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from src.council.council import run_council
-from src.council.sample import build_sample
-from src.council.providers.claude import ClaudeProvider
-from src.council.providers.gpt import GPTProvider
-from src.council.providers.gemini import GeminiProvider
 from src.council.providers.base import BaseCouncilProvider
+from src.council.providers.claude import ClaudeProvider
+from src.council.providers.gemini import GeminiProvider
+from src.council.providers.gpt import GPTProvider
+from src.council.sample import build_sample
 
 load_dotenv()
 
@@ -108,6 +108,7 @@ def cmd_collect(args):
     """
     import threading
     from dataclasses import asdict
+
     from src.council.adjudicate import adjudicate_all
 
     sample_path = OUTPUT_DIR / ("pilot_sample.json" if args.pilot else "sample.json")

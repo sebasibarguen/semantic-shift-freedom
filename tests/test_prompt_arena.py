@@ -1,7 +1,6 @@
 # ABOUTME: Tests for the prompt arena: deterministic splits, metrics, history I/O.
 # ABOUTME: No network — these tests cover the harness logic, not the model itself.
 
-import json
 import tempfile
 import unittest
 from pathlib import Path

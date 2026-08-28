@@ -3,9 +3,9 @@
 
 import json
 import pickle
-import numpy as np
 from pathlib import Path
 
+import numpy as np
 
 VOCAB_LIMIT = 50_000
 
@@ -14,7 +14,7 @@ def load_glove_txt(glove_path: str, vocab_limit: int = VOCAB_LIMIT):
     """Load a GloVe text file into vocab list + numpy matrix."""
     vocab = []
     vectors = []
-    with open(glove_path, "r", encoding="utf-8", errors="replace") as f:
+    with open(glove_path, encoding="utf-8", errors="replace") as f:
         for line in f:
             parts = line.rstrip().split(" ")
             if len(parts) < 10:  # skip malformed lines
@@ -77,9 +77,13 @@ def run_glove_analysis(coha_dir: str, glove_dir: str, output_path: str):
     from .embeddings import TemporalEmbeddings
     from .metrics import cosine_similarity
     from .semantic_axis import (
-        CONSTRAINT_SEEDS, AGENCY_SEEDS, CONTROL_WORDS,
-        expand_pole, build_axis, project_onto_axis, linear_trend,
+        AGENCY_SEEDS,
+        CONSTRAINT_SEEDS,
+        CONTROL_WORDS,
         EXPANSION_K,
+        build_axis,
+        expand_pole,
+        linear_trend,
     )
 
     results = {"coha": {}, "glove": {}, "combined": {}}

@@ -2,9 +2,9 @@
 # ABOUTME: Provides methods to access word vectors across different decades.
 
 import pickle
-import numpy as np
 from pathlib import Path
-from typing import Optional
+
+import numpy as np
 
 
 class TemporalEmbeddings:
@@ -48,7 +48,7 @@ class TemporalEmbeddings:
             except FileNotFoundError:
                 print(f"Skipping {decade} - not found")
 
-    def get_vector(self, word: str, decade: int) -> Optional[np.ndarray]:
+    def get_vector(self, word: str, decade: int) -> np.ndarray | None:
         """Get the embedding vector for a word in a specific decade."""
         if decade not in self.embeddings:
             return None

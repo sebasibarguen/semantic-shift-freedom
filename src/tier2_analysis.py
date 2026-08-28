@@ -3,11 +3,11 @@
 
 import json
 import re
-from pathlib import Path
 from collections import Counter, defaultdict
-from .normalizer import EarlyModernNormalizer
-from .domain_tagger import DomainTagger
+from pathlib import Path
 
+from .domain_tagger import DomainTagger
+from .normalizer import EarlyModernNormalizer
 
 # Freedom variants to search for (pre-normalization)
 FREEDOM_VARIANTS = [
@@ -27,7 +27,7 @@ def load_bin_corpus(corpus_dir: Path, bin_label: str) -> list[dict]:
     """Load corpus for a specific time bin."""
     json_path = corpus_dir / f"eebo_{bin_label}.json"
     if json_path.exists():
-        with open(json_path, 'r', encoding='utf-8') as f:
+        with open(json_path, encoding='utf-8') as f:
             return json.load(f)
     return []
 
@@ -198,11 +198,11 @@ def main():
         print(f"  Words: {r['total_words']:,}")
         print(f"  Freedom contexts: {r['context_count']}")
 
-        print(f"  Top collocates: ", end='')
+        print("  Top collocates: ", end='')
         top_words = [c['word'] for c in r['top_collocates'][:10]]
         print(', '.join(top_words))
 
-        print(f"  Domain distribution (top 50):")
+        print("  Domain distribution (top 50):")
         for domain, count in sorted(r['domain_distribution'].items(), key=lambda x: -x[1]):
             pct = count / 50 * 100
             print(f"    {domain}: {count} ({pct:.0f}%)")

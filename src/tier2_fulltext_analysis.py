@@ -3,17 +3,18 @@
 
 import json
 import re
-from pathlib import Path
 from collections import Counter, defaultdict
-from .normalizer import EarlyModernNormalizer
+from pathlib import Path
+
 from .domain_tagger import DomainTagger
+from .normalizer import EarlyModernNormalizer
 
 
 def load_contexts(corpus_dir: Path, bin_label: str) -> list[dict]:
     """Load contexts for a specific time bin."""
     json_path = corpus_dir / f"freedom_contexts_{bin_label}.json"
     if json_path.exists():
-        with open(json_path, 'r', encoding='utf-8') as f:
+        with open(json_path, encoding='utf-8') as f:
             return json.load(f)
     return []
 
@@ -148,12 +149,12 @@ def main():
         print(f"  Texts with freedom: {r['text_count']}")
         print(f"  Total contexts: {r['context_count']}")
 
-        print(f"  Top 15 collocates:")
+        print("  Top 15 collocates:")
         for i, c in enumerate(r['top_collocates'][:15], 1):
             domain_str = c['primary_domain'][:12]
             print(f"    {i:2}. {c['word']:<15} ({c['count']:>5}) [{domain_str}]")
 
-        print(f"\n  Domain distribution (top 50):")
+        print("\n  Domain distribution (top 50):")
         for domain, count in sorted(r['domain_distribution'].items(), key=lambda x: -x[1]):
             pct = count / 50 * 100
             print(f"    {domain:<25} {count:>2} ({pct:>4.0f}%)")

@@ -13,7 +13,6 @@ from ..prompt import SYSTEM_PROMPT, format_user_message
 from ..schema import CLAUDE_TOOL, LABEL_VALUES
 from .base import BaseCouncilProvider, CouncilLabel
 
-
 # Batches API pricing for Opus 4.7 (50% off list): $2.50 in, $12.50 out per 1M tokens.
 # Per-sentence ~700 in + 100 out tokens.
 _OPUS_INPUT_PER_M = 2.50

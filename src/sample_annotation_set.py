@@ -35,7 +35,6 @@ import random
 from collections import defaultdict
 from pathlib import Path
 
-
 # Fields shown to the annotator — the same context the classifier itself receives
 # (year/speaker/party), and nothing that reveals a model's judgment.
 ANNOTATOR_FIELDS = ("id", "year", "date", "word", "speaker", "party", "sentence")

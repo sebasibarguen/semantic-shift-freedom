@@ -2,8 +2,6 @@
 # ABOUTME: Handles long-s, u/v, vv/w, i/j, and common spelling variants.
 
 import re
-from typing import Callable
-
 
 # Common spelling variants for freedom-related vocabulary
 FREEDOM_VARIANTS = {
@@ -215,10 +213,7 @@ class EarlyModernNormalizer:
                 next_char = word[1].lower()
                 # If v is followed by a consonant (not a, e, i, o, u)
                 if next_char not in 'aeiou':
-                    if word[0] == 'V':
-                        word = 'U' + word[1:]
-                    else:
-                        word = 'u' + word[1:]
+                    word = ('U' if word[0] == 'V' else 'u') + word[1:]
 
             normalized.append(word)
 
@@ -239,13 +234,7 @@ class EarlyModernNormalizer:
         Many Early Modern words had silent final -e that modern spelling dropped.
         E.g., 'worke' → 'work'
         """
-        # Common patterns
-        patterns = [
-            (r'\b(\w+)ome\b', r'\1om'),  # freedome → freedom (but not 'some')
-            (r'\b(\w+)ke\b', r'\1k'),  # worke → work (but careful with 'like')
-        ]
-
-        # Only apply to specific known words to avoid over-correction
+        # Only applied to specific known words to avoid over-correction.
         return text
 
     def normalize_ie_y(self, text: str) -> str:
@@ -307,15 +296,12 @@ def demo():
 
 def normalize_corpus_file(input_path: str, output_path: str):
     """Normalize an entire corpus file."""
-    from pathlib import Path
 
     normalizer = EarlyModernNormalizer()
 
-    with open(input_path, 'r', encoding='utf-8') as f_in:
-        with open(output_path, 'w', encoding='utf-8') as f_out:
-            for line in f_in:
-                normalized = normalizer.normalize(line)
-                f_out.write(normalized)
+    with open(input_path, encoding='utf-8') as f_in, open(output_path, 'w', encoding='utf-8') as f_out:
+        for line in f_in:
+            f_out.write(normalizer.normalize(line))
 
 
 if __name__ == "__main__":

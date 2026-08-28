@@ -13,7 +13,6 @@ from ..prompt import SYSTEM_PROMPT, format_user_message
 from ..schema import COUNCIL_OUTPUT_SCHEMA, LABEL_VALUES
 from .base import BaseCouncilProvider, CouncilLabel
 
-
 # Batch pricing 50% off list. Conservative estimate; adjust when published.
 _INPUT_PER_M = 0.625
 _OUTPUT_PER_M = 5.0

@@ -135,7 +135,7 @@ def analyze(data: dict, reference_year: str | None = None) -> dict:
             continue
 
         yearly: dict[str, list[int]] = {}
-        for date, val in zip(dates, values):
+        for date, val in zip(dates, values, strict=True):
             yearly.setdefault(date[:4], []).append(val)
         yearly_avg = {y: round(sum(v) / len(v), 2) for y, v in sorted(yearly.items())}
         years = sorted(yearly_avg.keys())

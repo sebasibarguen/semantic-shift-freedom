@@ -2,15 +2,23 @@
 # ABOUTME: Compares COHA results with Google Books HistWords for cross-validation.
 
 import json
-import numpy as np
 from pathlib import Path
+
+import numpy as np
 
 from .embeddings import TemporalEmbeddings
 from .metrics import cosine_similarity
 from .semantic_axis import (
-    CONSTRAINT_SEEDS, AGENCY_SEEDS, CONTROL_WORDS,
-    expand_pole, build_axis, project_onto_axis, linear_trend,
-    find_changepoint_bic, REFERENCE_DECADE, EXPANSION_K,
+    AGENCY_SEEDS,
+    CONSTRAINT_SEEDS,
+    CONTROL_WORDS,
+    EXPANSION_K,
+    REFERENCE_DECADE,
+    build_axis,
+    expand_pole,
+    find_changepoint_bic,
+    linear_trend,
+    project_onto_axis,
 )
 
 
