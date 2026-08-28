@@ -78,6 +78,28 @@ Each script's `ABOUTME` comment at the top describes inputs and outputs.
 Analyses that are no longer part of the active claim live in `archive/` —
 see [`archive/README.md`](archive/README.md).
 
+## Regenerating the data
+
+Git carries code, docs, and the small reported results. It does not carry the
+bulk generated corpora — those are rebuilt from the scripts below. Nothing is
+removed from the repo unless something here recreates it.
+
+| Path | Rebuild with | Needs |
+|---|---|---|
+| `web/data/sentences_*.json` | `src.hansard_archive_extractor` (pre-1919), `src.parlparse_extractor` (1919+), then `src.classify_liberty --input <file>` | Hansard sources under `data/`, Anthropic API |
+| `web/data/validation_set.json` | `python -m src.sample_annotation_set` | council gold |
+| `web/data/validation_context.json` | `python -m src.extract_context --window 25` | Hansard sources |
+| `outputs/council/` | `python -m src.classify_council --build-sample` then `--run` | all three provider API keys |
+| `outputs/tier2_*.json` | `python -m archive.tier2_analysis`, `python -m archive.tier2_fulltext_analysis` | EEBO under `data/` |
+| `outputs/trends_*.json` | `python -m archive.trends --range full` / `--range 2020s` | network |
+| other `outputs/*.json` from retired analyses | the matching `archive.<name>` module | HistWords under `data/` |
+
+Two inputs are tracked precisely because no script recreates them:
+`outputs/opus_vs_haiku.json` is the hand-built Opus anchor the council sample
+is pinned to, and `outputs/opus_gold_*.json` / `outputs/gemini_vs_haiku_460.json`
+are earlier model-labeled comparison sets with no generator. They are small,
+and losing them would mean re-spending on API calls to get them back.
+
 ## LLM sentence classification
 
 Classifies Hansard sentences as positive/negative/ambiguous/other liberty using Claude Haiku. One request per sentence via the [Message Batches API](https://docs.anthropic.com/en/docs/build-with-claude/batch-processing) (50% cheaper, async) with forced tool-use output (rationale + label). Runs local — no cloud infra.

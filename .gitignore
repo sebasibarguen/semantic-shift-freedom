@@ -31,6 +31,21 @@ web/data_full/
 web/data_zenodo_backup/
 web/web/
 
+# Regenerable outputs. Git carries code, docs, and the small reported results
+# — not bulk generated data. Every path below has a script that rebuilds it;
+# see "Regenerating the data" in the README.
+outputs/council/
+outputs/tier2_analysis.json
+outputs/tier2_fulltext_analysis.json
+outputs/trends_full_history.json
+outputs/trends_2020s_analysis.json
+outputs/modern_embeddings.json
+outputs/semantic_axis.json
+outputs/neighborhood_dynamics.json
+outputs/economic_freedom_analysis.json
+outputs/financial_freedom_deep_dive.json
+outputs/wiki_embeddings.json
+
 # Node
 web/node_modules/
 
