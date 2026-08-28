@@ -1,12 +1,13 @@
 # ABOUTME: Extracts freedom/liberty sentences from ParlParse XML (1919-2025).
 # ABOUTME: Produces decade-chunked JSON matching the existing sentence browser format.
 
-import hashlib
 import json
 import re
 from collections import defaultdict
 from pathlib import Path
 from xml.etree.ElementTree import ParseError, iterparse
+
+from .ids import sentence_id
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -99,9 +100,7 @@ def extract_from_parlparse(debates_dir, output_dir, domain_tagger=None):
 
                     word = "freedom" if has_freedom else "liberty"
 
-                    # Stable ID
-                    id_source = f"{date}-{speaker_clean}-{i}"
-                    sid = f"{date}-{hashlib.md5(id_source.encode()).hexdigest()[:6]}-{i:03d}"
+                    sid = sentence_id(date, speaker_clean, i, sent)
 
                     # Domain tagging
                     domains = {}

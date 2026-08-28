@@ -1,12 +1,13 @@
 # ABOUTME: Extracts freedom/liberty sentences from Hansard Archive XML (1803-1918).
 # ABOUTME: Parses the Parliament archive format with <member>/<membercontribution> tags.
 
-import hashlib
 import json
 import re
 from collections import defaultdict
 from pathlib import Path
 from xml.etree.ElementTree import ParseError, iterparse
+
+from .ids import sentence_id
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -114,8 +115,7 @@ def extract_from_archive(xml_path, domain_tagger=None):
 
                 word = "freedom" if has_freedom else "liberty"
 
-                id_source = f"{approx_year}-{filename}-{speaker}-{i}"
-                sid = f"{approx_year}-{hashlib.md5(id_source.encode()).hexdigest()[:6]}-{i:03d}"
+                sid = sentence_id(str(approx_year), speaker, i, sent)
 
                 domains = {}
                 if domain_tagger:

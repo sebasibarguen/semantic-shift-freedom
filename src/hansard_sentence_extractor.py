@@ -1,11 +1,12 @@
 # ABOUTME: Extracts and classifies every freedom/liberty sentence from Hansard.
 # ABOUTME: Produces decade-chunked JSON files for the sentence comparison web tool.
 
-import hashlib
 import json
 import re
 from collections import defaultdict
 from pathlib import Path
+
+from .ids import sentence_id
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -59,9 +60,7 @@ def extract_sentences(df, frequency_data):
 
             word = "freedom" if has_freedom else "liberty"
 
-            # Generate stable ID
-            id_source = f"{date}-{speaker}-{i}"
-            sid = f"{date[:10]}-{hashlib.md5(id_source.encode()).hexdigest()[:6]}-{i:03d}"
+            sid = sentence_id(date[:10], speaker, i, sent)
 
             # Method 1: Domain tagging
             words_in_sent = WORD_RE.findall(sent_lower)
