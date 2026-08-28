@@ -7,7 +7,7 @@ from collections import defaultdict
 from pathlib import Path
 from xml.etree.ElementTree import ParseError, iterparse
 
-from .ids import sentence_id
+from .ids import IdMinter
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -61,12 +61,16 @@ def infer_year_from_filename(filename):
     return start + int(fraction * (end - start))
 
 
-def extract_from_archive(xml_path, domain_tagger=None):
-    """Extract freedom/liberty sentences from a single Hansard archive XML."""
+def extract_from_archive(xml_path, domain_tagger=None, minter=None):
+    """Extract freedom/liberty sentences from a single Hansard archive XML.
+
+    Pass one ``minter`` across a whole run so ids stay unique across volumes.
+    """
     filename = Path(xml_path).stem
     approx_year = infer_year_from_filename(filename)
     if not approx_year:
         return []
+    minter = minter or IdMinter()
 
     sentences = []
     try:
@@ -115,7 +119,7 @@ def extract_from_archive(xml_path, domain_tagger=None):
 
                 word = "freedom" if has_freedom else "liberty"
 
-                sid = sentence_id(str(approx_year), speaker, i, sent)
+                sid = minter.mint(str(approx_year), speaker, i, sent)
 
                 domains = {}
                 if domain_tagger:
@@ -158,8 +162,9 @@ def run_archive_extraction(archive_dir, output_dir, domain_tagger=None):
     total = 0
     files_processed = 0
 
+    minter = IdMinter()
     for fpath in xml_files:
-        result = extract_from_archive(fpath, domain_tagger)
+        result = extract_from_archive(fpath, domain_tagger, minter)
         for s in result:
             decade = (s["year"] // 10) * 10
             sentences_by_decade[decade].append(s)

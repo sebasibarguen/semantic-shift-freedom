@@ -110,6 +110,33 @@ is pinned to, and `outputs/opus_gold_*.json` / `outputs/gemini_vs_haiku_460.json
 are earlier model-labeled comparison sets with no generator. They are small,
 and losing them would mean re-spending on API calls to get them back.
 
+## Sentence ids
+
+Every sentence carries a stable id, `{date}-{digest}-{index}`, minted in one
+place: `src/ids.py`. The digest covers the sentence text as well as the date,
+speaker, and position-in-speech, so two different sentences can never share
+an id — the earlier scheme omitted the text, and a speaker's second speech on
+the same day reused every id from the first (2.3% of the corpus). Ids are the
+join key for council gold, arena splits, and annotator labels, so uniqueness is
+enforced: `src.corpus_manifest` reports `ids_unique`, and
+`src.sample_annotation_set` refuses to run on a corpus with duplicates.
+
+Existing artifacts were migrated once with `python -m src.remint_ids`
+(idempotent; `--dry-run` reports without writing). It also writes
+`outputs/id_remap.json` (untracked, ~7 MB). Annotator labels exported from
+R2 under the old ids are carried over with:
+
+```bash
+uv run python -m src.remap_labels alice.json bob.json   # → *_remapped.json
+```
+
+Labels saved in validation mode map exactly. A label saved in corpus-browse
+mode on an id that used to be shared is ambiguous and is reported, not guessed.
+
+The prompt-arena cache `outputs/prompts/history.jsonl` was retired to
+`history_pre_remint.jsonl`: arena splits hash the sentence id, so every cached
+dev/test number referred to a split that no longer exists.
+
 ## LLM sentence classification
 
 Classifies Hansard sentences as positive/negative/ambiguous/other liberty using Claude Haiku. One request per sentence via the [Message Batches API](https://docs.anthropic.com/en/docs/build-with-claude/batch-processing) (50% cheaper, async) with forced tool-use output (rationale + label). Runs local — no cloud infra.

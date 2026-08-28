@@ -50,6 +50,9 @@ def load_corpus(data_dir: Path) -> dict[str, dict]:
         if not isinstance(data, list):
             raise ValueError(f"{path} must contain a JSON list")
         for rec in data:
+            if rec["id"] in by_id:
+                raise ValueError(f"duplicate sentence id {rec['id']!r} in {path.name}; "
+                                 "re-run src.remint_ids before sampling")
             by_id[rec["id"]] = rec
     return by_id
 

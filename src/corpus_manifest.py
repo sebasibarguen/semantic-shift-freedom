@@ -39,6 +39,7 @@ def scan_sentence_files(data_dir: Path) -> dict:
     sentence_files = {}
     years = set()
     parties = set()
+    ids = Counter()
     total_records = 0
 
     for path in sorted(data_dir.glob("sentences_*s.json")):
@@ -50,6 +51,7 @@ def scan_sentence_files(data_dir: Path) -> dict:
         file_labels = Counter()
         for record in data:
             total_records += 1
+            ids[record["id"]] += 1
             if record.get("year") is not None:
                 years.add(int(record["year"]))
             if record.get("party"):
@@ -74,6 +76,7 @@ def scan_sentence_files(data_dir: Path) -> dict:
     sorted_years = sorted(years)
     return {
         "total_records": total_records,
+        "duplicate_ids": sum(n - 1 for n in ids.values() if n > 1),
         "years": sorted_years,
         "year_range": [sorted_years[0], sorted_years[-1]] if sorted_years else None,
         "missing_year_ranges": contiguous_missing_years(sorted_years),
@@ -112,6 +115,7 @@ def build_manifest(data_dir: Path) -> dict:
             "index_total_matches_scan": index.get("total_sentences") == scanned["total_records"]
             if index else None,
             "from_to_removed": "from_to" not in scanned["method_counts"],
+            "ids_unique": scanned["duplicate_ids"] == 0,
             "llm_labels_present": sum(
                 count for label, count in scanned["llm_label_counts"].items()
                 if label not in {"missing", "error"}

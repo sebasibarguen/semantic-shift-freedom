@@ -46,6 +46,9 @@ outputs/economic_freedom_analysis.json
 outputs/financial_freedom_deep_dive.json
 outputs/wiki_embeddings.json
 
+# Old→new sentence-id map written by src.remint_ids; ~7 MB, only needed to migrate label exports
+outputs/id_remap.json
+
 # Node
 web/node_modules/
 

@@ -41,6 +41,7 @@
   },
   "scan": {
     "total_records": 145367,
+    "duplicate_ids": 0,
     "years": [
       1803,
       1804,
@@ -318,7 +319,7 @@
     "sentence_files": {
       "sentences_1800s.json": {
         "records": 1032,
-        "size_kb": 885.6,
+        "size_kb": 1117.6,
         "method_counts": {
           "domains": 1032,
           "llm": 1032,
@@ -334,7 +335,7 @@
       },
       "sentences_1810s.json": {
         "records": 1843,
-        "size_kb": 1606.6,
+        "size_kb": 2026.1,
         "method_counts": {
           "domains": 1843,
           "llm": 1843,
@@ -350,7 +351,7 @@
       },
       "sentences_1820s.json": {
         "records": 3688,
-        "size_kb": 3146.2,
+        "size_kb": 3979.4,
         "method_counts": {
           "domains": 3688,
           "llm": 3688,
@@ -366,7 +367,7 @@
       },
       "sentences_1830s.json": {
         "records": 6565,
-        "size_kb": 5653.4,
+        "size_kb": 7132.9,
         "method_counts": {
           "domains": 6565,
           "llm": 6565,
@@ -382,7 +383,7 @@
       },
       "sentences_1840s.json": {
         "records": 4861,
-        "size_kb": 4156.6,
+        "size_kb": 5261.5,
         "method_counts": {
           "domains": 4861,
           "llm": 4861,
@@ -399,7 +400,7 @@
       },
       "sentences_1850s.json": {
         "records": 6713,
-        "size_kb": 5804.7,
+        "size_kb": 7327.1,
         "method_counts": {
           "domains": 6713,
           "llm": 6713,
@@ -415,7 +416,7 @@
       },
       "sentences_1860s.json": {
         "records": 6260,
-        "size_kb": 5332.7,
+        "size_kb": 6748.2,
         "method_counts": {
           "domains": 6260,
           "llm": 6260,
@@ -431,7 +432,7 @@
       },
       "sentences_1870s.json": {
         "records": 4166,
-        "size_kb": 3469.7,
+        "size_kb": 4406.4,
         "method_counts": {
           "domains": 4166,
           "llm": 4166,
@@ -447,7 +448,7 @@
       },
       "sentences_1880s.json": {
         "records": 3511,
-        "size_kb": 2986.8,
+        "size_kb": 3774.4,
         "method_counts": {
           "domains": 3511,
           "llm": 3511,
@@ -463,7 +464,7 @@
       },
       "sentences_1890s.json": {
         "records": 3469,
-        "size_kb": 2980.7,
+        "size_kb": 3759.0,
         "method_counts": {
           "domains": 3469,
           "llm": 3469,
@@ -479,7 +480,7 @@
       },
       "sentences_1900s.json": {
         "records": 3298,
-        "size_kb": 2765.9,
+        "size_kb": 3502.1,
         "method_counts": {
           "domains": 3298,
           "llm": 3298,
@@ -495,7 +496,7 @@
       },
       "sentences_1910s.json": {
         "records": 829,
-        "size_kb": 707.9,
+        "size_kb": 888.3,
         "method_counts": {
           "domains": 829,
           "llm": 829,
@@ -511,7 +512,7 @@
       },
       "sentences_1920s.json": {
         "records": 4909,
-        "size_kb": 4119.7,
+        "size_kb": 5187.9,
         "method_counts": {
           "domains": 4909,
           "llm": 4909,
@@ -528,7 +529,7 @@
       },
       "sentences_1930s.json": {
         "records": 7024,
-        "size_kb": 5864.5,
+        "size_kb": 7392.2,
         "method_counts": {
           "domains": 7024,
           "llm": 7024,
@@ -544,7 +545,7 @@
       },
       "sentences_1940s.json": {
         "records": 8750,
-        "size_kb": 7100.5,
+        "size_kb": 8992.5,
         "method_counts": {
           "domains": 8750,
           "llm": 8750,
@@ -560,7 +561,7 @@
       },
       "sentences_1950s.json": {
         "records": 8960,
-        "size_kb": 7186.8,
+        "size_kb": 9109.8,
         "method_counts": {
           "domains": 8960,
           "llm": 8960,
@@ -576,7 +577,7 @@
       },
       "sentences_1960s.json": {
         "records": 8926,
-        "size_kb": 7109.4,
+        "size_kb": 9024.9,
         "method_counts": {
           "domains": 8926,
           "llm": 8926,
@@ -592,7 +593,7 @@
       },
       "sentences_1970s.json": {
         "records": 11905,
-        "size_kb": 9360.5,
+        "size_kb": 11921.7,
         "method_counts": {
           "domains": 11905,
           "llm": 11905,
@@ -608,7 +609,7 @@
       },
       "sentences_1980s.json": {
         "records": 12332,
-        "size_kb": 10663.5,
+        "size_kb": 14217.4,
         "method_counts": {
           "domains": 12332,
           "freq": 12332,
@@ -626,7 +627,7 @@
       },
       "sentences_1990s.json": {
         "records": 10214,
-        "size_kb": 8809.0,
+        "size_kb": 11745.6,
         "method_counts": {
           "domains": 10214,
           "freq": 10214,
@@ -644,7 +645,7 @@
       },
       "sentences_2000s.json": {
         "records": 11382,
-        "size_kb": 9980.2,
+        "size_kb": 13254.3,
         "method_counts": {
           "domains": 11382,
           "freq": 11382,
@@ -662,7 +663,7 @@
       },
       "sentences_2010s.json": {
         "records": 12652,
-        "size_kb": 11229.9,
+        "size_kb": 14879.8,
         "method_counts": {
           "domains": 12652,
           "freq": 12652,
@@ -680,7 +681,7 @@
       },
       "sentences_2020s.json": {
         "records": 2078,
-        "size_kb": 1844.4,
+        "size_kb": 2446.6,
         "method_counts": {
           "domains": 2078,
           "freq": 2078,
@@ -702,6 +703,7 @@
   "checks": {
     "index_total_matches_scan": true,
     "from_to_removed": true,
+    "ids_unique": true,
     "llm_labels_present": 145365
   }
 }

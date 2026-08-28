@@ -16,5208 +16,5208 @@
     }
   },
   "keys": {
-    "1856-b22c5d-084": {
+    "1856-059987e0-084": {
       "year": 1856,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1833-303ced-051": {
+    "1833-f1b9ad5d-051": {
       "year": 1833,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "2008-11-04-e77d6d-002": {
+    "2008-11-04-bfd57070-002": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1920-04-28-d59702-016": {
+    "1920-04-28-d484a827-016": {
       "year": 1920,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1963-05-15-1daeb2-033": {
+    "1963-05-15-b86704ee-033": {
       "year": 1963,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1953-12-18-104b78-011": {
+    "1953-12-18-51b2133c-011": {
       "year": 1953,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1988-02-18-bb002c-058": {
+    "1988-02-18-9b3e2591-058": {
       "year": 1988,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1970-12-16-e7ff0d-010": {
+    "1970-12-16-a49f45dd-010": {
       "year": 1970,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1947-05-07-ced45a-017": {
+    "1947-05-07-4d1a6206-017": {
       "year": 1947,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1969-11-24-de1260-036": {
+    "1969-11-24-3fa8b3f1-036": {
       "year": 1969,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1943-06-22-f4ea9e-003": {
+    "1943-06-22-0f3bd3d5-003": {
       "year": 1943,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1868-41739b-080": {
+    "1868-855bf326-080": {
       "year": 1868,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1971-04-20-9973ef-024": {
+    "1971-04-20-c430ba63-024": {
       "year": 1971,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1895-3abdcc-012": {
+    "1895-8f6c3418-012": {
       "year": 1895,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1931-01-26-2dc2e7-146": {
+    "1931-01-26-18b3e927-146": {
       "year": 1931,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1977-07-12-800209-003": {
+    "1977-07-12-b76c1b10-003": {
       "year": 1977,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2008-05-06-56df54-003": {
+    "2008-05-06-382c58f5-003": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1956-03-15-9eff8a-002": {
+    "1956-03-15-d3fa3a4c-002": {
       "year": 1956,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1975-11-10-f84115-072": {
+    "1975-11-10-16e3d9d5-072": {
       "year": 1975,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1883-190998-002": {
+    "1883-cf0ef624-002": {
       "year": 1883,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1967-12-07-949c9e-004": {
+    "1967-12-07-9e45aeb5-004": {
       "year": 1967,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1979-03-15-5469cf-006": {
+    "1979-03-15-2898be28-006": {
       "year": 1979,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1989-10-26-1509d4-003": {
+    "1989-10-26-4ab9929e-003": {
       "year": 1989,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1986-12-09-68d251-045": {
+    "1986-12-09-6102f61d-045": {
       "year": 1986,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1943-01-19-f55610-079": {
+    "1943-01-19-8c69b7d4-079": {
       "year": 1943,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1988-07-19-b860c5-004": {
+    "1988-07-19-bd9d5561-004": {
       "year": 1988,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1919-12-02-92b8b8-000": {
+    "1919-12-02-46eea9fe-000": {
       "year": 1919,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1899-0fce53-057": {
+    "1899-0220dcee-057": {
       "year": 1899,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1986-07-22-0ed2b3-009": {
+    "1986-07-22-f73c1690-009": {
       "year": 1986,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1812-3330ea-002": {
+    "1812-287d606e-002": {
       "year": 1812,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1859-d012e5-028": {
+    "1859-8ef66060-028": {
       "year": 1859,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1901-718dae-125": {
+    "1901-509ca5eb-125": {
       "year": 1901,
       "sample_reason": "council_disputed",
       "haiku_label": "other",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2020-02-24-430ddf-004": {
+    "2020-02-24-385e1902-004": {
       "year": 2020,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1976-03-18-bd96e4-026": {
+    "1976-03-18-096c6bff-026": {
       "year": 1976,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1901-d1bc7e-001": {
+    "1901-7699224f-001": {
       "year": 1901,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1937-12-08-172dfb-007": {
+    "1937-12-08-3133cb9f-007": {
       "year": 1937,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1851-6dfe3d-358": {
+    "1851-0949acf4-358": {
       "year": 1851,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1936-06-19-336ccb-010": {
+    "1936-06-19-2419f9a1-010": {
       "year": 1936,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2001-12-18-7194b1-006": {
+    "2001-12-18-777e4106-006": {
       "year": 2001,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1991-06-25-45e171-000": {
+    "1991-06-25-dd836820-000": {
       "year": 1991,
       "sample_reason": "council_disputed",
       "haiku_label": "other",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1940-04-18-c1e97d-016": {
+    "1940-04-18-9c455981-016": {
       "year": 1940,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1993-11-30-e8e3d2-000": {
+    "1993-11-30-edc897dc-000": {
       "year": 1993,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1971-02-10-46d430-019": {
+    "1971-02-10-b1a8f240-019": {
       "year": 1971,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1839-c05fd1-019": {
+    "1839-fcc8a4b0-019": {
       "year": 1839,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1907-ea3770-000": {
+    "1907-edd31ae1-000": {
       "year": 1907,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1996-03-06-fb1f7c-006": {
+    "1996-03-06-57011b74-006": {
       "year": 1996,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1969-11-18-45c67e-027": {
+    "1969-11-18-08a1155a-027": {
       "year": 1969,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1988-05-18-7bb1c2-005": {
+    "1988-05-18-cb8c110d-005": {
       "year": 1988,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1950-11-07-7f65af-065": {
+    "1950-11-07-5b55632a-065": {
       "year": 1950,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1866-33126a-018": {
+    "1866-50953474-018": {
       "year": 1866,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1982-11-29-527337-020": {
+    "1982-11-29-2f86d924-020": {
       "year": 1982,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1989-02-09-8a457e-055": {
+    "1989-02-09-4e3ad59f-055": {
       "year": 1989,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1939-03-06-5b5a38-019": {
+    "1939-03-06-73587942-019": {
       "year": 1939,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1855-457e38-020": {
+    "1855-fbab7f10-020": {
       "year": 1855,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1999-11-01-9c1095-003": {
+    "1999-11-01-6dcfc418-003": {
       "year": 1999,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1963-01-29-e0c254-005": {
+    "1963-01-29-4094c203-005": {
       "year": 1963,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1835-c8580d-080": {
+    "1835-8fca7969-080": {
       "year": 1835,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1975-06-19-4d1397-003": {
+    "1975-06-19-1cd9142e-003": {
       "year": 1975,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1853-702265-051": {
+    "1853-aefac7e0-051": {
       "year": 1853,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1861-f45877-025": {
+    "1861-30450503-025": {
       "year": 1861,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1979-12-03-149192-013": {
+    "1979-12-03-35e37f20-013": {
       "year": 1979,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2000-11-23-354205-002": {
+    "2000-11-23-0a6849f5-002": {
       "year": 2000,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1847-288169-003": {
+    "1847-30690e60-003": {
       "year": 1847,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1940-10-15-2b57c1-026": {
+    "1940-10-15-56a44d6a-026": {
       "year": 1940,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1830-97e3fb-010": {
+    "1830-e06caa39-010": {
       "year": 1830,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1954-10-21-788b39-003": {
+    "1954-10-21-b21bb58b-003": {
       "year": 1954,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1937-02-18-954a7a-042": {
+    "1937-02-18-35bad73d-042": {
       "year": 1937,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "2020-01-13-dd5553-036": {
+    "2020-01-13-975473a9-036": {
       "year": 2020,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2002-12-16-e59ca8-033": {
+    "2002-12-16-517c6577-033": {
       "year": 2002,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2008-05-19-7729b3-005": {
+    "2008-05-19-bb23ee4b-005": {
       "year": 2008,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1846-5a6317-013": {
+    "1846-c682f7e6-013": {
       "year": 1846,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1823-f93542-004": {
+    "1823-d0bc845d-004": {
       "year": 1823,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1999-12-14-bdad96-017": {
+    "1999-12-14-be82d4b5-017": {
       "year": 1999,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "2019-01-28-4d9ac4-000": {
+    "2019-01-28-81c1d421-000": {
       "year": 2019,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1865-452564-007": {
+    "1865-5596da2c-007": {
       "year": 1865,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1982-07-07-77f81a-001": {
+    "1982-07-07-8fca73e0-001": {
       "year": 1982,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1827-dea466-000": {
+    "1827-ede3edeb-000": {
       "year": 1827,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1807-5e5462-073": {
+    "1807-8f802872-073": {
       "year": 1807,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1862-4ebac3-044": {
+    "1862-071ae057-044": {
       "year": 1862,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1859-442b0f-069": {
+    "1859-f7c63257-069": {
       "year": 1859,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1927-11-25-d98acb-039": {
+    "1927-11-25-7aa2bdbe-039": {
       "year": 1927,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1845-0eb430-083": {
+    "1845-657f217a-083": {
       "year": 1845,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1854-12ce61-063": {
+    "1854-ab7ea2e5-063": {
       "year": 1854,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1947-02-17-b90dfd-003": {
+    "1947-02-17-fa66f0da-003": {
       "year": 1947,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1978-05-18-e952a3-039": {
+    "1978-05-18-bee342d6-039": {
       "year": 1978,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1841-acb359-060": {
+    "1841-784386a2-060": {
       "year": 1841,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1938-12-07-f3e221-035": {
+    "1938-12-07-f380dd27-035": {
       "year": 1938,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1854-6aaa15-067": {
+    "1854-ab3f9edf-067": {
       "year": 1854,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1896-dbeac8-081": {
+    "1896-ec620a41-081": {
       "year": 1896,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1999-12-07-68f271-003": {
+    "1999-12-07-bd95b3b2-003": {
       "year": 1999,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1838-2d1ec0-025": {
+    "1838-ee492e0f-025": {
       "year": 1838,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1859-7d6f4b-012": {
+    "1859-797d3c7c-012": {
       "year": 1859,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2001-01-17-7d9c63-060": {
+    "2001-01-17-bfe65eaa-060": {
       "year": 2001,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1826-abaaed-004": {
+    "1826-f7509d72-004": {
       "year": 1826,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1975-05-07-17bb2a-020": {
+    "1975-05-07-3e62d76b-020": {
       "year": 1975,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1865-411e45-020": {
+    "1865-aba614ef-020": {
       "year": 1865,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "2016-11-22-b3369e-037": {
+    "2016-11-22-dee0231c-037": {
       "year": 2016,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1984-07-18-cb4abb-014": {
+    "1984-07-18-1e50044f-014": {
       "year": 1984,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1983-03-29-880e1c-034": {
+    "1983-03-29-55bf64da-034": {
       "year": 1983,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1825-08e1bb-030": {
+    "1825-03b66d80-030": {
       "year": 1825,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1817-d0129a-044": {
+    "1817-39fb4d66-044": {
       "year": 1817,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1864-a5d498-001": {
+    "1864-f180748c-001": {
       "year": 1864,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1902-50fb3e-057": {
+    "1902-c7cd8bbe-057": {
       "year": 1902,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "2007-07-04-3673b9-010": {
+    "2007-07-04-4d59fdc2-010": {
       "year": 2007,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1956-07-24-2d6c0c-081": {
+    "1956-07-24-9deba0dd-081": {
       "year": 1956,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1982-05-17-cb2173-007": {
+    "1982-05-17-51ddece7-007": {
       "year": 1982,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2013-01-23-640e2a-005": {
+    "2013-01-23-83e31ba7-005": {
       "year": 2013,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1847-528563-001": {
+    "1847-e4d51f33-001": {
       "year": 1847,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1937-05-25-b48e90-074": {
+    "1937-05-25-d17a3db1-074": {
       "year": 1937,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2011-11-25-942aa8-023": {
+    "2011-11-25-4f350f51-023": {
       "year": 2011,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1933-02-22-d43ed2-078": {
+    "1933-02-22-9ae28d43-078": {
       "year": 1933,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1919-04-04-9871b9-051": {
+    "1919-04-04-94bf4adc-051": {
       "year": 1919,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2021-03-25-8a1cd1-000": {
+    "2021-03-25-fd995b11-000": {
       "year": 2021,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1959-02-04-6d0b57-029": {
+    "1959-02-04-95505c85-029": {
       "year": 1959,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2003-11-19-f42f53-085": {
+    "2003-11-19-48bd79d5-085": {
       "year": 2003,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1978-02-27-b28284-052": {
+    "1978-02-27-ef9a75b0-052": {
       "year": 1978,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2020-12-30-49d8ee-001": {
+    "2020-12-30-3ece6c50-001": {
       "year": 2020,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1980-07-23-769fd6-002": {
+    "1980-07-23-7832ef8a-002": {
       "year": 1980,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1970-11-26-9bc37e-004": {
+    "1970-11-26-eb37c3e4-004": {
       "year": 1970,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2000-04-04-b96c10-007": {
+    "2000-04-04-d5baf0fb-007": {
       "year": 2000,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1842-1b441a-000": {
+    "1842-8d24ae5b-000": {
       "year": 1842,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1958-05-13-138072-182": {
+    "1958-05-13-d0abd360-182": {
       "year": 1958,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1849-eec039-055": {
+    "1849-62f56be0-055": {
       "year": 1849,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1883-1aa70d-000": {
+    "1883-d9bacdbb-000": {
       "year": 1883,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1853-e0a189-114": {
+    "1853-f5610882-114": {
       "year": 1853,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1935-04-09-c3c9f0-012": {
+    "1935-04-09-fc5836b1-012": {
       "year": 1935,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1863-3f1729-004": {
+    "1863-748cf3f6-004": {
       "year": 1863,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1993-01-25-6d5340-000": {
+    "1993-01-25-8a5d571b-000": {
       "year": 1993,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1814-307735-008": {
+    "1814-cfbd50a5-008": {
       "year": 1814,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1834-372bbf-007": {
+    "1834-7a35029d-007": {
       "year": 1834,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2020-06-29-d45071-008": {
+    "2020-06-29-9db6d9ec-008": {
       "year": 2020,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1858-c44388-027": {
+    "1858-7d6c4c92-027": {
       "year": 1858,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "2006-04-20-efadfe-000": {
+    "2006-04-20-72c89522-000": {
       "year": 2006,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1975-12-05-066b55-015": {
+    "1975-12-05-bd255436-015": {
       "year": 1975,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1989-06-19-402533-013": {
+    "1989-06-19-676ab227-013": {
       "year": 1989,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1986-04-11-f8f39d-042": {
+    "1986-04-11-ffbcd8c5-042": {
       "year": 1986,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1925-12-04-6b9265-009": {
+    "1925-12-04-175b216d-009": {
       "year": 1925,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1926-07-05-65819a-006": {
+    "1926-07-05-55c6c651-006": {
       "year": 1926,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1946-04-30-a1543d-018": {
+    "1946-04-30-67649c23-018": {
       "year": 1946,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1951-02-23-be4484-009": {
+    "1951-02-23-ce34d324-009": {
       "year": 1951,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1840-24682f-005": {
+    "1840-901ccfe7-005": {
       "year": 1840,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1975-04-29-fde375-129": {
+    "1975-04-29-36f7bd81-129": {
       "year": 1975,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1948-01-22-57f806-009": {
+    "1948-01-22-6a96cf43-009": {
       "year": 1948,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1999-05-04-dd2a01-000": {
+    "1999-05-04-24ccbd60-000": {
       "year": 1999,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1967-07-17-0743cc-038": {
+    "1967-07-17-d2cb96f5-038": {
       "year": 1967,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1981-02-06-f50f36-037": {
+    "1981-02-06-e99fa823-037": {
       "year": 1981,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1832-33dd82-015": {
+    "1832-f5c620ac-015": {
       "year": 1832,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1888-d8be79-011": {
+    "1888-12f53049-011": {
       "year": 1888,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1849-74a4a3-168": {
+    "1849-de06a907-168": {
       "year": 1849,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1977-11-10-e43f72-073": {
+    "1977-11-10-382678bd-073": {
       "year": 1977,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1958-07-16-28fbea-005": {
+    "1958-07-16-efddd2cc-005": {
       "year": 1958,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2009-02-26-b167e6-016": {
+    "2009-02-26-19df8b00-016": {
       "year": 2009,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1832-dedbde-007": {
+    "1832-b37c1a18-007": {
       "year": 1832,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1998-02-16-62a972-007": {
+    "1998-02-16-3b187bbe-007": {
       "year": 1998,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1975-05-20-96c4bd-000": {
+    "1975-05-20-3b9d398e-000": {
       "year": 1975,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1998-09-02-058ee0-000": {
+    "1998-09-02-74b924e2-000": {
       "year": 1998,
       "sample_reason": "council_disputed",
       "haiku_label": "other",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1979-03-22-ec0958-025": {
+    "1979-03-22-94dedb53-025": {
       "year": 1979,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2009-02-23-1e8481-000": {
+    "2009-02-23-1589acb5-000": {
       "year": 2009,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1896-9d522a-038": {
+    "1896-f69ff73e-038": {
       "year": 1896,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1979-01-30-1a548a-014": {
+    "1979-01-30-527cb4a4-014": {
       "year": 1979,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1805-b0f9a4-006": {
+    "1805-d0857924-006": {
       "year": 1805,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2017-01-20-4a7714-181": {
+    "2017-01-20-c29cac30-181": {
       "year": 2017,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1932-06-06-1145ac-004": {
+    "1932-06-06-79341eb8-004": {
       "year": 1932,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1871-b69199-135": {
+    "1871-13c3eaa0-135": {
       "year": 1871,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1919-03-24-c1c454-000": {
+    "1919-03-24-10dc5374-000": {
       "year": 1919,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1832-78bfdb-030": {
+    "1832-7124a9e4-030": {
       "year": 1832,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1919-03-20-cccfeb-012": {
+    "1919-03-20-a663537c-012": {
       "year": 1919,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "2018-10-26-9648bc-028": {
+    "2018-10-26-ac5597f2-028": {
       "year": 2018,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1956-06-29-8afd53-006": {
+    "1956-06-29-0088d1e2-006": {
       "year": 1956,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1900-d019c5-040": {
+    "1900-e2c57236-040": {
       "year": 1900,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1889-dc3252-000": {
+    "1889-eedfd661-000": {
       "year": 1889,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1858-3315e0-008": {
+    "1858-d0254c98-008": {
       "year": 1858,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1960-07-15-713323-007": {
+    "1960-07-15-e1421425-007": {
       "year": 1960,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1985-01-14-944f98-005": {
+    "1985-01-14-8d211857-005": {
       "year": 1985,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1948-07-14-a7ab4b-000": {
+    "1948-07-14-141b0ae8-000": {
       "year": 1948,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1919-08-07-b6caac-016": {
+    "1919-08-07-490dba29-016": {
       "year": 1919,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1820-ec15a2-062": {
+    "1820-15d78792-062": {
       "year": 1820,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2001-12-13-2e1680-021": {
+    "2001-12-13-4dc4d5a0-021": {
       "year": 2001,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1926-02-09-e09465-016": {
+    "1926-02-09-b545631f-016": {
       "year": 1926,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1874-a74d57-024": {
+    "1874-ea1f9f9a-024": {
       "year": 1874,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1881-c2339c-008": {
+    "1881-8432f1c0-008": {
       "year": 1881,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2007-01-24-4248a1-008": {
+    "2007-01-24-77705fa4-008": {
       "year": 2007,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1825-b4a32d-262": {
+    "1825-478e4145-262": {
       "year": 1825,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1859-14388a-029": {
+    "1859-fd79891c-029": {
       "year": 1859,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1869-06a2b0-001": {
+    "1869-1f53d9ba-001": {
       "year": 1869,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1992-05-20-66abf0-075": {
+    "1992-05-20-d62f29f3-075": {
       "year": 1992,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1892-0caf89-019": {
+    "1892-8b6829a1-019": {
       "year": 1892,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1996-07-09-0c03e1-001": {
+    "1996-07-09-5e8f3702-001": {
       "year": 1996,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1879-4661b6-008": {
+    "1879-6f150b4d-008": {
       "year": 1879,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1883-53f6bd-081": {
+    "1883-c8b1a36f-081": {
       "year": 1883,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1941-03-20-bf720c-001": {
+    "1941-03-20-fb788aed-001": {
       "year": 1941,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1857-63d5b4-057": {
+    "1857-1b8404ce-057": {
       "year": 1857,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2021-02-04-e5dffc-004": {
+    "2021-02-04-9f9035ef-004": {
       "year": 2021,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1972-10-31-ee787c-088": {
+    "1972-10-31-6ad02e06-088": {
       "year": 1972,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1978-11-03-5e50f7-004": {
+    "1978-11-03-6acdb382-004": {
       "year": 1978,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1977-05-23-7d162f-039": {
+    "1977-05-23-6d04e0bd-039": {
       "year": 1977,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1882-6ce867-025": {
+    "1882-1da9b25d-025": {
       "year": 1882,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2015-11-30-3a2c14-004": {
+    "2015-11-30-7a3e559b-004": {
       "year": 2015,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1814-174a5f-008": {
+    "1814-af44c96a-008": {
       "year": 1814,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1807-187da3-000": {
+    "1807-af543e69-000": {
       "year": 1807,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1829-c9753b-119": {
+    "1829-9fe5229f-119": {
       "year": 1829,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1805-111bab-013": {
+    "1805-c9c72e34-013": {
       "year": 1805,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1948-12-17-6f98f5-045": {
+    "1948-12-17-9d4512fd-045": {
       "year": 1948,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1984-05-16-f54a6c-086": {
+    "1984-05-16-2a2e864e-086": {
       "year": 1984,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1817-1c5b00-065": {
+    "1817-9eb211a0-065": {
       "year": 1817,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1826-c8cf26-077": {
+    "1826-c8e43cea-077": {
       "year": 1826,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1892-70808f-018": {
+    "1892-e3efa153-018": {
       "year": 1892,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1834-143153-370": {
+    "1834-355ac801-370": {
       "year": 1834,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1999-07-15-e54620-008": {
+    "1999-07-15-a70f7946-008": {
       "year": 1999,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1860-ac6110-037": {
+    "1860-009e7868-037": {
       "year": 1860,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1998-06-24-a926a3-005": {
+    "1998-06-24-aa05e369-005": {
       "year": 1998,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2011-12-07-7de35a-008": {
+    "2011-12-07-924bcdfd-008": {
       "year": 2011,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2008-07-22-b905db-065": {
+    "2008-07-22-aa6a6cbc-065": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2011-01-18-f5713f-002": {
+    "2011-01-18-e2566fb2-002": {
       "year": 2011,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2008-03-05-06c69e-005": {
+    "2008-03-05-13b28990-005": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1919-02-19-6a63b4-015": {
+    "1919-02-19-e7cf683b-015": {
       "year": 1919,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1852-610ff1-005": {
+    "1852-d2d4a8a7-005": {
       "year": 1852,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1964-04-24-422779-006": {
+    "1964-04-24-d9a3cc94-006": {
       "year": 1964,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1812-277595-154": {
+    "1812-8912d040-154": {
       "year": 1812,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2000-04-13-ad99ef-004": {
+    "2000-04-13-e4418eb9-004": {
       "year": 2000,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1833-d86f6d-057": {
+    "1833-266a1584-057": {
       "year": 1833,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1986-03-13-629e98-139": {
+    "1986-03-13-b1c2685e-139": {
       "year": 1986,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1900-478cb4-005": {
+    "1900-d1744406-005": {
       "year": 1900,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1896-bd7280-022": {
+    "1896-27e5a093-022": {
       "year": 1896,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1947-11-10-e48488-051": {
+    "1947-11-10-e4612c09-051": {
       "year": 1947,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1999-07-06-be8d39-004": {
+    "1999-07-06-670a290b-004": {
       "year": 1999,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1844-542a3b-210": {
+    "1844-ec5892fe-210": {
       "year": 1844,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2002-01-31-74bdc4-014": {
+    "2002-01-31-2e4b58d7-014": {
       "year": 2002,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1943-12-10-e03458-012": {
+    "1943-12-10-d6bd910a-012": {
       "year": 1943,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1929-12-23-325dc1-092": {
+    "1929-12-23-5f7dbc7f-092": {
       "year": 1929,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1900-b65740-010": {
+    "1900-2e89af1d-010": {
       "year": 1900,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1894-2164a1-021": {
+    "1894-fec2bd3e-021": {
       "year": 1894,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1855-e24450-063": {
+    "1855-77ede373-063": {
       "year": 1855,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1946-10-09-6f1dc2-002": {
+    "1946-10-09-fd46caa7-002": {
       "year": 1946,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1876-ffb08a-004": {
+    "1876-129c3164-004": {
       "year": 1876,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1934-03-27-9c26f7-039": {
+    "1934-03-27-5f63a6de-039": {
       "year": 1934,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1862-2deeed-004": {
+    "1862-40444f55-004": {
       "year": 1862,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1830-a5a9f2-033": {
+    "1830-3bb8d70a-033": {
       "year": 1830,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1969-04-24-9d8036-037": {
+    "1969-04-24-d55da411-037": {
       "year": 1969,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1876-780187-006": {
+    "1876-019f1590-006": {
       "year": 1876,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1970-02-12-a3c1d5-017": {
+    "1970-02-12-5cf62d8f-017": {
       "year": 1970,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1937-06-03-42d4b9-022": {
+    "1937-06-03-fa66b15d-022": {
       "year": 1937,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1935-04-30-75dce3-032": {
+    "1935-04-30-f8c54102-032": {
       "year": 1935,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1949-03-23-d223b3-073": {
+    "1949-03-23-8fcecac2-073": {
       "year": 1949,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1987-07-08-6dc63c-015": {
+    "1987-07-08-32cf2677-015": {
       "year": 1987,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1823-70a533-104": {
+    "1823-a7c594f7-104": {
       "year": 1823,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1961-01-25-4cbe97-050": {
+    "1961-01-25-41a34c6d-050": {
       "year": 1961,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1946-05-06-599972-038": {
+    "1946-05-06-01ed9c0f-038": {
       "year": 1946,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1848-b3506a-006": {
+    "1848-6d156aaf-006": {
       "year": 1848,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1996-05-01-6dcb7b-019": {
+    "1996-05-01-ad1e85fd-019": {
       "year": 1996,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1819-cb2d1f-015": {
+    "1819-814afb4a-015": {
       "year": 1819,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "2005-02-23-1d7f0a-000": {
+    "2005-02-23-0bf6c718-000": {
       "year": 2005,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1983-01-25-66632b-000": {
+    "1983-01-25-bed3d4f0-000": {
       "year": 1983,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1922-07-19-56ea7f-040": {
+    "1922-07-19-f4bb15b3-040": {
       "year": 1922,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1989-10-18-43bd90-024": {
+    "1989-10-18-634bdb55-024": {
       "year": 1989,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1810-d81a24-321": {
+    "1810-9be39fae-321": {
       "year": 1810,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1937-07-02-aeab1a-006": {
+    "1937-07-02-ed240b30-006": {
       "year": 1937,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1958-03-21-757bc6-023": {
+    "1958-03-21-e249f3d2-023": {
       "year": 1958,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1893-c5d1e6-012": {
+    "1893-b73dadf9-012": {
       "year": 1893,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2010-10-21-ae9384-043": {
+    "2010-10-21-24aad06f-043": {
       "year": 2010,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1880-c46b20-011": {
+    "1880-b1056b4d-011": {
       "year": 1880,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1939-03-20-341902-020": {
+    "1939-03-20-0ed2e579-020": {
       "year": 1939,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1923-07-16-1fd19a-045": {
+    "1923-07-16-b75f0d5c-045": {
       "year": 1923,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2012-02-02-5c6ae5-007": {
+    "2012-02-02-14d3ceaf-007": {
       "year": 2012,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1822-f76603-071": {
+    "1822-87fc5313-071": {
       "year": 1822,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1937-06-04-041221-021": {
+    "1937-06-04-0e12ae90-021": {
       "year": 1937,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1975-11-06-fde490-038": {
+    "1975-11-06-153d8804-038": {
       "year": 1975,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1835-a0895e-013": {
+    "1835-ddf02dfd-013": {
       "year": 1835,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2011-11-14-989193-021": {
+    "2011-11-14-def9915d-021": {
       "year": 2011,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1846-d969b8-001": {
+    "1846-a6202cbf-001": {
       "year": 1846,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1969-06-12-10b8f7-009": {
+    "1969-06-12-fcbd2c37-009": {
       "year": 1969,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2016-03-11-7bb704-035": {
+    "2016-03-11-42132ea0-035": {
       "year": 2016,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2002-04-10-81fa19-010": {
+    "2002-04-10-83d5d78d-010": {
       "year": 2002,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1937-04-07-701190-025": {
+    "1937-04-07-9a9f1124-025": {
       "year": 1937,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1919-04-03-51070c-050": {
+    "1919-04-03-e46048e9-050": {
       "year": 1919,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1838-14f09e-002": {
+    "1838-97bd971b-002": {
       "year": 1838,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1959-02-12-7a0919-037": {
+    "1959-02-12-bc764d80-037": {
       "year": 1959,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1958-11-12-9e4e59-014": {
+    "1958-11-12-ace905fd-014": {
       "year": 1958,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1855-840327-009": {
+    "1855-36b5dbb0-009": {
       "year": 1855,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1832-6b651f-063": {
+    "1832-502ad7f6-063": {
       "year": 1832,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1874-a3759f-003": {
+    "1874-d16894c6-003": {
       "year": 1874,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2004-05-10-8a838a-010": {
+    "2004-05-10-6a889b17-010": {
       "year": 2004,
       "sample_reason": "council_disputed",
       "haiku_label": "other",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1883-aba151-079": {
+    "1883-e46e3128-079": {
       "year": 1883,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2002-02-06-ad3e80-007": {
+    "2002-02-06-b2e7b63d-007": {
       "year": 2002,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1896-679018-003": {
+    "1896-e949a1a6-003": {
       "year": 1896,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1905-16df4f-033": {
+    "1905-2b25d07b-033": {
       "year": 1905,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1987-12-04-070f0b-001": {
+    "1987-12-04-b64404c1-001": {
       "year": 1987,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1999-06-22-020605-003": {
+    "1999-06-22-c4278dab-003": {
       "year": 1999,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1980-04-23-e2fff2-016": {
+    "1980-04-23-1397ddfa-016": {
       "year": 1980,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1907-918f3e-002": {
+    "1907-54fd79c4-002": {
       "year": 1907,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1986-04-11-643806-002": {
+    "1986-04-11-eda556ab-002": {
       "year": 1986,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1943-03-25-265cb1-003": {
+    "1943-03-25-53be7e42-003": {
       "year": 1943,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1833-43d564-260": {
+    "1833-92d8d15e-260": {
       "year": 1833,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1832-c8b0bc-036": {
+    "1832-04e8206d-036": {
       "year": 1832,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1925-03-03-9b8dc5-047": {
+    "1925-03-03-992e2283-047": {
       "year": 1925,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1850-facf77-037": {
+    "1850-f96c4e85-037": {
       "year": 1850,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1966-12-15-0ef9f7-092": {
+    "1966-12-15-946e231b-092": {
       "year": 1966,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1826-4171d3-033": {
+    "1826-e2713930-033": {
       "year": 1826,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2000-04-04-ee0293-001": {
+    "2000-04-04-67756365-001": {
       "year": 2000,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1807-9f9ac3-000": {
+    "1807-ce76fc94-000": {
       "year": 1807,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1898-3b031c-001": {
+    "1898-52a45270-001": {
       "year": 1898,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2000-11-27-ffde76-003": {
+    "2000-11-27-14b03717-003": {
       "year": 2000,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1852-4750a8-038": {
+    "1852-eda1d49c-038": {
       "year": 1852,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1864-5db73e-023": {
+    "1864-c7a426e0-023": {
       "year": 1864,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1947-10-23-dce688-026": {
+    "1947-10-23-cb0dcf62-026": {
       "year": 1947,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1937-02-01-868d74-043": {
+    "1937-02-01-01e082e1-043": {
       "year": 1937,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1883-fbf720-005": {
+    "1883-3a44c29b-005": {
       "year": 1883,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2012-04-23-b212fa-000": {
+    "2012-04-23-9e52a630-000": {
       "year": 2012,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1818-57fa30-013": {
+    "1818-d54f3fd3-013": {
       "year": 1818,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1950-07-27-298729-026": {
+    "1950-07-27-d8f9d4c8-026": {
       "year": 1950,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1919-12-22-50f21b-034": {
+    "1919-12-22-16f2450f-034": {
       "year": 1919,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1927-12-15-32b1d5-102": {
+    "1927-12-15-a09f3c96-102": {
       "year": 1927,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1946-11-18-2050ea-067": {
+    "1946-11-18-f4e9f10c-067": {
       "year": 1946,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1805-7ee9cd-007": {
+    "1805-9e223a9a-007": {
       "year": 1805,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1978-02-17-1d1236-020": {
+    "1978-02-17-be32ae79-020": {
       "year": 1978,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1980-04-14-01560e-020": {
+    "1980-04-14-23f585a0-020": {
       "year": 1980,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1952-07-23-ee9ae3-019": {
+    "1952-07-23-bf0cea4d-019": {
       "year": 1952,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1997-02-19-e4b67f-014": {
+    "1997-02-19-4030c3c8-014": {
       "year": 1997,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1850-718b13-025": {
+    "1850-7fae621b-025": {
       "year": 1850,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2021-03-25-9b5296-003": {
+    "2021-03-25-f6e83b75-003": {
       "year": 2021,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1984-04-11-305ba9-046": {
+    "1984-04-11-ebb54e30-046": {
       "year": 1984,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1833-7fed93-405": {
+    "1833-a94b17eb-405": {
       "year": 1833,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1955-11-22-91a0c7-002": {
+    "1955-11-22-77afe745-002": {
       "year": 1955,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1903-6fa915-016": {
+    "1903-018feeb5-016": {
       "year": 1903,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1959-06-12-467b07-055": {
+    "1959-06-12-b6871694-055": {
       "year": 1959,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1817-01e58c-006": {
+    "1817-55b04c40-006": {
       "year": 1817,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1980-07-04-e212b5-011": {
+    "1980-07-04-e2e54d10-011": {
       "year": 1980,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1806-204617-453": {
+    "1806-0e329bcc-453": {
       "year": 1806,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2015-06-09-a2b654-016": {
+    "2015-06-09-9e813b15-016": {
       "year": 2015,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1849-159da7-131": {
+    "1849-e633a4c5-131": {
       "year": 1849,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1943-11-09-931cf4-003": {
+    "1943-11-09-890e80f9-003": {
       "year": 1943,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1823-cf1ccc-009": {
+    "1823-0ea9a47f-009": {
       "year": 1823,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1875-823f57-100": {
+    "1875-4d65366f-100": {
       "year": 1875,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1849-14c69d-568": {
+    "1849-22d1e5d7-568": {
       "year": 1849,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1946-11-13-e7d78d-030": {
+    "1946-11-13-5148559f-030": {
       "year": 1946,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2000-02-15-8fef62-001": {
+    "2000-02-15-1805d05e-001": {
       "year": 2000,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2021-03-18-ed417a-015": {
+    "2021-03-18-e16bdbb7-015": {
       "year": 2021,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1980-02-13-2229df-031": {
+    "1980-02-13-ea92243b-031": {
       "year": 1980,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1863-46167a-054": {
+    "1863-642521f9-054": {
       "year": 1863,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1990-06-27-3dcf29-003": {
+    "1990-06-27-853fb6eb-003": {
       "year": 1990,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1949-07-25-f661f7-016": {
+    "1949-07-25-d0f3537a-016": {
       "year": 1949,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1999-11-22-883c35-032": {
+    "1999-11-22-945ddf5d-032": {
       "year": 1999,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1944-09-28-f274ae-047": {
+    "1944-09-28-9477decd-047": {
       "year": 1944,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1845-f49ecc-307": {
+    "1845-179990ac-307": {
       "year": 1845,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1919-07-09-4f1dc9-051": {
+    "1919-07-09-5b52f4f9-051": {
       "year": 1919,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1825-676b9b-012": {
+    "1825-7747c30d-012": {
       "year": 1825,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1806-625ffd-451": {
+    "1806-7bc5df7c-451": {
       "year": 1806,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1969-10-20-b83eb6-004": {
+    "1969-10-20-e1d115ad-004": {
       "year": 1969,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1865-68cd1f-068": {
+    "1865-78265649-068": {
       "year": 1865,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1980-06-09-9d94fe-021": {
+    "1980-06-09-3d604839-021": {
       "year": 1980,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1882-6be311-081": {
+    "1882-e22df8d9-081": {
       "year": 1882,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1835-ae4268-020": {
+    "1835-c4aa5e5d-020": {
       "year": 1835,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "2016-10-12-45bc6e-017": {
+    "2016-10-12-01b1222d-017": {
       "year": 2016,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2000-03-23-1cee63-009": {
+    "2000-03-23-62b318cc-009": {
       "year": 2000,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1863-ff6348-082": {
+    "1863-dada9faa-082": {
       "year": 1863,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1882-70b5b1-136": {
+    "1882-470b740c-136": {
       "year": 1882,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1945-12-12-106092-009": {
+    "1945-12-12-f611eae0-009": {
       "year": 1945,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1969-03-05-9edcc5-000": {
+    "1969-03-05-c7955eee-000": {
       "year": 1969,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1930-10-29-798f1f-027": {
+    "1930-10-29-fd5a1c2e-027": {
       "year": 1930,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1971-12-16-c70903-013": {
+    "1971-12-16-607fc2e3-013": {
       "year": 1971,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1848-d9e615-117": {
+    "1848-5821f5c1-117": {
       "year": 1848,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2002-02-06-037411-013": {
+    "2002-02-06-69bbfbfe-013": {
       "year": 2002,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1952-05-14-74e974-015": {
+    "1952-05-14-d4a5d31e-015": {
       "year": 1952,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2004-11-17-738046-003": {
+    "2004-11-17-496135c0-003": {
       "year": 2004,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1921-06-15-863d81-000": {
+    "1921-06-15-19d846ac-000": {
       "year": 1921,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1961-05-19-889ac5-041": {
+    "1961-05-19-5d12cbfc-041": {
       "year": 1961,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1835-a39ada-001": {
+    "1835-22967fb5-001": {
       "year": 1835,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2016-10-19-296802-003": {
+    "2016-10-19-4cb37640-003": {
       "year": 2016,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1842-2f6429-003": {
+    "1842-6e4cdcc7-003": {
       "year": 1842,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1853-d4cdc1-124": {
+    "1853-ee43630f-124": {
       "year": 1853,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1948-03-17-766d30-041": {
+    "1948-03-17-1d965954-041": {
       "year": 1948,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1895-cd5507-097": {
+    "1895-feb90e2f-097": {
       "year": 1895,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "2004-03-29-b44a62-020": {
+    "2004-03-29-9629ac3d-020": {
       "year": 2004,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1965-02-15-f6ed0d-004": {
+    "1965-02-15-fc841af3-004": {
       "year": 1965,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1980-06-05-69fc54-003": {
+    "1980-06-05-cd6b3515-003": {
       "year": 1980,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1840-01e11f-001": {
+    "1840-ca2a2c61-001": {
       "year": 1840,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1881-ef3045-000": {
+    "1881-a8b36c62-000": {
       "year": 1881,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1936-11-23-c1fbdd-010": {
+    "1936-11-23-12b60e52-010": {
       "year": 1936,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1979-01-19-156bde-020": {
+    "1979-01-19-87be071a-020": {
       "year": 1979,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1883-bddbd6-047": {
+    "1883-81f374e1-047": {
       "year": 1883,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2002-01-23-a5582f-001": {
+    "2002-01-23-01870f78-001": {
       "year": 2002,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1936-11-26-e49041-001": {
+    "1936-11-26-bbd257a2-001": {
       "year": 1936,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1885-3b4c7c-006": {
+    "1885-c2b9fcf4-006": {
       "year": 1885,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1972-05-09-03c539-060": {
+    "1972-05-09-23e65d75-060": {
       "year": 1972,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2001-11-19-2f7cff-008": {
+    "2001-11-19-6a4a5be5-008": {
       "year": 2001,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1904-90da5a-028": {
+    "1904-dc8f58b8-028": {
       "year": 1904,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1987-11-03-24b70b-007": {
+    "1987-11-03-7d4977b5-007": {
       "year": 1987,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1974-12-03-fa8ace-005": {
+    "1974-12-03-aa451dc8-005": {
       "year": 1974,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1975-04-08-8f8f4b-038": {
+    "1975-04-08-f70ccc9a-038": {
       "year": 1975,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1807-01b179-004": {
+    "1807-b0b0e09b-004": {
       "year": 1807,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1940-06-11-6b9523-031": {
+    "1940-06-11-c1f61395-031": {
       "year": 1940,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1876-41b5c5-157": {
+    "1876-d9910548-157": {
       "year": 1876,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1957-07-11-ca9168-003": {
+    "1957-07-11-aad820ed-003": {
       "year": 1957,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "2013-11-05-0125f8-045": {
+    "2013-11-05-94ca4c36-045": {
       "year": 2013,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1864-139ff8-062": {
+    "1864-f2a08a57-062": {
       "year": 1864,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1852-a2ed63-324": {
+    "1852-7dc0f857-324": {
       "year": 1852,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1857-69ebdc-135": {
+    "1857-fb09ab66-135": {
       "year": 1857,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1959-12-07-793f87-009": {
+    "1959-12-07-0e038c6f-009": {
       "year": 1959,
       "sample_reason": "council_disputed",
       "haiku_label": "other",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1870-273899-022": {
+    "1870-1b0e7bc7-022": {
       "year": 1870,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1823-654267-148": {
+    "1823-36f65d64-148": {
       "year": 1823,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1846-9602d3-018": {
+    "1846-f683fc05-018": {
       "year": 1846,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1998-07-02-5066c8-008": {
+    "1998-07-02-cb185353-008": {
       "year": 1998,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1982-12-10-a5591e-013": {
+    "1982-12-10-97c29da4-013": {
       "year": 1982,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1975-11-10-b26d91-041": {
+    "1975-11-10-9033ef57-041": {
       "year": 1975,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1867-f8c685-003": {
+    "1867-3da4b612-003": {
       "year": 1867,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2014-06-23-76dbfe-031": {
+    "2014-06-23-853fa58b-031": {
       "year": 2014,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "2021-02-22-ff01ea-005": {
+    "2021-02-22-65622005-005": {
       "year": 2021,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1841-c8d609-012": {
+    "1841-93596ad3-012": {
       "year": 1841,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2004-06-30-24d106-052": {
+    "2004-06-30-f94b6417-052": {
       "year": 2004,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1885-3387a7-043": {
+    "1885-fd8e1b97-043": {
       "year": 1885,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1983-02-04-135ec2-015": {
+    "1983-02-04-4ae4f330-015": {
       "year": 1983,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1818-1b9045-235": {
+    "1818-615860d7-235": {
       "year": 1818,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1993-01-27-45cdde-006": {
+    "1993-01-27-fb42ed25-006": {
       "year": 1993,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1855-cf6455-000": {
+    "1855-d1dcdc4f-000": {
       "year": 1855,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1899-518975-011": {
+    "1899-10a63962-011": {
       "year": 1899,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1972-11-28-d0d749-015": {
+    "1972-11-28-4df77b63-015": {
       "year": 1972,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "2020-06-30-745565-000": {
+    "2020-06-30-11e37fa7-000": {
       "year": 2020,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1846-8f674d-057": {
+    "1846-e04e45dc-057": {
       "year": 1846,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1986-11-20-4f23d7-034": {
+    "1986-11-20-c41ba26e-034": {
       "year": 1986,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1864-524f37-206": {
+    "1864-5753c803-206": {
       "year": 1864,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2015-05-27-e411f8-011": {
+    "2015-05-27-3306b30f-011": {
       "year": 2015,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2005-03-15-f1ce08-016": {
+    "2005-03-15-08093b2a-016": {
       "year": 2005,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2011-05-17-b97434-028": {
+    "2011-05-17-8363cbe4-028": {
       "year": 2011,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1829-19227a-174": {
+    "1829-82f0195f-174": {
       "year": 1829,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1957-07-23-32340e-057": {
+    "1957-07-23-0b9d50e0-057": {
       "year": 1957,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1942-09-10-43a7c2-001": {
+    "1942-09-10-235d7c0c-001": {
       "year": 1942,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1858-b023cd-105": {
+    "1858-b3d798ad-105": {
       "year": 1858,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2002-03-19-847ced-032": {
+    "2002-03-19-60ee26db-032": {
       "year": 2002,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1998-07-30-97a750-041": {
+    "1998-07-30-71e33de7-041": {
       "year": 1998,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1939-03-16-34d1fb-000": {
+    "1939-03-16-4fb07890-000": {
       "year": 1939,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1820-d0f187-038": {
+    "1820-6939f774-038": {
       "year": 1820,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1807-90b2a4-010": {
+    "1807-4ec92787-010": {
       "year": 1807,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1974-03-22-8a0633-029": {
+    "1974-03-22-5bc28cb7-029": {
       "year": 1974,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1979-01-31-aea2b3-019": {
+    "1979-01-31-36eac4ae-019": {
       "year": 1979,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1879-7e960c-051": {
+    "1879-142c2a73-051": {
       "year": 1879,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1893-74a58a-004": {
+    "1893-8fdd6296-004": {
       "year": 1893,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1958-11-24-3aa1bd-029": {
+    "1958-11-24-eed81f2c-029": {
       "year": 1958,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1967-05-31-9a3b8f-087": {
+    "1967-05-31-74ef5000-087": {
       "year": 1967,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1932-03-14-9f164b-014": {
+    "1932-03-14-d33512b5-014": {
       "year": 1932,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2017-03-24-45fafc-000": {
+    "2017-03-24-e80f9333-000": {
       "year": 2017,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2020-11-11-6f93dd-004": {
+    "2020-11-11-71f902af-004": {
       "year": 2020,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1808-09e94b-006": {
+    "1808-f62c12ee-006": {
       "year": 1808,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1953-10-22-538889-000": {
+    "1953-10-22-8a549e16-000": {
       "year": 1953,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1825-bfccd3-010": {
+    "1825-3935f317-010": {
       "year": 1825,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1992-11-26-936a15-015": {
+    "1992-11-26-04daa4cc-015": {
       "year": 1992,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1919-05-20-e79dba-035": {
+    "1919-05-20-dc80171f-035": {
       "year": 1919,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1839-30dc49-047": {
+    "1839-5b4aca3f-047": {
       "year": 1839,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1970-07-06-a7cd08-001": {
+    "1970-07-06-56d9c73f-001": {
       "year": 1970,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2021-03-15-fe54b4-014": {
+    "2021-03-15-2374ca82-014": {
       "year": 2021,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1878-f0f92a-007": {
+    "1878-0bf403f2-007": {
       "year": 1878,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1959-07-15-b9d7f3-126": {
+    "1959-07-15-1c7f0e3f-126": {
       "year": 1959,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1925-12-09-cf6459-004": {
+    "1925-12-09-024ad962-004": {
       "year": 1925,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1901-569a8f-009": {
+    "1901-75683f62-009": {
       "year": 1901,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1834-4e34c0-017": {
+    "1834-e1cf4540-017": {
       "year": 1834,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1869-79e262-014": {
+    "1869-2333ef55-014": {
       "year": 1869,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1943-03-11-ac879b-000": {
+    "1943-03-11-3968b533-000": {
       "year": 1943,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1848-bc45d8-116": {
+    "1848-58c18f40-116": {
       "year": 1848,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1902-0156d3-089": {
+    "1902-72e5f538-089": {
       "year": 1902,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1975-03-13-97e2cd-008": {
+    "1975-03-13-570b3382-008": {
       "year": 1975,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1883-416cd6-056": {
+    "1883-cd45cadd-056": {
       "year": 1883,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1973-11-07-071288-000": {
+    "1973-11-07-dc154bb6-000": {
       "year": 1973,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2017-01-10-df5d80-013": {
+    "2017-01-10-396eb9c4-013": {
       "year": 2017,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1898-37a52f-023": {
+    "1898-c8b78d83-023": {
       "year": 1898,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1957-07-16-595348-010": {
+    "1957-07-16-8db2033b-010": {
       "year": 1957,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1888-6ded23-051": {
+    "1888-8bc6a397-051": {
       "year": 1888,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1988-06-14-42b777-041": {
+    "1988-06-14-c2b4acf1-041": {
       "year": 1988,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2002-04-29-6c0371-027": {
+    "2002-04-29-016b4cc0-027": {
       "year": 2002,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2020-01-23-c8e0b1-039": {
+    "2020-01-23-3017411d-039": {
       "year": 2020,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1999-12-14-49a2f8-006": {
+    "1999-12-14-82cf77ba-006": {
       "year": 1999,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1967-12-01-e6c2ed-057": {
+    "1967-12-01-2f4f8344-057": {
       "year": 1967,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1853-90f933-481": {
+    "1853-3c57c4b3-481": {
       "year": 1853,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2000-12-18-22f40e-013": {
+    "2000-12-18-40a8a432-013": {
       "year": 2000,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1950-07-20-d2bc81-000": {
+    "1950-07-20-c1865f85-000": {
       "year": 1950,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1949-04-27-c40b45-001": {
+    "1949-04-27-98941bf3-001": {
       "year": 1949,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "2009-01-22-befff3-000": {
+    "2009-01-22-c9f84537-000": {
       "year": 2009,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1991-11-13-b7673e-004": {
+    "1991-11-13-75d9ee3c-004": {
       "year": 1991,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "2008-10-22-b2f92f-002": {
+    "2008-10-22-a2149528-002": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1904-a5d866-006": {
+    "1904-649f4ba9-006": {
       "year": 1904,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1944-10-13-2185af-008": {
+    "1944-10-13-9061f0bb-008": {
       "year": 1944,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1935-07-16-ed30fa-005": {
+    "1935-07-16-a9b0a1ee-005": {
       "year": 1935,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1982-11-17-7a1028-019": {
+    "1982-11-17-20a1d84f-019": {
       "year": 1982,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1878-40df17-027": {
+    "1878-a0c8da20-027": {
       "year": 1878,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1804-80d266-159": {
+    "1804-8d0a3cac-159": {
       "year": 1804,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1948-05-04-b45b41-111": {
+    "1948-05-04-14d8095f-111": {
       "year": 1948,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1846-ee1137-002": {
+    "1846-82620c79-002": {
       "year": 1846,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "2019-02-04-d11b4b-008": {
+    "2019-02-04-e2d846c2-008": {
       "year": 2019,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1870-5a6bb5-200": {
+    "1870-b7d3529f-200": {
       "year": 1870,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1931-11-24-520326-022": {
+    "1931-11-24-3c7da6e9-022": {
       "year": 1931,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2021-01-11-9c3bc8-003": {
+    "2021-01-11-f784f5d7-003": {
       "year": 2021,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1991-02-22-124ea2-013": {
+    "1991-02-22-8d4be144-013": {
       "year": 1991,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1835-7777ee-011": {
+    "1835-444be535-011": {
       "year": 1835,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1829-c2951b-020": {
+    "1829-587e2be0-020": {
       "year": 1829,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1973-07-17-2d5725-010": {
+    "1973-07-17-fb64b60c-010": {
       "year": 1973,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1953-02-12-c686a0-026": {
+    "1953-02-12-aefaf3e3-026": {
       "year": 1953,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1944-03-17-bef458-030": {
+    "1944-03-17-ff01c427-030": {
       "year": 1944,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1895-325641-318": {
+    "1895-991612e0-318": {
       "year": 1895,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1851-199832-095": {
+    "1851-980abd9f-095": {
       "year": 1851,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1966-12-05-b00bb7-064": {
+    "1966-12-05-17b0b7b0-064": {
       "year": 1966,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2005-07-11-d56c63-011": {
+    "2005-07-11-3b302781-011": {
       "year": 2005,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1941-03-27-64fc3a-017": {
+    "1941-03-27-f3f4e970-017": {
       "year": 1941,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1925-05-12-04d99d-013": {
+    "1925-05-12-02b6bd1c-013": {
       "year": 1925,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1843-39dd74-009": {
+    "1843-8c7a13c8-009": {
       "year": 1843,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1895-e5d134-175": {
+    "1895-32807cf5-175": {
       "year": 1895,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1928-03-19-1d6fa9-009": {
+    "1928-03-19-97b20a84-009": {
       "year": 1928,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1948-04-21-209c72-001": {
+    "1948-04-21-50938468-001": {
       "year": 1948,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1976-03-04-326cda-014": {
+    "1976-03-04-e7d15084-014": {
       "year": 1976,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2003-05-07-1f903a-026": {
+    "2003-05-07-00419ca9-026": {
       "year": 2003,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1932-11-15-bedbf4-000": {
+    "1932-11-15-6c15350b-000": {
       "year": 1932,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1934-11-21-0377d7-024": {
+    "1934-11-21-cef634e5-024": {
       "year": 1934,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1988-02-08-6e805d-133": {
+    "1988-02-08-09cec187-133": {
       "year": 1988,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1851-3929b5-018": {
+    "1851-4a0a98b0-018": {
       "year": 1851,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1855-8e3c77-002": {
+    "1855-ea7c1b8d-002": {
       "year": 1855,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1859-9a8a42-035": {
+    "1859-a0d9658f-035": {
       "year": 1859,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1962-05-11-11461c-038": {
+    "1962-05-11-4f2e2abd-038": {
       "year": 1962,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1952-11-12-f946c2-001": {
+    "1952-11-12-7434572f-001": {
       "year": 1952,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1952-11-18-2fe79f-094": {
+    "1952-11-18-112296a4-094": {
       "year": 1952,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1951-03-19-5a9467-000": {
+    "1951-03-19-66568d5d-000": {
       "year": 1951,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1843-917a3f-277": {
+    "1843-791aee58-277": {
       "year": 1843,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1854-62a12e-080": {
+    "1854-30fdf623-080": {
       "year": 1854,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1993-07-02-f87258-002": {
+    "1993-07-02-508a762a-002": {
       "year": 1993,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1961-06-19-dc430c-004": {
+    "1961-06-19-7a534669-004": {
       "year": 1961,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1979-11-20-568045-001": {
+    "1979-11-20-de42edef-001": {
       "year": 1979,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1984-07-11-883e71-013": {
+    "1984-07-11-37653fd9-013": {
       "year": 1984,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "2008-04-01-220823-015": {
+    "2008-04-01-8568a83f-015": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1951-02-26-ba9cde-042": {
+    "1951-02-26-23f706d6-042": {
       "year": 1951,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1870-dd8a21-059": {
+    "1870-785619d0-059": {
       "year": 1870,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2011-03-21-2e63f0-028": {
+    "2011-03-21-e4a0f2d8-028": {
       "year": 2011,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1821-bc24d4-004": {
+    "1821-ae4e73f6-004": {
       "year": 1821,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1828-f19ad2-020": {
+    "1828-cf6e20a5-020": {
       "year": 1828,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2010-03-02-e97cbd-000": {
+    "2010-03-02-4a0bd792-000": {
       "year": 2010,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1967-07-17-1c9ddf-004": {
+    "1967-07-17-af25a6ee-004": {
       "year": 1967,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1986-04-09-165bda-001": {
+    "1986-04-09-a62a5b2a-001": {
       "year": 1986,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1941-04-01-7eb68f-016": {
+    "1941-04-01-e2a75ef4-016": {
       "year": 1941,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1857-54c22c-017": {
+    "1857-5bcf035d-017": {
       "year": 1857,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1997-07-09-8c29f6-062": {
+    "1997-07-09-48f06443-062": {
       "year": 1997,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1904-9c1f1e-075": {
+    "1904-5fcf7c35-075": {
       "year": 1904,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1976-07-22-d34eb0-013": {
+    "1976-07-22-a8c9fbeb-013": {
       "year": 1976,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1853-462c18-001": {
+    "1853-f98a5655-001": {
       "year": 1853,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1880-8ee72b-005": {
+    "1880-9ed1e043-005": {
       "year": 1880,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1865-fa55f5-000": {
+    "1865-4c66e480-000": {
       "year": 1865,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2014-11-25-5dfe84-016": {
+    "2014-11-25-81516ab7-016": {
       "year": 2014,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1947-05-05-915462-043": {
+    "1947-05-05-0ac4e441-043": {
       "year": 1947,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1999-03-11-401684-021": {
+    "1999-03-11-a2296bd4-021": {
       "year": 1999,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1982-06-15-840397-007": {
+    "1982-06-15-f5f7f8e9-007": {
       "year": 1982,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1945-11-20-a6c8cb-018": {
+    "1945-11-20-a1dc15e5-018": {
       "year": 1945,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1868-6606e6-079": {
+    "1868-cba0df8a-079": {
       "year": 1868,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1983-03-24-55aa0d-000": {
+    "1983-03-24-3d859cd5-000": {
       "year": 1983,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1968-05-16-ac22da-059": {
+    "1968-05-16-e5264ac5-059": {
       "year": 1968,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1992-03-02-3b45bc-024": {
+    "1992-03-02-b3d3c82f-024": {
       "year": 1992,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1937-05-25-8f9192-016": {
+    "1937-05-25-4782b90b-016": {
       "year": 1937,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "2003-07-17-3946c0-003": {
+    "2003-07-17-6fff1b3b-003": {
       "year": 2003,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1956-07-11-1a7c3c-045": {
+    "1956-07-11-ded69e21-045": {
       "year": 1956,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "2004-04-30-3a853f-014": {
+    "2004-04-30-92a91ae1-014": {
       "year": 2004,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1969-01-20-441840-005": {
+    "1969-01-20-1b4a5d7e-005": {
       "year": 1969,
       "sample_reason": "council_gold",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1980-04-23-dd7ae9-009": {
+    "1980-04-23-7e9024a8-009": {
       "year": 1980,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1953-04-21-7cb906-007": {
+    "1953-04-21-6f774772-007": {
       "year": 1953,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1883-697c4e-126": {
+    "1883-f93bb77e-126": {
       "year": 1883,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1962-03-19-bc5c97-085": {
+    "1962-03-19-41e88ef1-085": {
       "year": 1962,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1999-02-26-05c294-003": {
+    "1999-02-26-1bd694cd-003": {
       "year": 1999,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1941-04-09-184738-059": {
+    "1941-04-09-26f7da33-059": {
       "year": 1941,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1822-9dd597-310": {
+    "1822-e23b7140-310": {
       "year": 1822,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1984-02-21-3908ad-043": {
+    "1984-02-21-d345f8b8-043": {
       "year": 1984,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1978-02-01-1d5aa0-008": {
+    "1978-02-01-66bb9e91-008": {
       "year": 1978,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1968-10-16-a0046c-011": {
+    "1968-10-16-8401ffa3-011": {
       "year": 1968,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "2010-07-15-9acd5f-003": {
+    "2010-07-15-a83ccad0-003": {
       "year": 2010,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1990-10-25-ad3ec1-001": {
+    "1990-10-25-1d297f8e-001": {
       "year": 1990,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1972-12-01-e6073d-025": {
+    "1972-12-01-3d15ca78-025": {
       "year": 1972,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1981-02-10-003d4f-012": {
+    "1981-02-10-aba5813a-012": {
       "year": 1981,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1889-0fc575-049": {
+    "1889-2e81c0a5-049": {
       "year": 1889,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1983-03-16-ea1dac-023": {
+    "1983-03-16-9722a15b-023": {
       "year": 1983,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2018-02-05-bf272f-057": {
+    "2018-02-05-e657d2a0-057": {
       "year": 2018,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2006-12-07-5304e0-015": {
+    "2006-12-07-df6e358b-015": {
       "year": 2006,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1903-dd932f-013": {
+    "1903-279e3a81-013": {
       "year": 1903,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1973-05-18-2e3125-010": {
+    "1973-05-18-fed986a6-010": {
       "year": 1973,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1892-75d9d0-056": {
+    "1892-1a9a1bf1-056": {
       "year": 1892,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1967-07-17-5214a3-022": {
+    "1967-07-17-af19737a-022": {
       "year": 1967,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1832-c0da92-001": {
+    "1832-90dd7cb2-001": {
       "year": 1832,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1870-815a22-087": {
+    "1870-5e9dc46a-087": {
       "year": 1870,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1863-d7ab47-037": {
+    "1863-80f052d3-037": {
       "year": 1863,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1851-84e091-019": {
+    "1851-986d9fe0-019": {
       "year": 1851,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1827-24d053-196": {
+    "1827-418db315-196": {
       "year": 1827,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1830-df16a4-041": {
+    "1830-339c417d-041": {
       "year": 1830,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1948-03-16-d2cb1a-000": {
+    "1948-03-16-91a4a069-000": {
       "year": 1948,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "2006-10-19-c82321-002": {
+    "2006-10-19-896f5dbf-002": {
       "year": 2006,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1874-b37b9f-023": {
+    "1874-6da16341-023": {
       "year": 1874,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1922-02-09-fce4df-033": {
+    "1922-02-09-4ca9a4f3-033": {
       "year": 1922,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2008-06-10-ef1034-077": {
+    "2008-06-10-2bf06369-077": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1884-9c9a63-001": {
+    "1884-86eaeb89-001": {
       "year": 1884,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1957-11-05-ff3180-008": {
+    "1957-11-05-fe073f37-008": {
       "year": 1957,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1986-01-28-fb9735-070": {
+    "1986-01-28-8c152c34-070": {
       "year": 1986,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1998-10-21-6a9d16-020": {
+    "1998-10-21-14ca6683-020": {
       "year": 1998,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1869-283b4e-008": {
+    "1869-c1274122-008": {
       "year": 1869,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1974-07-26-97cd5d-002": {
+    "1974-07-26-b360057c-002": {
       "year": 1974,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1882-9d6735-100": {
+    "1882-74d77d42-100": {
       "year": 1882,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1852-ee5e7a-100": {
+    "1852-493e7d44-100": {
       "year": 1852,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1843-ef94d7-000": {
+    "1843-af78c9f4-000": {
       "year": 1843,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1987-06-29-411969-007": {
+    "1987-06-29-d7f06fa8-007": {
       "year": 1987,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1870-85bc34-185": {
+    "1870-a103e34a-185": {
       "year": 1870,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1988-03-24-40142d-002": {
+    "1988-03-24-ed3f293d-002": {
       "year": 1988,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1930-11-04-546dae-015": {
+    "1930-11-04-102b891b-015": {
       "year": 1930,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1961-10-19-377f36-022": {
+    "1961-10-19-05034b80-022": {
       "year": 1961,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2018-01-23-6f616b-002": {
+    "2018-01-23-28d9ff1c-002": {
       "year": 2018,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1815-403d3d-028": {
+    "1815-d5a2a2fd-028": {
       "year": 1815,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1945-10-25-793221-057": {
+    "1945-10-25-3a2ef7b8-057": {
       "year": 1945,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1971-07-14-e0b42e-009": {
+    "1971-07-14-f2e7f864-009": {
       "year": 1971,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1932-06-13-0048b1-027": {
+    "1932-06-13-5f0aa761-027": {
       "year": 1932,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1869-4a4c82-118": {
+    "1869-a711bd1d-118": {
       "year": 1869,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2005-11-10-65d28c-011": {
+    "2005-11-10-fea999dd-011": {
       "year": 2005,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1950-12-05-53acb1-019": {
+    "1950-12-05-9ba1c48d-019": {
       "year": 1950,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1943-03-30-fcf6c9-018": {
+    "1943-03-30-b7058404-018": {
       "year": 1943,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1987-07-01-ea3bea-077": {
+    "1987-07-01-9e812b86-077": {
       "year": 1987,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1877-4f6ea8-002": {
+    "1877-bef40e42-002": {
       "year": 1877,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1959-11-23-e59e6a-033": {
+    "1959-11-23-a1e92fe4-033": {
       "year": 1959,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1957-07-30-2f4cb5-002": {
+    "1957-07-30-945402f9-002": {
       "year": 1957,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1978-05-04-7ff6e9-104": {
+    "1978-05-04-c57ec4a0-104": {
       "year": 1978,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1950-03-23-55d8a4-012": {
+    "1950-03-23-39781aac-012": {
       "year": 1950,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2014-01-23-4ea4f1-004": {
+    "2014-01-23-c0381abb-004": {
       "year": 2014,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1885-1c58ac-035": {
+    "1885-3bc09eb4-035": {
       "year": 1885,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1981-07-14-14933e-007": {
+    "1981-07-14-2c028fbf-007": {
       "year": 1981,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1978-11-20-75ef71-038": {
+    "1978-11-20-a02795e6-038": {
       "year": 1978,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1973-05-02-35c613-005": {
+    "1973-05-02-90f916a0-005": {
       "year": 1973,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1897-5ec658-012": {
+    "1897-de94a62f-012": {
       "year": 1897,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1851-190f5f-022": {
+    "1851-da2dbdf8-022": {
       "year": 1851,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1976-03-18-c2437a-009": {
+    "1976-03-18-50a36bd2-009": {
       "year": 1976,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1920-12-02-3fa1e1-041": {
+    "1920-12-02-416cc210-041": {
       "year": 1920,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1846-2d5ad2-006": {
+    "1846-4682cac0-006": {
       "year": 1846,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1898-0c1917-106": {
+    "1898-3c158b66-106": {
       "year": 1898,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1926-07-09-b0ed6e-004": {
+    "1926-07-09-3014768a-004": {
       "year": 1926,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1860-b06b03-167": {
+    "1860-c83cbfdc-167": {
       "year": 1860,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1919-04-03-e1ff37-027": {
+    "1919-04-03-bba3244d-027": {
       "year": 1919,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1947-11-04-0ee3e6-064": {
+    "1947-11-04-10edaa79-064": {
       "year": 1947,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1870-c8deee-214": {
+    "1870-90889bef-214": {
       "year": 1870,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1965-02-08-c7e9d9-000": {
+    "1965-02-08-dfd6372d-000": {
       "year": 1965,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1838-99bb7b-093": {
+    "1838-f4796be3-093": {
       "year": 1838,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1836-ec1ee7-033": {
+    "1836-44a4b675-033": {
       "year": 1836,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1993-03-02-a10d40-000": {
+    "1993-03-02-f41c9bd8-000": {
       "year": 1993,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1902-5709e6-008": {
+    "1902-56050355-008": {
       "year": 1902,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1986-04-22-8b2c12-016": {
+    "1986-04-22-5408253c-016": {
       "year": 1986,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "1829-3e0383-209": {
+    "1829-e0301be1-209": {
       "year": 1829,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1968-07-15-bd2f3b-002": {
+    "1968-07-15-9f1459b9-002": {
       "year": 1968,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1990-02-13-c2c3b5-001": {
+    "1990-02-13-c0aed3fa-001": {
       "year": 1990,
       "sample_reason": "council_disputed",
       "haiku_label": "ambiguous",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1994-03-25-a8ee11-130": {
+    "1994-03-25-94374b5b-130": {
       "year": 1994,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1832-cc012f-019": {
+    "1832-f824edbf-019": {
       "year": 1832,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1893-b3ddef-007": {
+    "1893-05775268-007": {
       "year": 1893,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1895-7e5f6d-005": {
+    "1895-fb3cbf91-005": {
       "year": 1895,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1957-07-25-0efa8c-078": {
+    "1957-07-25-b28ae12d-078": {
       "year": 1957,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1976-08-06-c5e7b7-022": {
+    "1976-08-06-27fc4609-022": {
       "year": 1976,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1851-c7de69-036": {
+    "1851-72a1f403-036": {
       "year": 1851,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1971-03-29-679206-002": {
+    "1971-03-29-68484a1e-002": {
       "year": 1971,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1988-05-12-e6c775-044": {
+    "1988-05-12-1b00c54d-044": {
       "year": 1988,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1959-11-10-eb4faa-071": {
+    "1959-11-10-6949f3ad-071": {
       "year": 1959,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "2008-10-17-4c7484-001": {
+    "2008-10-17-7629684e-001": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1985-02-21-9a26a0-000": {
+    "1985-02-21-29d1c133-000": {
       "year": 1985,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1873-fef28c-020": {
+    "1873-6146fee9-020": {
       "year": 1873,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1984-11-20-f1a64a-005": {
+    "1984-11-20-b3b85cd9-005": {
       "year": 1984,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1919-03-17-c1178a-077": {
+    "1919-03-17-14e97777-077": {
       "year": 1919,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1883-cb04ef-008": {
+    "1883-35303bfa-008": {
       "year": 1883,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "1947-12-12-bf86f1-030": {
+    "1947-12-12-4a04e7ff-030": {
       "year": 1947,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1974-05-22-344eb0-046": {
+    "1974-05-22-52bcb6f3-046": {
       "year": 1974,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1943-04-15-d8386d-034": {
+    "1943-04-15-3eb61b31-034": {
       "year": 1943,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1864-f44366-217": {
+    "1864-1d0933f6-217": {
       "year": 1864,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1869-9e287a-029": {
+    "1869-59ecb0c3-029": {
       "year": 1869,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1870-0e2058-117": {
+    "1870-e3031c15-117": {
       "year": 1870,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1865-d5a4a2-019": {
+    "1865-f55ba292-019": {
       "year": 1865,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1925-07-29-243544-013": {
+    "1925-07-29-a42a1a5c-013": {
       "year": 1925,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2004-11-01-6304a0-033": {
+    "2004-11-01-2f2cf284-033": {
       "year": 2004,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "ambiguous"
     },
-    "1814-9240c3-034": {
+    "1814-1a7432ef-034": {
       "year": 1814,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1828-51c677-002": {
+    "1828-6a1ce4b7-002": {
       "year": 1828,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1907-88a0f3-002": {
+    "1907-f7277e34-002": {
       "year": 1907,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1995-06-21-544942-015": {
+    "1995-06-21-83dd10bf-015": {
       "year": 1995,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1905-8d18c1-009": {
+    "1905-9e03be80-009": {
       "year": 1905,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1978-02-03-bc3b09-007": {
+    "1978-02-03-f43b45c7-007": {
       "year": 1978,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1934-02-23-174c8b-010": {
+    "1934-02-23-406eb93d-010": {
       "year": 1934,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1890-b8c054-032": {
+    "1890-6d9bcefb-032": {
       "year": 1890,
       "sample_reason": "council_disputed",
       "haiku_label": "other",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1943-11-03-28d928-001": {
+    "1943-11-03-0f3a3947-001": {
       "year": 1943,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1934-05-16-5aca0a-022": {
+    "1934-05-16-0bddb25b-022": {
       "year": 1934,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2011-12-05-e12a9a-000": {
+    "2011-12-05-3339fc8a-000": {
       "year": 2011,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1864-f597f2-006": {
+    "1864-6e9efe69-006": {
       "year": 1864,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2017-12-11-2a7c22-054": {
+    "2017-12-11-c282d3ed-054": {
       "year": 2017,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1896-889b86-028": {
+    "1896-27ae8d22-028": {
       "year": 1896,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1848-488419-071": {
+    "1848-8193e513-071": {
       "year": 1848,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1931-05-13-d7dfa1-034": {
+    "1931-05-13-df2d231c-034": {
       "year": 1931,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2008-10-30-033860-031": {
+    "2008-10-30-af416922-031": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2010-10-13-0f7afc-025": {
+    "2010-10-13-f24f0d72-025": {
       "year": 2010,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1902-4f429d-023": {
+    "1902-ac942a2b-023": {
       "year": 1902,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1998-11-02-59a5ad-031": {
+    "1998-11-02-425c9f79-031": {
       "year": 1998,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1993-03-31-162e3a-056": {
+    "1993-03-31-088b94c2-056": {
       "year": 1993,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1808-37a0b1-061": {
+    "1808-99cb5b51-061": {
       "year": 1808,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1896-d13df8-013": {
+    "1896-9b9bf5f3-013": {
       "year": 1896,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1820-f00b32-019": {
+    "1820-7ec96e55-019": {
       "year": 1820,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1863-ac1ac2-002": {
+    "1863-cda18b52-002": {
       "year": 1863,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2013-04-24-56f4a0-001": {
+    "2013-04-24-48949f6f-001": {
       "year": 2013,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1990-11-14-c1c361-050": {
+    "1990-11-14-df582e6b-050": {
       "year": 1990,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1955-10-26-cd1381-003": {
+    "1955-10-26-78e05958-003": {
       "year": 1955,
       "sample_reason": "council_gold",
       "haiku_label": "other",
       "council_tier": "gold",
       "council_gold": "other"
     },
-    "2014-03-12-3c8ec3-045": {
+    "2014-03-12-bed58736-045": {
       "year": 2014,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "1807-9d0abf-195": {
+    "1807-c44ea5d2-195": {
       "year": 1807,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1865-f61318-079": {
+    "1865-c4869af1-079": {
       "year": 1865,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1934-11-06-6ed9d7-003": {
+    "1934-11-06-c93e9b30-003": {
       "year": 1934,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "ambiguous"
     },
-    "1952-05-23-a6e56a-017": {
+    "1952-05-23-f5d0848b-017": {
       "year": 1952,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1815-f1735f-228": {
+    "1815-cb8e6134-228": {
       "year": 1815,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1988-07-22-774307-013": {
+    "1988-07-22-af3c68d6-013": {
       "year": 1988,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "2010-05-27-b5869a-022": {
+    "2010-05-27-02a83d68-022": {
       "year": 2010,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1921-05-27-1686e4-042": {
+    "1921-05-27-1c8e2bb6-042": {
       "year": 1921,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1983-01-19-185eb1-004": {
+    "1983-01-19-7153561b-004": {
       "year": 1983,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1855-3cce1d-063": {
+    "1855-c892fd25-063": {
       "year": 1855,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2000-03-08-d02124-016": {
+    "2000-03-08-720e272d-016": {
       "year": 2000,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1976-03-26-70908f-019": {
+    "1976-03-26-b81c07f3-019": {
       "year": 1976,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2000-11-27-4f86ce-020": {
+    "2000-11-27-7ef860bb-020": {
       "year": 2000,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1937-04-22-3210d0-033": {
+    "1937-04-22-15e0e6bc-033": {
       "year": 1937,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1865-783c84-147": {
+    "1865-1cc329ad-147": {
       "year": 1865,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "2017-02-01-d51561-015": {
+    "2017-02-01-3fbacc6d-015": {
       "year": 2017,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1945-06-14-7b3093-006": {
+    "1945-06-14-d7e2f630-006": {
       "year": 1945,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "2015-11-04-ea589f-006": {
+    "2015-11-04-02af56d1-006": {
       "year": 2015,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1929-11-06-1358b1-021": {
+    "1929-11-06-66bc7f03-021": {
       "year": 1929,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2002-04-16-bc59c4-049": {
+    "2002-04-16-7a6de5e6-049": {
       "year": 2002,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1811-a5447d-002": {
+    "1811-8f662e04-002": {
       "year": 1811,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1946-05-01-e698bf-005": {
+    "1946-05-01-2905ffee-005": {
       "year": 1946,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1986-06-11-187727-023": {
+    "1986-06-11-3fcdd6fc-023": {
       "year": 1986,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1946-05-24-d67c14-000": {
+    "1946-05-24-9e87e8b2-000": {
       "year": 1946,
       "sample_reason": "council_silver",
       "haiku_label": "other",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1976-03-26-b5fc2d-000": {
+    "1976-03-26-6bdc293b-000": {
       "year": 1976,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1947-04-29-48625c-002": {
+    "1947-04-29-1df3e3a0-002": {
       "year": 1947,
       "sample_reason": "council_gold",
       "haiku_label": "negative_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1919-11-26-b44d86-019": {
+    "1919-11-26-80bb16a9-019": {
       "year": 1919,
       "sample_reason": "council_silver",
       "haiku_label": "positive_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1979-11-19-cf9592-015": {
+    "1979-11-19-9d518e47-015": {
       "year": 1979,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1944-03-31-5129f2-007": {
+    "1944-03-31-25c518b9-007": {
       "year": 1944,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1990-01-23-6a1e80-002": {
+    "1990-01-23-2c784a9a-002": {
       "year": 1990,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "positive_liberty"
     },
-    "1834-cc7e67-071": {
+    "1834-beab401d-071": {
       "year": 1834,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1839-13b8fc-002": {
+    "1839-b318c59f-002": {
       "year": 1839,
       "sample_reason": "random",
       "haiku_label": "other",
       "council_tier": null,
       "council_gold": null
     },
-    "2008-03-19-ed8001-019": {
+    "2008-03-19-9fdf69d1-019": {
       "year": 2008,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1823-5649dd-020": {
+    "1823-9086bb48-020": {
       "year": 1823,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1980-03-25-b95023-069": {
+    "1980-03-25-98962d66-069": {
       "year": 1980,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1986-10-21-431226-009": {
+    "1986-10-21-7c5fbc98-009": {
       "year": 1986,
       "sample_reason": "random",
       "haiku_label": "ambiguous",
       "council_tier": null,
       "council_gold": null
     },
-    "2020-03-02-665536-002": {
+    "2020-03-02-8334a74f-002": {
       "year": 2020,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "positive_liberty"
     },
-    "1948-01-22-80fdf5-018": {
+    "1948-01-22-d60283b7-018": {
       "year": 1948,
       "sample_reason": "random",
       "haiku_label": "negative_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "2001-02-15-86c3aa-003": {
+    "2001-02-15-a933453b-003": {
       "year": 2001,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1815-7cf865-038": {
+    "1815-440e8b64-038": {
       "year": 1815,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1812-12b990-001": {
+    "1812-70db28ff-001": {
       "year": 1812,
       "sample_reason": "council_gold",
       "haiku_label": "positive_liberty",
       "council_tier": "gold",
       "council_gold": "negative_liberty"
     },
-    "1863-f7722b-077": {
+    "1863-b3b178b1-077": {
       "year": 1863,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1884-8ae7a7-011": {
+    "1884-9d182327-011": {
       "year": 1884,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "negative_liberty"
     },
-    "1939-07-26-16aa45-003": {
+    "1939-07-26-a76af7b0-003": {
       "year": 1939,
       "sample_reason": "council_silver",
       "haiku_label": "negative_liberty",
       "council_tier": "silver",
       "council_gold": "other"
     },
-    "1820-93d8e9-724": {
+    "1820-e69c1137-724": {
       "year": 1820,
       "sample_reason": "random",
       "haiku_label": "positive_liberty",
       "council_tier": null,
       "council_gold": null
     },
-    "1888-51f567-120": {
+    "1888-526f93d7-120": {
       "year": 1888,
       "sample_reason": "council_disputed",
       "haiku_label": "negative_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "2020-11-16-1a5249-019": {
+    "2020-11-16-8a858b46-019": {
       "year": 2020,
       "sample_reason": "council_disputed",
       "haiku_label": "other",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1961-01-30-4ace38-010": {
+    "1961-01-30-0a6497d5-010": {
       "year": 1961,
       "sample_reason": "council_disputed",
       "haiku_label": "positive_liberty",
       "council_tier": "disputed",
       "council_gold": null
     },
-    "1846-fb0796-258": {
+    "1846-f3d23f1d-258": {
       "year": 1846,
       "sample_reason": "council_silver",
       "haiku_label": "ambiguous",

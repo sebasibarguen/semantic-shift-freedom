@@ -6,7 +6,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-from .ids import sentence_id
+from .ids import IdMinter
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -30,6 +30,7 @@ def extract_sentences(df, frequency_data):
     """Extract every sentence containing freedom/liberty with classifications."""
     from .domain_tagger import DomainTagger
     tagger = DomainTagger()
+    minter = IdMinter()
 
     sentences_by_decade = defaultdict(list)
     total = 0
@@ -60,7 +61,7 @@ def extract_sentences(df, frequency_data):
 
             word = "freedom" if has_freedom else "liberty"
 
-            sid = sentence_id(date[:10], speaker, i, sent)
+            sid = minter.mint(date[:10], speaker, i, sent)
 
             # Method 1: Domain tagging
             words_in_sent = WORD_RE.findall(sent_lower)

@@ -40,3 +40,31 @@ class TestSentenceId(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestIdMinter(unittest.TestCase):
+    """Volume indexes repeat verbatim across consecutive volumes, so the same
+    (date, speaker, index, text) can legitimately occur more than once. Each
+    occurrence still needs its own id or downstream joins collapse them."""
+
+    def test_identical_tuple_gets_distinct_ids_per_occurrence(self):
+        from src.ids import IdMinter
+        m = IdMinter()
+        a = m.mint("1831", "Unknown", 0, "Beer Bill, and Trade, freedom of, iv.")
+        b = m.mint("1831", "Unknown", 0, "Beer Bill, and Trade, freedom of, iv.")
+        c = m.mint("1831", "Unknown", 0, "Beer Bill, and Trade, freedom of, iv.")
+        self.assertEqual(len({a, b, c}), 3)
+        for sid in (a, b, c):
+            self.assertEqual(split_id(sid), ("1831", 0))
+
+    def test_first_occurrence_matches_plain_sentence_id(self):
+        from src.ids import IdMinter
+        args = ("2020-01-13", "Boris Johnson", 3, "In fact.")
+        self.assertEqual(IdMinter().mint(*args), sentence_id(*args))
+
+    def test_processing_order_is_the_only_input(self):
+        from src.ids import IdMinter
+        seq = [("1831", "Unknown", 0, "x"), ("1831", "Unknown", 0, "x"), ("1832", "A", 1, "y")]
+        self.assertEqual([IdMinter().mint(*s) for s in seq][0], [IdMinter().mint(*s) for s in seq][0])
+        m1, m2 = IdMinter(), IdMinter()
+        self.assertEqual([m1.mint(*s) for s in seq], [m2.mint(*s) for s in seq])

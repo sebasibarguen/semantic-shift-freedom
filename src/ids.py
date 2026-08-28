@@ -25,3 +25,26 @@ def split_id(sid: str) -> tuple[str, int]:
     """Recover ``(prefix, index)`` from any id in the current or legacy layout."""
     prefix, _digest, index = sid.rsplit("-", 2)
     return prefix, int(index)
+
+
+class IdMinter:
+    """Issues ids for one extraction run, guaranteeing no id repeats.
+
+    The same (prefix, speaker, index, sentence) can occur more than once —
+    Hansard volume indexes repeat verbatim across volumes — and each
+    occurrence needs its own id. Repeats fold an occurrence counter into the
+    digest, so the outcome depends only on processing order, which the
+    extractors keep stable (sorted files, document order within a file).
+    """
+
+    def __init__(self):
+        self._issued: set[str] = set()
+
+    def mint(self, prefix: str, speaker: str, index: int, sentence: str) -> str:
+        sid = sentence_id(prefix, speaker, index, sentence)
+        occurrence = 1
+        while sid in self._issued:
+            sid = sentence_id(prefix, speaker, index, f"{sentence}\x00{occurrence}")
+            occurrence += 1
+        self._issued.add(sid)
+        return sid

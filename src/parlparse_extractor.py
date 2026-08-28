@@ -7,7 +7,7 @@ from collections import defaultdict
 from pathlib import Path
 from xml.etree.ElementTree import ParseError, iterparse
 
-from .ids import sentence_id
+from .ids import IdMinter
 
 SENTENCE_RE = re.compile(r"[^.!?;]+[.!?;]?", re.DOTALL)
 WORD_RE = re.compile(r"[a-z]+")
@@ -46,6 +46,7 @@ def extract_from_parlparse(debates_dir, output_dir, domain_tagger=None):
     print(f"Found {len(xml_files)} debate files in {debates_dir}")
 
     sentences_by_decade = defaultdict(list)
+    minter = IdMinter()
     total_speeches = 0
     total_sentences = 0
     files_processed = 0
@@ -100,7 +101,7 @@ def extract_from_parlparse(debates_dir, output_dir, domain_tagger=None):
 
                     word = "freedom" if has_freedom else "liberty"
 
-                    sid = sentence_id(date, speaker_clean, i, sent)
+                    sid = minter.mint(date, speaker_clean, i, sent)
 
                     # Domain tagging
                     domains = {}
